@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=gpg
+Name[fr]=gpg
+Comment=Tool for protected message and datas
+Comment[fr]=Outil pour protéger des messages ainsi que des données
+Exec=terminator -e "zsh -c 'gpg -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=gpg

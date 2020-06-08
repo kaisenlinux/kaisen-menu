@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=GlusterFS
+Name[fr]=GlusterFS
+Comment=Tools for manage Gluster filesystem
+Comment[fr]=Outils pour gérer le système de fichiers Gluster
+Icon=kaisen
+Type=Directory

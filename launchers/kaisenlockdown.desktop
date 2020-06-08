@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lockdown
+Name[fr]=lockdown
+Comment=Enable kernel modules block
+Comment[fr]=Activer le blocage modules kernel
+Exec=terminator -e "zsh -c 'sudo lockdown;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=lockdown

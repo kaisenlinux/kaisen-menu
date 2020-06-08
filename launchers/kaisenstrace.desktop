@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=strace
+Name[fr]=strace
+Comment=Tool for display syscall
+Comment[fr]=Outil pour voir les appels systèmes
+Exec=terminator -e "zsh -c 'strace -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=strace

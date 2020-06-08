@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Ansible
+Name[fr]=Ansible
+Comment=Tool for manage and configure computers
+Comment[fr]=Outil pour gérer et configurer des ordinateurs
+Icon=ansible
+Type=Directory

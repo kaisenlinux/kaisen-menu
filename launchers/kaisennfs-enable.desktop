@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=nfs-enable
+Name[fr]=nfs-activé
+Comment=Enable nfs daemon
+Comment[fr]=Activer service nfs
+Exec=terminator -e "zsh -c '/opt/services/nfs-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SNFS
+X-Kaisen-Package=kaisen-services-management

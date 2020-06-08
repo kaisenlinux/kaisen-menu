@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=DWAgent
+Name[fr]=DWAgent
+Comment=Open-source tool for remote maintenance
+Comment[fr]=Outil de télémaintenance open-source
+Exec=dwagent
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteMaintenance
+X-Kaisen-Package=kaisen-dwagent

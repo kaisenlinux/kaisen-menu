@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vhdimount
+Name[fr]=vhdimount
+Comment=Tool for vhdi disk mount
+Comment[fr]=Outil pour monter les disques vhdi de virtualbox
+Exec=terminator -e "zsh -c 'vhdimount;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VHDI
+X-Kaisen-Package=libvhdi-utils

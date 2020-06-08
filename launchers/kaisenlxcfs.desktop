@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxcfs
+Name[fr]=lxcfs
+Comment=Tool for mount LXC container in system
+Comment[fr]=Outil pour monter un conteneur LXC sur le système
+Exec=terminator -e "zsh -c 'lxcfs;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Filesystems;LXC
+X-Kaisen-Package=lxc

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=zsync
+Name[fr]=zsync
+Comment=Tool for save all your directories with a many protocols
+Comment[fr]=Outil pour sauvegarder tous vos répertoires avec de nombreux protocoles
+Exec=terminator -e "zsh -c 'zsync;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=zsync

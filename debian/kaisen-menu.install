@@ -1,0 +1,3 @@
+menu/kaisenlinux.menu usr/share/kaisen-menu
+desktop-directories/* usr/share/desktop-directories/
+launchers/* usr/share/applications/

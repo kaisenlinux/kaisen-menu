@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Docker
+Name[fr]=Docker
+Comment=Docker software
+Comment[fr]=Logiciel Docker
+Icon=docker
+Type=Directory

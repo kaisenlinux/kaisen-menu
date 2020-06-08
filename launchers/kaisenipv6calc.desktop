@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ipv6calc
+Name[fr]=ipv6calc
+Comment=Tool for IPV6 address calc
+Comment[fr]=Outil pour calculer des adresses IPV6
+Exec=terminator -e "zsh -c 'ipv6calc -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=IP
+X-Kaisen-Package=ipv6calc

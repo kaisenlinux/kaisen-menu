@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Miscellaneous tools
+Name[fr]=Outils divers
+Comment=Miscellaneous tools (progress, open-vm-tools...)
+Comment[fr]=Outils divers (progress, open-vm-tools...)
+Icon=kaisen
+Type=Directory

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=photorec
+Name[fr]=photorec
+Comment=Tool on advanced data recovery
+Comment[fr]=Outil de récupération de données avancée
+Exec=terminator -e "zsh -c 'sudo /opt/testdisk-7.1/photorec_static;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=kaisen-photorec

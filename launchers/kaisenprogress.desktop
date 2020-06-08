@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=progress
+Name[fr]=progress
+Comment=Tool for shows manipulations on file manipulation
+Comment[fr]=Outil pour voir l'état d'avancement sur la manipulation de fichiers
+Exec=terminator -e "zsh -c 'progress -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=progress

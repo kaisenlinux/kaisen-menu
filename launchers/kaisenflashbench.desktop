@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=flashbench
+Name[fr]=flashbench
+Comment=Tool for testing E/S at flash devices
+Comment[fr]=Outil pour tester E/S sur les périphériques flashs
+Exec=terminator -e "zsh -c 'sudo flashbench -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=flashbench

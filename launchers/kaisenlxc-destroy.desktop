@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-destroy
+Name[fr]=lxc-destroy
+Comment=Tool for delete LXC container
+Comment[fr]=Outil pour supprimer un container LXC
+Exec=terminator -e "zsh -c 'lxc-destroy -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

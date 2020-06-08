@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-monitor
+Name[fr]=lxc-monitor
+Comment=Tool for manage LXC container
+Comment[fr]=Outil pour gérer un container LXC
+Exec=terminator -e "zsh -c 'lxc-monitor -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

@@ -1,0 +1,64 @@
+kaisen-menu (1.0+kaisen8) kaisen-testing; urgency=medium
+
+  * Adding kaisen-update-skel launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 08 Jun 2020 05:20:03 +0200
+
+kaisen-menu (1.0+kaisen7) kaisen-devel; urgency=medium
+
+  * Remove autopostgresqlbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 05 Jun 2020 02:55:46 +0200
+
+kaisen-menu (1.0+kaisen6) kaisen-testing; urgency=medium
+
+  * Fix dwagent launcher
+  * Remove kaisenveracrypt.desktop (veracrypt not installed to default)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 02 Jun 2020 21:11:13 +0200
+
+kaisen-menu (1.0+kaisen5) kaisen-testing; urgency=medium
+
+  * Update services section, filesystems and sysadmins section
+  * Launchers create:
+  * - LXC and LXC services
+  * - Ansible
+  * - Kubectl
+  * - Scrub
+  * - NFS
+  * - Vagrant
+  * - JMeter
+  * Create "SysOps" section
+  * Move Docker to SysOps section
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 01 Jun 2020 09:35:42 +0200
+
+kaisen-menu (1.0+kaisen4) kaisen-testing; urgency=medium
+
+  * Install menu/kaisenlinux.menu at /usr/share/kaisen-menu and
+    move to /etc/xdg/menus/applications-merged with postinst script
+  * Adding strace launcher at miscellaneous
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 28 May 2020 05:11:34 +0200
+
+kaisen-menu (1.0+kaisen3) kaisen-devel; urgency=medium
+
+  * Adding in services menu:
+  * - VMWare
+  * - VirtualBox
+  * - Firewalling
+  * Adding wireguard launcher and VPN section in network tools
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 22 May 2020 00:05:51 +0200
+
+kaisen-menu (1.0+kaisen2) kaisen-devel; urgency=medium
+
+  * Launcher bettercap fixed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 19 May 2020 22:15:53 +0200
+
+kaisen-menu (1.0+kaisen1) kaisen-devel; urgency=medium
+
+  * Kaisen Linux Desktop menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 30 Apr 2020 08:13:32 +0100

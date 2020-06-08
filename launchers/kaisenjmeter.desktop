@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=JMeter
+Name[fr]=JMeter
+Comment=Tool for testing web and applications performances
+Comment[fr]=Outil pour tester les performances des sites et applications
+Exec=jmeter
+Icon=jmeter
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SysOps
+X-Kaisen-Package=jmeter

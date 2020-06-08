@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=fuse-zip
+Name[fr]=fuse-zip
+Comment=Tool for mount zip file in fuse
+Comment[fr]=Outil pour monter des archive zip en mode FUSE
+Exec=terminator -e "zsh -c 'fuse-zip;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Mount
+X-Kaisen-Package=fuse-zip

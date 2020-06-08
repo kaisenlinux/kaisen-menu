@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=virtualbox-guest-enable
+Name[fr]=virtualbox-guest-activé
+Comment=Enable virtualbox guest service
+Comment[fr]=Activer le service invité de virtualbox
+Exec=terminator -e "zsh -c '/opt/services/virtualbox-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=kaisen-services-management

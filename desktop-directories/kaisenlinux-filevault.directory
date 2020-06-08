@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=FileVault
+Name[fr]=FileVault
+Comment=Tools for filevault disks
+Comment[fr]=Outils pour les disques filevault
+Icon=mount
+Type=Directory

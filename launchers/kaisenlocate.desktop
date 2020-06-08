@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=locate
+Name[fr]=locate
+Comment=Tool for find a file
+Comment[fr]=Outil pour trouver un fichier
+Exec=terminator -e "zsh -c 'locate -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=locate

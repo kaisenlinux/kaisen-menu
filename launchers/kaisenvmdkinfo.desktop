@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vmdkinfo
+Name[fr]=vmdkinfo
+Comment=Tool for vmdk disk info
+Comment[fr]=Outil pour avoir des informations sur les disques vmdk de vmware
+Exec=terminator -e "zsh -c 'vmdkinfo;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VMDK
+X-Kaisen-Package=libvmdk-utils

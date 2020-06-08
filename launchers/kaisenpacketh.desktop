@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=PackETH
+Name[fr]=PackETH
+Comment=Generate ethernet packets
+Comment[fr]=Générer des paquets ethernet
+Type=Application
+Categories=Ethernet
+Exec=packeth
+Icon=router
+StartupNotify=false
+Terminal=false

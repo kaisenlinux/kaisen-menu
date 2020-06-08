@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=bdeinfo
+Name[fr]=bdeinfo
+Comment=Tool for bitlocker disk info
+Comment[fr]=Outil pour avoir des informations sur les disques bitlocker
+Exec=terminator -e "zsh -c 'bdeinfo;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Bitlocker
+X-Kaisen-Package=libbde-utils

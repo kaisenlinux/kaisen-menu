@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=kubectl
+Name[fr]=kubectl
+Comment=Tool for controls the Kubernetes cluster manager
+Comment[fr]=Outil pour contrôler la gestion de cluster Kubernetes
+Exec=terminator -e "zsh -c 'kubectl;/bin/zsh'"
+Icon=kubernetes
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SysOps
+X-Kaisen-Package=kubernetes-client

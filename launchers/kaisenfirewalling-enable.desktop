@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=firewalling-enable
+Name[fr]=firewalling-activé
+Comment=Enable firewalling service
+Comment[fr]=Activer le service de firewalling
+Exec=terminator -e "zsh -c '/opt/services/firewalling-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFirewalling
+X-Kaisen-Package=kaisen-services-management

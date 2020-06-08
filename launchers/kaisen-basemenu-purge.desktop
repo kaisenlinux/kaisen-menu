@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=kaisen-basemenu-purge
+Name[fr]=kaisen-basemenu-purge
+Comment=Tool for clean icons at the base menu
+Comment[fr]=Outil pour nettoyer les icônes sur le menu de base
+Exec=terminator -e "zsh -c 'sudo kaisen-basemenu-purge;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-basemenu-purge

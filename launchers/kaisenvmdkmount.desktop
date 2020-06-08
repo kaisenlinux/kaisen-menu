@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vmdkmount
+Name[fr]=vmdkmount
+Comment=Tool for vmdk disk mount
+Comment[fr]=Outil pour monter les disques vmdk de vmware
+Exec=terminator -e "zsh -c 'vmdkmount;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VMDK
+X-Kaisen-Package=libvmdk-utils

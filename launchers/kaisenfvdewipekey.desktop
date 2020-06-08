@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=fvdewipekey
+Name[fr]=fvdewipekey
+Comment=Tool for filevault disk wipe key
+Comment[fr]=Outil pour effacer les clés sur les disques filevault
+Exec=terminator -e "zsh -c 'sudo fvdewiepkey;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FileVault
+X-Kaisen-Package=libfvde-utils

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-disable
+Name[fr]=lxc-désactivé
+Comment=Disable lxc daemon
+Comment[fr]=Désactiver service lxc    
+Exec=terminator -e "zsh -c '/opt/services/lxc-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=kaisen-services-management

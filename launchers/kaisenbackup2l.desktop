@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=backup2l
+Name[fr]=backup2l
+Comment=Tool for backup files and folders
+Comment[fr]=Outil pour sauvegarder des fichiers et dossiers
+Exec=terminator -e "zsh -c 'backup2l;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=backup2l

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Type=Application
+Name=Hardware Lister
+Name[fr]=Hardware Lister
+Comment=Provides information on hardware
+Comment[fr]=Afficher les informations sur le matériel
+Icon=lshw-gtk
+Exec=sh -c "gksudo lshw-gtk"
+Terminal=false
+Categories=Hardware
+X-Kaisen-Package=lshw-gtk

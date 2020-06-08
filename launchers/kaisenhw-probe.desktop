@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=hw-probe
+Name[fr]=hw-probe
+Comment=Tool for list hardware and functionals drivers
+Comment[fr]=Outil pour lister le matériel et les drivers fonctionnels
+Exec=terminator -e "zsh -c 'sudo hw-probe;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=hw-probe

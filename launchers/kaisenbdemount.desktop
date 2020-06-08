@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=bdemount
+Name[fr]=bdemount
+Comment=Tool for bitlocker disk mount
+Comment[fr]=Outil pour monter des disques bitlocker
+Exec=terminator -e "zsh -c 'bdemount;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Bitlocker
+X-Kaisen-Package=libbde-utils

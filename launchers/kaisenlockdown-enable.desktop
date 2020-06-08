@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lockdown-enable
+Name[fr]=lockdown-activé
+Comment=Enable lockdown service
+Comment[fr]=Activer le service lockdown
+Exec=terminator -e "zsh -c '/opt/services/lockdown-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SLockdown
+X-Kaisen-Package=kaisen-services-management

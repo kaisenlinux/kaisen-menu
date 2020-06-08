@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=e2scrub-disable
+Name[fr]=e2scrub-désactivé
+Comment=Disable e2scrub daemon
+Comment[fr]=Désactiver service e2scrub
+Exec=terminator -e "zsh -c '/opt/services/e2scrub-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SScrub
+X-Kaisen-Package=kaisen-services-management

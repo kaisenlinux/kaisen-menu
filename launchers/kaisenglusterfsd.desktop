@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=glusterfsd
+Name[fr]=glusterfsd
+Comment=Tool for mount gluster partition
+Comment[fr]=Outil pour monter une partition gluster
+Exec=terminator -e "zsh -c 'sudo glusterfsd;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GlusterFS
+X-Kaisen-Package=glusterfs-client

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vmware-guest-enable
+Name[fr]=vmware-guest-activé
+Comment=Enable vmware guest service
+Comment[fr]=Activer le service invité de vmware
+Exec=terminator -e "zsh -c '/opt/services/vmware-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=kaisen-services-management

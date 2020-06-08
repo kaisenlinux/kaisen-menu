@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vmware-guest-disable
+Name[fr]=vmware-guest-désactivé
+Comment=Disable vmware guest service
+Comment[fr]=Désactiver le service invité de vmware    
+Exec=terminator -e "zsh -c '/opt/services/vmware-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=kaisen-services-management

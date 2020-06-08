@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=memtester
+Name[fr]=memtester
+Comment=Tool for testing RAM
+Comment[fr]=Outil pour tester la RAM
+Exec=terminator -e "zsh -c 'sudo memtester;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=memtester

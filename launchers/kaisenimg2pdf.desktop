@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=img2pdf
+Name[fr]=img2pdf
+Comment=Tool for convert img to pdf
+Comment[fr]=Outil pour convertir une image en PDF
+Exec=terminator -e "zsh -c 'sudo img2pdf --help;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=img2pdf

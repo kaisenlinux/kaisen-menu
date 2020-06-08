@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=lxc-create
+Name[fr]=lxc-create
+Comment=Tool for create LXC container
+Comment[fr]=Outil pour créer un container LXC
+Exec=terminator -e "zsh -c 'lxc-create -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

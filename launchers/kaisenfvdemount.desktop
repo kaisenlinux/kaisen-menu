@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=fvdemount
+Name[fr]=fvdemount
+Comment=Tool for filevault disk mount
+Comment[fr]=Outil pour monter les disques filevault
+Exec=terminator -e "zsh -c 'sudo fvdemount;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FileVault
+X-Kaisen-Package=libfvde-utils

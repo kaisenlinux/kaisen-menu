@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+mkdir -p /etc/xdg/menus/applications-merged
+cp -f /usr/share/kaisen-menu/kaisenlinux.menu /etc/xdg/menus/applications-merged
+rm -rf /usr/share/kaisen-menu
+
+cat << EOF > /usr/share/desktop-directories/user-apps.directory
+[Desktop Entry]
+Name=User applications
+Name[fr]=Applications utilisateur
+Comment=User applications section (internet, music and more...)
+Comment[fr]=Section des applications utilisateur (musique, internet et autres...)
+Icon=tux
+Type=Directory
+EOF
+

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=sshfs
+Name[fr]=sshfs
+Comment=Tool for mount distant filesystem with ssh
+Comment[fr]=Outil pour monter un système de fichier distant avec ssh
+Exec=terminator -e "zsh -c 'sshfs -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Filesystems
+X-Kaisen-Package=sshfs

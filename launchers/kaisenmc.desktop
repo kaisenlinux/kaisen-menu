@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Midnight Commander
+Name[fr]=Midnight Commander
+Comment=File manager
+Comment[fr]=Gestionnaire de fichiers
+Exec=mc
+Icon=MidnightCommander
+Terminal=true
+Type=Application
+Categories=Miscellaneous

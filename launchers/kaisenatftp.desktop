@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=atftp
+Name[fr]=atftp
+Comment=TFTP client
+Comment[fr]=Client TFTP
+Exec=terminator -e "zsh -c 'atftp;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NetworkSecurity
+X-Kaisen-Package=atftp

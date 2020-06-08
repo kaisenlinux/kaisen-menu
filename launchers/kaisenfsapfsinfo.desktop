@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=apfsinfo
+Name[fr]=apfsinfo
+Comment=Tool for apfs disk info
+Comment[fr]=Outil pour avoir des informations sur les disques apfs
+Exec=terminator -e "zsh -c 'fsapfsinfo;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=APFS
+X-Kaisen-Package=libbde-utils

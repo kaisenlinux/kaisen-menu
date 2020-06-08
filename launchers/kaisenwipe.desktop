@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=wipe
+Name[fr]=wipe
+Comment=Tool for securely erase file
+Comment[fr]=Outil pour effacer complètement un fichier
+Exec=terminator -e "zsh -c 'wipe -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Partitioning
+X-Kaisen-Package=wipe

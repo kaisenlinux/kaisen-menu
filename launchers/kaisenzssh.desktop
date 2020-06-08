@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=zssh
+Name[fr]=zssh
+Comment=Tool for send a file at remote computer
+Comment[fr]=Outil pour envoyer dses fichiers sur un ordinateur distant
+Exec=terminator -e "zsh -c 'sudo zssh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=zssh

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=APFS
+Name[fr]=APFS
+Comment=Tools for APFS disks
+Comment[fr]=Outils pour les disques APFS
+Icon=mount
+Type=Directory

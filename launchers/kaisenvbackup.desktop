@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vbackup
+Name[fr]=vbackup
+Comment=Backup tool 
+Comment[fr]=Outil de sauvegarde
+Exec=terminator -e "zsh -c 'vbackup;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=vbackup

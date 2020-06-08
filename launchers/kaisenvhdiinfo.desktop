@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vhdiinfo
+Name[fr]=vhdiinfo
+Comment=Tool for vhdi disk info
+Comment[fr]=Outil pour avoir des informations sur les disques vhdi de virtualbox
+Exec=terminator -e "zsh -c 'vhdiinfo;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VHDI
+X-Kaisen-Package=libvhdi-utils

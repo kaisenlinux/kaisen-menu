@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=wireguard
+Name[fr]=wireguard
+Comment=Tool for connecting in VPN
+Comment[fr]=Outil pour se connecter à un VPN
+Exec=terminator -e "zsh -c 'echo Configure wireguard on /etc/wireguard folder;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VPN
+X-Kaisen-Package=wireguard

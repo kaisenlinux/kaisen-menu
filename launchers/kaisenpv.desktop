@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=pv
+Name[fr]=pv
+Comment=Tool for concatene stdin at stdout with monitoring
+Comment[fr]=Outil pour voir concaténer stdin sur stdout avec monitoring
+Exec=terminator -e "zsh -c 'pv -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=pv

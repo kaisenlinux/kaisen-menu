@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=baculasd-disable
+Name[fr]=baculasd-désactivé
+Comment=Disable baculasd daemon
+Comment[fr]=Désactiver service baculasd
+Exec=terminator -e "zsh -c '/opt/services/baculasd-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SBacula
+X-Kaisen-Package=kaisen-services-management

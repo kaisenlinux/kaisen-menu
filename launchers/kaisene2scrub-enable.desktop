@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=e2scrub-enable
+Name[fr]=e2scrub-activé
+Comment=Enable e2scrub daemon
+Comment[fr]=Activer service e2scrub
+Exec=terminator -e "zsh -c '/opt/services/e2scrub-enable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SScrub
+X-Kaisen-Package=kaisen-services-management

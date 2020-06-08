@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=LXC
+Name[fr]=LXC
+Comment=Tool for create containers
+Comment[fr]=Outil pour créer des conteneurs
+Icon=lxc
+Type=Directory

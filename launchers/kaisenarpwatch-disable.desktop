@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arpwatch-disable
+Name[fr]=arpwatch-désactivé
+Comment=Disable arpwatch daemon
+Comment[fr]=Désactiver service arpwatch
+Exec=terminator -e "zsh -c '/opt/services/arpwatch-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SArpwatch
+X-Kaisen-Package=kaisen-services-management
