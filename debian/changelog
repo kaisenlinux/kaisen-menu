@@ -1,3 +1,9 @@
+kaisen-menu (1.0+kaisen9) kaisen-devel; urgency=medium
+
+  * Adding remmina and grsync launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 13 Jun 2020 22:22:49 +0200
+
 kaisen-menu (1.0+kaisen8) kaisen-testing; urgency=medium
 
   * Adding kaisen-update-skel launcher
