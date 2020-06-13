@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Grsync
+Name[fr]=Grsync
+Terminal=false
+Type=Application
+MimeType=application/x-grsync-session;
+Categories=Backup;
+Comment=Synchronize files and folders (a GTK GUI for rsync)
+Comment[fr]=Synchronise les fichiers et dossiers (une interface graphique GTK pour rsync)
+Exec=/usr/bin/grsync -i %f
+Icon=grsync.png
