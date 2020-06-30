@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=kaisen-basemenu-purge
 Name[fr]=kaisen-basemenu-purge
-Comment=Tool for clean icons at the base menu
+Comment=Tool to clean icons of the base menu
 Comment[fr]=Outil pour nettoyer les icônes sur le menu de base
 Exec=terminator -e "zsh -c 'sudo kaisen-basemenu-purge;/bin/zsh'"
 Icon=utilities-terminal

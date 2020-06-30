@@ -1,3 +1,21 @@
+kaisen-menu (1.1+kaisen2) kaisen-devel; urgency=medium
+
+  * English corrections. Thanks to alexutadotlinux5733 for your contribution.
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 30 Jun 2020 15:53:38 +0200
+
+kaisen-menu (1.1+kaisen1) kaisen-devel; urgency=medium
+
+  * Adding sslsniff launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 24 Jun 2020 18:10:21 +0200
+
+kaisen-menu (1.1) kaisen-testing; urgency=medium
+
+  * Adding XFCE menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 21 Jun 2020 22:17:00 +0200
+
 kaisen-menu (1.0+kaisen9) kaisen-devel; urgency=medium
 
   * Adding remmina and grsync launchers
