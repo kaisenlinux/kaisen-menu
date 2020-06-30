@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=2ping
 Name[fr]=2ping
-Comment=Tool for analyse ICMP packets losts 
+Comment=Tool to analyse lost ICMP packets
 Comment[fr]=Outil pour analyser les paquets ICMP perdus
 Exec=terminator -e "zsh -c '2ping;/bin/zsh'"
 Icon=utilities-terminal
