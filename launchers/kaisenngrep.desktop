@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ngrep
 Name[fr]=ngrep
-Comment=Grep for network trafic
+Comment=Grep for network traffic
 Comment[fr]=Grep pour le trafic réseau
 Exec=terminator -e "zsh -c 'sudo ngrep -h;/bin/zsh'"
 Icon=utilities-terminal

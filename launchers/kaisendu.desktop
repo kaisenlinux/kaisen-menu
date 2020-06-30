@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=du
 Name[fr]=du
-Comment=Tool for viewing disk space using
+Comment=Tool to view used disk space
 Comment[fr]=Outil pour visualiser l'espace disque utilisé
 Exec=terminator -e "zsh -c 'du --help;/bin/zsh'"
 Icon=utilities-terminal

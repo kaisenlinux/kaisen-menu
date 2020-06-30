@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=tree
 Name[fr]=tree
-Comment=Tool for analyse all arborescence
+Comment=Tool to analyse a full tree view
 Comment[fr]=Outil pour analyser une arborescence complète
 Exec=terminator -e "zsh -c 'tree;/bin/zsh'"
 Icon=utilities-terminal

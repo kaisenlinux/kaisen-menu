@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=Wireshark
 Name[fr]=Wireshark
-Comment=Tool for scanning all trames in network
+Comment=Tool to scan all trames in network
 Comment[fr]=Outil pour scanner toutes les trames sur le réseau 
 Exec=sh -c "gksudo wireshark"
 Icon=wireshark

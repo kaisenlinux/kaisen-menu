@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=pdfcrack
 Name[fr]=pdfcrack
-Comment=Tool for recovery lost PDF password
+Comment=Tool to recover a lost PDF password
 Comment[fr]=Outil pour retrovuer un mot de passe PDF perdu
 Exec=terminator -e "zsh -c 'pdfcrack;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lshw
 Name[fr]=lshw
-Comment=Tool for list hardware
+Comment=Tool to list hardware
 Comment[fr]=Outil pour lister le matériel
 Exec=terminator -e "zsh -c 'sudo lshw;/bin/zsh'"
 Icon=utilities-terminal

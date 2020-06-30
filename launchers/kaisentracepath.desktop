@@ -3,8 +3,8 @@
 [Desktop Entry]
 Name=tracepath
 Name[fr]=tracepath
-Comment=Tool for trace path to a network host
-Comment[fr]=Outil pour ttracer le chemin vers le poste distant
+Comment=Tool to trace path to a network host
+Comment[fr]=Outil pour tracer le chemin vers le poste distant
 Exec=terminator -e "zsh -c 'tracepath;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

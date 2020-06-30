@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=zfs
 Name[fr]=zfs
-Comment=Tool for manage ZFS
+Comment=Tool to manage ZFS
 Comment[fr]=Outil pour gérer ZFS
 Exec=terminator -e "zsh -c 'sudo zfs;/bin/zsh'"
 Icon=utilities-terminal

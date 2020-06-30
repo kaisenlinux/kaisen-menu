@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=scapy
 Name[fr]=scapy
-Comment=Tool for generator traffic and sniffing 
+Comment=Tool to generate traffic and sniffing 
 Comment[fr]=Outil pour générer du trafic et sniffing
 Exec=terminator -e "zsh -c 'scapy -h;/bin/zsh'"
 Icon=utilities-terminal

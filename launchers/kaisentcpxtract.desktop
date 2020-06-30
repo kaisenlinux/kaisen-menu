@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=tcpxtract
 Name[fr]=tcpxtract
-Comment=Tool for extract network traffic
+Comment=Tool to extract network traffic
 Comment[fr]=Outil pour extraire du trafic réseau
 Exec=terminator -e "zsh -c 'tcpxtract -h;/bin/zsh'"
 Icon=utilities-terminal

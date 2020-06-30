@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Guymager
 Name[fr]=Guymager
-Comment=Fast forensic imager
-Comment[fr]=Outil forensic d'image disque
+Comment=Fast toensic imager
+Comment[fr]=Outil toensic d'image disque
 Exec=sh -c "gksudo guymager"
 Icon=guymager_128.png
 Terminal=false

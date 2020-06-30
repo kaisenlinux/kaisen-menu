@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=jfs_fscklog
 Name[fr]=jfs_fscklog
-Comment=Tool for repair JFS partition (logs)
+Comment=Tool to repair JFS partition (logs)
 Comment[fr]=Outil pour réparer une partition JFS (logs)
 Exec=terminator -e "zsh -c 'sudo jfs_fscklog;/bin/zsh'"
 Icon=utilities-terminal

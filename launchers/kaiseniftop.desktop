@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=iftop
 Name[fr]=iftop
-Comment=Tool for monitoring networks
+Comment=Tool to monitor networks
 Comment[fr]=Outil pour monitorer les réseaux
 Exec=terminator -e "zsh -c 'sudo iftop;/bin/zsh'"
 Icon=utilities-terminal

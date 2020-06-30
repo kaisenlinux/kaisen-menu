@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=rfkill
 Name[fr]=rfkill
-Comment=Tool for enable or disable wifi networks
+Comment=Tool to enable or disable wifi networks
 Comment[fr]=Outil pour activer ou désactiver des réseaux sans-fil
 Exec=terminator -e "zsh -c 'sudo rfkill -h;/bin/zsh'"
 Icon=utilities-terminal

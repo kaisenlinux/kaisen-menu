@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=apfsmount
 Name[fr]=apfsmount
-Comment=Tool for apfs disk mount
+Comment=Tool to mount apfs disk 
 Comment[fr]=Outil pour monter les disques apfs
 Exec=terminator -e "zsh -c 'fsapfsmount;/bin/zsh'"
 Icon=utilities-terminal

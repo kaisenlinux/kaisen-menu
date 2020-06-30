@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=mkfs.ocfs2 
 Name[fr]=mkfs.ocfs2 
-Comment=Tool for create ocfs2 partition
+Comment=Tool to create ocfs2 partition
 Comment[fr]=Outil pour créer une partition ocfs2 
 Exec=terminator -e "zsh -c 'sudo mkfs.ocfs2;/bin/zsh'"
 Icon=utilities-terminal

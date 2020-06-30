@@ -3,8 +3,8 @@
 [Desktop Entry]
 Name=photorec
 Name[fr]=photorec
-Comment=Tool on advanced data recovery
-Comment[fr]=Outil de récupération de données avancée
+Comment=Advanced tool for data recovery
+Comment[fr]=Outil de récupération de données avancé
 Exec=terminator -e "zsh -c 'sudo /opt/testdisk-7.1/photorec_static;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -4,7 +4,7 @@
 Name=bonnie++
 Name[fr]=bonnie++
 Comment=Tool for disk performance analysis
-Comment[fr]=Outil d'analyse de performance de disque
+Comment[fr]=Outil d'analyse de pertomance de disque
 Exec=terminator -e "zsh -c 'sudo bonnie++;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

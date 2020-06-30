@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=scrub
 Name[fr]=scrub
-Comment=Tool for make securely delete in HDD
+Comment=Tool to securely erase a file on HDD
 Comment[fr]=Outil pour faire un effacement sécurisé sur un disque dur
 Exec=terminator -e "zsh -c 'scrub;/bin/zsh'"
 Icon=utilities-terminal

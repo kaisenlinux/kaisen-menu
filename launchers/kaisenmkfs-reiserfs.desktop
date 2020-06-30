@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=mkfs.reiserfs 
 Name[fr]=mkfs.reiserfs 
-Comment=Tool for create reiserfs partition
+Comment=Tool to create reiserfs partition
 Comment[fr]=Outil pour créer une partition reiserfs 
 Exec=terminator -e "zsh -c 'sudo mkfs.reiserfs;/bin/zsh'"
 Icon=utilities-terminal

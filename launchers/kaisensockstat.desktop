@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=sockstat
 Name[fr]=sockstat
-Comment=Tool for analyse active sockets connections
+Comment=Tool to analyse active socket connections
 Comment[fr]=Outil pour analyser les connexions sockets actives
 Exec=terminator -e "zsh -c 'sudo sockstat;/bin/zsh'"
 Icon=utilities-terminal

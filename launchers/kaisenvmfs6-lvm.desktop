@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=vmfs6-lvm
 Name[fr]=vmfs6-lvm
-Comment=Tool for manage VMFS (VMWare volumes)
+Comment=Tool to manage VMFS (VMWare volumes)
 Comment[fr]=Outil pour gérer VMFS (VMWare volumes)
 Exec=terminator -e "zsh -c 'sudo vmfs6-lvm -h;/bin/zsh'"
 Icon=utilities-terminal

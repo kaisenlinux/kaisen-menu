@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=unzip
 Name[fr]=unzip
-Comment=Tool for decompress zip file
+Comment=Tool to decompress zip file
 Comment[fr]=Outil pour décompresser les fichiers zip
 Exec=terminator -e "zsh -c 'unzip;/bin/zsh'"
 Icon=utilities-terminal

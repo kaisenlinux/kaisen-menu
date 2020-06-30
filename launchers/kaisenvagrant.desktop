@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=vagrant
 Name[fr]=vagrant
-Comment=Tool for configure and create virtuals environment
+Comment=Tool to configure and create virtual environments
 Comment[fr]=Outil pour configurer et contrôler des environnements virtuels
 Exec=terminator -e "zsh -c 'vagrant;/bin/zsh'"
 Icon=vagrant

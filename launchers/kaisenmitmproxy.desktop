@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=mitmproxy
 Name[fr]=mitmproxy
-Comment=Tool for testing MITM attacks possibility
+Comment=Tool to test MITM attacks possibilities
 Comment[fr]=Outil pour tester la possibilité d'une attaque MITM
 Exec=terminator -e "zsh -c 'mitmproxy;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=iw
 Name[fr]=iw
-Comment=Tool for configuration wireless card
+Comment=Tool to configure wireless cards
 Comment[fr]=Outil pour configurer les cartes wifi
 Exec=terminator -e "zsh -c 'sudo iw;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=pigz
 Name[fr]=pigz
-Comment=Tool for gzip archives with multi-threads
+Comment=Tool to gzip archives with multi-threads
 Comment[fr]=Outil pour les archives gzip avec plusieurs threads
 Exec=terminator -e "zsh -c 'pigz;/bin/zsh'"
 Icon=utilities-terminal

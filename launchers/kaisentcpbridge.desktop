@@ -3,8 +3,8 @@
 [Desktop Entry]
 Name=tcpbridge
 Name[fr]=tcpbridge
-Comment=Tool for bridge network trafic
-Comment[fr]=Outil pour mettre en pond une connexion
+Comment=Tool to bridge network traffic
+Comment[fr]=Outil pour mettre en pont une connexion
 Exec=terminator -e "zsh -c 'tcpbridge;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -21,7 +21,7 @@ Name[fr]=Créer un nouveau profil de connexion
 Exec=/usr/bin/remmina --new
 
 [Desktop Action Kiosk]
-# Start Remmina with a minimal interface for kiosk/thin client mode
+# Start Remmina with a minimal interface to kiosk/thin client mode
 Name=Start Remmina in Kiosk mode
 Name[fr]=Démarrer Remmina en mode Kiosque
 Exec=/usr/bin/remmina --kiosk

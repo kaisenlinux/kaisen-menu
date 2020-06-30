@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=vmdkmount
 Name[fr]=vmdkmount
-Comment=Tool for vmdk disk mount
+Comment=Tool to mount vmdk disk
 Comment[fr]=Outil pour monter les disques vmdk de vmware
 Exec=terminator -e "zsh -c 'vmdkmount;/bin/zsh'"
 Icon=utilities-terminal

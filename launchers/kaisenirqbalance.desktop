@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=irqbalance
 Name[fr]=irqbalance
-Comment=Tool for repartition E/S in SMP systems
+Comment=Tool to split E/S in SMP systems
 Comment[fr]=Outil pour répartitionner E/S les systèmes SMP
 Exec=terminator -e "zsh -c 'sudo irqbalance-ui;/bin/zsh'"
 Icon=utilities-terminal

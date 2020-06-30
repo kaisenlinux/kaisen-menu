@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=hostapd
 Name[fr]=hostapd
-Comment=Tool for AP create and management 
+Comment=Tool for AP creation and management 
 Comment[fr]=Outil pour créer et manager les AP
 Exec=terminator -e "zsh -c 'sudo hostapd;/bin/zsh'"
 Icon=utilities-terminal

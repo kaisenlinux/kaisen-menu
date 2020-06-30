@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=stress
 Name[fr]=stress
-Comment=Tool for stress test hardware
+Comment=Tool for a hardware stress test
 Comment[fr]=Outil pour faire un stress test du matériel
 Exec=terminator -e "zsh -c 'stress --help;/bin/zsh'"
 Icon=utilities-terminal

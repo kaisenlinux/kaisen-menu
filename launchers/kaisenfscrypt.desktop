@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=fscrypt
 Name[fr]=fscrypt
-Comment=Tool for encrypted filesystems
+Comment=Tool to encrypt filesystems
 Comment[fr]=Outil pour chiffrer des systèmes de fichiers
 Exec=terminator -e "zsh -c 'fscrypt;/bin/zsh'"
 Icon=utilities-terminal

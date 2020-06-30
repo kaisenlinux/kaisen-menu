@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=rsync
 Name[fr]=rsync
-Comment=Tool for save all your directories with a many protocols
+Comment=Tool to save all your directories with many protocols
 Comment[fr]=Outil pour sauvegarder tous vos répertoires avec de nombreux protocoles
 Exec=terminator -e "zsh -c 'rsync -h;/bin/zsh'"
 Icon=utilities-terminal

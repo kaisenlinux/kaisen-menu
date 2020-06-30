@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=statserial
 Name[fr]=statserial
-Comment=Tool for display port console informations
+Comment=Tool to display port console info
 Comment[fr]=Outil pour afficher les informations du port console
 Exec=terminator -e "zsh -c 'sudo statserial;/bin/zsh'"
 Icon=utilities-terminal

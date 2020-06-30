@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=nethogs
 Name[fr]=nethogs
-Comment=Tool for network process moniroting
+Comment=Tool for network process monitoring
 Comment[fr]=Outil pour monitorer les processus réseaux 
 Exec=terminator -e "zsh -c 'sudo nethogs;/bin/zsh'"
 Icon=utilities-terminal

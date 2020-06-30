@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=unp
 Name[fr]=unp
-Comment=Tool for facilitate extract archive file
+Comment=Tool to facilitate extraction of an archive file
 Comment[fr]=Outil pour faciliter l'extraction d'une archive
 Exec=terminator -e "zsh -c 'unar;/bin/zsh'"
 Icon=utilities-terminal

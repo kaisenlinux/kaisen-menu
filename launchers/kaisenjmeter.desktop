@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=JMeter
 Name[fr]=JMeter
-Comment=Tool for testing web and applications performances
+Comment=Tool to test web and applications performance
 Comment[fr]=Outil pour tester les performances des sites et applications
 Exec=jmeter
 Icon=jmeter

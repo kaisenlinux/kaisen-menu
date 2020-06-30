@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=memstat
 Name[fr]=memstat
-Comment=Tool for analyse RAM utilisation
+Comment=Tool to analyse RAM use
 Comment[fr]=Outil pour analyser l'utilisation de la RAM
 Exec=terminator -e "zsh -c 'memstat;/bin/zsh'"
 Icon=utilities-terminal

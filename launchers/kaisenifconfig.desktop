@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ifconfig
 Name[fr]=ifconfig
-Comment=Tool for display information network configuration
+Comment=Tool to display network config info
 Comment[fr]=Outil pour afficher les informations de connexions
 Exec=terminator -e "zsh -c 'sudo ifconfig;/bin/zsh'"
 Icon=utilities-terminal

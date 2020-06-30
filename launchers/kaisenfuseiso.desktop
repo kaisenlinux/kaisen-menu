@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=fuseiso
 Name[fr]=fuseiso
-Comment=Tool for manage ISO files
+Comment=Tool to manage ISO files
 Comment[fr]=Outil pour gérer des fichiers ISO
 Exec=terminator -e "zsh -c 'fuseiso;/bin/zsh'"
 Icon=utilities-terminal
