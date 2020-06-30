@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=cdpr
 Name[fr]=cdpr
-Comment=Tool for analyse packet Cisco
+Comment=Tool to analyse Cisco packets
 Comment[fr]=Outil pour analyser les paquets de Cisco
 Exec=terminator -e "zsh -c 'sudo cdpr;/bin/zsh'"
 Icon=utilities-terminal

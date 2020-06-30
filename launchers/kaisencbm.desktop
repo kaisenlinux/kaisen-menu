@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=cbm
 Name[fr]=cbm
-Comment=Tool for analyse network speed in real time
+Comment=Tool to analyse network speed in real time
 Comment[fr]=Outil pour analyser en temps réel la vitesse réseau
 Exec=terminator -e "zsh -c 'cbm;/bin/zsh'"
 Terminal=false

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ddrescueview
 Name[fr]=ddrescueview
-Comment=Tool for check your health disk
+Comment=Tool to check the health of your disk
 Comment[fr]=Outil pour vérifier la santé du disque
 Exec=ddrescueview
 Icon=ddrescueview

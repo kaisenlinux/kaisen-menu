@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=di
 Name[fr]=di
-Comment=Tool for viewing free space
+Comment=Tool to view free space
 Comment[fr]=Outil pour connaitre l'espace libre
 Exec=terminator -e "zsh -c 'di -h;/bin/zsh'"
 Icon=utilities-terminal

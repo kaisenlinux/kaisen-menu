@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=dd
 Name[fr]=dd
-Comment=Tool for cloning ext4 partitions and USB bootable create
+Comment=Tool to clone ext4 partitions and create a bootable USB key 
 Comment[fr]=Outil pour le clonage de partitons ext4 et la création de clé USB bootable
 Exec=terminator -e "zsh -c 'dd --help;/bin/zsh'"
 Icon=utilities-terminal

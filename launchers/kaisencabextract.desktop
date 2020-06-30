@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=cabextract
 Name[fr]=cabextract
-Comment=Tool for extrate .cab file
+Comment=Tool to extract .cab files
 Comment[fr]=Outil pour extraire les fichiers .cab
 Exec=terminator -e "zsh -c 'cabextract --help;/bin/zsh'"
 Icon=utilities-terminal

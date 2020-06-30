@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=disktype
 Name[fr]=disktype
-Comment=Tool for analyse disk and filesystem format
+Comment=Tool to analyse disks and filesystem format
 Comment[fr]=Outil pour analyser les disques et les systèmes de fichiers
 Exec=terminator -e "zsh -c 'disktype;/bin/zsh'"
 Icon=utilities-terminal

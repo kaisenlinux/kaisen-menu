@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=btrfs-image
 Name[fr]=btrfs-image
-Comment=Tool for manage BTRFS image
+Comment=Tool to manage a BTRFS image
 Comment[fr]=Outil pour gérer une image BTRFS
 Exec=terminator -e "zsh -c 'btrfs-image;/bin/zsh'"
 Icon=utilities-terminal

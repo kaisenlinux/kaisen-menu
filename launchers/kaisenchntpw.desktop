@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=chntpw
 Name[fr]=chntpw
-Comment=Tool for reset passwords and edit users data in Windows SAM base
+Comment=Tool to reset passwords and edit users data in Windows SAM base
 Comment[fr]=Outil pour réinitialiser les mots de passe et éditer les données utilisateurs sur les bases SAM de Windows
 Exec=terminator -e "zsh -c 'sudo chntpw -h;/bin/zsh'"
 Icon=utilities-terminal

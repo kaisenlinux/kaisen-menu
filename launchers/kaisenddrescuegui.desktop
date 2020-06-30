@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Name=DDRescue-GUI
-Comment=Easily recover data graphically with DDRescue-GUI
+Comment=Easily recover data with DDRescue-GUI
 Comment[fr]=Recupération de données avec ddrescue en mode graphique
 Exec=sh -c "gksudo python3 /usr/share/ddrescue-gui/DDRescue_GUI.py"
 Icon=ddrescue-gui

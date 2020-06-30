@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=diskscan
 Name[fr]=diskscan
-Comment=Tool for detect bad sector at disk
+Comment=Tool to detect bad sectors on disk
 Comment[fr]=Outil pour détecter les secteurs défectueux sur un disque
 Exec=terminator -e "zsh -c 'diskscan;/bin/zsh'"
 Icon=utilities-terminal

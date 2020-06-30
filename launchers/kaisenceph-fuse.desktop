@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ceph-fuse  
 Name[fr]=ceph-fuse  
-Comment=Tool for manage CEPH volumes            
+Comment=Tool to manage CEPH volumes            
 Comment[fr]=Outil pour gérer des volumes CEPH     
 Exec=terminator -e "zsh -c 'sudo ceph-fuse;/bin/zsh'"
 Icon=utilities-terminal
