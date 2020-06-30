@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=archivemount
 Name[fr]=archivemount
-Comment=Tool for mount archive files
+Comment=Tool to mount archive files
 Comment[fr]=Outil pour monter des fichers d'archives
 Exec=terminator -e "zsh -c 'sudo archivemount -h;/bin/zsh'"
 Icon=utilities-terminal
