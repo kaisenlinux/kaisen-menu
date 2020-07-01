@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ansible-pull
 Name[fr]=ansible-pull
-Comment=Tool for using ansible
+Comment=Tool to use ansible
 Comment[fr]=Outil pour utiliser ansible
 Exec=terminator -e "zsh -c 'ansible-pull -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=tshark
 Name[fr]=tshark
-Comment=Tool for capture packet 
+Comment=Tool to capture packets 
 Comment[fr]=Outil pour faire de la capture de paquets
 Exec=terminator -e "zsh -c 'sudo tshark;/bin/zsh'"
 Icon=utilities-terminal

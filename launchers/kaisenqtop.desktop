@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=qtop
 Name[fr]=qtop
-Comment=Tool for viewing processus with window
+Comment=Tool to view processes with avec a GUI
 Comment[fr]=Outil pour voir les processus avec une fenêtre graphique
 Exec=qtop
 Icon=htop

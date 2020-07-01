@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=xHydra
 Name[fr]=xHydra
-Comment=Tool for recovery password on online account (GUI)
+Comment=Tool to recover the password of an online account (GUI)
 Comment[fr]=Outil pour récupérer un mot de passe d'un compte en ligne (GUI)
 Exec=xhydra
 Icon=xhydra

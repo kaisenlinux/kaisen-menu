@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ocfs2_hb_ctl
 Name[fr]=ocfs2_hb_ctl
-Comment=Tool for manage OCFS2 
+Comment=Tool to manage OCFS2 
 Comment[fr]=Outil pour gérer OCFS2
 Exec=terminator -e "zsh -c 'sudo ocfs2_hb_ctl;/bin/zsh'"
 Icon=utilities-terminal

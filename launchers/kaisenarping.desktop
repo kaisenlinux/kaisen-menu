@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=arping
 Name[fr]=arping
-Comment=Tool for ping ARP address
+Comment=Tool to ping an ARP address
 Comment[fr]=Outil pour pinger une adresse ARP
 Exec=terminator -e "zsh -c 'arping;/bin/zsh'"
 Icon=utilities-terminal

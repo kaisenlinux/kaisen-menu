@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=driftnet
 Name[fr]=drifnet
-Comment=Tool for sniffing wifi trafic
+Comment=Tool to sniff wifi traffic
 Comment[fr]=Outil pour scanner le trafic wifi
 Exec=sh -c "gksudo driftnet"
 Icon=utilities-terminal

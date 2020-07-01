@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lxctl
 Name[fr]=lxctl
-Comment=Tool for manage LXC containers
+Comment=Tool to manage LXC containers
 Comment[fr]=Outil pour gérer les conteneurs LXC
 Exec=terminator -e "zsh -c 'lxctl --help;/bin/zsh'"
 Icon=utilities-terminal

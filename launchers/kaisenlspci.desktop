@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lspci
 Name[fr]=lspci
-Comment=Tool for list hardware name
+Comment=Tool to list hardware name
 Comment[fr]=Outil pour lister le nom du matériel
 Exec=terminator -e "zsh -c 'lspci;/bin/zsh'"
 Icon=utilities-terminal

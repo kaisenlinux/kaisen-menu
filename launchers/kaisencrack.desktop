@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=crack
 Name[fr]=crack
-Comment=Tool for cracking password
+Comment=Tool to crack a password
 Comment[fr]=Outil pour cracker un mot de passe
 Exec=terminator -e "zsh -c 'sudo Crack;/bin/zsh'"
 Icon=utilities-terminal

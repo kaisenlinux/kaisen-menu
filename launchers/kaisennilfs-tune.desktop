@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=nilfs-tune
 Name[fr]=nilfs-tune
-Comment=Tool for manage parameters NILFS volumes
+Comment=Tool to manage parameters of NILFS volumes
 Comment[fr]=Outil pour gérer les paramètres des volumes NILFS
 Exec=terminator -e "zsh -c 'sudo nilfs-tune -h;/bin/zsh'"
 Icon=utilities-terminal

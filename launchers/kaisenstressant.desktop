@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=stressant
 Name[fr]=stressant
-Comment=Tool for stress test hardware
+Comment=Tool for a hardware stress test
 Comment[fr]=Outil pour faire un stress test du matériel
 Exec=terminator -e "zsh -c 'sudo stressant --help;/bin/zsh'"
 Icon=utilities-terminal

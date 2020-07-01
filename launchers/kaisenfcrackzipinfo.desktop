@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=fcrackzipinfo
 Name[fr]=fcrackzipinfo
-Comment=Tool for info zip password
+Comment=Tool to retrieve zip password info
 Comment[fr]=Outil pour récupérer les infos d'un zip protégé
 Exec=terminator -e "zsh -c 'fcrackzipinfo --help;/bin/zsh'"
 Icon=utilities-terminal

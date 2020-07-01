@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=cups
 Name[fr]=cups
-Comment=Tool for printing gestion in your system
+Comment=Tool for printing managment in your system
 Comment[fr]=Outil pour la gestion d'impression sur votre système
 Exec=firefox %u localhost:631
 Icon=utilities-terminal

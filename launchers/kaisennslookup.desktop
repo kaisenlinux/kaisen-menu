@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=nslookup
 Name[fr]=nslookup
-Comment=Tool for check DNS servers
+Comment=Tool to check DNS servers
 Comment[fr]=Outil pour vérfier les serveurs DNS
 Exec=terminator -e "zsh -c 'nslookup;/bin/zsh'"
 Icon=utilities-terminal

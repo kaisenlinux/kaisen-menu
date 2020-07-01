@@ -4,7 +4,7 @@
 Name=vmdkinfo
 Name[fr]=vmdkinfo
 Comment=Tool for vmdk disk info
-Comment[fr]=Outil pour avoir des informations sur les disques vmdk de vmware
+Comment[fr]=Outil pour avoir des intomations sur les disques vmdk de vmware
 Exec=terminator -e "zsh -c 'vmdkinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

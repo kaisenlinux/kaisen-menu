@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=btrfs-usage-report
 Name[fr]=btrfs-usage-report
-Comment=Tool for manage BTRFS
+Comment=Tool to manage BTRFS
 Comment[fr]=Outil pour gérer BTRFS
 Exec=terminator -e "zsh -c 'btrfs-usage-report;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ophcrack-cli
 Name[fr]=ophcrack-cli
-Comment=Tool for recovery lost password Windows in CLI mode 
+Comment=Tool to recover a lost Windows password in CLI mode 
 Comment[fr]=Outil pour récupérer des mots de passe Windows en mode CLI 
 Exec=terminator -e "zsh -c 'ophcrack-cli -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=nwipe
 Name[fr]=nwipe
-Comment=Tool for securely erase file based with ncurses support
+Comment=Tool to completely erase file based on ncurses support
 Comment[fr]=Outil pour effacer complètement un fichier avec le support ncurses
 Exec=terminator -e "zsh -c 'sudo nwipe;/bin/zsh'"
 Icon=utilities-terminal

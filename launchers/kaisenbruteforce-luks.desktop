@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=bruteforce-luks
 Name[fr]=bruteforce-luks
-Comment=Tool for recovery password on luks disk
+Comment=Tool to recover password on luks disk
 Comment[fr]=Outil pour récupérer un mot de passe d'un disque luks
 Exec=terminator -e "zsh -c 'bruteforce-luks;/bin/zsh'"
 Icon=utilities-terminal

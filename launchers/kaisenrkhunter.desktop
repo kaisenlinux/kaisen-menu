@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=rkhunter
 Name[fr]=rkhunter
-Comment=Tool for scanning rootkit presence
+Comment=Tool to scan rootkit signs
 Comment[fr]=Outil pour scanner la présence de rootkit
 Exec=terminator -e "zsh -c 'rkhunter;/bin/zsh'"
 Icon=utilities-terminal

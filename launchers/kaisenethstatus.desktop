@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ethstatus
 Name[fr]=ethstatus
-Comment=Tool for display ethernet status
+Comment=Tool to display ethernet status
 Comment[fr]=Outil pour afficher le statut ethernet
 Exec=terminator -e "zsh -c 'ethstatus;/bin/zsh'"
 Icon=utilities-terminal

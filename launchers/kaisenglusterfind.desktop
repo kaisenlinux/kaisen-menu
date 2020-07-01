@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=glusterfind
 Name[fr]=glusterfind
-Comment=Tool for manage gluster filesystem
+Comment=Tool to manage gluster filesystem
 Comment[fr]=Outil pour gérer le système de fichier gluster
 Exec=terminator -e "zsh -c 'glusterfind -h;/bin/zsh'"
 Icon=utilities-terminal

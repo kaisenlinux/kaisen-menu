@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=btrfsck
 Name[fr]=btrfsck
-Comment=Tool for repair BTRFS partition damaged
+Comment=Tool to repair a BTRFS damaged partition
 Comment[fr]=Outil pour réparer une partition BTRFS endommagée
 Exec=terminator -e "zsh -c 'btrfsck;/bin/zsh'"
 Icon=utilities-terminal

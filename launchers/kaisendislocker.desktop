@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=dislocker
 Name[fr]=dislocker
-Comment=Tool for bitlocker disk
+Comment=Tool to bitlocker disks
 Comment[fr]=Outil pour les disques bitlocker
 Exec=terminator -e "zsh -c 'dislocker;/bin/zsh'"
 Icon=utilities-terminal

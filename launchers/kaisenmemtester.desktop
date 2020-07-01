@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=memtester
 Name[fr]=memtester
-Comment=Tool for testing RAM
+Comment=Tool to test RAM
 Comment[fr]=Outil pour tester la RAM
 Exec=terminator -e "zsh -c 'sudo memtester;/bin/zsh'"
 Icon=utilities-terminal

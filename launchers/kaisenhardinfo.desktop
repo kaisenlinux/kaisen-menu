@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=Hardinfo
 Name[fr]=Hardinfo
-Comment=Displays system informations
+Comment=Displays system info
 Comment[fr]=Afficher les informations système
 Exec=hardinfo
 Icon=/usr/share/hardinfo/pixmaps/logo.png

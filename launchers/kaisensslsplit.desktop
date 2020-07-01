@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=sslsplit
 Name[fr]=sslsplit
-Comment=Tool for intercept SSL/TLS 
+Comment=Tool to intercept SSL/TLS 
 Comment[fr]=Outil pour intercepter SSL/TLS 
 Exec=terminator -e "zsh -c 'sslsplit -h;/bin/zsh'"
 Icon=utilities-terminal

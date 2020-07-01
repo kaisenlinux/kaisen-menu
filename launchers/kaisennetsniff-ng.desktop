@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=netsniff-ng
 Name[fr]=netsniff-ng
-Comment=Tool for sniffing network trafic
+Comment=Tool to sniff network traffic
 Comment[fr]=Outil pour scanner le trafic réseau
 Exec=terminator -e "zsh -c 'sudo netsniff-ng;/bin/zsh'"
 Icon=utilities-terminal

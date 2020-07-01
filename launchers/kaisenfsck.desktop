@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=fsck
 Name[fr]=fsck
-Comment=Tool for verify and repair filesystems
+Comment=Tool to verify and repair filesystems
 Comment[fr]=Outil pour vérifier et réparer des systèmes de fichiers
 Exec=terminator -e "zsh -c 'sudo fsck --help;/bin/zsh'"
 Icon=utilities-terminal

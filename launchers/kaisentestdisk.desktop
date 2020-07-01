@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=testdisk
 Name[fr]=testdisk
-Comment=Tool for advanced testing disk 
+Comment=Tool for advanced disk analysis
 Comment[fr]=Outil pour une analyse avancée d'un disque  
 Exec=terminator -e "zsh -c 'sudo testdisk;/bin/zsh'"
 Icon=utilities-terminal

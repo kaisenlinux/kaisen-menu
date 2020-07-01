@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=traceroute6
 Name[fr]=traceroute6
-Comment=Tool for trace on ipv6 packet in route
+Comment=Tool to trace an ipv6 packet on network
 Comment[fr]=Outil pour tracer un paquet ipv6 sur le réseau
 Exec=terminator -e "zsh -c 'traceroute6 --help;/bin/zsh'"
 Icon=utilities-terminal

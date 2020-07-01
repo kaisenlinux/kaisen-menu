@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=gfs2trace
 Name[fr]=gfs2trace
-Comment=Tool for manage GFS2
+Comment=Tool to manage GFS2
 Comment[fr]=Outil pour gérer GFS2
 Exec=terminator -e "zsh -c 'sudo gfs2_trace -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ddrutility
 Name[fr]=ddrutility
-Comment=Tool for recovery data 
+Comment=Tool to recover data 
 Comment[fr]=Outil de récupération de données
 Exec=terminator -e "zsh -c 'ddrutility -h;/bin/zsh'"
 Icon=utilities-terminal

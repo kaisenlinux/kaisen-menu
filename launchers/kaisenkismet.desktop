@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=kismet
 Name[fr]=kismet
-Comment=Tool for snifing and monitoring wifi networks
+Comment=Tool to sniff and monitor wifi networks
 Comment[fr]=Outil pour sniffer et monitorer des réseaux wi-fi
 Exec=terminator -e "zsh -c 'sudo kismet;/bin/zsh'"
 Icon=utilities-terminal

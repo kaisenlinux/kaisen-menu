@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=wipe
 Name[fr]=wipe
-Comment=Tool for securely erase file
+Comment=Tool to securely erase file
 Comment[fr]=Outil pour effacer complètement un fichier
 Exec=terminator -e "zsh -c 'wipe -h;/bin/zsh'"
 Icon=utilities-terminal

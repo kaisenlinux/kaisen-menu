@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=Htop
 Name[fr]=Htop
-Comment=Tool for viewing processus in real time
+Comment=Tool to view processes in real time
 Comment[fr]=Outil pour voir les processus en temps réel
 Exec=terminator -e "zsh -c 'htop;/bin/zsh'"
 Icon=htop

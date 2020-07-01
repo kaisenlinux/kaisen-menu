@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=curl
 Name[fr]=curl
-Comment=Tool for transfering data
+Comment=Tool to transfer data
 Comment[fr]=Outil de transfert de données
 Exec=terminator -e "zsh -c 'curl --help;/bin/zsh'"
 Icon=utilities-terminal

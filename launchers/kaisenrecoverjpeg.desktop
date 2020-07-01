@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=recoverjpeg
 Name[fr]=recoverjpeg
-Comment=Tool for recover jpeg pictures
+Comment=Tool to recover jpeg pictures
 Comment[fr]=Outil pour récupérer desimages jpeg
 Exec=terminator -e "zsh -c 'recoverjpeg;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lxc-destroy
 Name[fr]=lxc-destroy
-Comment=Tool for delete LXC container
+Comment=Tool to delete LXC container
 Comment[fr]=Outil pour supprimer un container LXC
 Exec=terminator -e "zsh -c 'lxc-destroy -h;/bin/zsh'"
 Icon=utilities-terminal

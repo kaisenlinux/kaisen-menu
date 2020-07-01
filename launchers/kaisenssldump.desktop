@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ssldump
 Name[fr]=ssldump
-Comment=Tool for analyse SSL/TLS protocols
+Comment=Tool to analyse SSL/TLS protocols
 Comment[fr]=Outil pour analyser les protocoles SSL et TLS
 Exec=terminator -e "zsh -c 'sudo ssldump -h;/bin/zsh'"
 Icon=utilities-terminal

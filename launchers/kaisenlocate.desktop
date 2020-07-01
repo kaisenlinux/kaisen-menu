@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=locate
 Name[fr]=locate
-Comment=Tool for find a file
+Comment=Tool to find a file
 Comment[fr]=Outil pour trouver un fichier
 Exec=terminator -e "zsh -c 'locate -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=clonezilla
 Name[fr]=clonezilla
-Comment=Tool for cloning disk in device/image or device/device
+Comment=Tool to clone disk in device/image or device/device
 Comment[fr]=Outil pour cloner un disque/image ou disque/disque
 Exec=terminator -e "zsh -c 'sudo clonezilla;/bin/zsh'"
 Icon=utilities-terminal

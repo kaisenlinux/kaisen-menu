@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=ioping
 Name[fr]=ioping
-Comment=Tool for analyse disk latency
+Comment=Tool to analyse disk latency
 Comment[fr]=Outil pour analyser les latences de disques
 Exec=terminator -e "zsh -c 'ioping;/bin/zsh'"
 Icon=utilities-terminal

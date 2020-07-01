@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lxc-device
 Name[fr]=lxc-device
-Comment=Tool for manage LXC container
+Comment=Tool to manage LXC container
 Comment[fr]=Outil pour gérer un container LXC
 Exec=terminator -e "zsh -c 'lxc-device;/bin/zsh'"
 Icon=utilities-terminal

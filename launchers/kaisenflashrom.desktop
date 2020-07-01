@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=flashrom
 Name[fr]=flashrom
-Comment=Tool for manipulate BIOS firmware
+Comment=Tool to manipulate BIOS firmware
 Comment[fr]=Outil pour manipuler le BIOS
 Exec=terminator -e "zsh -c 'sudo flashrom --help;/bin/zsh'"
 Icon=utilities-terminal

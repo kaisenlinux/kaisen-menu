@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=gluster-georep-ssh
 Name[fr]=gluster-georep-ssh
-Comment=Tool for manage gluster filesystem
+Comment=Tool to manage gluster filesystem
 Comment[fr]=Outil pour gérer le système de fichiers gluster
 Exec=terminator -e "zsh -c 'sudo gluster-georep-sshkey -h;/bin/zsh'"
 Icon=utilities-terminal

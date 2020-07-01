@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=lxc-execute
 Name[fr]=lxc-execute
-Comment=Tool for execute a LXC container
+Comment=Tool to execute a LXC container
 Comment[fr]=Outil pour exécuter un container LXC
 Exec=terminator -e "zsh -c 'lxc-execute -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=img2pdf
 Name[fr]=img2pdf
-Comment=Tool for convert img to pdf
+Comment=Tool to convert a picture into a pdf
 Comment[fr]=Outil pour convertir une image en PDF
 Exec=terminator -e "zsh -c 'sudo img2pdf --help;/bin/zsh'"
 Icon=utilities-terminal

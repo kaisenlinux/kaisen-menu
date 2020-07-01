@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=hydra
 Name[fr]=hydra
-Comment=Tool for recovery password on online account
+Comment=Tool to recover the password of an online account
 Comment[fr]=Outil pour récupérer un mot de passe d'un compte en ligne
 Exec=terminator -e "zsh -c 'hydra -h;/bin/zsh'"
 Icon=utilities-terminal

@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=strace
 Name[fr]=strace
-Comment=Tool for display syscall
+Comment=Tool to display syscall
 Comment[fr]=Outil pour voir les appels systèmes
 Exec=terminator -e "zsh -c 'strace -h;/bin/zsh'"
 Icon=utilities-terminal

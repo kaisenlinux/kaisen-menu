@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=arptables
 Name[fr]=arptables
-Comment=Tool for manage arp tables
+Comment=Tool to manage ARP tables
 Comment[fr]=Outil pour manipuler les tables ARP
 Exec=terminator -e "zsh -c 'sudo arptables -h;/bin/zsh'"
 Icon=utilities-terminal

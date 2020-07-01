@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=tmux
 Name[fr]=tmux
-Comment=Tool for launch alternative system
+Comment=Tool to launch alternative system
 Comment[fr]=Outil pour lancer un système alternatif
 Exec=terminator -e "zsh -c 'tmux --help;/bin/zsh'"
 Icon=utilities-terminal

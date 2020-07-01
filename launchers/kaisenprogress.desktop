@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=progress
 Name[fr]=progress
-Comment=Tool for shows manipulations on file manipulation
+Comment=Tool to show progress status on file manipulation
 Comment[fr]=Outil pour voir l'état d'avancement sur la manipulation de fichiers
 Exec=terminator -e "zsh -c 'progress -h;/bin/zsh'"
 Icon=utilities-terminal

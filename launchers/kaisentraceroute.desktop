@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=traceroute
 Name[fr]=traceroute
-Comment=Tool for trace on packet in route
+Comment=Tool to trace a packet on network
 Comment[fr]=Outil pour tracer un paquet sur le réseau
 Exec=terminator -e "zsh -c 'traceroute --help;/bin/zsh'"
 Icon=utilities-terminal

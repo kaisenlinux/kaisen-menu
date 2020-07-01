@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=samdump2
 Name[fr]=samdump2
-Comment=Tool for recovery Windows SAM base
+Comment=Tool to recover Windows SAM base
 Comment[fr]=Outil pour récupérer la base SAM de Windows
 Exec=terminator -e "zsh -c 'samdump2 -h;/bin/zsh'"
 Icon=utilities-terminal

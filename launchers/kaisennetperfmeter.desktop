@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=netperfmeter
 Name[fr]=netperfmeter
-Comment=Tool for analyse network performance
+Comment=Tool to analyse network performance
 Comment[fr]=Outil pour analyser les performances réseau
 Exec=terminator -e "zsh -c 'netperfmeter;/bin/zsh'"
 Icon=utilities-terminal

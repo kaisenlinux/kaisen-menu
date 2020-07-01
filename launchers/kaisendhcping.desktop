@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=dhcping
 Name[fr]=dhcping
-Comment=Tool for ping DHCP daemon
+Comment=Tool to ping DHCP daemon
 Comment[fr]=Outil pour ping un service DHCP
 Exec=terminator -e "zsh -c 'sudo dhcping;/bin/zsh'"
 Icon=utilities-terminal

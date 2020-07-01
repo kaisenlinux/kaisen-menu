@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=partclone
 Name[fr]=partclone
-Comment=Tool for cloning Windows NTFS partition
+Comment=Tool to clone Windows NTFS partition
 Comment[fr]=Outil pour cloner une partion NTFS Windows
 Exec=terminator -e "zsh -c 'man partclone;/bin/zsh'"
 Icon=utilities-terminal
