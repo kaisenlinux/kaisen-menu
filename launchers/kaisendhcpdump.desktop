@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dhcpdump
-Name[fr]=dhcpdump
-Comment=Tool to analyse dhcp 
-Comment[fr]=Outil pour analyser le dhcp 
+Comment=Tool to analyse dhcp
+Comment[fr]=Outil pour analyser le dhcp
+Comment[es]=Herramienta para analizar dhcp
+Comment[pt]=Ferramenta para analisar dhcp
+Comment[it]=Strumento per analizzare dhcp
+Comment[de]=Tool zur Analyse von DHCP
 Exec=terminator -e "zsh -c 'sudo dhcpdump -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

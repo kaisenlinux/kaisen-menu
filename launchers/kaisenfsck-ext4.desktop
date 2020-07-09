@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsck.ext4
-Name[fr]=fsck.ext4
 Comment=Tool to repair ext4 partition
 Comment[fr]=Outil pour réparer une partition ext4
+Comment[es]=Herramienta para reparar una partición ext4
+Comment[pt]=Ferramenta para reparar uma partição ext4
+Comment[it]=Strumento per riparare una partizione ext4
+Comment[de]=Tool zum Reparieren einer ext4-Partition
 Exec=terminator -e "zsh -c 'sudo fsck.ext4;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

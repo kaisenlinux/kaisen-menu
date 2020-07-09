@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=teamviewer-disable
 Name[fr]=teamviewer-désactivé
+Name[es]=teamviewer-deshabilitado
+Name[pt]=teamviewer-desativado
+Name[it]=teamviewer-disabilitato
+Name[de]=teamviewer-deaktiviert
 Comment=Disable teamviewer daemon
 Comment[fr]=Désactiver service teamviewer
+Comment[es]=Desactivar servicio teamviewer
+Comment[pt]=Desativar serviço teamviewer
+Comment[it]=Disabilita servizio teamviewer
+Comment[de]=Deaktivieren Sie den Teamviewer-Dienst
 Exec=terminator -e "zsh -c '/opt/services/teamviewer-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

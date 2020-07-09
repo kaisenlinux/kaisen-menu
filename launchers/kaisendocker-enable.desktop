@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=docker-enable
 Name[fr]=docker-activé
+Name[es]=docker-activado
+Name[pt]=docker-ativado
+Name[it]=docker-attivato
+Name[de]=docker-aktiviert
 Comment=Enable docker daemon
 Comment[fr]=Activer service docker
+Comment[es]=Activar servicio docker
+Comment[pt]=Ativar serviço docker
+Comment[it]=Attivare servizio docker
+Comment[de]=Docker-Dienst aktivieren
 Exec=terminator -e "zsh -c '/opt/services/docker-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

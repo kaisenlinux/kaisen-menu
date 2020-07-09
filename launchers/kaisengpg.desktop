@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gpg
-Name[fr]=gpg
 Comment=Tool for messages and data protection
 Comment[fr]=Outil pour protéger des messages ainsi que des données
+Comment[es]=Herramienta para proteger mensajes y datos
+Comment[pt]=Ferramenta para proteger mensagens e dados
+Comment[it]=Strumento per proteggere messaggi e dati
+Comment[de]=Tool zum Schutz von Nachrichten und Daten
 Exec=terminator -e "zsh -c 'gpg -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

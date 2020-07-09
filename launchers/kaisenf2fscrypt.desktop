@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=f2fscrypt
-Name[fr]=f2fscrypt
 Comment=Tool to encrypt F2FS partition
 Comment[fr]=Outil pour chiffrer une partition F2FS
+Comment[es]=Herramienta para encriptar una partición F2FS
+Comment[pt]=Ferramenta para criptografar uma partição F2FS
+Comment[it]=Strumento per crittografare una partizione F2FS
+Comment[de]=Tool zum Verschlüsseln einer F2FS-Partition
 Exec=terminator -e "zsh -c 'sudo f2fscrypt;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=hostapd-disable
 Name[fr]=hostapd-désactivé
+Name[es]=hostapd-deshabilitado
+Name[pt]=hostapd-desativado
+Name[it]=hostapd-disabilitato
+Name[de]=hostapd-deaktiviert
 Comment=Disable hostapd daemon
 Comment[fr]=Désactiver service hostapd
+Comment[es]=Deshabilitar servicio hostapd
+Comment[pt]=Desativar serviço hostapd
+Comment[it]=Disabilita servizio hostapd
+Comment[de]=Deaktivieren Sie den Hostapd-Dienst
 Exec=terminator -e "zsh -c '/opt/services/hostapd-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

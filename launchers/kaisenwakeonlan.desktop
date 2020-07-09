@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=wakeonlan
-Name[fr]=wakeonlan
 Comment=Tool to send magic packets on Ethernet adaptors
 Comment[fr]=Outil pour envoyer des paquets magiques sur les adaptateurs Ethernet
+Comment[es]=Herramienta para enviar paquetes mágicos a adaptadores Ethernet
+Comment[pt]=Ferramenta para enviar pacotes mágicos para adaptadores Ethernet
+Comment[it]=Strumento per inviare pacchetti magici agli adattatori Ethernet
+Comment[de]=Tool zum Senden von magischen Paketen an Ethernet-Adapter
 Exec=terminator -e "zsh -c 'wakeonlan -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

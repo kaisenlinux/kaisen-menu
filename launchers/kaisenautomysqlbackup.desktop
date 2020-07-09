@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=automysqlbackup
-Name[fr]=automysqlbackup
 Comment=Tool to backup mysql databases
 Comment[fr]=Outil pour sauvegarder des bases de données mysql
+Comment[es]=Herramienta para hacer copias de seguridad de bases de datos mysql
+Comment[pt]=Ferramenta para fazer backup de bancos de dados mysql
+Comment[it]=Strumento per il backup di database mysql
+Comment[de]=Tool zum Sichern von MySQL-Datenbanken
 Exec=terminator -e "zsh -c 'sudo automysqlbackup;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

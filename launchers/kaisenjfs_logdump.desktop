@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=jfs_logdump
-Name[fr]=jfs_logdump
 Comment=Tool to dump JFS logs
 Comment[fr]=Outil pour dumper les logs JFS
+Comment[es]=Herramienta para volcar registros JFS
+Comment[pt]=Ferramenta para despejar logs JFS
+Comment[it]=Strumento per scaricare i log JFS
+Comment[de]=Tool zum Speichern von JFS-Protokollen
 Exec=terminator -e "zsh -c 'sudo jfs_logdump;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

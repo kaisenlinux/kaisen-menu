@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dirvish-expire
-Name[fr]=dirvish-expire
 Comment=Tool to backup a filesystem
 Comment[fr]=Outil pour sauvegarder un système de fichiers
+Comment[es]=Herramienta para hacer una copia de seguridad de un sistema de archivos
+Comment[pt]=Ferramenta para fazer backup de um sistema de arquivos
+Comment[it]=Strumento per il backup di un file system
+Comment[de]=Tool zum Sichern eines Dateisystems
 Exec=terminator -e "zsh -c 'sudo dirvish-expire;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

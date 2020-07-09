@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=safecopy
-Name[fr]=safecopy
 Comment=Tool to recover data in damaged disks
 Comment[fr]=Outils de récupération de données sur des disques endommagés
+Comment[es]=Herramientas de recuperación de datos en discos dañados
+Comment[pt]=Ferramentas de recuperação de dados em discos danificados
+Comment[it]=Strumenti di recupero dati su dischi danneggiati
+Comment[de]=Tools zur Datenwiederherstellung auf beschädigten Festplatten
 Exec=terminator -e "zsh -c 'safecopy -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

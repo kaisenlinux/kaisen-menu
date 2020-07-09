@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ethtool
-Name[fr]=ethtool
 Comment=Tool to display ethernet info
 Comment[fr]=Outil pour afficher les informations ethernet
+Comment[es]=Herramienta para mostrar información de ethernet
+Comment[pt]=Ferramenta para exibir informações de Ethernet
+Comment[it]=Strumento per visualizzare informazioni Ethernet
+Comment[de]=Tool zum Anzeigen von Ethernet-Informationen
 Exec=terminator -e "zsh -c 'sudo ethtool -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

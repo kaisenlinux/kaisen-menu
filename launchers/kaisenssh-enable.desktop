@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=ssh-enable
 Name[fr]=ssh-activé
+Name[es]=ssh-habilitado
+Name[pt]=ssh-ativado
+Name[it]=ssh-abilitato
+Name[de]=ssh-aktiviert
 Comment=Enable ssh daemon
 Comment[fr]=Activer service ssh
+Comment[es]=Activar servicio ssh
+Comment[pt]=Ativar serviço ssh
+Comment[it]=Attiva servizio ssh
+Comment[de]=Aktivieren Sie den SSH-Dienst
 Exec=terminator -e "zsh -c '/opt/services/ssh-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

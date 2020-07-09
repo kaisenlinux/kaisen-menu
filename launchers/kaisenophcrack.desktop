@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Ophcrack
-Name[fr]=Ophcrack
 Comment=Tool to  crack a Windows lost password 
 Comment[fr]=Outil pour forcer un mot de passe Windows perdu
+Comment[es]=Herramienta para forzar una contraseña perdida de Windows
+Comment[pt]=Ferramenta para forçar uma senha perdida do Windows
+Comment[it]=Strumento per forzare una password di Windows persa
+Comment[de]=Tool zum Erzwingen eines verlorenen Windows-Kennworts
 Exec=ophcrack
 Icon=ophcrack
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsck.vmfs
-Name[fr]=fsck.vmfs
 Comment=Tool to repair vmfs partition
 Comment[fr]=Outil pour réparer une partition vmfs
+Comment[es]=Herramienta para reparar una partición vmfs
+Comment[pt]=Ferramenta para reparar uma partição vmfs
+Comment[it]=Strumento per riparare una partizione vmfs
+Comment[de]=Tool zum Reparieren einer VMFS-Partition
 Exec=terminator -e "zsh -c 'sudo fsck.vmfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

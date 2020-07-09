@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=docker
-Name[fr]=docker
 Comment=Tool to make containerization
 Comment[fr]=Outil pour faire de la conteneurisation
+Comment[es]=Herramienta para contenedorización
+Comment[pt]=Ferramenta para conteinerização
+Comment[it]=Strumento per la containerizzazione
+Comment[de]=Werkzeug zur Containerisierung
 Exec=terminator -e "zsh -c 'docker --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

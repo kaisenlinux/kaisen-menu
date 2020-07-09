@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=nmap
-Name[fr]=nmap
 Comment=Tool to scan all ports on NDD or IP address
-Comment[fr]=Outil pour scanner tous les ports sur un NDD ou une adresse IP 
+Comment[fr]=Outil pour scanner tous les ports sur un NDD ou une adresse IP
+Comment[es]=Herramienta para escanear todos los puertos en una dirección NDD o IP
+Comment[pt]=Ferramenta para verificar todas as portas em um endereço NDD ou IP
+Comment[it]=Strumento per scansionare tutte le porte su un NDD o un indirizzo IP
+Comment[de]=Tool zum Scannen aller Ports auf einer NDD- oder IP-Adresse
 Exec=terminator -e "zsh -c 'nmap -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

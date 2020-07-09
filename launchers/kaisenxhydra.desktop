@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=xHydra
-Name[fr]=xHydra
 Comment=Tool to recover the password of an online account (GUI)
 Comment[fr]=Outil pour récupérer un mot de passe d'un compte en ligne (GUI)
+Comment[es]=Herramienta para recuperar la contraseña de la cuenta en línea (GUI)
+Comment[pt]=Ferramenta para recuperar a senha da conta online (GUI)
+Comment[it]=Strumento per recuperare la password dall'account online (GUI)
+Comment[de]=Tool zum Wiederherstellen des Passworts vom Online-Konto (GUI)
 Exec=xhydra
 Icon=xhydra
 Terminal=false

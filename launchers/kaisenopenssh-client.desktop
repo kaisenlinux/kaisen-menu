@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=openssh-client
-Name[fr]=openssh-client
 Comment=Tool for UNIX servers administration with openssh
 Comment[fr]=Outil pour l'administration des serveurs UNIX avec openssh
+Comment[es]=Herramienta de administración del servidor UNIX con openssh
+Comment[pt]=Ferramenta de administração de servidor UNIX com openssh
+Comment[it]=Strumento di amministrazione del server UNIX con openssh
+Comment[de]=UNIX Server Administration Tool mit openssh
 Exec=terminator -e "zsh -c 'ssh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Administration tools
 Name[fr]=Outils d'administration
-Comment=Tools for testing and create your configurations
-Comment[fr]=Outils pour tester et créer vos configurations
+Name[es]=Herramientas de administración
+Name[pt]=Ferramentas de administração
+Name[it]=Strumenti di amministrazione
+Name[de]=Verwaltungstools
 Icon=administrator
 Type=Directory

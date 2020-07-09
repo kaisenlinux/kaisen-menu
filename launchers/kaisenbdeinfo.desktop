@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=bdeinfo
-Name[fr]=bdeinfo
 Comment=Tool for bitlocker disk info
 Comment[fr]=Outil pour avoir des informations sur les disques bitlocker
+Comment[es]=Herramienta para obtener información sobre discos bitlocker
+Comment[pt]=Ferramenta para obter informações sobre discos bitlocker
+Comment[it]=Strumento per ottenere informazioni sui dischi bitlocker
+Comment[de]=Tool zum Abrufen von Informationen zu Bitlocker-Discs
 Exec=terminator -e "zsh -c 'bdeinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

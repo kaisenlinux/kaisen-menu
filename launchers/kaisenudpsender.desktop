@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=udp-sender
-Name[fr]=udp-sender
 Comment=Tool to send udp packets
 Comment[fr]=Outil pour envoyer des paquets udp
+Comment[es]=Herramienta para enviar paquetes udp
+Comment[pt]=Ferramenta para enviar pacotes udp
+Comment[it]=Strumento per inviare pacchetti udp
+Comment[de]=Tool zum Senden von UDP-Paketen
 Exec=terminator -e "zsh -c 'udp-sender;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

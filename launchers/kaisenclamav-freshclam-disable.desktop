@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=clamav-freshclam-disable
 Name[fr]=clamav-freshclam-désactivé
+Name[es]=clamav-freshclam-deshabilitado
+Name[pt]=clamav-freshclam-desativado
+Name[it]=clamav-freshclam-disabilitato
+Name[de]=clamav-freshclan-behindert
 Comment=Disable clamav freshclam
 Comment[fr]=Désactiver clamav freshclam
+Comment[es]=Desactivar clamav freshclam
+Comment[pt]=Desativar clamav freshclam
+Comment[it]=Disabilita clamav freshclam
+Comment[de]=Deaktivieren Sie Clamav Freshclam
 Exec=terminator -e "zsh -c '/opt/services/clamav-freshclam-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

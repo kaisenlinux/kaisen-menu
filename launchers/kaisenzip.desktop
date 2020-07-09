@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=zip
-Name[fr]=zip
 Comment=Tool to compress file in zip format
 Comment[fr]=Outil pour compresser les fichiers au format zip
+Comment[es]=Herramienta para comprimir archivos en formato zip
+Comment[pt]=Ferramenta para compactar arquivos no formato zip
+Comment[it]=Strumento per comprimere i file in formato zip
+Comment[de]=Tool zum Komprimieren von Dateien im Zip-Format
 Exec=terminator -e "zsh -c 'zip;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

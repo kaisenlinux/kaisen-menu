@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=comgt
-Name[fr]=comgt
 Comment=Tool to analyse control data Vodafone card
 Comment[fr]=Outil pour analyser les cartes de contrôle Vodafone
+Comment[es]=Herramienta para analizar tarjetas de control Vodafone
+Comment[pt]=Ferramenta para analisar cartões de controle Vodafone
+Comment[it]=Strumento per analizzare le carte di controllo Vodafone
+Comment[de]=Tool zur Analyse von Vodafone-Steuerkarten
 Exec=terminator -e "zsh -c 'sudo comgt help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

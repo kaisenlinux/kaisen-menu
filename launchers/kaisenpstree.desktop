@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=pstree
-Name[fr]=pstree
 Comment=Tool to analyse processes 
 Comment[fr]=Outil pour analyser les processus
+Comment[es]=Herramienta para analizar procesos
+Comment[pt]=Ferramenta para analisar processos
+Comment[it]=Strumento per analizzare i processi
+Comment[de]=Werkzeug zur Analyse von Prozessen
 Exec=terminator -e "zsh -c 'pstree;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

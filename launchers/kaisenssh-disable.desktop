@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=ssh-disable
 Name[fr]=ssh-désactivé
+Name[es]=ssh-deshabilitado
+Name[pt]=ssh-desativado
+Name[it]=ssh-disabilitato
+Name[de]=ssh-deaktiviert
 Comment=Disable ssh daemon
 Comment[fr]=Désactiver service ssh
+Comment[es]=Deshabilitar servicio ssh
+Comment[pt]=Desativar serviço ssh
+Comment[it]=Disabilita servizio ssh
+Comment[de]=Deaktivieren Sie den SSH-Dienst
 Exec=terminator -e "zsh -c '/opt/services/ssh-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

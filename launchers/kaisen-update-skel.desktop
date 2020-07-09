@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=kaisen-update-skel
-Name[fr]=kaisen-update-skel
 Comment=Tool to update Kaisen Linux default profile
 Comment[fr]=Outil pour mettre à jour le profil par défaut de Kaisen Linux
+Comment[es]=Herramienta para actualizar el perfil predeterminado de Kaisen Linux
+Comment[pt]=Ferramenta para atualizar o perfil padrão do Kaisen Linux
+Comment[it]=Strumento per aggiornare il profilo predefinito di Kaisen Linux
+Comment[de]=Tool zum Aktualisieren des Standardprofils von Kaisen Linux
 Exec=terminator -e "zsh -c 'sudo kaisen-update-skel;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

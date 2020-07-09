@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=cephfuse-enable
 Name[fr]=cephfuse-activé
+Name[es]=ceph-fuse habilitado
+Name[pt]=ceph-fuse ativado
+Name[it]=ceph-fuse abilitato
+Name[de]=ceph-fuse aktiviert
 Comment=Enable ceph-fuse daemon
 Comment[fr]=Activer service ceph-fuse
+Comment[es]=Activar servicio ceph-fuse
+Comment[pt]=Ativar serviço ceph-fuse
+Comment[it]=Attiva servizio ceph-fuse
+Comment[de]=Aktivieren Sie den ceph-fuse
 Exec=terminator -e "zsh -c '/opt/services/cephfuse-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

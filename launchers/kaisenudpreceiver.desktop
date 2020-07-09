@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=udp-receiver
-Name[fr]=udp-receiver
 Comment=Tool to receive udp packets
 Comment[fr]=Outil pour recevoir des paquets udp
+Comment[es]=Herramienta para recibir paquetes udp
+Comment[pt]=Ferramenta para receber pacotes udp
+Comment[it]=Strumento per ricevere pacchetti udp
+Comment[de]=Tool zum Empfangen von UDP-Paketen
 Exec=terminator -e "zsh -c 'udp-receiver;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

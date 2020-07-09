@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hping3
-Name[fr]=hping3
 Comment=Tool for active network smashing
 Comment[fr]=Outil de reconnaissance active de smashing réseau
+Comment[es]=Herramienta de reconocimiento de rotura de red activa
+Comment[pt]=Ferramenta de reconhecimento de esmagamento de rede ativa
+Comment[it]=Strumento di riconoscimento smashing attivo della rete
+Comment[de]=Aktives Tool zur Erkennung von Netzwerkzerstörungen
 Exec=terminator -e "zsh -c 'sudo hping3 -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

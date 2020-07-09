@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ifenslave
-Name[fr]=ifenslave
 Comment=Tool to create slave network
 Comment[fr]=Outil pour créer un réseau esclave
+Comment[es]=Herramienta para crear una red esclava
+Comment[pt]=Ferramenta para criar uma rede escrava
+Comment[it]=Strumento per creare una rete slave
+Comment[de]=Tool zum Erstellen eines Slave-Netzwerks
 Exec=terminator -e "zsh -c 'sudo ifenslave -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

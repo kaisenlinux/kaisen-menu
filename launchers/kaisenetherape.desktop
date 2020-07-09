@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=EtherApe
-Name[fr]=EtherApe
 Comment=Graphical Network Monitor
 Comment[fr]=Surveillance graphique du réseau
+Comment[es]=Monitoreo gráfico de red
+Comment[pt]=Monitoramento gráfico de rede
+Comment[it]=Monitoraggio grafico della rete
+Comment[de]=Grafische Netzwerküberwachung
 Exec=sh -c "gksudo etherape"
 Terminal=false
 Type=Application

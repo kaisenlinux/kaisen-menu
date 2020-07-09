@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=squashfuse
-Name[fr]=squashfuse
 Comment=Tool to manage SQUASHFS
 Comment[fr]=Outil pour gérer SQUASHFS
+Comment[es]=Herramienta para gestionar SQUASHFS
+Comment[pt]=Ferramenta para gerenciar SQUASHFS
+Comment[it]=Strumento per gestire SQUASHFS
+Comment[de]=Tool zum Verwalten von SQUASHFS
 Exec=terminator -e "zsh -c 'squashfuse;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

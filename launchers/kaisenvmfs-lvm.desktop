@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=vmfs-lvm
-Name[fr]=vmfs-lvm
 Comment=Tool to manage VMFS (VMWare volumes)
 Comment[fr]=Outil pour gérer VMFS (VMWare volumes)
+Comment[es]=Herramienta para gestionar VMFS (volúmenes VMWare)
+Comment[pt]=Ferramenta para gerenciar VMFS (volumes VMWare)
+Comment[it]=Strumento per gestire VMFS (volumi VMWare)
+Comment[de]=Tool zum Verwalten von VMFS (VMWare-Volumes)
 Exec=terminator -e "zsh -c 'sudo vmfs-lvm -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

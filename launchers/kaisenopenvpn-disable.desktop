@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=openvpn-disable
 Name[fr]=openvpn-désactivé
+Name[es]=openvpn-deshabilitado
+Name[pt]=openvpn-desativado
+Name[it]=openvpn-disabilitato
+Name[de]=openvpn-deaktiviert
 Comment=Disable openvpn daemon
 Comment[fr]=Désactiver service openvpn
+Comment[es]=Deshabilitar servicio openvpn
+Comment[pt]=Desativar serviço openvpn
+Comment[it]=Disabilita servizio openvpn
+Comment[de]=Deaktivieren Sie den openvpn-Dienst
 Exec=terminator -e "zsh -c '/opt/services/openvpn-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

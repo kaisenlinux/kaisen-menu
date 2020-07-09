@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=vmdkinfo
-Name[fr]=vmdkinfo
 Comment=Tool for vmdk disk info
 Comment[fr]=Outil pour avoir des intomations sur les disques vmdk de vmware
+Comment[es]=Herramienta para obtener información sobre discos vmdk de vmware
+Comment[pt]=Ferramenta para obter informações sobre discos vmdk de vmware
+Comment[it]=Strumento per ottenere informazioni sui dischi vmdk di vmware
+Comment[de]=Tool zum Abrufen von Informationen zu VMDK-VMDK-Datenträgern
 Exec=terminator -e "zsh -c 'vmdkinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=ETC-SetSerial
-Name[fr]=ETC-SetSerial
-Comment=etc-setserial service
-Comment[fr]=Service etc-setserial
 Icon=kaisen
 Type=Directory

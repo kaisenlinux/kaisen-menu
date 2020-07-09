@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dnsenum
-Name[fr]=dnsenum
 Comment=Tool to analyse DNS configurations
 Comment[fr]=Outil pour analyser les configurations DNS
+Comment[es]=Herramienta para analizar configuraciones de DNS
+Comment[pt]=Ferramenta para analisar configurações de DNS
+Comment[it]=Strumento per analizzare le configurazioni DNS
+Comment[de]=Tool zur Analyse von DNS-Konfigurationen
 Exec=terminator -e "zsh -c 'dnsenum;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

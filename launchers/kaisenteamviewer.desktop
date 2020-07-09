@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Team Viewer
-Name[fr]=Team Viewer
 Comment=Tool for remote maintenance
 Comment[fr]=Outil de maintenance à distance
+Comment[es]=Herramienta de mantenimiento remoto
+Comment[pt]=Ferramenta de manutenção remota
+Comment[it]=Strumento di manutenzione remota
+Comment[de]=Fernwartungstool
 Exec=teamviewer
 Icon=TeamViewer
 Terminal=false

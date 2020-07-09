@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=wondershaper
-Name[fr]=wondershaper
 Comment=Tool to install QoS on your system
 Comment[fr]=Outil pour installer une QoS sur votre système
+Comment[es]=Herramienta para instalar QoS en su sistema
+Comment[pt]=Ferramenta para instalar QoS no seu sistema
+Comment[it]=Strumento per installare QoS sul tuo sistema
+Comment[de]=Tool zum Installieren von QoS auf Ihrem System
 Exec=terminator -e "zsh -c 'man wondershaper;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

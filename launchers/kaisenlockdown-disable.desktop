@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=lockdown-disable
 Name[fr]=lockdown-désactivé
+Name[es]=lockdown-desactivado
+Name[pt]=lockdown-desativado
+Name[it]=lockdown-disabilitato
+Name[de]=lockdown-deaktiviert
 Comment=Disable lockdown service
 Comment[fr]=Désactiver le service lockdown
+Comment[es]=Deshabilitar servicio lockdown
+Comment[pt]=Desativar serviço lockdown
+Comment[it]=Disabilita servizio lockdown
+Comment[de]=Deaktivieren Sie den lockdown
 Exec=terminator -e "zsh -c '/opt/services/lockdown-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

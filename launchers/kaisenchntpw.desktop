@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=chntpw
-Name[fr]=chntpw
 Comment=Tool to reset passwords and edit users data in Windows SAM base
 Comment[fr]=Outil pour réinitialiser les mots de passe et éditer les données utilisateurs sur les bases SAM de Windows
+Comment[es]=Herramienta para restablecer contraseñas y editar datos de usuario en bases de datos SAM de Windows
+Comment[pt]=Ferramenta para redefinir senhas e editar dados do usuário em bancos de dados Windows SAM
+Comment[it]=Strumento per reimpostare le password e modificare i dati utente sui database SAM di Windows
+Comment[de]=Tool zum Zurücksetzen von Kennwörtern und Bearbeiten von Benutzerdaten in Windows SAM-Datenbanken
 Exec=terminator -e "zsh -c 'sudo chntpw -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

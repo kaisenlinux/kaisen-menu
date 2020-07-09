@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcptraceroute
-Name[fr]=tcptraceroute
 Comment=Tool to implement TCP protocol in traceroute
-Comment[fr]=Outil pou l'implementation du protocole TCP sur traceroute
+Comment[fr]=Outil pour l'implementation du protocole TCP sur traceroute
+Comment[es]=Herramienta para la implementación del protocolo TCP en traceroute
+Comment[pt]=Ferramenta para implementação do protocolo TCP no traceroute
+Comment[it]=Strumento per l'implementazione del protocollo TCP su traceroute
+Comment[de]=Tool zur Implementierung des TCP-Protokolls auf Traceroute
 Exec=terminator -e "zsh -c 'tcptraceroute;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=o2cb-disable
 Name[fr]=o2cb-désactivé
+Name[es]=oc2b-deshabilitado
+Name[pt]=oc2b-desativado
+Name[it]=oc2b-disabilitato
+Name[de]=oc2b-deaktiviert
 Comment=Disable o2cb daemon
 Comment[fr]=Désactiver service o2cb
+Comment[es]=Deshabilitar servicio o2cb
+Comment[pt]=Desativar serviço o2cb
+Comment[it]=Disabilita servizio o2cb
+Comment[de]=Deaktivieren Sie den o2cb-Dienst
 Exec=terminator -e "zsh -c '/opt/services/o2cb-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

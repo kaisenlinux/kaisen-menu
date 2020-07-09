@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=ocfs2-disable
 Name[fr]=ocfs2-désactivé
+Name[es]=ocfs2-deshabilitado
+Name[pt]=ocfs2-desativado
+Name[it]=ocfs2-disabilitato
+Name[de]=ocfs2-deaktiviert
 Comment=Disable ocfs2 daemon
 Comment[fr]=Désactiver service ocfs2
+Comment[es]=Deshabilitar servicio ocfs2
+Comment[pt]=Desativar serviço ocfs2
+Comment[it]=Disabilita servizio ocfs2
+Comment[de]=Deaktivieren Sie den ocfs2-Dienst
 Exec=terminator -e "zsh -c '/opt/services/ocfs2-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

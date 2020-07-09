@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iotop
-Name[fr]=iotop
 Comment=Tool to display network processes
 Comment[fr]=Outil pour afficher les processus réseaux
+Comment[es]=Herramienta para visualizar procesos de red
+Comment[pt]=Ferramenta para exibir processos de rede
+Comment[it]=Strumento per visualizzare i processi di rete
+Comment[de]=Tool zur Anzeige von Netzwerkprozessen
 Exec=terminator -e "zsh -c 'sudo iotop;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

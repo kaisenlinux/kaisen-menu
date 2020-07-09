@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=socat
-Name[fr]=socat
 Comment=Tool to relay TCP sockets
 Comment[fr]=Outil pour relayer des sockets TCP
+Comment[es]=Herramienta para retransmitir sockets TCP
+Comment[pt]=Ferramenta para retransmitir soquetes TCP
+Comment[it]=Strumento per inoltrare socket TCP
+Comment[de]=Tool zum Weiterleiten von TCP-Sockets
 Exec=terminator -e "zsh -c 'socat -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

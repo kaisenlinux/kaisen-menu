@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Console port
 Name[fr]=Port console
-Comment=Tools for administration console ports
-Comment[fr]=Outils pour administrer le port console
+Name[es]=Puerto de consola
+Name[pt]=Porta do console
+Name[it]=Porta console
+Name[de]=Konsolenport
 Icon=router
 Type=Directory

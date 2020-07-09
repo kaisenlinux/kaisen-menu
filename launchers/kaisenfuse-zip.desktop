@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fuse-zip
-Name[fr]=fuse-zip
-Comment=Tool to mount zip file in fuse
-Comment[fr]=Outil pour monter des archive zip en mode FUSE
+Comment=Tool to mount zip files in fuse
+Comment[fr]=Outil pour monter des archives zip en mode FUSE
+Comment[es]=Herramienta para montar archivos zip en modo FUSE
+Comment[pt]=Ferramenta para montar arquivos zip no modo FUSE
+Comment[it]=Strumento per montare archivi zip in modalità FUSE
+Comment[de]=Tool zum Mounten von Zip-Archiven im FUSE-Modus
 Exec=terminator -e "zsh -c 'fuse-zip;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=exfatlabel
-Name[fr]=exfatlabel
 Comment=Tool for exfat partitions
 Comment[fr]=Outil pour partitions exfat
+Comment[es]=Herramienta para particiones exfat
+Comment[pt]=Ferramenta para partições exfat
+Comment[it]=Strumento per partizioni exfat
+Comment[de]=Werkzeug für Exfat-Partitionen
 Exec=terminator -e "zsh -c 'sudo exfatlabel;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

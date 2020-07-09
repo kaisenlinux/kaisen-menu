@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=FSCK
-Name[fr]=FSCK
-Comment=Tools for repair filesystems
-Comment[fr]=Outils pour réparer des systèmes de fichiers
 Icon=kaisen
 Type=Directory

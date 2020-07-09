@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=logrotate
-Name[fr]=logrotate
-Comment=Tool to log managment
+Comment=Tool to log management
 Comment[fr]=Outil de gestion de logs
+Comment[es]=Herramienta de gestión de registros
+Comment[pt]=Ferramenta de gerenciamento de log
+Comment[it]=Strumento di gestione dei log
+Comment[de]=Protokollverwaltungstool
 Exec=terminator -e "zsh -c 'sudo logrotate;/bin/zsh'" 
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=vbackup
-Name[fr]=vbackup
-Comment=Backup tool 
+Comment=Backup tool
 Comment[fr]=Outil de sauvegarde
+Comment[es]=Herramienta de respaldo
+Comment[pt]=Ferramenta de backup
+Comment[it]=Strumento di backup
+Comment[de]=Sicherungswerkzeug
 Exec=terminator -e "zsh -c 'vbackup;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

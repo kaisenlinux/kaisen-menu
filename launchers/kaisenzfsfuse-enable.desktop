@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=zfsfuse-enable
 Name[fr]=zfsfuse-activé
+Name[es]=zfsfuse-habilitado
+Name[pt]=zfsfuse-ativado
+Name[it]=zfsfuse-abilitato
+Name[de]=zfsfuse-aktiviert
 Comment=Enable zfs-fuse daemon
 Comment[fr]=Activer service zfs-fuse
+Comment[es]=Activar el servicio de zfs-fuse
+Comment[pt]=Ativar serviço zfs-fuse
+Comment[it]=Attiva il servizio zfs-fuse
+Comment[de]=Aktivieren Sie den zfs-fuse-Dienst
 Exec=terminator -e "zsh -c '/opt/services/zfsfuse-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

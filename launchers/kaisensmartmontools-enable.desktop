@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=smartmontools-enable
 Name[fr]=smartmontools-activé
+Name[es]=smartmontools-habilitado
+Name[pt]=smartmontools-ativado
+Name[it]=smartmontools-abilitato
+Name[de]=smartmontools-aktiviert
 Comment=Enable smartmontools daemon
 Comment[fr]=Activer service smartmontools
+Comment[es]=Activa servicio smartmontools
+Comment[pt]=Ativar serviço smartmontools
+Comment[it]=Attiva servizio smartmontools
+Comment[de]=Aktivieren Sie den Smartmontools-Dienst
 Exec=terminator -e "zsh -c '/opt/services/smartmontools-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

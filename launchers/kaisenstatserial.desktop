@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=statserial
-Name[fr]=statserial
 Comment=Tool to display port console info
 Comment[fr]=Outil pour afficher les informations du port console
+Comment[es]=Herramienta para eliminar de forma segura una partición de intercambio
+Comment[pt]=Ferramenta para excluir com segurança uma partição de troca
+Comment[it]=Strumento per eliminare in modo sicuro una partizione di swap
+Comment[de]=Tool zum sicheren Löschen einer Swap-Partition
 Exec=terminator -e "zsh -c 'sudo statserial;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

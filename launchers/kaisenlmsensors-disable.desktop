@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=lmsensors-disable
 Name[fr]=lmsensors-désactivé
+Name[es]=lmsensors-desactivados
+Name[pt]=lmsensors-desativado
+Name[it]=lmsensors-disattivati
+Name[de]=lmsensors-deaktiviert
 Comment=Disable lmsensors daemon
 Comment[fr]=Désactiver service lmsensors
+Comment[es]=Deshabilitar servicio lmsensors
+Comment[pt]=Desativar serviço lmsensors
+Comment[it]=Disabilita servizio lmsensors
+Comment[de]=Deaktivieren Sie den lmsensors-Dienst
 Exec=terminator -e "zsh -c '/opt/services/lmsensors-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

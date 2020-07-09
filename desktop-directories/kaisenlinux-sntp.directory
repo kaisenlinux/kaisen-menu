@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=NTP
-Name[fr]=NTP
-Comment=NTP service
-Comment[fr]=Service NTP
 Icon=kaisen
 Type=Directory

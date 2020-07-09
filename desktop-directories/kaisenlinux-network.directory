@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Network
 Name[fr]=Réseau
-Comment=Tools for testing your network
-Comment[fr]=Outils pour tester votre réseau
+Name[es]=Red
+Name[pt]=Rede
+Name[it]=Rete
+Name[de]=Netzwerk
 Icon=network-security
 Type=Directory

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-info
-Name[fr]=lxc-info
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
+Comment=Tool to get information about an LXC container
+Comment[fr]=Outil pour avoir des informations sur un conteneur LXC
+Comment[es]=Herramienta para obtener información sobre un contenedor LXC
+Comment[pt]=Ferramenta para obter informações sobre um contêiner LXC
+Comment[it]=Strumento per ottenere informazioni su un contenitore LXC
+Comment[de]=Tool zum Abrufen von Informationen zu einem LXC-Container
 Exec=terminator -e "zsh -c 'lxc-info -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

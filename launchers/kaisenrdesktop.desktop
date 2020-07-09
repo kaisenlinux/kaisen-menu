@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rdesktop
-Name[fr]=rdesktop
 Comment=Tool to connect to a remote server
 Comment[fr]=Outil pour se connecter sur un serveur distant
+Comment[es]=Herramienta para conectarse a un servidor remoto
+Comment[pt]=Ferramenta para conectar-se a um servidor remoto
+Comment[it]=Strumento per connettersi a un server remoto
+Comment[de]=Tool zum Herstellen einer Verbindung zu einem Remote-Server
 Exec=terminator -e "zsh -c 'rdesktop -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -4,6 +4,10 @@
 Name=ClusterSSH
 Comment=Control multiple ssh or rsh sessions from a single input window
 Comment[fr]=Contrôler plusieurs sessions SSH sur une seule et même fenêtre
+Comment[es]=Controla múltiples sesiones SSH en una sola ventana
+Comment[pt]=Controle várias sessões SSH em uma única janela
+Comment[it]=Controlla più sessioni SSH su una singola finestra
+Comment[de]=Steuern Sie mehrere SSH-Sitzungen in einem einzigen Fenster
 Exec=cssh
 Icon=/usr/share/pixmaps/clusterssh.svg
 Terminal=false

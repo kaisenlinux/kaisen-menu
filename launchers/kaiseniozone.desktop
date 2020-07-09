@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iozone
-Name[fr]=iozone
 Comment=Tool to test hardware
 Comment[fr]=Outil pour tester le matériel
+Comment[es]=Herramienta de prueba de hardware
+Comment[pt]=Ferramenta de teste de hardware
+Comment[it]=Strumento di test hardware
+Comment[de]=Hardware-Test-Tool
 Exec=terminator -e "zsh -c 'sudo iozone -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

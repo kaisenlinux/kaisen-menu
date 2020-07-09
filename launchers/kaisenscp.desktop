@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=scp
-Name[fr]=scp
 Comment=Tool to send a file to a remote computer
 Comment[fr]=Outil pour envoyer dses fichiers sur un ordinateur distant
+Comment[es]=Herramienta para enviar archivos a una computadora remota
+Comment[pt]=Ferramenta para enviar arquivos para um computador remoto
+Comment[it]=Strumento per inviare file a un computer remoto
+Comment[de]=Tool zum Senden von Dateien an einen Remotecomputer
 Exec=terminator -e "zsh -c 'scp;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

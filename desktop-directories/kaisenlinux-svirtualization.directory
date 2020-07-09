@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Virtualization
 Name[fr]=Virtualisation
-Comment=Virtualization services
-Comment[fr]=Services de virtualisation
+Name[es]=Virtualización
+Name[pt]=Virtualização
+Name[it]=Virtualizzazione
+Name[de]=Virtualisierung
 Icon=kaisen
 Type=Directory

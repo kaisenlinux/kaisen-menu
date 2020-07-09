@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Containerization
 Name[fr]=Conteneurisation
-Comment=Containerization services
-Comment[fr]=Services de conteneurisation
+Name[es]=Contenedorización
+Name[pt]=Containerização
+Name[it]=Containerizzazione
+Name[de]=Containerisierung
 Icon=kaisen
 Type=Directory

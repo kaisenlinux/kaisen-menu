@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ifstat
-Name[fr]=ifstat
 Comment=Tool to monitor a network interface
 Comment[fr]=Outil pour monitorer une interface réseau
+Comment[es]=Herramienta para monitorear una interfaz de red
+Comment[pt]=Ferramenta para monitorar uma interface de rede
+Comment[it]=Strumento per monitorare un'interfaccia di rete
+Comment[de]=Tool zur Überwachung einer Netzwerkschnittstelle
 Exec=terminator -e "zsh -c 'ifstat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

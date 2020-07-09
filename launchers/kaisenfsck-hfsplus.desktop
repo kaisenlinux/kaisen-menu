@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsck.hfsplus
-Name[fr]=fsck.hfsplus
 Comment=Tool to repair hfsplus partition
 Comment[fr]=Outil pour réparer une partition hfsplus
+Comment[es]=Herramienta para reparar una partición hfsplus
+Comment[pt]=Ferramenta para reparar uma partição hfsplus
+Comment[it]=Strumento per riparare una partizione hfsplus
+Comment[de]=Tool zum Reparieren einer hfsplus-Partition
 Exec=terminator -e "zsh -c 'sudo fsck.hfsplus;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

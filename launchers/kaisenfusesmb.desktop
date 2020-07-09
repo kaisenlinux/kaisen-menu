@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fusesmb
-Name[fr]=fusesmb
 Comment=Tool to mount smb share in FUSE
 Comment[fr]=Outil pour monter un serveur SMB en mode FUSE
+Comment[es]=Herramienta para montar un servidor SMB en modo FUSE
+Comment[pt]=Ferramenta para montar um servidor SMB no modo FUSE
+Comment[it]=Strumento per montare un server SMB in modalità FUSE
+Comment[de]=Tool zum Mounten eines SMB-Servers im FUSE-Modus
 Exec=terminator -e "zsh -c 'sudo fusesmb;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=virtualbox-guest-enable
 Name[fr]=virtualbox-guest-activé
+Name[es]=virtualbox-guest-habilitado
+Name[pt]=virtualbox-guest-ativado
+Name[it]=virtualbox-guest-abilitato
+Name[de]=virtualbox-guest-aktiviert
 Comment=Enable virtualbox guest service
 Comment[fr]=Activer le service invité de virtualbox
+Comment[es]=Activar el servicio de invitado virtualbox
+Comment[pt]=Ativar o serviço de convidado do virtualbox
+Comment[it]=Attiva il servizio guest virtualbox
+Comment[de]=Aktivieren Sie den Virtualbox-Gastservice
 Exec=terminator -e "zsh -c '/opt/services/virtualbox-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

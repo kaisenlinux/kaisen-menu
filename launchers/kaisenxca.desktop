@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=XCA 
-Name[fr]=XCA
-Comment=Tool to create your CA and key management 
+Name=XCA
+Comment=Tool to create your CA and key management
 Comment[fr]=Outil pour créer votre CA et gérer vos clés
+Comment[es]=Herramienta para crear su CA y administrar sus claves
+Comment[pt]=Ferramenta para criar sua CA e gerenciar suas chaves
+Comment[it]=Strumento per creare la tua CA e gestire le tue chiavi
+Comment[de]=Tool zum Erstellen Ihrer Zertifizierungsstelle und Verwalten Ihrer Schlüssel
 Exec=xca
 Icon=xca-32x32
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=cups-browsed-disable
 Name[fr]=cups-browsed-désactivé
+Name[es]=cups-browsed-discapacitado
+Name[pt]=cups-browsed-desativado
+Name[it]=cups-browsed-disabilitato
+Name[de]=cups-browsed-behindert
 Comment=Disable cups-browsed
 Comment[fr]=Désactiver cups-browsed
+Comment[es]=Desactivar cups-browsed
+Comment[pt]=Desativar cups-browsed
+Comment[it]=Disattivare cups-browsed
+Comment[de]=Deaktivieren cups-browsed
 Exec=terminator -e "zsh -c '/opt/services/cups-browsed-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

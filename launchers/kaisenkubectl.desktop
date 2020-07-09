@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=kubectl
-Name[fr]=kubectl
 Comment=Tool to control the Kubernetes cluster manager
 Comment[fr]=Outil pour contrôler la gestion de cluster Kubernetes
+Comment[es]=Herramienta para controlar la gestión de clústeres de Kubernetes
+Comment[pt]=Ferramenta para controlar o gerenciamento de cluster Kubernetes
+Comment[it]=Strumento per controllare la gestione dei cluster di Kubernetes
+Comment[de]=Tool zur Steuerung der Kubernetes-Clusterverwaltung
 Exec=terminator -e "zsh -c 'kubectl;/bin/zsh'"
 Icon=kubernetes
 Terminal=false

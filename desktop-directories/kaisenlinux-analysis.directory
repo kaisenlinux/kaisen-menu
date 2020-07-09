@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Various analysis
 Name[fr]=Analyses diverses
-Comment=Tools for various analysis
-Comment[fr]=Outils pour faire de diverses analyses
+Name[es]=Varios análisis
+Name[pt]=Várias análises
+Name[it]=Varie analisi
+Name[de]=Verschiedene Analysen
 Icon=analysis
 Type=Directory

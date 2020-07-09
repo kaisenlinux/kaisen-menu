@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=zuluCryptGUI
-Name[fr]=zuluCryptGUI
 Comment=Graphical front end for zulucrypt-cli
 Comment[fr]=Interface graphique pour zulucrypt-cli
+Comment[es]=Interfaz gráfica para zulucrypt-cli
+Comment[pt]=Interface gráfica para zulucrypt-cli
+Comment[it]=Interfaccia grafica per zulucrypt-cli
+Comment[de]=Grafische Oberfläche für zulucrypt-cli
 Icon=zuluCrypt.xpm
 Exec=sh -c "gksudo zuluCrypt-gui"
 Terminal=false

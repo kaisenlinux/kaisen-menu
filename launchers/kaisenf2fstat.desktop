@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=f2fstat
-Name[fr]=f2fstat
 Comment=Tool to manage F2FS
 Comment[fr]=Outil pour gérer F2FS
+Comment[es]=Herramienta para gestionar F2FS
+Comment[pt]=Ferramenta para gerenciar F2FS
+Comment[it]=Strumento per gestire F2FS
+Comment[de]=Tool zum Verwalten von F2FS
 Exec=terminator -e "zsh -c 'sudo f2fstat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

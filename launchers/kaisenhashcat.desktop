@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hashcat
-Name[fr]=hashcat
 Comment=Tool to crack a lost password
 Comment[fr]=Outil pour retrouver un mot de passe perdu
+Comment[es]=Herramienta para recuperar una contraseña perdida
+Comment[pt]=Ferramenta para recuperar uma senha perdida
+Comment[it]=Strumento per recuperare una password persa
+Comment[de]=Tool zum Wiederherstellen eines verlorenen Passworts
 Exec=terminator -e "zsh -c 'hashcat --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=ntp-disable
 Name[fr]=ntp-désactivé
+Name[es]=ntp-deshabilitado
+Name[pt]=ntp-desativado
+Name[it]=ntp-disabilitato
+Name[de]=ntp-deaktiviert
 Comment=Disable ntp daemon
 Comment[fr]=Désactiver service ntp
+Comment[es]=Deshabilitar servicio ntp
+Comment[pt]=Desativar serviço ntp
+Comment[it]=Disabilita servizio ntp
+Comment[de]=Deaktivieren Sie den NTP-Dienst
 Exec=terminator -e "zsh -c '/opt/services/ntp-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

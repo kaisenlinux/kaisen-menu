@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=recoverjpeg
-Name[fr]=recoverjpeg
 Comment=Tool to recover jpeg pictures
-Comment[fr]=Outil pour récupérer desimages jpeg
+Comment[fr]=Outil pour récupérer des images jpeg
+Comment[es]=Herramienta para recuperar imágenes JPEG
+Comment[pt]=Ferramenta para recuperar imagens JPEG
+Comment[it]=Strumento per recuperare immagini jpeg
+Comment[de]=Tool zum Wiederherstellen von JPEG-Bildern
 Exec=terminator -e "zsh -c 'recoverjpeg;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=recoverdm
-Name[fr]=recoverdm
 Comment=Tool to recover data in bad disk sectors
 Comment[fr]=Outil pour récupérer des données sur des diques défectueux
+Comment[es]=Herramienta para recuperar datos de unidades defectuosas
+Comment[pt]=Ferramenta para recuperar dados de unidades com defeito
+Comment[it]=Strumento per recuperare dati da unità guaste
+Comment[de]=Tool zum Wiederherstellen von Daten von fehlerhaften Laufwerken
 Exec=terminator -e "zsh -c 'recoverdm;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

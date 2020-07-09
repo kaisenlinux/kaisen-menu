@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lft
-Name[fr]=lft
 Comment=An alternative to traceroute tool
-Comment[fr]=Une alternantive à l'outil traceroute
+Comment[fr]=Une alternative à l'outil traceroute
+Comment[es]=Una alternativa a la herramienta traceroute
+Comment[pt]=Uma alternativa à ferramenta traceroute
+Comment[it]=Un'alternativa allo strumento traceroute
+Comment[de]=Eine Alternative zum Traceroute-Tool
 Exec=terminator -e "zsh -c 'lft;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

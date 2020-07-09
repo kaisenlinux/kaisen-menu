@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-stop
-Name[fr]=lxc-stop
 Comment=Tool to stop LXC container
 Comment[fr]=Outil pour arrêter un container LXC
+Comment[es]=Herramienta para detener un contenedor LXC
+Comment[pt]=Ferramenta para parar um contêiner LXC
+Comment[it]=Strumento per arrestare un contenitore LXC
+Comment[de]=Werkzeug zum Stoppen eines LXC-Containers
 Exec=terminator -e "zsh -c 'lxc-stop -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

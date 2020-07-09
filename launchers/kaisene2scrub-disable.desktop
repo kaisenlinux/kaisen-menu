@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=e2scrub-disable
 Name[fr]=e2scrub-désactivé
+Name[es]=e2scrub-discapacitado
+Name[pt]=e2scrub-desativado
+Name[it]=e2scrub-disabilitato
+Name[de]=e2scrub-behindert
 Comment=Disable e2scrub daemon
 Comment[fr]=Désactiver service e2scrub
+Comment[es]=Deshabilitar servicio e2scrub
+Comment[pt]=Desativar serviço e2scrub
+Comment[it]=Disabilita il servizio e2scrub
+Comment[de]=Deaktivieren Sie den e2scrub-Dienst
 Exec=terminator -e "zsh -c '/opt/services/e2scrub-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=mkfs.fat 
-Name[fr]=mkfs.fat 
+Name=mkfs.fat
 Comment=Tool to create fat partition
-Comment[fr]=Outil pour créer une partition fat 
+Comment[fr]=Outil pour créer une partition fat
+Comment[es]=Herramienta para crear una partición fat
+Comment[pt]=Ferramenta para criar uma partição fat
+Comment[it]=Strumento per creare una partizione fat
+Comment[de]=Tool zum Erstellen einer fat-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.fat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

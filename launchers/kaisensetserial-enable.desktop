@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=setserial-enable
 Name[fr]=setserial-activé
+Name[es]=setserial-activado
+Name[pt]=setserial-ativado
+Name[it]=setserial-attivato
+Name[de]=setserial-aktiviert
 Comment=Enable setserial daemon
 Comment[fr]=Activer service setserial
+Comment[es]=Activar servicio setserial
+Comment[pt]=Ativar setserial serviço
+Comment[it]=Attiva servizio setserial
+Comment[de]=Aktivieren Sie das Service-Set
 Exec=terminator -e "zsh -c '/opt/services/setserial-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fcrackzip
-Name[fr]=fcrackzip
 Comment=Tool to recover a lost zip password
 Comment[fr]=Outil pour récupérer un mot de passe zip perdu
+Comment[es]=Herramienta para recuperar contraseña zip perdida
+Comment[pt]=Ferramenta para recuperar a senha zip perdida
+Comment[it]=Strumento per recuperare la password zip persa
+Comment[de]=Tool zum Wiederherstellen eines verlorenen Zip-Passworts
 Exec=terminator -e "zsh -c 'fcrackzip --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

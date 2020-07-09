@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcpstat
-Name[fr]=tcpstat
 Comment=Network statistics
-Comment[fr]=Statiques réseaux
+Comment[fr]=Statisques réseaux
+Comment[es]=Estadísticas de red
+Comment[pt]=Estatísticas de rede
+Comment[it]=Statistiche di rete
+Comment[de]=Netzwerkstatistik
 Exec=terminator -e "zsh -c 'tcpstat -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

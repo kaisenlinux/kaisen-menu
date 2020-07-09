@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=FileZilla
-Name[fr]=Filezilla
 Comment=Download and upload files via FTP, FTPS and SFTP
 Comment[fr]=Transférer des fichiers via FTP, FTPS et SFTP
+Comment[es]=Transfiera archivos a través de FTP, FTPS y SFTP
+Comment[pt]=Transferir arquivos via FTP, FTPS e SFTP
+Comment[it]=Trasferisci file via FTP, FTPS e SFTP
+Comment[de]=Übertragen Sie Dateien über FTP, FTPS und SFTP
 Exec=filezilla
 Terminal=false
 Icon=filezilla

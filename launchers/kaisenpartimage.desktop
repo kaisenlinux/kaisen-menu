@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=partimage
-Name[fr]=partimage
 Comment=Tool to clone Windows NTFS partition
 Comment[fr]=Outil pour cloner une partition Windows NTFS
+Comment[es]=Herramienta para clonar partición de Windows NTFS
+Comment[pt]=Ferramenta para clonar partição NTFS do Windows
+Comment[it]=Strumento per clonare partizioni NTFS di Windows
+Comment[de]=Tool zum Klonen der Windows NTFS-Partition
 Exec=terminator -e "zsh -c 'sudo partimage;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

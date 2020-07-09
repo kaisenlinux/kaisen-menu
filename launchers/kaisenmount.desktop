@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mount
-Name[fr]=mount 
 Comment=Tool to mount filesystems
 Comment[fr]=Outil pour monter des systèmes de fichiers
+Comment[es]=Herramienta para montar sistemas de archivos
+Comment[pt]=Ferramenta para montar sistemas de arquivos
+Comment[it]=Strumento per montare file system
+Comment[de]=Tool zum Mounten von Dateisystemen
 Exec=terminator -e "zsh -c 'mount -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

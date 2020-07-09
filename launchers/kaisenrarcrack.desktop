@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rarcrack
-Name[fr]=rarcrack
 Comment=Tool to recover lost rar password
 Comment[fr]=Outil pour récupérer un mot de passe rar perdu
+Comment[es]=Herramienta para recuperar la contraseña rar perdida
+Comment[pt]=Ferramenta para recuperar a senha rar perdida
+Comment[it]=Strumento per recuperare la password rar persa
+Comment[de]=Tool zum Wiederherstellen eines verlorenen rar-Passworts
 Exec=terminator -e "zsh -c 'rarcrack;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

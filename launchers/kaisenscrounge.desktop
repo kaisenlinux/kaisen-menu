@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=scrounge-ntfs
-Name[fr]=scrounge-ntfs
 Comment=Tool to recover data on NTFS partitions
 Comment[fr]=Outil de récupérations de données sur des partitions NTFS
+Comment[es]=Herramienta de recuperación de datos en particiones NTFS
+Comment[pt]=Ferramenta de recuperação de dados em partições NTFS
+Comment[it]=Strumento di recupero dati su partizioni NTFS
+Comment[de]=Datenwiederherstellungstool auf NTFS-Partitionen
 Exec=terminator -e "zsh -c 'sudo scrounge-ntfs -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

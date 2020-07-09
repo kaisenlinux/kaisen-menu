@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=openvpn
-Name[fr]=openvpn
 Comment=Tool to connect to a VPN
 Comment[fr]=Outil pour se connecter à un VPN
+Comment[es]=Herramienta para conectarse a una VPN
+Comment[pt]=Ferramenta para conectar-se a uma VPN
+Comment[it]=Strumento per connettersi a una VPN
+Comment[de]=Tool zum Herstellen einer Verbindung zu einem VPN
 Exec=terminator -e "zsh -c 'sudo openvpn --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

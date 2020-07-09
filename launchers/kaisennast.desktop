@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=nast
-Name[fr]=nast
 Comment=Packets sniffer
 Comment[fr]=Sniffeur de paquets
+Comment[es]=Analizador de paquetes
+Comment[pt]=Farejador de pacotes
+Comment[it]=Sniffer di pacchetti
+Comment[de]=Paketschnüffler
 Exec=terminator -e "zsh -c 'sudo nast;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

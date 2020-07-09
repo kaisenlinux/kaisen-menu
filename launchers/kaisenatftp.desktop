@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=atftp
-Name[fr]=atftp
 Comment=TFTP client
 Comment[fr]=Client TFTP
+Comment[es]=Cliente TFTP
+Comment[pt]=Cliente TFTP
+Comment[it]=Client TFTP
+Comment[de]=TFTP-Client
 Exec=terminator -e "zsh -c 'atftp;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

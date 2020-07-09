@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ntpdate
-Name[fr]=ntpdate
 Comment=Tool to update time and date
 Comment[fr]=Outil pour mettre à jour la date et l'heure
+Comment[es]=Herramienta para actualizar fecha y hora
+Comment[pt]=Ferramenta para atualizar data e hora
+Comment[it]=Strumento per aggiornare data e ora
+Comment[de]=Tool zum Aktualisieren von Datum und Uhrzeit
 Exec=terminator -e "zsh -c 'sudo ntpdate;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

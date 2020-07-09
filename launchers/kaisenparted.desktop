@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=parted
-Name[fr]=parted
 Comment=Tool for partitioning
-Comment[fr]=Outil de partitionnement 
+Comment[fr]=Outil de partitionnement
+Comment[es]=Herramienta de particionamiento
+Comment[pt]=Ferramenta de particionamento
+Comment[it]=Strumento di partizionamento
+Comment[de]=Partitionierungswerkzeug
 Exec=terminator -e "zsh -c 'sudo parted -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

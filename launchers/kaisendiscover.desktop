@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=discover
-Name[fr]=discover
 Comment=Tool to list hardware
 Comment[fr]=Outil pour lister le matériel
+Comment[es]=Herramienta para listar el material
+Comment[pt]=Ferramenta para listar o material
+Comment[it]=Strumento per elencare il materiale
+Comment[de]=Werkzeug zum Auflisten des Materials
 Exec=terminator -e "zsh -c 'sudo discover;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

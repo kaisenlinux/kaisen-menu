@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=bdemount
-Name[fr]=bdemount
 Comment=Tool to mount bitlocker disk
 Comment[fr]=Outil pour monter des disques bitlocker
+Comment[es]=Herramienta para montar discos bitlocker
+Comment[pt]=Ferramenta para montagem de discos bitlocker
+Comment[it]=Strumento di montaggio del disco Bitlocker
+Comment[de]=Bitlocker Disc-Montagewerkzeug
 Exec=terminator -e "zsh -c 'bdemount;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

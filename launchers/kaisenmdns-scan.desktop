@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mdns-scan
-Name[fr]=mdns-scan
 Comment=Tool to search for DNS services in LAN
 Comment[fr]=Outil pour rechercher des services DNS sur un LAN
+Comment[es]=Herramienta para encontrar servicios DNS en una LAN
+Comment[pt]=Ferramenta para encontrar serviços DNS em uma LAN
+Comment[it]=Strumento per trovare servizi DNS su una LAN
+Comment[de]=Tool zum Auffinden von DNS-Diensten in einem LAN
 Exec=terminator -e "zsh -c 'mdns-scan;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

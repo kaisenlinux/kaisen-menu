@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=cpulimit
-Name[fr]=cpulimit
 Comment=Tool for limit CPU performance
 Comment[fr]=Outil pour limiter les performances du CPU
+Comment[es]=Herramienta para limitar el rendimiento de la CPU
+Comment[pt]=Ferramenta para limitar o desempenho da CPU
+Comment[it]=Strumento per limitare le prestazioni della CPU
+Comment[de]=Tool zur Begrenzung der CPU-Leistung
 Exec=terminator -e "zsh -c 'cpulimit;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

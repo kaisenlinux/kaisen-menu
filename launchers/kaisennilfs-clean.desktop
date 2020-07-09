@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=nilfs-clean
-Name[fr]=nilfs-clean
 Comment=Tool to manage NILFS
 Comment[fr]=Outil pour gérer NILFS
+Comment[es]=Herramienta para gestionar NILFS
+Comment[pt]=Ferramenta para gerenciar NILFS
+Comment[it]=Strumento per gestire NILFS
+Comment[de]=Tool zum Verwalten von NILFS
 Exec=terminator -e "zsh -c 'sudo nilfs-clean -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

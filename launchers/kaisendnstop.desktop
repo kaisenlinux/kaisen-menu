@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dnstop
-Name[fr]=dnstop
 Comment=Tool to analyse DNS traffic
 Comment[fr]=Outil pour analyser le trafic DNS
+Comment[es]=Herramienta para analizar el tráfico DNS
+Comment[pt]=Ferramenta para analisar o tráfego DNS
+Comment[it]=Strumento per analizzare il traffico DNS
+Comment[de]=Tool zur Analyse des DNS-Verkehrs
 Exec=terminator -e "zsh -c 'dnstop;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

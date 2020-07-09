@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hexedit
-Name[fr]=hexedit
 Comment=Tool to edit in hexadecimal
 Comment[fr]=Outil pour éditer en hexadécimal
+Comment[es]=Herramienta para editar en hexadecimal
+Comment[pt]=Ferramenta para edição em hexadecimal
+Comment[it]=Strumento per la modifica in esadecimale
+Comment[de]=Werkzeug zum Bearbeiten in hexadezimaler Form
 Exec=terminator -e "zsh -c 'hexedit;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

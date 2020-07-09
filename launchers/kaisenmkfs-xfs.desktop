@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=mkfs.xfs 
-Name[fr]=mkfs.xfs 
+Name=mkfs.xfs
 Comment=Tool to create xfs partition
-Comment[fr]=Outil pour créer une partition xfs 
+Comment[fr]=Outil pour créer une partition xfs
+Comment[es]=Herramienta para crear una partición xfs
+Comment[pt]=Ferramenta para criar uma partição xfs
+Comment[it]=Strumento per creare una partizione xfs
+Comment[de]=Tool zum Erstellen einer xfs-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.xfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

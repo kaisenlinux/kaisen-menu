@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcpreplay
-Name[fr]=tcpreplay
 Comment=Tool to receive records of tcpdump files
 Comment[fr]=Outil pour recevoir des fichiers tcpdump
+Comment[es]=Herramienta para recibir archivos tcpdump
+Comment[pt]=Ferramenta para receber arquivos tcpdump
+Comment[it]=Strumento per ricevere file tcpdump
+Comment[de]=Tool zum Empfangen von tcpdump-Dateien
 Exec=terminator -e "zsh -c 'sudo tcpreplay -H;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

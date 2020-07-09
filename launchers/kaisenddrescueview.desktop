@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ddrescueview
-Name[fr]=ddrescueview
 Comment=Tool to check the health of your disk
 Comment[fr]=Outil pour vérifier la santé du disque
+Comment[es]=Herramienta para verificar el estado del disco
+Comment[pt]=Ferramenta para verificar a integridade do disco
+Comment[it]=Strumento per verificare lo stato del disco
+Comment[de]=Tool zum Überprüfen des Festplattenzustands
 Exec=ddrescueview
 Icon=ddrescueview
 Terminal=false

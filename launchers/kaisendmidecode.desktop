@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dmidecode
-Name[fr]=dmidecode
 Comment=Tool to obtain all hardware info
 Comment[fr]=Outil pour obtenir toutes les informations hardwares
+Comment[es]=Herramienta para obtener toda la información del hardware
+Comment[pt]=Ferramenta para obter todas as informações de hardware
+Comment[it]=Strumento per ottenere tutte le informazioni sull'hardware
+Comment[de]=Tool zum Abrufen aller Hardwareinformationen
 Exec=terminator -e "zsh -c 'sudo dmidecode;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

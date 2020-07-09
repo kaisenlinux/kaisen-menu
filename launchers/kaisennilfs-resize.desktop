@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=nilfs-resize
-Name[fr]=nilfs-resize
 Comment=Tool to resize NILFS partition
 Comment[fr]=Outil pour redimensionner une partition NILFS
+Comment[es]=Herramienta para cambiar el tamaño de una partición NILFS
+Comment[pt]=Ferramenta para redimensionar uma partição NILFS
+Comment[it]=Strumento per ridimensionare una partizione NILFS
+Comment[de]=Tool zum Ändern der Größe einer NILFS-Partition
 Exec=terminator -e "zsh -c 'sudo nilfs-resize -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

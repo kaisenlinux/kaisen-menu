@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lockfile-touch
-Name[fr]=lockfile-touch
 Comment=Tool to protect data with lockfile
 Comment[fr]=Outil pour les fichiers protégés avec lockfile
+Comment[es]=Herramienta para archivos protegidos con lockfile
+Comment[pt]=Ferramenta para arquivos protegidos com lockfile
+Comment[it]=Strumento per file protetti con lockfile
+Comment[de]=Tool für Dateien, die mit Lockfile geschützt sind
 Exec=terminator -e "zsh -c 'lockfile-touch;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

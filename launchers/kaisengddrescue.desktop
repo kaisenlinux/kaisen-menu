@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gddrescue
-Name[fr]=gddrescue
 Comment=Tool to recover data on a damaged disk
 Comment[fr]=Outil pour récupérer des données sur un disque endommagé
+Comment[es]=Herramienta para recuperar datos del disco dañado
+Comment[pt]=Ferramenta para recuperar dados do disco danificado
+Comment[it]=Strumento per recuperare i dati dal disco danneggiato
+Comment[de]=Tool zum Wiederherstellen von Daten von beschädigten Festplatten
 Exec=terminator -e "zsh -c 'sudo ddrescue --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

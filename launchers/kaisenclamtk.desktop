@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ClamTk
-Name[fr]=ClamTk
 Comment=Tool to scan virus with GUI 
 Comment[fr]=Outil pour scanner des virus avec GUI
+Comment[es]=Herramienta para escanear virus con GUI
+Comment[pt]=Ferramenta para verificar vírus com GUI
+Comment[it]=Strumento per la scansione di virus con GUI
+Comment[de]=Tool zum Scannen von Viren mit GUI
 Exec=clamtk
 Icon=clamtk
 Terminal=false

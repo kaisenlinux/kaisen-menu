@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=stress
-Name[fr]=stress
 Comment=Tool for a hardware stress test
 Comment[fr]=Outil pour faire un stress test du matériel
+Comment[es]=Herramienta para equipos de prueba de esfuerzo
+Comment[pt]=Ferramenta para equipamento de teste de estresse
+Comment[it]=Strumento per apparecchiature per prove di stress
+Comment[de]=Werkzeug für Stresstestgeräte
 Exec=terminator -e "zsh -c 'stress --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

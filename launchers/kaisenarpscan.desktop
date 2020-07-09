@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=arp-scan
-Name[fr]=arp-scan
 Comment=Tool to scan ARP protocol
 Comment[fr]=Outil pour scanner le protocole ARP
+Comment[es]=Herramienta para escanear el protocolo ARP
+Comment[pt]=Ferramenta para verificar o protocolo ARP
+Comment[it]=Strumento per scansionare il protocollo ARP
+Comment[de]=Tool zum Scannen des ARP-Protokolls
 Exec=terminator -e "zsh -c 'sudo arp-scan --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

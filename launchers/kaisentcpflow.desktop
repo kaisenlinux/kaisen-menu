@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcpflow
-Name[fr]=tcpflow
 Comment=TCP flow recorder
 Comment[fr]=Enregistrement de flux TCP
+Comment[es]=Grabación de flujo TCP
+Comment[pt]=Gravação de fluxo TCP
+Comment[it]=Registrazione del flusso TCP
+Comment[de]=TCP-Stream-Aufzeichnung
 Exec=terminator -e "zsh -c 'tcpflow -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

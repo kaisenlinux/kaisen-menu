@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=bonnie++
-Name[fr]=bonnie++
 Comment=Tool for disk performance analysis
 Comment[fr]=Outil d'analyse de performance de disque
+Comment[es]=Herramienta de análisis de rendimiento de disco
+Comment[pt]=Ferramenta de análise de desempenho de disco
+Comment[it]=Strumento di analisi delle prestazioni del disco
+Comment[de]=Tool zur Analyse der Festplattenleistung
 Exec=terminator -e "zsh -c 'sudo bonnie++;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

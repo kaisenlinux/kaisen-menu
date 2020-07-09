@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iptables-persistent
-Name[fr]=iptables-persistent
 Comment=Tool to make iptables persistent on your system
 Comment[fr]=Outil pour rendre les règles iptables persistentes sur votre système
+Comment[es]=Herramienta para hacer que las reglas de iptables sean persistentes en su sistema
+Comment[pt]=Ferramenta para tornar as regras do iptables persistentes no seu sistema
+Comment[it]=Strumento per rendere persistenti le regole di iptables sul tuo sistema
+Comment[de]=Tool, um iptables-Regeln auf Ihrem System dauerhaft zu machen
 Exec=terminator -e "zsh -c 'sudo iptables -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 Version=1.0
 Type=Application
 Name=Remmina Connect
-Name[fr]=Remmina Connect
 Comment=Remote access to desktops with Remmina
-Commment[fr]=Accès à des bureaux distants avec Remmina
+Comment[fr]=Accès à des bureaux distants avec Remmina
+Comment[es]=Acceso a oficinas remotas con Remmina
+Comment[pt]=Acesso a escritórios remotos com Remmina
+Comment[it]=Accesso agli uffici remoti con Remmina
+Comment[de]=Zugang zu Remote-Büros mit Remmina
 Categories=GTK;GNOME;X-GNOME-NetworkSettings;RemoteAdministration;
 Keywords=remote desktop;rdp;vnc;nx;ssh;spice;xdmcp;
 TryExec=/usr/bin/remmina

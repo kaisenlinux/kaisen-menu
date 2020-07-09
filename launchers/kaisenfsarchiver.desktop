@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsarchiver
-Name[fr]=fsarchiver
 Comment=Tool to clone Linux and Windows partitions
-Comment[fr]=Outil pour cloner des parttions Linux et Windows 
+Comment[fr]=Outil pour cloner des partitions Linux et Windows
+Comment[es]=Herramienta para clonar particiones Linux y Windows
+Comment[pt]=Ferramenta para clonar partições Linux e Windows
+Comment[it]=Strumento per clonare partizioni Linux e Windows
+Comment[de]=Tool zum Klonen von Linux- und Windows-Partitionen
 Exec=terminator -e "zsh -c 'sudo fsarchiver -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=xfreerdp
-Name[fr]=xfreerdp
 Comment=Tool for remote administration Windows Server with Kerberos authentification
 Comment[fr]=Outil pour administer à distance Windows Server avec une authentification Kerberos
+Comment[es]=Herramienta para administrar Windows Server de forma remota con autenticación Kerberos
+Comment[pt]=Ferramenta para administrar remotamente o Windows Server com autenticação Kerberos
+Comment[it]=Strumento per amministrare in remoto Windows Server con autenticazione Kerberos
+Comment[de]=Tool zur Remoteverwaltung von Windows Server mit Kerberos-Authentifizierung
 Exec=terminator -e "zsh -c 'xfreerdp --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=etcsetserial-enable
 Name[fr]=etcsetserial-activé
+Name[es]=etcsetserial-activado
+Name[pt]=etcsetserial-ativado
+Name[it]=etcsetserial-attivato
+Name[de]=etcsetserial-aktiviert
 Comment=Enable etcsetserial daemon
 Comment[fr]=Activer service etcsetserial
+Comment[es]=Activar servicio etcsetserial
+Comment[pt]=Ativar serviço etcsetserial
+Comment[it]=Attiva servizio etcsetserial
+Comment[de]=Aktivieren Sie den etcsetserial-Dienst
 Exec=terminator -e "zsh -c '/opt/services/etcserial-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

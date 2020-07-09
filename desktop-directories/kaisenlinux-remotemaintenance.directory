@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Remote maintenance 
 Name[fr]=Télémaintenance
-Comment=Tools for remote administration
-Comment[fr]=Outils d'administration à distance
+Name[es]=Mantenimiento remoto
+Name[pt]=Manutenção remota
+Name[it]=Manutenzione a distanza
+Name[de]=Fernwartung
 Icon=remotemaintenance
 Type=Directory

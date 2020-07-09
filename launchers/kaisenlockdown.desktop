@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lockdown
-Name[fr]=lockdown
-Comment=Enable kernel modules block
-Comment[fr]=Activer le blocage modules kernel
+Comment=Enable blocking of kernel additions
+Comment[fr]=Activer le blocage d'ajouts de modules kernel
+Comment[es]=Habilitar el bloqueo de adiciones de kernel
+Comment[pt]=Habilitar bloqueio de adições ao kernel
+Comment[it]=Abilita il blocco delle aggiunte del kernel
+Comment[de]=Aktivieren Sie das Blockieren von Kernel-Ergänzungen
 Exec=terminator -e "zsh -c 'sudo lockdown;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

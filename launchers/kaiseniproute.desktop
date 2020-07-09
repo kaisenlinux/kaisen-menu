@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iproute
-Name[fr]=iproute
 Comment=Tool to analyse routes
-Comment[fr]=Outil pour analyser les routes 
+Comment[fr]=Outil pour analyser les routes
+Comment[es]=Herramienta para analizar rutas
+Comment[pt]=Ferramenta para analisar rotas
+Comment[it]=Strumento per analizzare i percorsi
+Comment[de]=Tool zur Analyse von Routen
 Exec=terminator -e "zsh -c 'ip route;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

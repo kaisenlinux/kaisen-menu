@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=cups-enable
 Name[fr]=cups-activé
+Name[es]=cups-activado
+Name[pt]=cups-ativado
+Name[it]=cups-attivato
+Name[de]=cups-aktiviert
 Comment=Enable cups daemon 
 Comment[fr]=Activer service cups
+Comment[es]=Activar servicio cups
+Comment[pt]=Ativar serviço cups
+Comment[it]=Attiva servizio cups
+Comment[de]=Dienst aktivieren cups
 Exec=terminator -e "zsh -c '/opt/services/cups-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=rsync-disable
 Name[fr]=rsync-désactivé
+Name[es]=rsync-deshabilitado
+Name[pt]=rsync-desativado
+Name[it]=rsync-disabilitato
+Name[de]=rsync-deaktiviert
 Comment=Disable rsync daemon
 Comment[fr]=Désactiver service rsync
+Comment[es]=Deshabilitar servicio rsync
+Comment[pt]=Desativar serviço rsync
+Comment[it]=Disabilita servizio rsync
+Comment[de]=Deaktivieren Sie den Rsync-Dienst
 Exec=terminator -e "zsh -c '/opt/services/rsync-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fvdemount
-Name[fr]=fvdemount
 Comment=Tool for filevault disk mount
 Comment[fr]=Outil pour monter les disques filevault
+Comment[es]=Herramienta para montar discos de FileVault
+Comment[pt]=Ferramenta para montar discos de FileVault
+Comment[it]=Strumento per montare dischi filevault
+Comment[de]=Tool zum Mounten von Filevault-Discs
 Exec=terminator -e "zsh -c 'sudo fvdemount;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

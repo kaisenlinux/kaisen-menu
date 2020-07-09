@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=unrar-free
-Name[fr]=unrar-free
 Comment=Tool to archive and decompress rar archives
 Comment[fr]=Outil pour archiver et décompresser des archives rar
+Comment[es]=Herramienta para archivar y descomprimir archivos rar
+Comment[pt]=Ferramenta para arquivar e descomprimir arquivos rar
+Comment[it]=Strumento per archiviare e decomprimere archivi rar
+Comment[de]=Tool zum Archivieren und Dekomprimieren seltener Archive
 Exec=terminator -e "zsh -c 'unrar-free --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

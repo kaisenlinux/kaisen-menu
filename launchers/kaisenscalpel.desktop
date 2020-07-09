@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=scalpel
-Name[fr]=scalpel
 Comment=Tool for recovery data based on Foremost
 Comment[fr]=Outil de récupération de données basé sur Foremost
+Comment[es]=Herramienta de recuperación de datos basada en primer plano
+Comment[pt]=Ferramenta de recuperação de dados baseada em primeiro plano
+Comment[it]=Strumento di recupero dati più avanzato
+Comment[de]=Vorrangiges Datenwiederherstellungstool
 Exec=terminator -e "zsh -c 'scalpel -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=reiserfstune
-Name[fr]=reiserfstune
 Comment=Tool to manage parameters  of a REISERFS partition
 Comment[fr]=Outil pour gérer les paramètres d'une partition REISERFS
+Comment[es]=Herramienta para gestionar los parámetros de una partición REISERFS
+Comment[pt]=Ferramenta para gerenciar os parâmetros de uma partição REISERFS
+Comment[it]=Strumento per gestire i parametri di una partizione REISERFS
+Comment[de]=Tool zum Verwalten der Parameter einer REISERFS-Partition
 Exec=terminator -e "zsh -c 'sudo reiserfstune;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

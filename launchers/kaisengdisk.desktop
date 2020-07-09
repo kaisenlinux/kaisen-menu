@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gdisk
-Name[fr]=gdisk
 Comment=Tool to manipulate GPT partitions
 Comment[fr]=Outil pour manipuler les partitions GPT
+Comment[es]=Herramienta para manipular particiones GPT
+Comment[pt]=Ferramenta para manipular partições GPT
+Comment[it]=Strumento per manipolare le partizioni GPT
+Comment[de]=Tool zum Bearbeiten von GPT-Partitionen
 Exec=terminator -e "zsh -c 'sudo gdisk;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

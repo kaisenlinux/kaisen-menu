@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcptrace
-Name[fr]=tcptrace
 Comment=Tool to analyse tcpdump output
 Comment[fr]=Outil pour analyser la sortie de tcpdump
+Comment[es]=Herramienta para analizar la salida de tcpdump
+Comment[pt]=Ferramenta para analisar a saída do tcpdump
+Comment[it]=Strumento per analizzare l'output di tcpdump
+Comment[de]=Tool zur Analyse der Ausgabe von tcpdump
 Exec=terminator -e "zsh -c 'tcptrace -hargs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

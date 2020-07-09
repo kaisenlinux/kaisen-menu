@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Bacula Administration Tool
-Name[fr]=Bacula Administration Tool
 Comment=Bacula Director Console
 Comment[fr]=Bacula Console Directeur
+Comment[es]=Bacula Console Director
+Comment[pt]=Diretor do console Bacula
+Comment[it]=Bacula Console Director
+Comment[de]=Bacula Console Director
 Exec=/usr/sbin/bat -c /etc/bacula/bat.conf
 Icon=/usr/share/pixmaps/bat_icon.png
 Terminal=false

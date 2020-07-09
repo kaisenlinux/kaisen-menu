@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Partitioning and erasing
 Name[fr]=Partitionnement et effacement
-Comment=Tools for partitioning and/or erasing your devices.
-Comment[fr]=Outils pour partitionner et/ou effacer vos périphériques.
+Name[es]=Particionamiento y borrado
+Name[pt]=Particionando e apagando
+Name[it]=Partizionare e cancellare
+Name[de]=Partitionieren und Löschen
 Icon=partitioning
 Type=Directory

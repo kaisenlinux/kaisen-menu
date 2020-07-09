@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=btrfs-balance-least-used
-Name[fr]=btrfs-balance-least-used
 Comment=Tool to manage BTRFS
 Comment[fr]=Outil pour gérer BTRFS
+Comment[es]=Herramienta para gestionar BTRFS
+Comment[pt]=Ferramenta para gerenciar BTRFS
+Comment[it]=Strumento per gestire BTRFS
+Comment[de]=Tool zum Verwalten von BTRFS
 Exec=terminator -e "zsh -c 'btrfs-balance-least-used;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

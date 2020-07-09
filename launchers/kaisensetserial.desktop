@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=setserial
-Name[fr]=setserial
 Comment=Tool to display info on console port
 Comment[fr]=Outil pour afficher les informations sur le port console
+Comment[es]=Herramienta para limpiar espacio libre en RAM
+Comment[pt]=Ferramenta para liberar espaço livre na RAM
+Comment[it]=Strumento per liberare spazio libero nella RAM
+Comment[de]=Tool zum Freigeben von freiem Speicherplatz im RAM
 Exec=terminator -e "zsh -c 'setserial;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

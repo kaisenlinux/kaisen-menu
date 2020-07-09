@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsck.fat
-Name[fr]=fsck.fat
 Comment=Tool to repair fat partition
 Comment[fr]=Outil pour réparer une partition fat
+Comment[es]=Herramienta para reparar una partición fat
+Comment[pt]=Ferramenta para reparar uma partição fat
+Comment[it]=Strumento per riparare una fat partizione
+Comment[de]=Tool zum Reparieren einer Partition fat
 Exec=terminator -e "zsh -c 'sudo fsck.fat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

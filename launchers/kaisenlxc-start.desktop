@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-start
-Name[fr]=lxc-start
 Comment=Tool to start LXC container
 Comment[fr]=Outil pour démarrer un container LXC
+Comment[es]=Herramienta para iniciar un contenedor LXC
+Comment[pt]=Ferramenta para iniciar um contêiner LXC
+Comment[it]=Strumento per avviare un contenitore LXC
+Comment[de]=Werkzeug zum Starten eines LXC-Containers
 Exec=terminator -e "zsh -c 'lxc-start -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

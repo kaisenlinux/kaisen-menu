@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=arpwatch-disable
 Name[fr]=arpwatch-désactivé
+Name[es]=arpwatch-deshabilitado
+Name[pt]=arpwatch-desativado
+Name[it]=arpwatch-disabilitato
+Name[de]=arpwatch-deaktiviert
 Comment=Disable arpwatch daemon
 Comment[fr]=Désactiver service arpwatch
+Comment[es]=Desactivar servicio arpwatch
+Comment[pt]=Desativar serviço arpwatch
+Comment[it]=Disabilita servizio arpwatch
+Comment[de]=Deaktivieren Sie den Arpwatch-Dienst
 Exec=terminator -e "zsh -c '/opt/services/arpwatch-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

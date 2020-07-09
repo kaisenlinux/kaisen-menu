@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=00-all-services-enable
 Name[fr]=00-activer-tous-services
+Name[es]=00-activar-todos-servicios
+Name[pt]=00-ativar-todos-serviços
+Name[it]=00-attiva-all-servizi
+Name[de]=00-Alle-Dienste-aktivieren
 Comment=Enable all additional daemons
 Comment[fr]=Activer tous les services additionnels désactivés
+Comment[es]=Activa todos los servicios adicionales desactivados
+Comment[pt]=Ativar todos os serviços adicionais desativados
+Comment[it]=Attiva tutti i servizi aggiuntivi disattivati
+Comment[de]=Aktivieren Sie alle deaktivierten Zusatzdienste
 Exec=terminator -e "zsh -c '/opt/services/all-services-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

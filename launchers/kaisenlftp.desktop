@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lFTP
-Name[fr]=lFTP
 Comment=FTP CLI client 
 Comment[fr]=Client FTP CLI
+Comment[es]=Cliente CLI FTP
+Comment[pt]=Cliente CLI FTP
+Comment[it]=Client CLI FTP
+Comment[de]=FTP-CLI-Client
 Exec=terminator -e "zsh -c 'lftp;/bin/zsh'"
 Icon=lftp-icon
 Terminal=false

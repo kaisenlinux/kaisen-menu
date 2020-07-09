@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lsof
-Name[fr]=lsof
 Comment=Tool to list open files
 Comment[fr]=Outil pour lister les fichiers ouverts
+Comment[es]=Herramienta para listar archivos abiertos
+Comment[pt]=Ferramenta para listar arquivos abertos
+Comment[it]=Strumento per elencare i file aperti
+Comment[de]=Tool zum Auflisten geöffneter Dateien
 Exec=terminator -e "zsh -c 'lsof -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

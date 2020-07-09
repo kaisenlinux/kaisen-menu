@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fuseiso
-Name[fr]=fuseiso
-Comment=Tool to manage ISO files
-Comment[fr]=Outil pour gérer des fichiers ISO
+Comment=Tool to mount ISO as a file system
+Comment[fr]=Outil pour monter un ISO comme un système de fichiers
+Comment[es]=Herramienta para montar ISO como sistema de archivos
+Comment[pt]=Ferramenta para montar o ISO como um sistema de arquivos
+Comment[it]=Strumento per montare ISO come file system
+Comment[de]=Tool zum Mounten von ISO als Dateisystem
 Exec=terminator -e "zsh -c 'fuseiso;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

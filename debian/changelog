@@ -1,3 +1,11 @@
+kaisen-menu (1.1+kaisen6) kaisen-devel; urgency=medium
+
+  * Adding es, pt, it and de trasnlations at launchers and desktop-directories
+  * Remove kaisenlinux-snetdiag.directory (not used)
+  * Adding dsniff launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 10 Jul 2020 00:28:26 +0200
+
 kaisen-menu (1.1+kaisen5) kaisen-devel; urgency=medium
 
   * Fix foremost launcher (become toemost by mistake).

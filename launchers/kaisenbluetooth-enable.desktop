@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=bluetooth-enable
 Name[fr]=bluetooth-activé
+Name[es]=bluetooth-habilitado
+Name[pt]=bluetooth-ativado
+Name[it]=bluetooth-abilitato
+Name[de]=bluetooth-aktiviert
 Comment=Enable bluetooth daemon
 Comment[fr]=Activer service bluetooth
+Comment[es]=Activar servicio bluetooth
+Comment[pt]=Ativar serviço bluetooth
+Comment[it]=Attiva il servizio bluetooth
+Comment[de]=Aktivieren Sie den Bluetooth-Dienst
 Exec=terminator -e "zsh -c '/opt/services/bluetooth-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rdfind
-Name[fr]=rdfind
 Comment=Tool to search for duplicate files in a directory 
 Comment[fr]=Outil pour rechercher les fichiers dupliqués dans un répertoire
+Comment[es]=Herramienta para encontrar archivos duplicados en un directorio
+Comment[pt]=Ferramenta para encontrar arquivos duplicados em um diretório
+Comment[it]=Strumento per trovare file duplicati in una directory
+Comment[de]=Tool zum Auffinden doppelter Dateien in einem Verzeichnis
 Exec=terminator -e "zsh -c 'rdfind;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

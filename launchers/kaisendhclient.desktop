@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dhclient
-Name[fr]=dhclient
 Comment=Tool to actualize DHCP lease
 Comment[fr]=Outil pour actualiser le bail DHCP
+Comment[es]=Herramienta para actualizar el arrendamiento de DHCP
+Comment[pt]=Ferramenta para atualizar a concessão do DHCP
+Comment[it]=Strumento per aggiornare il contratto di locazione DHCP
+Comment[de]=Tool zum Aktualisieren der DHCP-Lease
 Exec=terminator -e "zsh -c 'sudo dhclient;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

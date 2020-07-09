@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=lmsensors-enable
 Name[fr]=lmsensors-activé
+Name[es]=lmsensors-habilitados
+Name[pt]=lmsensors-ativado
+Name[it]=lmsensors-abilitato
+Name[de]=lmsensors-aktiviert
 Comment=Enable lmsensors daemon
 Comment[fr]=Activer service lmsensors
+Comment[es]=Activar lmsensors servicio
+Comment[pt]=Ativar lmsensors serviço
+Comment[it]=Attiva lmsensors servizio
+Comment[de]=Aktivieren Sie die Service-lmsensors
 Exec=terminator -e "zsh -c '/opt/services/lmsensors-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

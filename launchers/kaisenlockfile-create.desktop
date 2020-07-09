@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lockfile-create
-Name[fr]=lockfile-create
 Comment=Tool to create protected file
 Comment[fr]=Outil pour creér un fichier protégé
+Comment[es]=Herramienta para crear un archivo protegido
+Comment[pt]=Ferramenta para criar um arquivo protegido
+Comment[it]=Strumento per creare un file protetto
+Comment[de]=Tool zum Erstellen einer geschützten Datei
 Exec=terminator -e "zsh -c 'lockfile-create;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

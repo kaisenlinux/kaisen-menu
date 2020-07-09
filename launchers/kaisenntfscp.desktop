@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ntfscp
-Name[fr]=ntfscp
 Comment=Tool for NTFS partition
 Comment[fr]=Outil pour partition NTFS
+Comment[es]=Herramienta de partición NTFS
+Comment[pt]=Ferramenta de partição NTFS
+Comment[it]=Strumento di partizione NTFS
+Comment[de]=NTFS-Partitionstool
 Exec=terminator -e "zsh -c 'sudo ntfscp;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

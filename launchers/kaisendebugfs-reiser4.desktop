@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=debugfs.reiser4
-Name[fr]=debugfs.reiser4
 Comment=Tool to debug REISER4 damaged partition
 Comment[fr]=Outil pour déboguer une partition REISER4 endommagée
+Comment[es]=Herramienta para depurar una partición REISER4 dañada
+Comment[pt]=Ferramenta para depurar uma partição REISER4 danificada
+Comment[it]=Strumento per il debug di una partizione REISER4 danneggiata
+Comment[de]=Tool zum Debuggen einer beschädigten REISER4-Partition
 Exec=terminator -e "zsh -c 'sudo debugfs.reiser4;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

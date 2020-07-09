@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=o2cb-enable
 Name[fr]=o2cb-activé
+Name[es]=o2cb-activado
+Name[pt]=o2cb-ativado
+Name[it]=o2cb-attivato
+Name[de]=o2cb-aktiviert
 Comment=Enable o2cb daemon
-Comment[fr]=Activer service o2cb   
+Comment[fr]=Activer service o2cb
+Comment[es]=Activar servicio o2cb
+Comment[pt]=Ativar serviço o2cb
+Comment[it]=Attiva servizio o2cb
+Comment[de]=Aktivieren Sie den o2cb-Dienst
 Exec=terminator -e "zsh -c '/opt/services/o2cb-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

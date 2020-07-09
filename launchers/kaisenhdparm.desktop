@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hdparm
-Name[fr]=hdparm
 Comment=Tool to get info at hard drive
 Comment[fr]=Outil pour obtenir des informations sur un disque dur
+Comment[es]=Herramienta para obtener información en un disco duro
+Comment[pt]=Ferramenta para obter informações em um disco rígido
+Comment[it]=Strumento per ottenere informazioni su un disco rigido
+Comment[de]=Tool zum Abrufen von Informationen auf einer Festplatte
 Exec=terminator -e "zsh -c 'sudo hdparm;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

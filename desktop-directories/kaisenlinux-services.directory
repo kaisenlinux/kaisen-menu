@@ -1,8 +1,10 @@
 [Desktop Entry]
 Name=Services
 Name[fr]=Services
-Comment=Section for control all additionnals services
-Comment[fr]=Section pour contrôler tous les services additionnels
+Name[es]=Servicios
+Name[pt]=Serviços
+Name[it]=Servizi
+Name[de]=Dienstleistungen
 Icon=kaisen
 Type=Directory
 

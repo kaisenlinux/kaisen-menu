@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=masscan
-Name[fr]=masscan
 Comment=Tool for TCP port scanning
 Comment[fr]=Outil pour scanner les ports TCP
+Comment[es]=Herramienta para escanear puertos TCP
+Comment[pt]=Ferramenta para verificar portas TCP
+Comment[it]=Strumento per scansionare le porte TCP
+Comment[de]=Tool zum Scannen von TCP-Ports
 Exec=terminator -e "zsh -c 'masscan -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

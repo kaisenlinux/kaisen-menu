@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=zfSnap
-Name[fr]=zfSnap
 Comment=Tool to snapshot ZFS volume
 Comment[fr]=Outil pour faire un snapshot d'un volume ZFS
+Comment[es]=Herramienta para capturar un volumen ZFS
+Comment[pt]=Ferramenta para capturar instantâneos um volume ZFS
+Comment[it]=Strumento per snapshot di un volume ZFS
+Comment[de]=Tool zum Snapshot eines ZFS-Volumes
 Exec=terminator -e "zsh -c 'sudo zfSnap;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

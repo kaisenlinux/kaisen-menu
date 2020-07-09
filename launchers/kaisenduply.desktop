@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=duply
-Name[fr]=duply
 Comment=Backup tool
 Comment[fr]=Outil de sauvegarde
+Comment[es]=Herramienta de respaldo
+Comment[pt]=Ferramenta de backup
+Comment[it]=Strumento di backup
+Comment[de]=Sicherungswerkzeug
 Exec=terminator -e "zsh -c 'duply usage;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

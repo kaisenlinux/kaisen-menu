@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=ceph-fuse  
-Name[fr]=ceph-fuse  
-Comment=Tool to manage CEPH volumes            
-Comment[fr]=Outil pour gérer des volumes CEPH     
+Name=ceph-fuse
+Comment=Tool to manage CEPH volumes
+Comment[fr]=Outil pour gérer des volumes CEPH
+Comment[es]=Herramienta para gestionar volúmenes CEPH
+Comment[pt]=Ferramenta para gerenciar volumes CEPH
+Comment[it]=Strumento per la gestione dei volumi CEPH
+Comment[de]=Tool zum Verwalten von CEPH-Volumes
 Exec=terminator -e "zsh -c 'sudo ceph-fuse;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

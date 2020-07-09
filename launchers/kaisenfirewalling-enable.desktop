@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=firewalling-enable
 Name[fr]=firewalling-activé
+Name[es]=firewalling-activado
+Name[pt]=firewalling-ativado
+Name[it]=firewalling-attivato
+Name[de]=firewalling-aktiviert
 Comment=Enable firewalling service
 Comment[fr]=Activer le service de firewalling
+Comment[es]=Activar el servicio de firewall
+Comment[pt]=Ativar o serviço de firewall
+Comment[it]=Attiva il servizio di firewalling
+Comment[de]=Aktivieren Sie den Firewall-Dienst
 Exec=terminator -e "zsh -c '/opt/services/firewalling-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

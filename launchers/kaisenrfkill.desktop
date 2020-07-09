@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rfkill
-Name[fr]=rfkill
 Comment=Tool to enable or disable wifi networks
 Comment[fr]=Outil pour activer ou désactiver des réseaux sans-fil
+Comment[es]=Herramienta para activar o desactivar redes inalámbricas
+Comment[pt]=Ferramenta para ativar ou desativar redes sem fio
+Comment[it]=Strumento per attivare o disattivare le reti wireless
+Comment[de]=Tool zum Aktivieren oder Deaktivieren von drahtlosen Netzwerken
 Exec=terminator -e "zsh -c 'sudo rfkill -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

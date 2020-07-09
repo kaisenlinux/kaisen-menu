@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=ntfsfallocate 
-Name[fr]=ntfsfallocate
+Name=ntfsfallocate
 Comment=Tool for NTFS partition
 Comment[fr]=Outil pour partition NTFS
+Comment[es]=Herramienta de partición NTFS
+Comment[pt]=Ferramenta de partição NTFS
+Comment[it]=Strumento di partizione NTFS
+Comment[de]=NTFS-Partitionstool
 Exec=terminator -e "zsh -c 'ntfsfallocate;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

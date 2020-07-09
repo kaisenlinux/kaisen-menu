@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=docker-compose
-Name[fr]=docker-compose
 Comment=Development environement for Linux containers
 Comment[fr]=Environnement de développement pour les conteneurs Linux
+Comment[es]=Entorno de desarrollo para contenedores Linux
+Comment[pt]=Ambiente de desenvolvimento para contêineres Linux
+Comment[it]=Ambiente di sviluppo per container Linux
+Comment[de]=Entwicklungsumgebung für Linux-Container
 Exec=terminator -e "zsh -c 'sudo docker-compose --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

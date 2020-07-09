@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=duplicity
-Name[fr]=duplicity
 Comment=Tool to create encrypt backup 
 Comment[fr]=Outil pour créer des sauvegardes chiffrées
+Comment[es]=Herramienta para crear copias de seguridad encriptadas
+Comment[pt]=Ferramenta para criar backups criptografados
+Comment[it]=Strumento per creare backup crittografati
+Comment[de]=Tool zum Erstellen verschlüsselter Backups
 Exec=terminator -e "zsh -c 'duplicity --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=photorec
-Name[fr]=photorec
 Comment=Advanced tool for data recovery
 Comment[fr]=Outil de récupération de données avancée
+Comment[es]=Herramienta de recuperación de datos avanzada
+Comment[pt]=Ferramenta avançada de recuperação de dados
+Comment[it]=Strumento avanzato di recupero dati
+Comment[de]=Erweitertes Datenwiederherstellungstool
 Exec=terminator -e "zsh -c 'sudo photorec;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

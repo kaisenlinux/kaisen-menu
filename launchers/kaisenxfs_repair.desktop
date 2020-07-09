@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=xfs_repair
-Name[fr]=xfs_repair
-Comment=Tool for repair XFS partition
+Comment=Tool to repair XFS partition
 Comment[fr]=Outil pour réparer une partition XFS
+Comment[es]=Herramienta para reparar una partición XFS
+Comment[pt]=Ferramenta para reparar uma partição XFS
+Comment[it]=Strumento per riparare una partizione XFS
+Comment[de]=Tool zum Reparieren einer XFS-Partition
 Exec=terminator -e "zsh -c 'sudo xfs_repair;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

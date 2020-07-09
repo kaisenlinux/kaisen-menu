@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fvdeinfo
-Name[fr]=fvdeinfo
 Comment=Tool for filevault disk info
 Comment[fr]=Outil pour avoir des informations sur les disques filevault
+Comment[es]=Herramienta para obtener información sobre discos de FileVault
+Comment[pt]=Ferramenta para obter informações sobre discos de filevault
+Comment[it]=Strumento per ottenere informazioni sui dischi filevault
+Comment[de]=Tool zum Abrufen von Informationen zu FileVault-Datenträgern
 Exec=terminator -e "zsh -c 'sudo fvdeinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

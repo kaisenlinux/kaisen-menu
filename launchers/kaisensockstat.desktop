@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=sockstat
-Name[fr]=sockstat
 Comment=Tool to analyse active socket connections
 Comment[fr]=Outil pour analyser les connexions sockets actives
+Comment[es]=Herramienta para analizar conexiones de socket activas
+Comment[pt]=Ferramenta para analisar conexões de soquete ativas
+Comment[it]=Strumento per analizzare le connessioni socket attive
+Comment[de]=Tool zur Analyse aktiver Socket-Verbindungen
 Exec=terminator -e "zsh -c 'sudo sockstat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

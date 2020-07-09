@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=p7zip-full
-Name[fr]=p7zip-full
 Comment=Tool to archive and decompress 7z archives
 Comment[fr]=Outil pour archiver et décompresser des archives 7z
+Comment[es]=Herramienta para archivar y descomprimir archivos 7z
+Comment[pt]=Ferramenta para arquivar e descomprimir arquivos 7z
+Comment[it]=Strumento per archiviare e decomprimere archivi 7z
+Comment[de]=Tool zum Archivieren und Dekomprimieren von 7z-Archiven
 Exec=terminator -e "zsh -c '7z;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

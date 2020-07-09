@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=lockdown-enable
 Name[fr]=lockdown-activé
+Name[es]=lockdown-habilitado
+Name[pt]=lockdown-ativado
+Name[it]=lockdown-abilitato
+Name[de]=lockdown-aktiviert
 Comment=Enable lockdown service
 Comment[fr]=Activer le service lockdown
+Comment[es]=Activa servicio lockdown
+Comment[pt]=Ativar serviço lockdown
+Comment[it]=Attiva servizio lockdown
+Comment[de]=Aktivieren Sie den lockdown
 Exec=terminator -e "zsh -c '/opt/services/lockdown-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

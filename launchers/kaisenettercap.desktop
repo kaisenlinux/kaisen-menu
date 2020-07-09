@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Ettercap
-Name[fr]=Ettercap
 Comment=Multipurpose Network sniffer/analyser/interceptor/logger
 Comment[fr]=Sniffer/Analyser/Intercepteur/Logger Réseau
+Comment[es]=Sniffer/Analyze/Interceptor/Network Logger
+Comment[pt]=Farejador/Analisador/Interceptador/Registrador de Rede
+Comment[it]=Sniffer/Analizza/Interceptor/Network Logger
+Comment[de]=Sniffer/Analyze/Interceptor/Network Logger
 Exec=ettercap-pkexec -G
 Icon=ettercap
 Terminal=false

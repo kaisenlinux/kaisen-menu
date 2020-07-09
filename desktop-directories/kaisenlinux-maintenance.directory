@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Maintenance tools
 Name[fr]=Outils de maintenance
-Comment=Tools for maintenance hardware and systems
-Comment[fr]=Outils pour maintenir le matériel et le système
+Name[es]=Herramientas de mantenimiento
+Name[pt]=Ferramentas de manutenção
+Name[it]=Strumenti di manutenzione
+Name[de]=Wartungswerkzeuge
 Icon=technician
 Type=Directory

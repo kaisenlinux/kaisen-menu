@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=kaisen-update
-Name[fr]=kaisen-update
 Comment=Tool to easily update system
 Comment[fr]=Outil pour mettre à jour le système facilement
+Comment[es]=Herramienta para actualizar fácilmente el sistema
+Comment[pt]=Ferramenta para atualizar facilmente o sistema
+Comment[it]=Strumento per aggiornare facilmente il sistema
+Comment[de]=Tool zum einfachen Aktualisieren des Systems
 Exec=terminator -e "zsh -c 'sudo kaisen-update;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

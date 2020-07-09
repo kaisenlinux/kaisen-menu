@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ansible
-Name[fr]=ansible
 Comment=Tool to use ansible
 Comment[fr]=Outil pour utiliser ansible
+Comment[es]=Herramienta Ansible
+Comment[pt]=Ferramenta Ansible
+Comment[it]=Strumento Ansible  
+Comment[de]=Ansible Tool
 Exec=terminator -e "zsh -c 'ansible -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

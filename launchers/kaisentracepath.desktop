@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tracepath
-Name[fr]=tracepath
 Comment=Tool to trace path to a network host
 Comment[fr]=Outil pour tracer le chemin vers le poste distant
+Comment[es]=Herramienta para rastrear el camino a la estación remota
+Comment[pt]=Ferramenta para rastrear o caminho para a estação remota
+Comment[it]=Strumento per tracciare il percorso verso la stazione remota
+Comment[de]=Tool zum Verfolgen des Pfads zur Remote-Station
 Exec=terminator -e "zsh -c 'tracepath;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

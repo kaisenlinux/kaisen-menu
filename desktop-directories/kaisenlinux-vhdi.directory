@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=VHDI
-Name[fr]=VHDI
-Comment=Tools for vhdi disks
-Comment[fr]=Outils pour les disques vhdi
 Icon=mount
 Type=Directory

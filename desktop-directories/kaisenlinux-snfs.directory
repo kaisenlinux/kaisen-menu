@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=NFS
-Name[fr]=NFS
-Comment=NFS service
-Comment[fr]=Service NFS
 Icon=kaisen
 Type=Directory

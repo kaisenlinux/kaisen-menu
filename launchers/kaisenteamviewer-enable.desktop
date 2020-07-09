@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=teamviewer-enable
 Name[fr]=teamviewer-activé
+Name[es]=teamviewer-habilitado
+Name[pt]=teamviewer-ativado
+Name[it]=teamviewer-abilitato
+Name[de]=teamviewer-aktiviert
 Comment=Enable teamviewer daemon
 Comment[fr]=Activer service teamviewer
+Comment[es]=Activar servicio teamviewer
+Comment[pt]=Ativar serviço teamviewer
+Comment[it]=Attiva servizio teamviewer
+Comment[de]=Aktivieren Sie den Teamviewer-Dienst
 Exec=terminator -e "zsh -c '/opt/services/teamviewer-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=mkfs.ext4 
-Name[fr]=mkfs.ext4 
+Name=mkfs.ext4
 Comment=Tool to create ext4 partition
-Comment[fr]=Outil pour créer une partition ext4 
+Comment[fr]=Outil pour créer une partition ext4
+Comment[es]=Herramienta para crear una partición ext4
+Comment[pt]=Ferramenta para criar uma partição ext4
+Comment[it]=Strumento per creare una partizione ext4
+Comment[de]=Tool zum Erstellen einer ext4-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.ext4;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

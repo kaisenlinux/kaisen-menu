@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Packet Sender
-Name[fr]=Packet Sender
 Comment=Tool for simulating network traffic
 Comment[fr]=Outil pour simuler du trafic réseau
+Comment[es]=Herramienta para simular tráfico de red
+Comment[pt]=Ferramenta para simular tráfego de rede
+Comment[it]=Strumento per simulare il traffico di rete
+Comment[de]=Tool zur Simulation des Netzwerkverkehrs
 Exec=sh -c "gksudo /opt/PacketSender_Linux_x64_v6.2.3.AppImage"
 Icon=utilities-terminal
 Terminal=false

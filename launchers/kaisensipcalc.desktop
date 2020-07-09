@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=sipcalc
-Name[fr]=sipcalc
 Comment=Tool for VLSM calculations
 Comment[fr]=Outil pour les masques de sous-réseaux
+Comment[es]=Herramienta para máscaras de subred
+Comment[pt]=Ferramenta para máscaras de sub-rede
+Comment[it]=Strumento per maschere di sottorete
+Comment[de]=Tool für Subnetzmasken
 Exec=terminator -e "zsh -c 'sipcalc -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

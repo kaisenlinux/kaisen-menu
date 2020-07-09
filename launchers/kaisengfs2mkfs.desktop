@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gfs2mkfs
-Name[fr]=gfs2mkfs
 Comment=Tool to create GFS2 partition
 Comment[fr]=Outil pour créer une partition GFS2
+Comment[es]=Herramienta para crear una partición GFS2
+Comment[pt]=Ferramenta para criar uma partição GFS2
+Comment[it]=Strumento per creare una partizione GFS2
+Comment[de]=Tool zum Erstellen einer GFS2-Partition
 Exec=terminator -e "zsh -c 'sudo gfs2_mkfs -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

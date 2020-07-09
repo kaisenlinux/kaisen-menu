@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gluster-mountbroker
-Name[fr]=gluster-mountbroker
 Comment=Tool to manage gluster filesystem
 Comment[fr]=Outil pour gérer le système de fichiers gluster
+Comment[es]=Herramienta para gestionar el sistema de archivos Gluster
+Comment[pt]=Ferramenta para gerenciar o sistema de arquivos gluster
+Comment[it]=Strumento per gestire il file system gluster
+Comment[de]=Tool zum Verwalten des Gluster-Dateisystems
 Exec=terminator -e "zsh -c 'sudo gluster-mountbroker -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

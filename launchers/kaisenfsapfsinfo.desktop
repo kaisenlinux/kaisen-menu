@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=apfsinfo
-Name[fr]=apfsinfo
 Comment=Tool for apfs disk info
 Comment[fr]=Outil pour avoir des informations sur les disques apfs
+Comment[es]=Herramienta para obtener información sobre discos apfs
+Comment[pt]=Ferramenta para obter informações sobre discos apfs
+Comment[it]=Strumento per ottenere informazioni sui dischi apfs
+Comment[de]=Tool zum Abrufen von Informationen zu apfs-Festplatten
 Exec=terminator -e "zsh -c 'fsapfsinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

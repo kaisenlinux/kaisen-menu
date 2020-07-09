@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Anydesk
-Name[fr]=Anydesk
-Comment=Tool for remote maintenance 
+Comment=Tool for remote maintenance
 Comment[fr]=Outil de télémaintenance
+Comment[es]=Herramienta de mantenimiento remoto
+Comment[pt]=Ferramenta de manutenção remota
+Comment[it]=Strumento di manutenzione remota
+Comment[de]=Fernwartungstool
 Exec=anydesk
 Icon=anydesk
 Terminal=false

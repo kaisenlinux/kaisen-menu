@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Midnight Commander
-Name[fr]=Midnight Commander
 Comment=File manager
 Comment[fr]=Gestionnaire de fichiers
+Comment[es]=Administrador de archivos
+Comment[pt]=Gerenciador de arquivos
+Comment[it]=File manager
+Comment[de]=Dateimanager
 Exec=mc
 Icon=MidnightCommander
 Terminal=true

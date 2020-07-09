@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mkfs.ext2
-Name[fr]=mkfs.ext2
 Comment=Tool to create ext2 partition
 Comment[fr]=Outil pour créer une partition ext2
+Comment[es]=Herramienta para crear una partición ext2
+Comment[pt]=Ferramenta para criar uma partição ext2
+Comment[it]=Strumento per creare una partizione ext2
+Comment[de]=Tool zum Erstellen einer ext2-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.ext2;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

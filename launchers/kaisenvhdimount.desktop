@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=vhdimount
-Name[fr]=vhdimount
-Comment=Tool to mount vhdi disk 
+Comment=Tool to mount vhdi disk
 Comment[fr]=Outil pour monter les disques vhdi de virtualbox
+Comment[es]=Herramienta para montar discos vhdi de virtualbox
+Comment[pt]=Ferramenta para montar discos vhdi de caixa virtual
+Comment[it]=Strumento per montare dischi vhdi virtualbox
+Comment[de]=Tool zum Mounten von Virtualbox-VHDI-Festplatten
 Exec=terminator -e "zsh -c 'vhdimount;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=cups-disable
 Name[fr]=cups-désactivé
+Name[es]=cups-discapacitado
+Name[pt]=cups-desativado
+Name[it]=cups-disabilitato
+Name[de]=cups-behindert
 Comment=Disable cups daemon
 Comment[fr]=Désactiver service cups
+Comment[es]=Desactivar servicio cups
+Comment[pt]=Desativar serviço cups
+Comment[it]=Disattivare servizio cups
+Comment[de]=Service deaktivieren cups
 Exec=terminator -e "zsh -c '/opt/services/cups-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

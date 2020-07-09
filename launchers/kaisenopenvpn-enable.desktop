@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=openvpn-enable
 Name[fr]=openvpn-activé
+Name[es]=openvpn-habilitado
+Name[pt]=openvpn-ativado
+Name[it]=openvpn-abilitato
+Name[de]=openvpn-aktiviert
 Comment=Enable openvpn daemon
 Comment[fr]=Activer service openvpn
+Comment[es]=Activar servicio openvpn
+Comment[pt]=Ativar serviço openvpn
+Comment[it]=Attiva servizio openvpn
+Comment[de]=Aktivieren Sie den Dienst openvpn
 Exec=terminator -e "zsh -c '/opt/services/openvpn-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

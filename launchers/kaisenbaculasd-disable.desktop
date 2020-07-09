@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=baculasd-disable
 Name[fr]=baculasd-désactivé
+Name[es]=baculasd-deshabilitado
+Name[pt]=baculasd-desativado
+Name[it]=baculasd-disabilitato
+Name[de]=baculasd-deaktiviert
 Comment=Disable baculasd daemon
 Comment[fr]=Désactiver service baculasd
+Comment[es]=Deshabilitar servicio baculasd
+Comment[pt]=Desativar serviço baculasd
+Comment[it]=Disabilita servizio baculasd
+Comment[de]=Deaktivieren Sie den Baculasd-Service
 Exec=terminator -e "zsh -c '/opt/services/baculasd-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

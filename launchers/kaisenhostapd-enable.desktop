@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=hostapd-enable
 Name[fr]=hostapd-activé
+Name[es]=hostapd-habilitado
+Name[pt]=hostapd-ativado
+Name[it]=hostapd-abilitato
+Name[de]=hostapd-aktiviert
 Comment=Enable hostapd daemon
 Comment[fr]=Activer service hostapd
+Comment[es]=Activar servicio hostapd
+Comment[pt]=Ativar serviço hostapd
+Comment[it]=Attiva il servizio hostapd
+Comment[de]=Aktivieren Sie den Dienst hostapd
 Exec=terminator -e "zsh -c '/opt/services/hostapd-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

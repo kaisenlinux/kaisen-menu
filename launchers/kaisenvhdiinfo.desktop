@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=vhdiinfo
-Name[fr]=vhdiinfo
 Comment=Tool for vhdi disk info
 Comment[fr]=Outil pour avoir des informations sur les disques vhdi de virtualbox
+Comment[es]=Herramienta para obtener información sobre discos vhdi de virtualbox
+Comment[pt]=Ferramenta para obter informações sobre os discos virtualbox vhdi
+Comment[it]=Strumento per ottenere informazioni sui dischi vhdi virtualbox
+Comment[de]=Tool zum Abrufen von Informationen zu Virtualbox-VHDI-Festplatten
 Exec=terminator -e "zsh -c 'vhdiinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

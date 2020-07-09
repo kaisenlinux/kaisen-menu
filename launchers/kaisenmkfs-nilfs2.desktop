@@ -1,10 +1,13 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=mkfs.nilfs2 
-Name[fr]=mkfs.nilfs2 
+Name=mkfs.nilfs2
 Comment=Tool to create nilfs2 partition
-Comment[fr]=Outil pour créer une partition nilfs2 
+Comment[fr]=Outil pour créer une partition nilfs2
+Comment[es]=Herramienta para crear una partición nilfs2
+Comment[pt]=Ferramenta para criar uma partição nilfs2
+Comment[it]=Strumento per creare una partizione nilfs2
+Comment[de]=Tool zum Erstellen einer nilfs2-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.nilfs2;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

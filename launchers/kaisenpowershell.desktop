@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=powershell
-Name[fr]=powershell
 Comment=Tool to emulate a Windows Powershell in your terminal
 Comment[fr]=Outil pour emuler Windows Powershell sur votre terminal
+Comment[es]=Herramienta para emular Windows Powershell en su terminal
+Comment[pt]=Ferramenta para emular o Windows Powershell no seu terminal
+Comment[it]=Strumento per emulare Windows Powershell sul tuo terminale
+Comment[de]=Tool zum Emulieren von Windows Powershell auf Ihrem Terminal
 Exec=terminator -e "zsh -c 'pwsh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

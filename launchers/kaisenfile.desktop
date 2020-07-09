@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=file
-Name[fr]=file
 Comment=Tool to analyse file content 
 Comment[fr]=Outil pour analyser le contenu d'un fichier
+Comment[es]=Herramienta para analizar el contenido de un archivo
+Comment[pt]=Ferramenta para analisar o conteúdo de um arquivo
+Comment[it]=Strumento per analizzare il contenuto di un file
+Comment[de]=Tool zum Analysieren des Inhalts einer Datei
 Exec=terminator -e "zsh -c 'file;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

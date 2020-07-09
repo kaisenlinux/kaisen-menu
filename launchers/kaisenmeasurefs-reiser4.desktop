@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=measurefs.reiser4
-Name[fr]=measurefs.reiser4
 Comment=Tool to manage REISER4 partition
 Comment[fr]=Outil pour gérer une partition REISER4
+Comment[es]=Herramienta para gestionar una partición REISER4
+Comment[pt]=Ferramenta para gerenciar uma partição REISER4
+Comment[it]=Strumento per gestire una partizione REISER4
+Comment[de]=Tool zum Verwalten einer REISER4-Partition
 Exec=terminator -e "zsh -c 'sudo measurefs.reiser4;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

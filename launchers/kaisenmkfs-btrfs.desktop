@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mkfs.btrfs
-Name[fr]=mkfs.btrfs
 Comment=Tool to create btrfs partition
 Comment[fr]=Outil pour créer une partition btrfs
+Comment[es]=Herramienta para crear una partición btrfs
+Comment[pt]=Ferramenta para criar uma partição btrfs
+Comment[it]=Strumento per creare una partizione btrfs
+Comment[de]=Tool zum Erstellen einer btrfs-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.btrfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

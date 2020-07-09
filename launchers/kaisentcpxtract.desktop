@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=tcpxtract
-Name[fr]=tcpxtract
 Comment=Tool to extract network traffic
 Comment[fr]=Outil pour extraire du trafic réseau
+Comment[es]=Herramienta para extraer tráfico de red
+Comment[pt]=Ferramenta para extrair tráfego de rede
+Comment[it]=Strumento per estrarre il traffico di rete
+Comment[de]=Tool zum Extrahieren des Netzwerkverkehrs
 Exec=terminator -e "zsh -c 'tcpxtract -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

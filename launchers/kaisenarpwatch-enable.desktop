@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=arpwatch-enable
 Name[fr]=arpwatch-activé
+Name[es]=arpwatch-habilitado
+Name[pt]=arpwatch-ativado
+Name[it]=arpwatch-abilitato
+Name[de]=arpwatch-aktiviert
 Comment=Enable arpwatch daemon
 Comment[fr]=Activer service arpwatch
+Comment[es]=Activar servicio arpwatch
+Comment[pt]=Ativar serviço arpwatch
+Comment[it]=Attiva servizio arpwatch
+Comment[de]=Aktivieren Sie den Arpwatch-Dienst
 Exec=terminator -e "zsh -c '/opt/services/arpwatch-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

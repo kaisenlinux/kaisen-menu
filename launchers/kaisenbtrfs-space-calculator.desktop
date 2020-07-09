@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=btrfs-space-calculator
-Name[fr]=btrfs-space-calculator
 Comment=Tool to manage BTRFS
 Comment[fr]=Outil pour gérer BTRFS
+Comment[es]=Herramienta para gestionar BTRFS
+Comment[pt]=Ferramenta para gerenciar BTRFS
+Comment[it]=Strumento per gestire BTRFS
+Comment[de]=Tool zum Verwalten von BTRFS
 Exec=terminator -e "zsh -c 'btrfs-space-calculator;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

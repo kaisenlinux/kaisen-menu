@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hw-probe
-Name[fr]=hw-probe
 Comment=Tool to list hardware and working drivers
 Comment[fr]=Outil pour lister le matériel et les drivers fonctionnels
+Comment[es]=Herramienta para listar hardware y controladores funcionales
+Comment[pt]=Ferramenta para listar drivers funcionais e de hardware
+Comment[it]=Strumento per elencare i driver hardware e funzionali
+Comment[de]=Tool zum Auflisten von Hardware- und Funktionstreibern
 Exec=terminator -e "zsh -c 'sudo hw-probe;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

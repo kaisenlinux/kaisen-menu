@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Psensor
-Name[fr]=Psensor
 Comment=Psensor is a graphical temperature monitor for Linux
 Comment[fr]=Psensor est un moniteur graphique de température 
+Comment[es]=Psensor es un monitor gráfico de temperatura
+Comment[pt]=Psensor é um monitor gráfico de temperatura
+Comment[it]=Psensor è un monitor grafico della temperatura
+Comment[de]=Psensor ist ein grafischer Temperaturmonitor
 Exec=psensor
 Icon=psensor
 Terminal=false

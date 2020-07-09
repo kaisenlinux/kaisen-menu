@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=cmospwd
-Name[fr]=cmospwd
 Comment=Tool to recover password in your BIOS
 Comment[fr]=Outil pour réinitialiser le mot de passe de votre BIOS
+Comment[es]=Herramienta para restablecer la contraseña de tu BIOS
+Comment[pt]=Ferramenta para redefinir sua senha do BIOS
+Comment[it]=Strumento per reimpostare la password del BIOS
+Comment[de]=Tool zum Zurücksetzen Ihres BIOS-Passworts
 Exec=terminator -e "zsh -c 'sudo cmospwd -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

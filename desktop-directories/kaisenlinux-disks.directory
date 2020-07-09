@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Disk analysis
 Name[fr]=Analyse de disques
-Comment=Tools for analyse your disks
-Comment[fr]=Outils pour analyser vos disques
+Name[es]=Análisis de disco
+Name[pt]=Análise de disco
+Name[it]=Analisi del disco
+Name[de]=Festplattenanalyse
 Icon=hdd
 Type=Directory

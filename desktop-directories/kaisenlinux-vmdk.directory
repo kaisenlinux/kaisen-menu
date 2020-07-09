@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=VMDK
-Name[fr]=VMDK
-Comment=Tools for vmdk disks
-Comment[fr]=Outils pour les disques vmdk
 Icon=mount
 Type=Directory

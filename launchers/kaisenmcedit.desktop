@@ -1,8 +1,13 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Name=Midnight Commander Editor
-Name[fr]=Midnight Commander Editor
 Comment=Edit text files
 Comment[fr]=Édite des fichiers texte
+Comment[es]=Editar archivos de texto
+Comment[pt]=Edite arquivos de texto
+Comment[it]=Modifica file di testo
+Comment[de]=Textdateien bearbeiten
 Exec=mcedit
 Icon=MidnightCommander
 Terminal=true

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=jfs_mkfs
-Name[fr]=jfs_mkfs
 Comment=Tool to create JFS partition
 Comment[fr]=Outil pour créer une partition JFS
+Comment[es]=Herramienta para crear una partición JFS
+Comment[pt]=Ferramenta para criar uma partição JFS
+Comment[it]=Strumento per creare una partizione JFS
+Comment[de]=Tool zum Erstellen einer JFS-Partition
 Exec=terminator -e "zsh -c 'sudo jfs_mkfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

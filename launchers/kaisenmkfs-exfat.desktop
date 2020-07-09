@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mkfs.exfat
-Name[fr]=mkfs.exfat
 Comment=Tool to create exfat partition
 Comment[fr]=Outil pour créer une partition exfat
+Comment[es]=Herramienta para crear una partición exfat
+Comment[pt]=Ferramenta para criar uma partição exfat
+Comment[it]=Strumento per creare una partizione exfat
+Comment[de]=Tool zum Erstellen einer Exfat-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.exfat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

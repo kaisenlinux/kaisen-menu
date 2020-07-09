@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=USB boot
 Name[fr]=Démarrage USB
-Comment=Tools for create bootable USB 
-Comment[fr]=Outils pour créer des clés USB bootables 
+Name[es]=Arranque USB
+Name[pt]=Inicialização USB
+Name[it]=Avvio USB
+Name[de]=USB-Boot
 Icon=usbboot
 Type=Directory

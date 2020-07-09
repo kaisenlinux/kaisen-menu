@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Data recovery
 Name[fr]=Récupération de données
-Comment=Tools for recovery datas
-Comment[fr]=Outils de récupération de données
+Name[es]=Recuperación de datos
+Name[pt]=Recuperação de dados
+Name[it]=Recupero dati
+Name[de]=Datenwiederherstellung
 Icon=recovery
 Type=Directory

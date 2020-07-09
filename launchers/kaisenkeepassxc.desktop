@@ -1,8 +1,13 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Name=KeePassXC
-Name[fr]=KeePassXC
 Comment=Community-driven port of the Windows application “KeePass Password Safe”
-Comment[fr]=Port du logiciel KeePass de Windows
+Comment[fr]=Portage du logiciel KeePass de Windows
+Comment[es]=Portar el software Windows KeePass
+Comment[pt]=Portando o software Windows KeePass
+Comment[it]=Porting del software Windows KeePass
+Comment[de]=Portierung der Windows KeePass-Software
 Exec=keepassxc %f
 TryExec=keepassxc
 Icon=keepassxc

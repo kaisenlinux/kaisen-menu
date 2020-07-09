@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=nfs-enable
 Name[fr]=nfs-activé
+Name[es]=nfs-habilitado
+Name[pt]=nfs-ativado
+Name[it]=nfs-abilitato
+Name[de]=nfs-aktiviert
 Comment=Enable nfs daemon
 Comment[fr]=Activer service nfs
+Comment[es]=Activar servicio nfs
+Comment[pt]=Ativar serviço nfs
+Comment[it]=Attiva servizio nfs
+Comment[de]=Aktivieren Sie den NFS-Dienst
 Exec=terminator -e "zsh -c '/opt/services/nfs-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

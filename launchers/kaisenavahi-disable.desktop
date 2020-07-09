@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=avahi-disable
 Name[fr]=avahi-désactivé
+Name[es]=avahi-deshabilitado
+Name[pt]=avahi-desativado
+Name[it]=avahi-disabilitato
+Name[de]=avahi-deaktiviert
 Comment=Disable avahi daemon
 Comment[fr]=Désactiver service avahi
+Comment[es]=Deshabilitar servicio avahi
+Comment[pt]=Desativar serviço avahi
+Comment[it]=Disabilita servizio avahi
+Comment[de]=Deaktivieren Sie den Avahi-Dienst
 Exec=terminator -e "zsh -c '/opt/services/avahi-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

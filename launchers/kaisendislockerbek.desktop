@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dislocker-bek
-Name[fr]=dislocker-bek
 Comment=Tool for bitlocker disk
 Comment[fr]=Outil pour les disques bitlocker
+Comment[es]=Herramienta Bitlocker
+Comment[pt]=Ferramenta Bitlocker
+Comment[it]=Strumento Bitlocker
+Comment[de]=Bitlocker-Tool
 Exec=terminator -e "zsh -c 'dislocker-bek;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=gfs2grow
-Name[fr]=gfs2grow
 Comment=Tool to manage GFS2
 Comment[fr]=Outil pour gérer GFS2
+Comment[es]=Herramienta para gestionar GFS2
+Comment[pt]=Ferramenta para gerenciar o GFS2
+Comment[it]=Strumento per gestire GFS2
+Comment[de]=Tool zum Verwalten von GFS2
 Exec=terminator -e "zsh -c 'sudo gfs2_grow;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

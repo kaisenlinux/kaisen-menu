@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=reiserfsck
-Name[fr]=reiserfsck
 Comment=Tool to repair damaged REISERFS partition
 Comment[fr]=Outil pour réparer une partition REISERFS endommagée
+Comment[es]=Herramienta para reparar la partición REISERFS dañada
+Comment[pt]=Ferramenta para reparar partição REISERFS danificada
+Comment[it]=Strumento per riparare la partizione REISERFS danneggiata
+Comment[de]=Tool zur Reparatur beschädigter REISERFS-Partitionen
 Exec=terminator -e "zsh -c 'sudo reiserfsck;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

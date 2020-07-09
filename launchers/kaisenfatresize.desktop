@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fatresize
-Name[fr]=fatresize
 Comment=Tool for FAT16/FAT32 partitions
 Comment[fr]=Outil pour les partitions FAT16/FAT32
+Comment[es]=Herramienta para particiones FAT16/FAT32
+Comment[pt]=Ferramenta para partições FAT16/FAT32
+Comment[it]=Strumento per le partizioni FAT16/FAT32
+Comment[de]=Tool für FAT16/FAT32-Partitionen
 Exec=terminator -e "zsh -c 'sudo fatresize -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

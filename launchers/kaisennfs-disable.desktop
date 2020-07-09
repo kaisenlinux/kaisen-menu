@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=nfs-disable
 Name[fr]=nfs-désactivé
+Name[es]=nfs-deshabilitado
+Name[pt]=nfs-desativado
+Name[it]=nfs-disabilitato
+Name[de]=nfs-deaktiviert
 Comment=Disable nfs daemon
 Comment[fr]=Désactiver service nfs
+Comment[es]=Deshabilitar servicio nfs
+Comment[pt]=Desativar serviço nfs
+Comment[it]=Disabilita il servizio nfs
+Comment[de]=Deaktivieren Sie den NFS-Dienst
 Exec=terminator -e "zsh -c '/opt/services/nfs-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

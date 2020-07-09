@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=progress
-Name[fr]=progress
 Comment=Tool to show progress status on file manipulation
 Comment[fr]=Outil pour voir l'état d'avancement sur la manipulation de fichiers
+Comment[es]=Herramienta para ver el progreso en la manipulación de archivos
+Comment[pt]=Ferramenta para visualizar o progresso na manipulação de arquivos
+Comment[it]=Strumento per visualizzare i progressi nella manipolazione dei file
+Comment[de]=Tool zum Anzeigen des Fortschritts bei der Dateibearbeitung
 Exec=terminator -e "zsh -c 'progress -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

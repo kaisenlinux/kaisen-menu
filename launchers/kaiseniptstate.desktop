@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iptstate
-Name[fr]=iptstate
 Comment=Tool to display iptables rules
 Comment[fr]=Outil pour afficher les règles iptables
+Comment[es]=Herramienta para mostrar las reglas de iptables
+Comment[pt]=Ferramenta para exibir regras do iptables
+Comment[it]=Strumento per visualizzare le regole di iptables
+Comment[de]=Tool zum Anzeigen von iptables-Regeln
 Exec=terminator -e "zsh -c 'sudo iptstate;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

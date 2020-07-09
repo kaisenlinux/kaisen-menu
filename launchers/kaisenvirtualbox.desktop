@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=VirtualBox
-Name[fr]=VirtualBox
-Comment=Tool to create virtual machines 
+Comment=Tool to create virtual machines
 Comment[fr]=Outil pour créer des machines virtuelles
+Comment[es]=Herramienta para crear máquinas virtuales
+Comment[pt]=Ferramenta para criar máquinas virtuais
+Comment[it]=Strumento per creare macchine virtuali
+Comment[de]=Tool zum Erstellen virtueller Maschinen
 Exec=virtualbox
 Icon=virtualbox
 Terminal=false

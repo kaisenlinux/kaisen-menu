@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=sshfs
-Name[fr]=sshfs
 Comment=Tool to mount distant filesystem with ssh
 Comment[fr]=Outil pour monter un système de fichier distant avec ssh
+Comment[es]=Herramienta para montar un sistema de archivos remoto con ssh
+Comment[pt]=Ferramenta para montar um sistema de arquivos remoto com ssh
+Comment[it]=Strumento per montare un file system remoto con ssh
+Comment[de]=Tool zum Mounten eines Remote-Dateisystems mit ssh
 Exec=terminator -e "zsh -c 'sshfs -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

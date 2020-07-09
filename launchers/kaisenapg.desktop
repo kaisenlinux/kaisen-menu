@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=apg
-Name[fr]=apg
 Comment=Tool to generate passwords
 Comment[fr]=Outil pour générer des mots de passe
+Comment[es]=Herramienta para generar contraseñas
+Comment[pt]=Ferramenta para gerar senhas
+Comment[it]=Strumento per generare password
+Comment[de]=Tool zum Generieren von Passwörtern
 Exec=terminator -e "zsh -c 'apg -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

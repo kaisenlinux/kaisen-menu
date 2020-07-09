@@ -1,8 +1,13 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Name=GtkHash
-Name[fr]=GtkHash
 Comment=Calculate message digests or checksums
 Comment[fr]=Calculer des empreintes numériques ou des sommes de contrôle
+Comment[es]=Calcular huellas digitales o sumas de verificación
+Comment[pt]=Calcular impressões digitais ou somas de verificação
+Comment[it]=Calcola impronte digitali o checksum
+Comment[de]=Berechnen Sie Fingerabdrücke oder Prüfsummen
 TryExec=gtkhash
 Exec=sh -c "gksudo gtkhash"
 Icon=gtkhash

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=jfs_tune
-Name[fr]=jfs_tune
 Comment=Tool to manage parameters JFS partition
 Comment[fr]=Outil pour gérer les paramètres d'une partition JFS
+Comment[es]=Herramienta para gestionar los parámetros de una partición JFS
+Comment[pt]=Ferramenta para gerenciar os parâmetros de uma partição JFS
+Comment[it]=Strumento per gestire i parametri di una partizione JFS
+Comment[de]=Tool zum Verwalten der Parameter einer JFS-Partition
 Exec=terminator -e "zsh -c 'sudo jfs_tune;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

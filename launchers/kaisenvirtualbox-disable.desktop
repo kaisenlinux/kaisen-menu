@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=virtualbox-guest-disable
 Name[fr]=virtualbox-guest-désactivé
+Name[es]=virtualbox-guest-deshabilitado
+Name[pt]=virtualbox-guest-desativado
+Name[it]=virtualbox-guest-disabilitato
+Name[de]=virtualbox-guest-deaktiviert
 Comment=Désactiver virtualbox guest service
 Comment[fr]=Désactiver le service invité de virtualbox
+Comment[es]=Deshabilitar el servicio de invitado virtualbox
+Comment[pt]=Desabilitar o serviço de convidado da caixa virtual
+Comment[it]=Disabilita il servizio guest virtualbox
+Comment[de]=Deaktivieren Sie den Virtualbox-Gastdienst
 Exec=terminator -e "zsh -c '/opt/services/virtualbox-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

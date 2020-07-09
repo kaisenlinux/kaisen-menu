@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=Filesystems
 Name[fr]=Systèmes de fichiers
-Comment=Filesystems services
-Comment[fr]=Services de systèmes de fichiers
+Name[es]=Sistemas de archivos
+Name[pt]=Sistemas de arquivos
+Name[it]=File system
+Name[de]=Dateisysteme
 Icon=kaisen
 Type=Directory

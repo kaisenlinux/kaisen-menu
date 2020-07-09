@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=chkrootkit
-Name[fr]=chkrootkit
 Comment=Tool to scan rootkit signs
 Comment[fr]=Outil pour scanner la présence de rootkit
+Comment[es]=Herramienta para escanear en busca de rootkit
+Comment[pt]=Ferramenta para procurar rootkit
+Comment[it]=Strumento per la ricerca di rootkit
+Comment[de]=Tool zum Scannen nach Rootkit
 Exec=terminator -e "zsh -c 'sudo chkrootkit;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

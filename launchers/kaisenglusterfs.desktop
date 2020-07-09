@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=glusterfs
-Name[fr]=glusterfs
 Comment=Tool to mount gluster partition
 Comment[fr]=Outil pour monter une partition gluster
+Comment[es]=Herramienta para montar una partición Gluster
+Comment[pt]=Ferramenta para montar uma partição gluster
+Comment[it]=Strumento per montare una partizione gluster
+Comment[de]=Werkzeug zum Montieren einer Gluster-Trennwand
 Exec=terminator -e "zsh -c 'sudo glusterfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

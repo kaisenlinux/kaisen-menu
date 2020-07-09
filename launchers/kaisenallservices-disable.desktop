@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=00-all-services-disable
 Name[fr]=00-désactiver-tous-services
+Name[es]=00-deshabilitar-todos-servicios
+Name[pt]=desativar-todos-serviços
+Name[it]=disabilitare-tutti-servizi
+Name[de]=Deaktivieren-Sie-alle-Dienste
 Comment=Disable all additional daemons
 Comment[fr]=Désactiver tous les services additionnels activés
+Comment[es]=Desactiva todos los servicios adicionales activados
+Comment[pt]=Desativar todos os serviços adicionais ativados
+Comment[it]=Disattiva tutti i servizi aggiuntivi attivati
+Comment[de]=Deaktivieren Sie alle aktivierten Zusatzdienste
 Exec=terminator -e "zsh -c '/opt/services/all-services-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

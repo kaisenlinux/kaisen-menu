@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=GSmartControl
-Name[fr]=GSmartControl
 Comment=Tool to check health on disks
 Comment[fr]=Outil pour vérifier la santé d'un disque
+Comment[es]=Herramienta para verificar el estado de un disco
+Comment[pt]=Ferramenta para verificar a saúde de um disco
+Comment[it]=Strumento per verificare lo stato di un disco
+Comment[de]=Tool zum Überprüfen des Zustands einer Disc
 Exec=sh -c "gksudo gsmartcontrol"
 Icon=gsmartcontrol
 Terminal=false

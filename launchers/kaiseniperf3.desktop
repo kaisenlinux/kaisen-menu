@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=iperf3
-Name[fr]=iperf3
 Comment=Tool to analyse network performance
 Comment[fr]=Outil pour analyser les performances réseau
+Comment[es]=Herramienta para analizar el rendimiento de la red
+Comment[pt]=Ferramenta para analisar o desempenho da rede
+Comment[it]=Strumento per analizzare le prestazioni della rete
+Comment[de]=Tool zur Analyse der Netzwerkleistung
 Exec=terminator -e "zsh -c 'iperf3 --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

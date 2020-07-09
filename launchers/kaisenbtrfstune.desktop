@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=btrfstune
-Name[fr]=btrfstune
 Comment=Tool to manage parameters of BTRFS volumes
 Comment[fr]=Outil pour gérer les paramètres des volumes BTRFS
+Comment[es]=Herramienta para administrar la configuración de volumen BTRFS
+Comment[pt]=Ferramenta para gerenciar configurações de volume BTRFS
+Comment[it]=Strumento per gestire le impostazioni del volume BTRFS
+Comment[de]=Tool zum Verwalten der BTRFS-Lautstärkeeinstellungen
 Exec=terminator -e "zsh -c 'btrfstune;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

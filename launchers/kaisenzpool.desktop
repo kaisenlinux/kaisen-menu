@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=zpool
-Name[fr]=zpool
 Comment=Tool to manage ZFS pools
 Comment[fr]=Outil pour gérer les pools ZFS
+Comment[es]=Herramienta para administrar grupos de ZFS
+Comment[pt]=Ferramenta para gerenciar pools ZFS
+Comment[it]=Strumento per gestire pool ZFS
+Comment[de]=Tool zum Verwalten von ZFS-Pools
 Exec=terminator -e "zsh -c 'sudo zpool;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

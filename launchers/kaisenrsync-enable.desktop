@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=rsync-enable
 Name[fr]=rsync-activé
+Name[es]=rsync-habilitado
+Name[pt]=rsync-ativado
+Name[it]=rsync-abilitato
+Name[de]=rsync-aktiviert
 Comment=Enable rsync daemon
 Comment[fr]=Activer service rsync
+Comment[es]=Activar servicio rsync
+Comment[pt]=Ativar serviço rsync
+Comment[it]=Attiva servizio rsync
+Comment[de]=Aktivieren Sie den rsync-Dienst
 Exec=terminator -e "zsh -c '/opt/services/rsync-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

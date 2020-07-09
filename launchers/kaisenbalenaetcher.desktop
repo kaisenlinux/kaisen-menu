@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=balenaEtcher
-Name[fr]=balenaEtcher
 Comment=Tool to create Linux USB bootable keys
 Comment[fr]=Outil pour créer des clés USB bootables Linux
+Comment[es]=Herramienta para crear llaves USB de arranque de Linux
+Comment[pt]=Ferramenta para criar chaves USB Linux inicializáveis
+Comment[it]=Strumento per creare chiavi USB Linux avviabili
+Comment[de]=Tool zum Erstellen bootfähiger Linux-USB-Sticks
 Exec=sh -c "gksudo balena-etcher-electron"
 Icon=balena-etcher-electron
 Terminal=false

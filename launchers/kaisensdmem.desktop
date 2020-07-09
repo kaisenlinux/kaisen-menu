@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=sdmem
-Name[fr]=sdmem
 Comment=Tool to securely erase free RAM
 Comment[fr]=Outil pour effacer l'espace libre en RAM
+Comment[es]=Herramienta para limpiar espacio libre en RAM
+Comment[pt]=Ferramenta para liberar espaço livre na RAM
+Comment[it]=Strumento per liberare spazio libero nella RAM
+Comment[de]=Tool zum Freigeben von freiem Speicherplatz im RAM
 Exec=terminator -e "zsh -c 'sudo sdmem -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

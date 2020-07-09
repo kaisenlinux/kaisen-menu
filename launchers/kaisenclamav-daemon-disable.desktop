@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=clamav-daemon-disable
 Name[fr]=clamav-daemon-désactivé
+Name[es]=clamav-servicio-deshabilitado
+Name[pt]=clamav-serviço-desativado
+Name[it]=clamav-servizio-disabilitato
+Name[de]=clamav-dienst-deaktiviert
 Comment=Disable clamav daemon
 Comment[fr]=Désactiver service clamav
+Comment[es]=Deshabilitar servicio clamav
+Comment[pt]=Desativar serviço clamav
+Comment[it]=Disabilita servizio clamav
+Comment[de]=Deaktivieren Sie den Clamav-Dienst
 Exec=terminator -e "zsh -c '/opt/services/clamav-daemon-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

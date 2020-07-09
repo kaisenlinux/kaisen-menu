@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rsbackup
-Name[fr]=rsbackup
 Comment=Backup tool based at rsync
 Comment[fr]=Outil de sauvegarde basé sur rsync
+Comment[es]=Herramienta de respaldo basada en Rsync
+Comment[pt]=Ferramenta de backup baseada em Rsync
+Comment[it]=Strumento di backup basato su Rsync
+Comment[de]=Rsync-basiertes Backup-Tool
 Exec=terminator -e "zsh -c 'rsbackup -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

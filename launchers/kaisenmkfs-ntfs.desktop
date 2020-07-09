@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=mkfs.ntfs
-Name[fr]=mkfs.ntfs 
 Comment=Tool to create ntfs partition
-Comment[fr]=Outil pour créer une partition ntfs 
+Comment[fr]=Outil pour créer une partition ntfs
+Comment[es]=Herramienta para crear una partición ntfs
+Comment[pt]=Ferramenta para criar uma partição ntfs
+Comment[it]=Strumento per creare una partizione ntfs 
+Comment[de]=Tool zum Erstellen einer ntfs-Partition
 Exec=terminator -e "zsh -c 'sudo mkfs.ntfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=lockfile-remove
-Name[fr]=lockfile-remove
 Comment=Tool to remove protected file
 Comment[fr]=Outil pour supprimer un fichier protégé
+Comment[es]=Herramienta para eliminar archivos protegidos
+Comment[pt]=Ferramenta para excluir arquivo protegido
+Comment[it]=Strumento per eliminare il file protetto
+Comment[de]=Tool zum Löschen geschützter Dateien
 Exec=terminator -e "zsh -c 'lockfile-remove;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

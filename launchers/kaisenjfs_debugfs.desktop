@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=jfs_debugfs
-Name[fr]=jfs_debugfs
 Comment=Tool to debug JFS partition
 Comment[fr]=Outil pour déboguer une partition JFS
+Comment[es]=Herramienta para depurar una partición JFS
+Comment[pt]=Ferramenta para depurar uma partição JFS
+Comment[it]=Strumento per il debug di una partizione JFS
+Comment[de]=Tool zum Debuggen einer JFS-Partition
 Exec=terminator -e "zsh -c 'sudo jfs_debugfs;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

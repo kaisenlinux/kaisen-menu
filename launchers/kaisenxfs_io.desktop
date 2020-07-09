@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=xfs_io
-Name[fr]=xfs_io
 Comment=Tool for XFS partition
 Comment[fr]=Outil pour partition XFS
+Comment[es]=Herramienta de partición XFS
+Comment[pt]=Ferramenta de partição XFS
+Comment[it]=Strumento di partizione XFS
+Comment[de]=XFS-Partitionstool
 Exec=terminator -e "zsh -c 'sudo xfs_io;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

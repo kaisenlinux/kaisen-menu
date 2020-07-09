@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=Htop
-Name[fr]=Htop
 Comment=Tool to view processes in real time
 Comment[fr]=Outil pour voir les processus en temps réel
+Comment[es]=Herramienta para ver procesos en tiempo real
+Comment[pt]=Ferramenta para visualizar processos em tempo real
+Comment[it]=Strumento per visualizzare i processi in tempo reale
+Comment[de]=Tool zum Anzeigen von Prozessen in Echtzeit
 Exec=terminator -e "zsh -c 'htop;/bin/zsh'"
 Icon=htop
 Terminal=false

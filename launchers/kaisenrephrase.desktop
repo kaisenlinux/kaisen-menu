@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=rephrase
-Name[fr]=rephrase
 Comment=Tool to crack gpg passwords
 Comment[fr]=Outil pour cracker un mot de passe gpg
+Comment[es]=Herramienta para descifrar una contraseña gpg
+Comment[pt]=Ferramenta para quebrar uma senha de gpg
+Comment[it]=Strumento per decifrare una password gpg
+Comment[de]=Tool zum Knacken eines GPG-Passworts
 Exec=terminator -e "zsh -c 'rephrase;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

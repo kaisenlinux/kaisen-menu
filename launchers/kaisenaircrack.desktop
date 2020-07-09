@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=aircrack-ng
-Name[fr]=aircrack-ng
 Comment=Tool to test wifi security
 Comment[fr]=Outil pour tester la sécurité du wifi
+Comment[es]=Herramienta para probar la seguridad wifi
+Comment[pt]=Ferramenta para testar a segurança do wifi
+Comment[it]=Strumento per testare la sicurezza wifi
+Comment[de]=Tool zum Testen der WLAN-Sicherheit
 Exec=terminator -e "zsh -c 'aircrack-ng;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

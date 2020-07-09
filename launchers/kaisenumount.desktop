@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=umount
-Name[fr]=umount
 Comment=Tool to unmount filesystems
 Comment[fr]=Outil pour démonter des systèmes de fichiers
+Comment[es]=Herramienta para desmontar sistemas de archivos
+Comment[pt]=Ferramenta para desmontar sistemas de arquivos
+Comment[it]=Strumento per smontare i filesystem
+Comment[de]=Tool zum Aufheben der Bereitstellung von Dateisystemen
 Exec=terminator -e "zsh -c 'umount -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

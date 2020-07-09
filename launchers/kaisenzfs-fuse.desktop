@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=zfs-fuse
-Name[fr]=zfs-fuse
 Comment=Tool to manage ZFS
 Comment[fr]=Outil pour gérer ZFS
+Comment[es]=Herramienta para gestionar ZFS
+Comment[pt]=Ferramenta para gerenciar o ZFS
+Comment[it]=Strumento per gestire ZFS
+Comment[de]=Tool zum Verwalten von ZFS
 Exec=terminator -e "zsh -c 'sudo zfs-fuse -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

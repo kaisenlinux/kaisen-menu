@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=fsck.reiser4
-Name[fr]=fsck.reiser4
 Comment=Tool to repair damaged REISER4 partition
 Comment[fr]=Outil pour réparer une partition REISER4 endommagée
+Comment[es]=Herramienta para reparar la partición REISER4 dañada
+Comment[pt]=Ferramenta para reparar partição REISER4 danificada
+Comment[it]=Strumento per riparare la partizione REISER4 danneggiata
+Comment[de]=Werkzeug zur Reparatur beschädigter REISER4-Partition
 Exec=terminator -e "zsh -c 'sudo fsck.reiser4;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

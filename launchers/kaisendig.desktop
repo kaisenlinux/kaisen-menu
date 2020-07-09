@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dig
-Name[fr]=dig
 Comment=Tool to analyse your DNS servers
 Comment[fr]=Outil pour analyser vos serveurs DNS
+Comment[es]=Herramienta para analizar sus servidores DNS
+Comment[pt]=Ferramenta para analisar seus servidores DNS
+Comment[it]=Strumento per analizzare i tuoi server DNS
+Comment[de]=Tool zur Analyse Ihrer DNS-Server
 Exec=terminator -e "zsh -c 'dig -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

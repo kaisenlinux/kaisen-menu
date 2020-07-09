@@ -1,7 +1,4 @@
 [Desktop Entry]
 Name=Ceph-fuse
-Name[fr]=Ceph-fuse
-Comment=Ceph-fuse service
-Comment[fr]=Service Ceph-fuse
 Icon=kaisen
 Type=Directory

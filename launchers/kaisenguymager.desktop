@@ -1,8 +1,13 @@
+#!/usr/bin/env xdg-open
+
 [Desktop Entry]
 Name=Guymager
-Name[fr]=Guymager
-Comment=Fast toensic imager
-Comment[fr]=Outil toensic d'image disque
+Comment=Tool forensic disk imager
+Comment[fr]=Outil forensic d'image disque
+Comment[es]=Herramienta forense de imagen de disco
+Comment[pt]=Ferramenta Forense de Imagem de Disco
+Comment[it]=Strumento per immagini forensi su disco
+Comment[de]=Disk Image Forensic Tool
 Exec=sh -c "gksudo guymager"
 Icon=guymager_128.png
 Terminal=false

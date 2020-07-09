@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dislocker
-Name[fr]=dislocker
 Comment=Tool to bitlocker disks
 Comment[fr]=Outil pour les disques bitlocker
+Comment[es]=Herramienta Bitlocker
+Comment[pt]=Ferramenta Bitlocker
+Comment[it]=Strumento Bitlocker
+Comment[de]=Bitlocker-Tool
 Exec=terminator -e "zsh -c 'dislocker;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

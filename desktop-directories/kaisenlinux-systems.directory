@@ -1,7 +1,9 @@
 [Desktop Entry]
 Name=System
 Name[fr]=Système
-Comment=Tools for testing your systems
-Comment[fr]=Outils pour tester vos systèmes
+Name[es]=Sistema
+Name[pt]=Sistema
+Name[it]=Sistema
+Name[de]=System
 Icon=systems
 Type=Directory

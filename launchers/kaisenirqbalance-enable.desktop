@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=irqbalance-enable
 Name[fr]=irqbalance-activé
+Name[es]=irqbalance-habilitado
+Name[pt]=irqbalance-ativado
+Name[it]=irqbalance-abilitato
+Name[de]=irqbalance-aktiviert
 Comment=Enable irqbalance daemon
 Comment[fr]=Activer service irqbalance
+Comment[es]=Activar servicio irqbalance
+Comment[pt]=Ativar serviço irqbalance
+Comment[it]=Attiva servizio irqbalance
+Comment[de]=Aktivieren Sie den irqbalance
 Exec=terminator -e "zsh -c '/opt/services/irqbalance-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

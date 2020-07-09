@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=pv
-Name[fr]=pv
 Comment=Tool to concatenate stdin at stdout with monitoring
 Comment[fr]=Outil pour voir concaténer stdin sur stdout avec monitoring
+Comment[es]=Herramienta para ver concatenate stdin en stdout con monitoreo
+Comment[pt]=Ferramenta para concatenar stdin no stdout com monitoramento
+Comment[it]=Strumento per vedere concatenare lo stdin su stdout con il monitoraggio
+Comment[de]=Tool zum Verketten von stdin auf stdout mit Überwachung
 Exec=terminator -e "zsh -c 'pv -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -3,8 +3,16 @@
 [Desktop Entry]
 Name=clamav-daemon-enable
 Name[fr]=clamav-daemon-activé
-Comment= Enable clamav-daemon
-Comment[fr]=Activer service clamav 
+Name[es]=clamav-servicio-habilitado
+Name[pt]=clamav-serviço-ativado
+Name[it]=clamav-servizio-abilitato
+Name[de]=clamav-dienst-aktiviert
+Comment=Enable clamav-daemon
+Comment[fr]=Activer service clamav
+Comment[es]=Activa servicio clamav
+Comment[pt]=Ativar serviço clamav
+Comment[it]=Attiva servizio clamav
+Comment[de]=Aktivieren Sie den Clamav-Dienst
 Exec=terminator -e "zsh -c '/opt/services/clamav-daemon-enable.sh;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=di
-Name[fr]=di
 Comment=Tool to view free space
 Comment[fr]=Outil pour connaitre l'espace libre
+Comment[es]=Herramienta para conocer el espacio libre.
+Comment[pt]=Ferramenta para conhecer o espaço livre
+Comment[it]=Strumento per conoscere lo spazio libero
+Comment[de]=Werkzeug, um den freien Speicherplatz zu kennen
 Exec=terminator -e "zsh -c 'di -h;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

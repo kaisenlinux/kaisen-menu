@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=cu
-Name[fr]=cu
 Comment=Tool to connect to another system
 Comment[fr]=Outil pour se connecter sur un autre système
+Comment[es]=Herramienta para conectarse a otro sistema
+Comment[pt]=Ferramenta para conectar-se a outro sistema
+Comment[it]=Strumento per connettersi a un altro sistema
+Comment[de]=Tool zum Verbinden mit einem anderen System
 Exec=terminator -e "zsh -c 'cu --help;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

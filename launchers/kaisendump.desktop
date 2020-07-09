@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=dump
-Name[fr]=dump
 Comment=Tool to backup ext partitions
 Comment[fr]=Outil pour sauvegarder les partitions ext
+Comment[es]=Herramienta para guardar particiones ext
+Comment[pt]=Ferramenta para salvar partições ext
+Comment[it]=Strumento per salvare le partizioni ext
+Comment[de]=Tool zum Speichern von Ext-Partitionen
 Exec=terminator -e "zsh -c 'sudo dump;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

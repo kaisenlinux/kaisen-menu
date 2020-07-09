@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=hwinfo
-Name[fr]=hwinfo
 Comment=Tool to get hardware info
 Comment[fr]=Outil pour obtenir les informations matérielles
+Comment[es]=Herramienta para obtener información material
+Comment[pt]=Ferramenta para obter informações relevantes
+Comment[it]=Strumento per ottenere informazioni sui materiali
+Comment[de]=Werkzeug zum Abrufen von Materialinformationen
 Exec=terminator -e "zsh -c 'sudo hwinfo;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false

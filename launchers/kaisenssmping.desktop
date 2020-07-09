@@ -2,9 +2,12 @@
 
 [Desktop Entry]
 Name=ssmping
-Name[fr]=ssmping
 Comment=Tool to test multicast diffusion
 Comment[fr]=Outil pour tester la connectivité multi-diffusion
+Comment[es]=Herramienta para probar conectividad multicast
+Comment[pt]=Ferramenta para testar a conectividade multicast
+Comment[it]=Strumento per testare la connettività multicast
+Comment[de]=Tool zum Testen der Multicast-Konnektivität
 Exec=terminator -e "zsh -c 'ssmping;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false
