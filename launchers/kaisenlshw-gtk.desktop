@@ -1,7 +1,6 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Type=Application
 Name=Hardware Lister
 Name[fr]=Lister le matériel
 Name[es]=Listar el material
@@ -17,5 +16,6 @@ Comment[de]=Hardware-Informationen anzeigen
 Icon=lshw-gtk
 Exec=sh -c "gksudo lshw-gtk"
 Terminal=false
+Type=Application
 Categories=Hardware
 X-Kaisen-Package=lshw-gtk

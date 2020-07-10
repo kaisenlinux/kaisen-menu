@@ -1,9 +1,9 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=00-all-services-disable
-Name[fr]=00-désactiver-tous-services
-Name[es]=00-deshabilitar-todos-servicios
+Name=all-services-disable
+Name[fr]=désactiver-tous-services
+Name[es]=deshabilitar-todos-servicios
 Name[pt]=desativar-todos-serviços
 Name[it]=disabilitare-tutti-servizi
 Name[de]=Deaktivieren-Sie-alle-Dienste

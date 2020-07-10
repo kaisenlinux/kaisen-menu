@@ -1,12 +1,12 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=00-all-services-enable
-Name[fr]=00-activer-tous-services
-Name[es]=00-activar-todos-servicios
-Name[pt]=00-ativar-todos-serviços
-Name[it]=00-attiva-all-servizi
-Name[de]=00-Alle-Dienste-aktivieren
+Name=all-services-enable
+Name[fr]=activer-tous-services
+Name[es]=activar-todos-servicios
+Name[pt]=ativar-todos-serviços
+Name[it]=attiva-all-servizi
+Name[de]=Alle-Dienste-aktivieren
 Comment=Enable all additional daemons
 Comment[fr]=Activer tous les services additionnels désactivés
 Comment[es]=Activa todos los servicios adicionales desactivados

@@ -1,3 +1,11 @@
+kaisen-menu (1.1+kaisen7) kaisen-devel; urgency=medium
+
+  * Fix anydesk disable service launcher
+  * Fix gfio and ettercap launchers
+  * Remove 00 at all services launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 10 Jul 2020 19:36:27 +0200
+
 kaisen-menu (1.1+kaisen6) kaisen-devel; urgency=medium
 
   * Adding es, pt, it and de trasnlations at launchers and desktop-directories

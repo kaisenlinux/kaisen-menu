@@ -15,3 +15,4 @@ Type=Application
 StartupNotify=true
 Categories=Scanner
 X-Kaisen-Package=ettercap
+

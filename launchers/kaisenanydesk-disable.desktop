@@ -4,14 +4,14 @@
 Name=anydesk-disable
 Name[fr]=anydesk-désactivé
 Name[es]=anydesk-deshabilitado
-Name[pt]anydesk-desativado
+Name[pt]=anydesk-desativado
 Name[it]=anydesk-disabilitato
 Name[de]=anydesk-deaktiviert
 Comment=Disable anydesk daemon
 Comment[fr]=Désactiver service anydesk
-Comment[es]=Deshabilitar el servicio de Anydesk
-Comment[pt]=Desativar o serviço anydesk
-Comment[it]=Disabilita il servizio anydesk
+Comment[es]=Deshabilitar servicio Anydesk
+Comment[pt]=Desativar serviço anydesk
+Comment[it]=Disabilita servizio anydesk
 Comment[de]=Deaktivieren Sie den Anydesk-Dienst
 Exec=terminator -e "zsh -c '/opt/services/anydesk-disable.sh;/bin/zsh'"
 Icon=utilities-terminal
