@@ -8,3 +8,4 @@ X-GNOME-WMName=remmina-gnome
 X-GNOME-Autostart-Phase=WindowManager
 X-GNOME-Provides=windowmanager
 X-GNOME-Autostart-Notify=false
+X-Kaisen-Package=remmina

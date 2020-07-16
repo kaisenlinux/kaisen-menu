@@ -19,6 +19,7 @@ Terminal=false
 StartupNotify=true
 NoDisplay=true
 X-Desktop-File-Install-Version=0.24
+X-Kaisen-Package=remmina
 
 [Desktop Action Edit]
 Name=Remmina Edit

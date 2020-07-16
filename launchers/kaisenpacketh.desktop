@@ -14,3 +14,4 @@ Exec=packeth
 Icon=router
 StartupNotify=false
 Terminal=false
+X-Kaisen-Package=packeth

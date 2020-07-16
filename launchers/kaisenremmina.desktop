@@ -17,6 +17,7 @@ Keywords=remote desktop;rdp;vnc;nx;ssh;spice;xdmcp;
 StartupWMClass=org.remmina.Remmina
 MimeType=x-scheme-handler/rdp;x-scheme-handler/spice;x-scheme-handler/vnc;x-scheme-handler/remmina;application/x-remmina;
 Actions=Kiosk;Profile;Tray;Quit;
+X-Kaisen-Package=remmina
 
 [Desktop Action Profile]
 Name=Create a New Connection Profile

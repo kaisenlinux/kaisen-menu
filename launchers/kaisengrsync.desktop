@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 MimeType=application/x-grsync-session;
 Categories=Backup;
-X-Kaisen-Launcher=grsync
+X-Kaisen-Package=grsync

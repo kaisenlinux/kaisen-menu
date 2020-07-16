@@ -3,9 +3,10 @@ Section: kaisen-packages
 Priority: optional
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
 Build-Depends: debhelper
-Standards-Version: 3.8.4
+Standards-Version: 4.4.1
 
 Package: kaisen-menu
 Architecture: all
-Depends: ${misc:Depends}, xdg-utils, gksu, terminator, zsh
+Depends: ${misc:Depends}, ${perl:Depends}, xdg-utils, gksu, terminator, zsh, sudo, libdpkg-perl, libfile-fcntllock-perl
+Breaks: dradis (<< 3.1.0~rc2)
 Description: Kaisen Linux menu package (launchers, auto update launchers...)

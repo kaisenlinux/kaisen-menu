@@ -3,8 +3,8 @@
 set -e
 
 mkdir -p /etc/xdg/menus/applications-merged
-cp -f /usr/share/kaisen-menu/kaisenlinux.menu /etc/xdg/menus/applications-merged
-rm -rf /usr/share/kaisen-menu
+cp -f /usr/share/kaisen-menu/kaisenlinux.menu /etc/xdg/menus/applications-merged/
+cp -f /usr/share/kaisen-menu/xfce-applications.menu /etc/xdg/menus/xfce-applications.menu
 
 cat << EOF > /usr/share/desktop-directories/user-apps.directory
 [Desktop Entry]
@@ -16,3 +16,13 @@ Icon=tux
 Type=Directory
 EOF
 
+case "$1" in
+    configure|triggered)
+        /usr/share/kaisen-menu/update-kaisen-menu
+
+        [ "$1" = "triggered" ] && exit 0
+
+        if which dconf >/dev/null 2>&1; then
+            dconf update || true
+        fi
+esac

@@ -13,3 +13,4 @@ Icon=MidnightCommander
 Terminal=true
 Type=Application
 Categories=Miscellaneous
+X-Kaisen-Package=mc

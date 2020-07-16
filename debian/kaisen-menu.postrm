@@ -1,1 +1,23 @@
+#!/bin/sh
+
+set -e
+
+drop_diversion() {
+    if [ -e "$1.original" ]; then
+	mv "$1.original" "$1"
+    fi
+    dpkg-divert --no-rename --package kaisen-menu \
+                --divert $1.original \
+                --remove $1
+}
+
+case "$1" in
+    remove)
+	drop_diversion /etc/xdg/menus/xfce-applications.menu
+	find /usr/share/applications -name '*.desktop' | \
+	    xargs grep -l ^X-Kaisen-Package | \
+	    xargs rm -f || true
+    ;;
+esac
+
 rm -f /etc/xdg/menus/applications-merged/kaisenlinux.menu

@@ -1,3 +1,10 @@
+kaisen-menu (1.2) kaisen-testing; urgency=medium
+
+  * Adding update-kaisen-menu for auto updating launchers
+  * Adding UDF menu and launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 16 Jul 2020 01:15:29 +0200
+
 kaisen-menu (1.1+kaisen7) kaisen-devel; urgency=medium
 
   * Fix anydesk disable service launcher
