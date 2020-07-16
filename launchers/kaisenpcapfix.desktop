@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=PCAP
-X-Kaisen-Package=pacapfix
+X-Kaisen-Package=pcapfix

@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Filesystems
-X-Kaisen-Package=kaisen-filesystems
+X-Kaisen-Package=ocfs2-tools

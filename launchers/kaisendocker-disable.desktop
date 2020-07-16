@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SContainers
-X-Kaisen-Package=docker
+X-Kaisen-Package=kaisen-services-management

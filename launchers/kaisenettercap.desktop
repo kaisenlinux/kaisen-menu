@@ -14,5 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Scanner
-X-Kaisen-Package=ettercap
-
+X-Kaisen-Package=ettercap-graphical

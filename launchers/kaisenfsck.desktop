@@ -13,4 +13,4 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 Categories=DisksAnalysis
-X-Kaisen-Package=kaisen-disks-analysis
+X-Kaisen-Package=e2fsprogs

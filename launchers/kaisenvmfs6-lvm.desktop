@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=VMFS
-X-Kaisen-Package=vmfs6-utils
+X-Kaisen-Package=vmfs6-tools

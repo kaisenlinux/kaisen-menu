@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=TCP
-X-Kaisen-Package=scapy
+X-Kaisen-Package=python3-scapy

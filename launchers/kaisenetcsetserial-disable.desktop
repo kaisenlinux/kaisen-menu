@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SETCSetSerial
-X-Kaisen-Package=statserial
+X-Kaisen-Package=kaisen-services-management

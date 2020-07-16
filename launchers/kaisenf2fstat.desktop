@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=F2FS
-X-Kaisen-Package=kaisen-filesystems
+X-Kaisen-Package=f2fs-tools

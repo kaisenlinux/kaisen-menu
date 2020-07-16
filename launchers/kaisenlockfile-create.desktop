@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Dataprotection
-X-Kaisen-Package=lockfile
+X-Kaisen-Package=lockfile-progs

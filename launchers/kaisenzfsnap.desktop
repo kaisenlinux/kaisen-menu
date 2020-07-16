@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=ZFS
-X-Kaisen-Package=kaisen-filesystems
+X-Kaisen-Package=zfsnap

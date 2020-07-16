@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=DisksAnalysis
-X-Kaisen-Package=kaisen-disks-analysis
+X-Kaisen-Package=e2fsprogs

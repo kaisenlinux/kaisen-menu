@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Filesystems;LXC
-X-Kaisen-Package=lxc
+X-Kaisen-Package=lxcfs

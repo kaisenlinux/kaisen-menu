@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Passwords
-X-Kaisen-Package=xhydra
+X-Kaisen-Package=hydra-gtk

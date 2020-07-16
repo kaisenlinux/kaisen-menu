@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=IP
-X-Kaisen-Package=iptraf
+X-Kaisen-Package=iptraf-ng

@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=MAC
-X-Kaisen-Package=arping
+X-Kaisen-Package=iputils-arping

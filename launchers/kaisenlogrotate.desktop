@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=NetworkSecurity
-X-Kaisen-Package=kaisen-network-tools
+X-Kaisen-Package=logrotate

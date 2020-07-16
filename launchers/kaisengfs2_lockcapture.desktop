@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=GFS2
-X-Kaisen-Package=kaisen-filesystems
+X-Kaisen-Package=gfs2-utils

@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Analysis
-X-Kaisen-Package=pstree
+X-Kaisen-Package=psmisc

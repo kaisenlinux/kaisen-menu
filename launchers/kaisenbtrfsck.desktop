@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=BTRFS
-X-Kaisen-Package=btrfs-tools
+X-Kaisen-Package=btrfs-progs

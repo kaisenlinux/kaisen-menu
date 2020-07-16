@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Scanner
-X-Kaisen-Package=mtr
+X-Kaisen-Package=mtr-tiny

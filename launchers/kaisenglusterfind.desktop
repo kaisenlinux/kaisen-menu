@@ -2,11 +2,6 @@
 
 [Desktop Entry]
 Name=glusterfind
-Name[fr]=glusterfind
-Name[es]=glusterfind
-Name[pt]=glusterfind
-Name[it]=glusterfind
-Name[de]=glusterfind
 Comment=Tool to manage gluster filesystem
 Comment[fr]=Outil pour gérer le système de fichier gluster
 Comment[es]=Herramienta para gestionar el sistema de archivos Gluster

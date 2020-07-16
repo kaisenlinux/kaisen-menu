@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SFilesystems
-X-Kaisen-Package=ceph-fuse
+X-Kaisen-Package=kaisen-services-management
