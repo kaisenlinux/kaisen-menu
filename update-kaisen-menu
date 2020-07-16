@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+#This script comes from the Kali Linux distribution.
+#Thank you for their work and for this script.
+#Readapted by Kevin Chevreuil - Kaisen for Kaisen Linux.
+
 use warnings;
 use strict;
 
