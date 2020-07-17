@@ -1,3 +1,9 @@
+kaisen-menu (1.2+kaisen1) kaisen-testing; urgency=medium
+
+  * Adding remove xfce-applications.menu at postrm script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 17 Jul 2020 07:32:07 +0200
+
 kaisen-menu (1.2) kaisen-testing; urgency=medium
 
   * Adding update-kaisen-menu for auto updating launchers

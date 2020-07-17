@@ -3,15 +3,17 @@
 set -e
 
 mkdir -p /etc/xdg/menus/applications-merged
-cp -f /usr/share/kaisen-menu/kaisenlinux.menu /etc/xdg/menus/applications-merged/
-cp -f /usr/share/kaisen-menu/xfce-applications.menu /etc/xdg/menus/xfce-applications.menu
+ln -s /usr/share/kaisen-menu/kaisenlinux.menu /etc/xdg/menus/applications-merged/ >/dev/null 2>&1 || true
+ln -s /usr/share/kaisen-menu/xfce-applications.menu /etc/xdg/menus/xfce-applications.menu >/dev/null 2>&1 || true
 
 cat << EOF > /usr/share/desktop-directories/user-apps.directory
 [Desktop Entry]
 Name=User applications
 Name[fr]=Applications utilisateur
-Comment=User applications section (internet, music and more...)
-Comment[fr]=Section des applications utilisateur (musique, internet et autres...)
+Name[es]=Aplicaciones de usuario
+Name[pt]=Aplicativos de usuário
+Name[it]=Applicazioni utente
+Name[de]=Benutzeranwendungen
 Icon=tux
 Type=Directory
 EOF
