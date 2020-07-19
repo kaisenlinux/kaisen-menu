@@ -1,3 +1,9 @@
+kaisen-menu (1.2+kaisen2) kaisen-devel; urgency=medium
+
+  * Update kaisenmkfs-ext2.desktop (fix X-Kaisen-Package entry)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 19 Jul 2020 02:26:54 +0200
+
 kaisen-menu (1.2+kaisen1) kaisen-testing; urgency=medium
 
   * Adding remove xfce-applications.menu at postrm script
