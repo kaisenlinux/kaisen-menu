@@ -112,7 +112,7 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>Compress/Decompress</Name>
+      <Name>ZIP</Name>
       <Directory>kaisenlinux-compress.directory</Directory>
       <Include>
         <And>

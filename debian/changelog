@@ -1,3 +1,10 @@
+kaisen-menu (1.2+kaisen3) kaisen-devel; urgency=medium
+
+  * Move Compress/Decompress at ZIP in name menu in menus/kaisenlinux.menu
+    for fix not display section on KDE and LXDE environments
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 23 Jul 2020 01:51:56 +0200
+
 kaisen-menu (1.2+kaisen2) kaisen-devel; urgency=medium
 
   * Update kaisenmkfs-ext2.desktop (fix X-Kaisen-Package entry)
