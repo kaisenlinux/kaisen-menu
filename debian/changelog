@@ -1,3 +1,9 @@
+kaisen-menu (1.2+kaisen4) kaisen-devel; urgency=medium
+
+  * Add tmfs launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 02 Aug 2020 18:39:06 +0200
+
 kaisen-menu (1.2+kaisen3) kaisen-devel; urgency=medium
 
   * Move Compress/Decompress at ZIP in name menu in menus/kaisenlinux.menu

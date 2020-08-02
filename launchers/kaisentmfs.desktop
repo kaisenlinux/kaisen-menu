@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=tmfs
+Comment=Tool to mount a time machine disk on the system
+Comment[fr]=Outil pour monter un disque time machine sur le système
+Comment[es]=Herramienta para montar un disco de máquina del tiempo en el sistema
+Comment[pt]=Ferramenta para montar um disco da máquina do tempo no sistema
+Comment[it]=Strumento per montare un disco della macchina del tempo sul sistema
+Comment[de]=Tool zum Mounten einer Zeitmaschinenfestplatte am System
+Exec=terminator -e "zsh -c 'tmfs;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Mount;Filesystems
+X-Kaisen-Package=tmfs
