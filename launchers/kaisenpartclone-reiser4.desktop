@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=REISER4
-X-Kaisen-Package=reiser4progs
+X-Kaisen-Package=partclone

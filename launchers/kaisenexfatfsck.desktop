@@ -1,17 +1,17 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=exfatfsck
+Name=fsck.exfat
 Comment=Tool to repair exfat partitions
 Comment[fr]=Outil pour réparer des partitions exfat
 Comment[es]=Herramienta para reparar particiones exfat
 Comment[pt]=Ferramenta para reparar partições exfat
 Comment[it]=Strumento per riparare partizioni exfat
 Comment[de]=Werkzeug zum Reparieren von Exfat-Partitionen
-Exec=terminator -e "zsh -c 'sudo exfatfsck;/bin/zsh'"
+Exec=terminator -e "zsh -c 'sudo fsck.exfat;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=EXFAT
-X-Kaisen-Package=exfat-utils
+Categories=EXFAT;FSCK
+X-Kaisen-Package=exfatprogs
