@@ -1,0 +1,5 @@
+menus/kaisenlinux.menu etc/xdg/menus/applications-merged/
+menus/xfce-applications.menu etc/xdg/menus/
+desktop-directories/* usr/share/desktop-directories/
+launchers/* usr/share/kaisen-menu/applications/
+update-kaisen-menu usr/share/kaisen-menu/

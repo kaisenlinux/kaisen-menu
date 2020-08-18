@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+
+cat << EOF > /usr/share/desktop-directories/user-apps.directory
+[Desktop Entry]
+Name=User applications
+Name[fr]=Applications utilisateur
+Name[es]=Aplicaciones de usuario
+Name[pt]=Aplicativos de usuário
+Name[it]=Applicazioni utente
+Name[de]=Benutzeranwendungen
+Icon=tux
+Type=Directory
+EOF
+
+case "$1" in
+    configure|triggered)
+        /usr/share/kaisen-menu/update-kaisen-menu
+
+        [ "$1" = "triggered" ] && exit 0
+
+        if which dconf >/dev/null 2>&1; then
+            dconf update || true
+        fi
+esac

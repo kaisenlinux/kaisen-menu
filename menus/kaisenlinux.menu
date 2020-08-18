@@ -58,6 +58,15 @@
       </Include>
     </Menu>
     <Menu>
+      <Name>Temperature analysis</Name>
+      <Directory>kaisenlinux-temperature.directory</Directory>
+      <Include>
+        <And>
+          <Category>Temperature</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
       <Name>USB boot</Name>
       <Directory>kaisenlinux-usbboot.directory</Directory>
       <Include>

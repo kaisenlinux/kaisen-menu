@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=XSensors
+Comment=View hardware health
+Comment[fr]=Afficher la santé du matériel
+Comment[es]=Mostrar el estado del hardware
+Comment[pt]=Mostrar integridade do hardware
+Comment[it]=Mostra l'integrità dell'hardware
+Comment[de]=Hardware-Zustand anzeigen
+Exec=xsensors
+Icon=/usr/share/pixmaps/xsensors/default.xpm
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Temperature
+X-Kaisen-Package=xsensors

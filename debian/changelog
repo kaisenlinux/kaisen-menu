@@ -1,3 +1,15 @@
+kaisen-menu (1.2+kaisen6) kaisen-devel; urgency=medium
+
+  * Move kaisenpsensor.desktop in temperature categories
+  * Create temperature analysis in menus/kaisenlinux.menu
+  * Create desktop-directories/kaisenlinux-temperature.directory
+  * Create kaisenxsensors.desktop, kaisenhddtemp.desktop and kaisensensors-detect.desktop
+  * Update to standards-version at 4.5.0
+  * Create conffiles
+  * Divert old xfce4-applications.menu file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 18 Aug 2020 02:18:13 +0200
+
 kaisen-menu (1.2+kaisen5) kaisen-devel; urgency=medium
 
   * Replace exfat-utils by exfatprogs in exfat launchers

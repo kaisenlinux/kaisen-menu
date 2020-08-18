@@ -3,7 +3,7 @@ Section: kaisen-packages
 Priority: optional
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>
 Build-Depends: debhelper
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 
 Package: kaisen-menu
 Architecture: all

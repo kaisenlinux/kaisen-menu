@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+case "$1" in
+    remove)
+	find /usr/share/applications -name '*.desktop' | \
+	    xargs grep -l ^X-Kaisen-Package | \
+	    xargs rm -f || true
+    ;;
+esac
