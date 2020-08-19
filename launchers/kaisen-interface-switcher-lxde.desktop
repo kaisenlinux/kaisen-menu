@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=kaisen-interface-switcher
+Comment=Tool to clean icons of the base menu
+Comment[fr]=Outil pour changer d'interface graphique rapidement et de façon automatique
+Comment[es]=Herramienta para cambiar la interfaz gráfica de forma rápida y automática
+Comment[pt]=Ferramenta para alterar a interface gráfica rápida e automaticamente
+Comment[it]=Strumento per modificare l'interfaccia grafica in modo rapido e automatico
+Comment[de]=Tool zum schnellen und automatischen Ändern der GUI
+Exec=terminator -e "zsh -c 'sudo kaisen-interface-switcher;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-lxde
