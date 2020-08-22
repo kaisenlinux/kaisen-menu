@@ -1,4 +1,4 @@
 [Desktop Entry]
 Name=Docker
-Icon=docker
+Icon=/usr/share/pixmaps/kaisen/docker.png
 Type=Directory

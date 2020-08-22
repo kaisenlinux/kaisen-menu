@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Cloning
-Name[fr]=Clonage
-Name[es]=Clonación
-Name[pt]=Clonagem
-Name[it]=Clonazione
-Name[de]=Klonen
-Icon=cloning
+Name=Cloning/Snapshot
+Name[fr]=Clonage/Snapshot
+Name[es]=Clonación/Snapshot
+Name[pt]=Clonagem/Snapshot
+Name[it]=Clonazione/Snapshot
+Name[de]=Klonen/Snapshot
+Icon=/usr/share/pixmaps/kaisen/cloning.png
 Type=Directory

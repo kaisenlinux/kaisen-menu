@@ -5,5 +5,5 @@ Name[es]=Mantenimiento remoto
 Name[pt]=Manutenção remota
 Name[it]=Manutenzione a distanza
 Name[de]=Fernwartung
-Icon=remotemaintenance
+Icon=/usr/share/pixmaps/kaisen/remotemaintenance.png
 Type=Directory

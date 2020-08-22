@@ -5,5 +5,5 @@ Name[es]=Arranque USB
 Name[pt]=Inicialização USB
 Name[it]=Avvio USB
 Name[de]=USB-Boot
-Icon=usbboot
+Icon=/usr/share/pixmaps/kaisen/usbboot.png
 Type=Directory

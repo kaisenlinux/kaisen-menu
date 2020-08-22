@@ -5,5 +5,5 @@ Name[es]=Sistema
 Name[pt]=Sistema
 Name[it]=Sistema
 Name[de]=System
-Icon=systems
+Icon=/usr/share/pixmaps/kaisen/systems.png
 Type=Directory

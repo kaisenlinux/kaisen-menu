@@ -5,5 +5,5 @@ Name[es]=Análisis de temperatura
 Name[pt]=Análises de temperatura
 Name[it]=Analisi della temperatura
 Name[de]=Temperaturanalysen
-Icon=temperature
+Icon=/usr/share/pixmaps/kaisen/temperature.png
 Type=Directory

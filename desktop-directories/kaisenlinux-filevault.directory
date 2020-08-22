@@ -1,5 +1,4 @@
 [Desktop Entry]
 Name=FileVault
-Name[fr]=FileVault
-Icon=mount
+Icon=/usr/share/pixmaps/kaisen/mount.png
 Type=Directory

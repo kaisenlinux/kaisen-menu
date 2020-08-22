@@ -5,5 +5,5 @@ Name[es]=Análisis de disco
 Name[pt]=Análise de disco
 Name[it]=Analisi del disco
 Name[de]=Festplattenanalyse
-Icon=hdd
+Icon=/usr/share/pixmaps/kaisen/hdd.png
 Type=Directory

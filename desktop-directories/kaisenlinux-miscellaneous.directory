@@ -5,5 +5,5 @@ Name[es]=Herramientas varias
 Name[pt]=Ferramentas diversas
 Name[it]=Strumenti vari
 Name[de]=Verschiedene Werkzeuge
-Icon=kaisen
+Icon=/usr/share/pixmaps/kaisen/kaisen.png
 Type=Directory

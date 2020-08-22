@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=timeshift
+Comment=System Restore Utility (CLI)
+Comment[fr]=Utilitaire de restauration système (CLI)
+Comment[es]=Utilidad de restauración del sistema (CLI)
+Comment[pt]=Utilitário de restauração do sistema (CLI)
+Comment[it]=Utilità di ripristino del sistema (CLI)
+Comment[de]=Dienstprogramm zur Systemwiederherstellung (CLI)
+Exec=terminator -e "zsh -c 'timeshift;/bin/zsh'"
+Icon=utilities-terminal
+X-KDE-StartupNotify=false
+X-GNOME-UsesNotifications=true
+Terminal=false
+Categories=Timeshift
+Type=Application
+X-Kaisen-Package=timeshift

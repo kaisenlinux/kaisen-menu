@@ -5,5 +5,5 @@ Name[es]=Contenedorización
 Name[pt]=Containerização
 Name[it]=Containerizzazione
 Name[de]=Containerisierung
-Icon=kaisen
+Icon=/usr/share/pixmaps/kaisen/kaisen.png
 Type=Directory

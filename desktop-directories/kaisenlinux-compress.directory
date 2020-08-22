@@ -5,5 +5,5 @@ Name[es]=Compresión/Descompresión
 Name[pt]=Compressão/Descompressão
 Name[it]=Compressione/Decompressione
 Name[de]=Komprimierung/Dekomprimierung
-Icon=compress
+Icon=/usr/share/pixmaps/kaisen/compress.png
 Type=Directory

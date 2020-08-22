@@ -83,6 +83,15 @@
           <Category>Cloning</Category>
         </And>
       </Include>
+    <Menu>
+      <Name>Timeshift</Name>
+      <Directory>kaisenlinux-timeshift.directory</Directory>
+      <Include>
+        <And>
+          <Category>Timeshift</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Virus analysis</Name>

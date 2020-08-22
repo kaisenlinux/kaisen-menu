@@ -1,3 +1,10 @@
+kaisen-menu (1.3) kaisen-devel; urgency=medium
+
+  * Add pixmaps folder (kaisen-mate, kaisen-kde, kaisen-lxde, kaisen-xfce menu icons
+    is here now)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 22 Aug 2020 03:44:46 +0200
+
 kaisen-menu (1.2+kaisen8) kaisen-devel; urgency=medium
 
   * Fix bad X-Kaisen-Package in kaisen-basemenu-purge launcher

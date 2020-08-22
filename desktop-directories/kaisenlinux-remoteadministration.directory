@@ -5,5 +5,5 @@ Name[es]=Administración remota
 Name[pt]=Administração remota
 Name[it]=Amministrazione remota
 Name[de]=Fernverwaltung
-Icon=remoteadministration
+Icon=/usr/share/pixmaps/kaisen/remoteadministration.png
 Type=Directory

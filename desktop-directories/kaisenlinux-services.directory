@@ -5,6 +5,6 @@ Name[es]=Servicios
 Name[pt]=Serviços
 Name[it]=Servizi
 Name[de]=Dienstleistungen
-Icon=kaisen
+Icon=/usr/share/pixmaps/kaisen/kaisen.png
 Type=Directory
 
