@@ -2,18 +2,6 @@
 
 set -e
 
-cat << EOF > /usr/share/desktop-directories/user-apps.directory
-[Desktop Entry]
-Name=User applications
-Name[fr]=Applications utilisateur
-Name[es]=Aplicaciones de usuario
-Name[pt]=Aplicativos de usuário
-Name[it]=Applicazioni utente
-Name[de]=Benutzeranwendungen
-Icon=tux
-Type=Directory
-EOF
-
 case "$1" in
     configure|triggered)
         /usr/share/kaisen-menu/update-kaisen-menu

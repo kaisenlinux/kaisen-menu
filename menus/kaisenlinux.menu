@@ -11,7 +11,7 @@
 
   <Menu>
     <Name>User Applications</Name>
-    <Directory>user-apps.directory</Directory>
+    <Directory>kaisenlinux-userapps.directory</Directory>
     <!-- This is the target of <Move> at the end ... -->
   </Menu>
 
