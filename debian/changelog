@@ -1,3 +1,9 @@
+kaisen-menu (1.3+kaisen5) kaisen-packages; urgency=medium
+
+  * Remove dwagent launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 25 Aug 2020 01:35:19 +0200
+
 kaisen-menu (1.3+kaisen4) kaisen-devel; urgency=medium
 
   * Add rpcbind service launchers
