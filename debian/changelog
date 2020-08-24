@@ -1,3 +1,9 @@
+kaisen-menu (1.3+kaisen4) kaisen-devel; urgency=medium
+
+  * Add rpcbind service launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 23:03:02 +0200
+
 kaisen-menu (1.3+kaisen3) kaisen-devel; urgency=medium
 
   * Add sslscan launcher

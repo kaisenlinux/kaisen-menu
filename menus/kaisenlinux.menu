@@ -691,6 +691,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>SRPCBind</Name>
+      <Directory>kaisenlinux-srpcbind.directory</Directory>
+      <Include>
+        <And>
+          <Category>SRPCbind</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>
