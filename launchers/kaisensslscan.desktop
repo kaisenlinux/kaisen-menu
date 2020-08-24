@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=sslscan
+Comment=Fast SSL/TLS scanner
+Comment[fr]=Scanner SSL/TLS rapide
+Comment[es]=Escáner rápido de SSL/TLS
+Comment[pt]=Scanner rápido SSL/TLS
+Comment[it]=Scanner veloce SSL/TLS
+Comment[de]=Schneller SSL/TLS-Scanner
+Exec=terminator -e "zsh -c 'sslscan;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSL
+X-Kaisen-Package=sslscan

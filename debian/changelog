@@ -1,3 +1,16 @@
+kaisen-menu (1.3+kaisen3) kaisen-devel; urgency=medium
+
+  * Add sslscan launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 21:01:57 +0200
+
+kaisen-menu (1.3+kaisen2) kaisen-devel; urgency=medium
+
+  * Change X-Kaisen-Package for launchers/kaisenbettercap.desktop
+  * Add bettercap-disable and enable launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 20:44:28 +0200
+
 kaisen-menu (1.3+kaisen1) kaisen-devel; urgency=medium
 
   * Move launcher on postinst in file
