@@ -5,5 +5,5 @@ Name[es]=Aplicaciones de usuario
 Name[pt]=Aplicativos de usuário
 Name[it]=Applicazioni utente
 Name[de]=Benutzeranwendungen
-Icon=tux
+Icon=/usr/share/pixmaps/kaisen/tux.png
 Type=Directory

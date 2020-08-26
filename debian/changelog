@@ -1,3 +1,9 @@
+kaisen-menu (1.3+kaisen6) kaisen-packages; urgency=medium
+
+  * Fix tux icon on kaisenlinux-userapps.directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 26 Aug 2020 07:34:07 +0200
+
 kaisen-menu (1.3+kaisen5) kaisen-packages; urgency=medium
 
   * Remove dwagent launcher
