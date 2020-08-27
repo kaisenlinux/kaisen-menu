@@ -1,3 +1,9 @@
+kaisen-menu (1.3+kaisen8) kaisen-packages; urgency=medium
+
+  * Add autopostgresqlbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 27 Aug 2020 14:52:34 +0200
+
 kaisen-menu (1.3+kaisen7) kaisen-packages; urgency=medium
 
   * Replace locate by mlocate

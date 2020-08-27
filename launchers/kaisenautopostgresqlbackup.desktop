@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=autopostgresqlbackup
+Comment=Tool to backup postgresql databases
+Comment[fr]=Outil pour sauvegarder des bases de données postgresql
+Comment[es]=Herramienta para hacer copias de seguridad de bases de datos postgresql
+Comment[pt]=Ferramenta para fazer backup de bancos de dados postgresql
+Comment[it]=Strumento per il backup di database postgresql
+Comment[de]=Tool zum Sichern von PostgreSQL-Datenbanken
+Exec=terminator -e "zsh -c 'sudo autopostgresqlbackup;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=autopostgresqlbackup
