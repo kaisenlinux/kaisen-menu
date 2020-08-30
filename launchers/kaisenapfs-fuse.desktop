@@ -1,17 +1,17 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=apfsmount
+Name=apfs-fuse
 Comment=Tool to mount apfs disk 
 Comment[fr]=Outil pour monter les disques apfs
 Comment[es]=Herramienta para montar discos apfs
 Comment[pt]=Ferramenta para montar discos apfs
 Comment[it]=Strumento per montare dischi apfs
 Comment[de]=Tool zum Mounten von Apfs-Discs
-Exec=terminator -e "zsh -c 'fsapfsmount;/bin/zsh'"
+Exec=terminator -e "zsh -c 'apfs-fuse;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=APFS
-X-Kaisen-Package=libbde-utils
+X-Kaisen-Package=apfs-fuse
