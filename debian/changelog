@@ -1,3 +1,9 @@
+kaisen-menu (1.4+kaisen2) kaisen-packages; urgency=medium
+
+  * Fix bad Usual Applications entry on menus/xfce-applications.menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 30 Aug 2020 15:38:27 +0200
+
 kaisen-menu (1.4+kaisen1) kaisen-packages; urgency=medium
 
   * Change fsapfs launcher by new apfs launchers

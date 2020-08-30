@@ -32,7 +32,7 @@
 
     <Menu> <!-- nest all standard categories below Usual Applications -->
 	<Name>Usual Applications</Name>
-	<Directory>user-apps.directory</Directory>
+	<Directory>kaisenlinux-userapps.directory</Directory>
 
     <Menu>
         <Name>Accessories</Name>
