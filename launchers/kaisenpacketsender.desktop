@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=Packet Sender
-Comment=Tool for simulating network traffic
-Comment[fr]=Outil pour simuler du trafic réseau
-Comment[es]=Herramienta para simular tráfico de red
-Comment[pt]=Ferramenta para simular tráfego de rede
-Comment[it]=Strumento per simulare il traffico di rete
-Comment[de]=Tool zur Simulation des Netzwerkverkehrs
-Exec=sh -c "gksudo /opt/PacketSender_v7.0.5.AppImage"
-Icon=utilities-terminal
+Comment=Network utility for sending and receiving TCP, UDP, SSL packets
+Comment[fr]=Utilitaire réseau pour l'envoi et la réception de paquets TCP, UDP, SSL
+Comment[es]=Utilidad de red para enviar y recibir paquetes TCP, UDP, SSL
+Comment[pt]=Utilitário de rede para enviar e receber pacotes TCP, UDP, SSL
+Comment[it]=Utilità di rete per inviare e ricevere pacchetti TCP, UDP, SSL
+Comment[de]=Netzwerkdienstprogramm zum Senden und Empfangen von TCP-, UDP- und SSL-Paketen
+Exec=sh -c "gksudo packetsender"
+Icon=/usr/share/pixmaps/packetsender.png
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=UDP
-X-Kaisen-Package=kaisen-network-tools
+X-Kaisen-Package=packetsender
