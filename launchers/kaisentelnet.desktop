@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=telnet
+Comment=Tool to scan and test active ports
+Comment[fr]=Outil pour scanner et tester les ports actifs
+Comment[es]=Herramienta para escanear y probar puertos activos
+Comment[pt]=Ferramenta para verificar e testar portas ativas
+Comment[it]=Strumento per scansionare e testare le porte attive
+Comment[de]=Tool zum Scannen und Testen aktiver Ports
+Exec=terminator -e "zsh -c 'man telnet;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=telnet

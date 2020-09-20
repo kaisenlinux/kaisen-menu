@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=fstrim
+Comment=Tool to erase unused blocks on SSD drive
+Comment[fr]=Outil pour effacer les blocks non utilisés sur un disque SSD
+Comment[es]=Herramienta para borrar bloques no utilizados en una unidad SSD
+Comment[pt]=Ferramenta para apagar blocos não utilizados em uma unidade SSD
+Comment[it]=Strumento per cancellare i blocchi inutilizzati su un'unità SSD
+Comment[de]=Tool zum Löschen nicht verwendeter Blöcke auf einem SSD-Laufwerk
+Exec=terminator -e "zsh -c 'sudo fstrim -h;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Partitioning
+X-Kaisen-Package=util-linux

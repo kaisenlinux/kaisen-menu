@@ -1,3 +1,9 @@
+kaisen-menu (1.4+kaisen3) kaisen-packages; urgency=medium
+
+  * Add telnet and fstrim launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 20 Sep 2020 12:40:57 +0200
+
 kaisen-menu (1.4+kaisen2) kaisen-packages; urgency=medium
 
   * Fix bad Usual Applications entry on menus/xfce-applications.menu
