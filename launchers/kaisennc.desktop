@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=netcat
+Comment=Tool to read and write on TCP connections
+Comment[fr]=Outil pour lire et écrire sur les connexions TCP
+Comment[es]=Herramienta para leer y escribir en conexiones TCP
+Comment[pt]=Ferramenta para ler e escrever em conexões TCP
+Comment[it]=Strumento per leggere e scrivere su connessioni TCP
+Comment[de]=Tool zum Lesen und Schreiben von TCP-Verbindungen
+Exec=terminator -e "zsh -c 'nc;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCP
+X-Kaisen-Package=netcat-openbsd
