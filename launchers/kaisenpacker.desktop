@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=packer
+Comment=Tool to build automated machine images
+Comment[fr]=Outil pour construire des images machines automatisées
+Comment[es]=Herramienta para construir imágenes de máquinas automatizadas
+Comment[pt]=Ferramenta para construir imagens de máquinas automatizadas
+Comment[it]=Strumento per creare immagini di macchine automatiche
+Comment[de]=Tool zum Erstellen automatisierter Maschinenbilder
+Exec=terminator -e "zsh -c 'packer;/bin/zsh'"
+Icon=/usr/share/pixmaps/kaisen/packer.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SysOps
+X-Kaisen-Package=packer

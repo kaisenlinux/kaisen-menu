@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=azure-cli
+Comment=Universal command line interface for Microsoft Azure
+Comment[fr]=Interface de ligne de commande universelle pour Microsoft Azure
+Comment[es]=Interfaz de línea de comandos universal para Microsoft Azure
+Comment[pt]=Interface de linha de comando universal para Microsoft Azure
+Comment[it]=Interfaccia a riga di comando universale per Microsoft Azure
+Comment[de]=Universelle Befehlszeilenschnittstelle für Microsoft Azure
+Exec=terminator -e "zsh -c 'az;/bin/zsh'"
+Icon=/usr/share/pixmaps/kaisen/azure.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SysOps
+X-Kaisen-Package=azure-cli
