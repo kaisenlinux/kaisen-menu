@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=libvirt-disable
+Name[fr]=libvirt-désactivé
+Name[es]=libvirt-deshabilitado
+Name[pt]=libvirt-desativado
+Name[it]=libvirt-disabilitato
+Name[de]=libvirt-deaktiviert
+Comment=Disable libvirt daemon
+Comment[fr]=Désactiver service libvirt
+Comment[es]=Deshabilitar servicio libvirt
+Comment[pt]=Desativar serviço libvirt
+Comment[it]=Disabilita servizio libvirt
+Comment[de]=Deaktivieren Sie den libvirt-Dienst
+Exec=terminator -e "zsh -c '/opt/services/libvirt-disable.sh;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SLibvirt
+X-Kaisen-Package=kaisen-services-management

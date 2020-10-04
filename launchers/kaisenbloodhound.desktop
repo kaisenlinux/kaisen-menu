@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=BloodHound
+Comment=Six Degrees of Domain Admin
+Comment[fr]=Six degrés d'administration de domaine
+Comment[es]=Seis grados de administrador de dominio
+Comment[pt]=Seis graus de administrador de domínio
+Comment[it]=Sei gradi di amministrazione del dominio
+Comment[de]=Sechs Grade Domain Admin
+Exec=bloodhound
+Icon=/usr/share/pixmaps/kaisen/bloodhound.png
+Type=Application
+StartupNotify=false
+Categories=Microsoft
+X-Kaisen-Package=bloodhound

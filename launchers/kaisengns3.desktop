@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=GNS3
+Comment=GNS3 Graphical Network Simulator
+Comment[fr]=GNS3 : Simulateur de réseau graphique
+Comment[es]=GNS3: simulador de red gráfica
+Comment[pt]=GNS3: Simulador de rede gráfica
+Comment[it]=GNS3: simulatore grafico di rete
+Comment[de]=GNS3: Grafischer Netzwerksimulator
+Exec=gns3
+Icon=/usr/share/pixmaps/kaisen/gns3.png
+Type=Application
+StartupNotify=false
+Categories=GNS3
+X-Kaisen-Package=gns3-gui

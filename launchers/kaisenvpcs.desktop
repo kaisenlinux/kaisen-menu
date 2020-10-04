@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=vpcs
+Comment=Simple Virtual PC Simulator
+Comment[fr]=Simple simulation d'ordinateur virtuel
+Comment[es]=Simulador de PC virtual simple
+Comment[pt]=Simulador de PC Virtual Simples
+Comment[it]=Simulatore di PC virtuale semplice
+Comment[de]=Einfacher Virtual PC Simulator
+Exec=terminator -e "zsh -c 'vpcs -h;bin/zsh'"
+Icon=utilities-terminal
+Type=Application
+StartupNotify=false
+Categories=GNS3
+X-Kaisen-Package=vpcs

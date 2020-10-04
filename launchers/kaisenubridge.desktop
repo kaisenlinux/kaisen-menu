@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ubridge
+Comment=Bridge for UDP tunnels, Ethernet, TAP and VMnet interfaces
+Comment[fr]=Pont pour tunnels UDP, interfaces Ethernet, TAP et VMnet
+Comment[es]=Puente para túneles UDP, interfaces Ethernet, TAP y VMnet
+Comment[pt]=Ponte para túneis UDP, interfaces Ethernet, TAP e VMnet
+Comment[it]=Bridge per tunnel UDP, interfacce Ethernet, TAP e VMnet
+Comment[de]=Brücke für UDP-Tunnel, Ethernet-, TAP- und VMnet-Schnittstellen
+Exec=terminator -e "zsh -c 'ubridge -h;bin/zsh'"
+Icon=utilities-terminal
+Type=Application
+StartupNotify=false
+Categories=GNS3
+X-Kaisen-Package=ubridge
