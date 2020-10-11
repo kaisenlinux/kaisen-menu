@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=zuluCryptGUI
+Name=zuluCrypt
 Comment=Graphical front end for zulucrypt-cli
 Comment[fr]=Interface graphique pour zulucrypt-cli
 Comment[es]=Interfaz gráfica para zulucrypt-cli

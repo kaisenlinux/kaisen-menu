@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=zuluMountGUI
+Name=zuluMount
 Comment=Encrypted volumes and partition mounter
 Comment[fr]=Volumes chiffrés et partitions montées
 Comment[es]=Volúmenes cifrados y particiones montadas
