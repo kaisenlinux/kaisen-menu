@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Miscellaneous
-X-Kaisen-Package=kaisen-miscellaneous
+X-Kaisen-Package=kaisen-skeleton
