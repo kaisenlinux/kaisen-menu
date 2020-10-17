@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ctop
+Comment=Command line/text based Linux Containers monitoring tool
+Comment[fr]=Outil de surveillance des conteneurs Linux en ligne de commande/texte
+Comment[es]=Herramienta de monitoreo de contenedores Linux basada en línea de comandos/texto
+Comment[pt]=Ferramenta de monitoramento de contêineres Linux baseada em texto/linha de comando
+Comment[it]=Strumento di monitoraggio dei contenitori Linux basato su riga di comando/testo
+Comment[de]=Befehlszeilen-/textbasiertes Linux Containers-Überwachungstool
+Exec=terminator -e "zsh -c 'ctop --refresh=1 --tree;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SystemSecurity
+X-Kaisen-Package=ctop
