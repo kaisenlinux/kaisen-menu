@@ -13,5 +13,5 @@ Icon=virtualbox
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SystemSecurity
+Categories=Virtualization
 X-Kaisen-Package=virtualbox

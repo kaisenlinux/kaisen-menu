@@ -439,6 +439,15 @@
       </Include>
     </Menu>
     <Menu>
+      <Name>Virtualization</Name>
+      <Directory>kaisenlinux-virtualization.directory</Directory>
+      <Include>
+        <And>
+          <Category>Virtualization</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
       <Name>Backup</Name>
       <Directory>kaisenlinux-backup.directory</Directory>
       <Include>

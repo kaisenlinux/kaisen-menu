@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Virtual Machine Manager (QEMU/KVM)
+Name[fr]=Gestionnaire de machines virtuelles (QEMU/KVM)
+Name[es]=Gestor de máquinas virtuales (QEMU/KVM)
+Name[pt]=Gestor de Máquinas Virtuais (QEMU/KVM)
+Name[it]=Virtual Machine Manager (QEMU/KVM)
+Name[de]=Virtuelle Maschinenverwaltung (QEMU/KVM)
+Comment=Manage virtual machines
+Comment[fr]=Gérer des machines virtuelles
+Comment[es]=Administrar maquinas virtuales
+Comment[pt]=Gerir máquinas virtuais
+Comment[it]=Gestisce macchine virtuali
+Comment[de]=Virtuellen Maschinen verwalten
+Exec=virt-manager
+Icon=virt-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Virtualization
+X-Kaisen-Package=virt-manager
