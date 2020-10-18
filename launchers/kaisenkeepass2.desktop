@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=KeePass2
+Comment=Password manager
+Comment[fr]=Gestionnaire de mots de passe
+Comment[es]=Administrador de contraseñas
+Comment[pt]=Gerenciador de senhas
+Comment[it]=Gestore di password
+Comment[de]=Passwortmanager
+Exec=keepass2 %f
+Icon=keepass2
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Passwords;
+MimeType=application/x-keepass2;
+X-Kaisen-Package=keepass2
