@@ -1,0 +1,19 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=WoeUSB
+Comment=Tool to create Windows/WindowsPE USB stick installer
+Comment[fr]=Outil pour créer une clé USB bootable Windows/WindowsPE
+Comment[es]=Herramienta para crear una llave USB de arranque de Windows/Windows PE
+Comment[pt]=Ferramenta para criar uma chave USB inicializável do Windows/Windows PE
+Comment[it]=Strumento per creare una chiave USB Windows/Windows PE avviabile
+Comment[de]=Tool zum Erstellen eines bootfähigen Windows/Windows PE-USB-Sticks
+Exec=sh -c "gksudo woeusbgui"
+Icon=woeusbgui-icon
+X-MultipleArgs=false
+Categories=USBBoot
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+X-Kaisen-Package=woeusb

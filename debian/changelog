@@ -1,3 +1,13 @@
+kaisen-menu (1.4+kaisen15) kaisen-packages; urgency=medium
+
+  * Convert pixmaps/*.svg files by .png for fix
+    missing icons on KDE menu
+  * Update desktop-directories files
+  * Add veracrypt launcher
+  * Add woeusb launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 20 Oct 2020 01:00:46 +0200
+
 kaisen-menu (1.4+kaisen14) kaisen-packages; urgency=medium
 
   * Remove keepass2 launcher
