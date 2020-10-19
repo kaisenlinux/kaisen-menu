@@ -1,3 +1,9 @@
+kaisen-menu (1.4+kaisen14) kaisen-packages; urgency=medium
+
+  * Remove keepass2 launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 19 Oct 2020 21:11:19 +0200
+
 kaisen-menu (1.4+kaisen13) kaisen-packages; urgency=medium
 
   * Add X-Kaisen-Package on kaisenkeepass2.desktop
