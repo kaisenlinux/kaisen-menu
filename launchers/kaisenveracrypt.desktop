@@ -1,15 +1,15 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=VeraCrypt
-Comment=Tool to encrypt and mount all disks partitions (GUI)
-Comment[fr]=Outil pour chiffrer pour chiffrer et monter toutes partitions de disques (GUI)
-Comment[es]=Herramienta de cifrado para cifrar y montar todas las particiones del disco (GUI)
-Comment[pt]=Ferramenta de criptografia para criptografar e montar todas as partições do disco (GUI)
-Comment[it]=Strumento di crittografia per crittografare e montare tutte le partizioni del disco (GUI)
-Comment[de]=Verschlüsselungstool zum Verschlüsseln und Mounten aller Festplattenpartitionen (GUI)
-Exec=sh -c "gksudo veracrypt"
-Icon=veracrypt
+Name=veracrypt
+Comment=Tool to encrypt and mount all disks partitions (CLI)
+Comment[fr]=Outil pour chiffrer pour chiffrer et monter toutes partitions de disques (CLI)
+Comment[es]=Herramienta de cifrado para cifrar y montar todas las particiones del disco (CLI)
+Comment[pt]=Ferramenta de criptografia para criptografar e montar todas as partições do disco (CLI)
+Comment[it]=Strumento di crittografia per crittografare e montare tutte le partizioni del disco (CLI)
+Comment[de]=Verschlüsselungstool zum Verschlüsseln und Mounten aller Festplattenpartitionen (CLI)
+Exec=terminator -e "zsh -c 'veracrypt --text;/bin/zsh'"
+Icon=utilities-terminal
 Terminal=false
 StartupNotify=true
 Type=Application
