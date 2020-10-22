@@ -1,6 +1,12 @@
+kaisen-menu (1.4+kaisen17) kaisen-packages; urgency=medium
+
+  * Change name on launchers/kaisennc.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 22 Oct 2020 21:29:16 +0200
+
 kaisen-menu (1.4+kaisen16) kaisen-packages; urgency=medium
 
-  * Adapt actual veracrypt launcher for veracrypt-gui package
+  * Adapt actual veracrypt launcher for veracrypt gui
   * Create veracrypt (CLI) launcher
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 22 Oct 2020 00:08:57 +0200

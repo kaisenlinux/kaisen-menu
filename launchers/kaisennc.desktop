@@ -1,7 +1,7 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=netcat
+Name=nc
 Comment=Tool to read and write on TCP connections
 Comment[fr]=Outil pour lire et écrire sur les connexions TCP
 Comment[es]=Herramienta para leer y escribir en conexiones TCP
