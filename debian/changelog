@@ -1,3 +1,9 @@
+kaisen-menu (1.4+kaisen20) kaisen-packages; urgency=medium
+
+  * Change exfatprogs in exfat-utils on X-Kaisen-Package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 02 Dec 2020 23:18:13 +0200
+
 kaisen-menu (1.4+kaisen19) kaisen-packages; urgency=medium
 
   * Fix tshark launcher (display help and not run tshark command)
