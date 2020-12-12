@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=clamav-disable
+Name[fr]=clamav-désactivé
+Name[es]=clamav-deshabilitado
+Name[pt]=clamav-desativado
+Name[it]=clamav-disabilitato
+Name[de]=clamav-behindert
+Comment=Disable clamav daemons
+Comment[fr]=Désactiver services clamav
+Comment[es]=Desactivar servicios clamav
+Comment[pt]=Desativar serviços clamav
+Comment[it]=Disabilita servizios clamav
+Comment[de]=Deaktivieren Sie Clamav-Services
+Exec=terminator -e "zsh -c '/opt/services/clamav-disable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SClamAV
+X-Kaisen-Package=kaisen-services-management

@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=hddtemp-disable
+Name[fr]=hddtemp-désactivé
+Name[es]=hddtemp-deshabilitado
+Name[pt]=hddtemp-desativado
+Name[it]=hddtemp-disabilitato
+Name[de]=hddtemp-deaktiviert
+Comment=Disable hddtemp daemon
+Comment[fr]=Désactiver service hddtemp
+Comment[es]=Deshabilitar servicio hddtemp
+Comment[pt]=Desativar serviço hddtemp
+Comment[it]=Disabilita servizio hddtemp
+Comment[de]=Deaktivieren Sie den Hddtemp-Service
+Exec=terminator -e "zsh -c '/opt/services/hddtemp-disable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SHDDtemp
+X-Kaisen-Package=kaisen-services-management

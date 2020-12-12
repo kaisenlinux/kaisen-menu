@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=clamav-enable
+Name[fr]=clamav-activé
+Name[es]=clamav-activado
+Name[pt]=clamav-ativado
+Name[it]=clamav-attivato
+Name[de]=clamav-aktiviert
+Comment=Enable clamav daemons
+Comment[fr]=Activer services clamav
+Comment[es]=Activar servicios clamav
+Comment[pt]=Ativar serviços clamav
+Comment[it]=Attiva servizios clamav
+Comment[de]=Aktivieren Sie Clamav-Services
+Exec=terminator -e "zsh -c '/opt/services/clamav-enable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SClamAV
+X-Kaisen-Package=kaisen-services-management

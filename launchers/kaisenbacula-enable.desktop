@@ -1,19 +1,19 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=baculafd-enable
-Name[fr]=baculafd-activé
-Name[es]=baculafd-activado
-Name[pt]=baculafd-ativado
-Name[it]=baculafd-attivato
-Name[de]=Baculafd-aktiviert
-Comment=Enable baculafd daemon
-Comment[fr]=Activer service baculafd
-Comment[es]=Activar servicio baculafd
-Comment[pt]=Ativar serviço baculafd
-Comment[it]=Attiva il servizio baculafd
-Comment[de]=Aktivieren Sie den Baculafd-Service
-Exec=terminator -e "zsh -c '/opt/services/baculafd-enable.sh;/bin/zsh'"
+Name=bacula-enable
+Name[fr]=bacula-activé
+Name[es]=bacula-activado
+Name[pt]=bacula-ativado
+Name[it]=bacula-attivato
+Name[de]=bacula-aktiviert
+Comment=Enable bacula daemons
+Comment[fr]=Activer services bacula
+Comment[es]=Activa servicios bacula
+Comment[pt]=Ativar serviços bacula
+Comment[it]=Attiva servizios bacula
+Comment[de]=Aktivieren Sie den Bacula-Services
+Exec=terminator -e "zsh -c '/opt/services/bacula-enable;/bin/zsh'"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

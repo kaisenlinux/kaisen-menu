@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arpalert-disable
+Name[fr]=arpalert-désactivé
+Name[es]=arpalert-deshabilitado
+Name[pt]=arpalert-desativado
+Name[it]=arpalert-disabilitato
+Name[de]=arpalert-deaktiviert
+Comment=Disable arpalert daemon
+Comment[fr]=Désactiver service arpalert
+Comment[es]=Deshabilitar servicio arpalert
+Comment[pt]=Desativar serviço arpalert
+Comment[it]=Disabilita servizio arpalert
+Comment[de]=Deaktivieren Sie den arpalert-Service
+Exec=terminator -e "zsh -c '/opt/services/arpalert-disable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SArpalert
+X-Kaisen-Package=kaisen-services-management

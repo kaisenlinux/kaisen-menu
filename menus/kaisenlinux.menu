@@ -718,7 +718,7 @@
         </And>
       </Include>
     </Menu>
-        <Menu>
+    <Menu>
       <Name>SLibvirt</Name>
       <Directory>kaisenlinux-slibvirt.directory</Directory>
       <Include>
@@ -727,7 +727,7 @@
         </And>
       </Include>
     </Menu>
-        <Menu>
+    <Menu>
       <Name>SNeo4j</Name>
       <Directory>kaisenlinux-sneo4j.directory</Directory>
       <Include>
@@ -736,12 +736,39 @@
         </And>
       </Include>
     </Menu>
-        <Menu>
+    <Menu>
       <Name>SGNS3</Name>
       <Directory>kaisenlinux-sgns3.directory</Directory>
       <Include>
         <And>
           <Category>SGNS3</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SHDDtemp</Name>
+      <Directory>kaisenlinux-shddtemp.directory</Directory>
+      <Include>
+        <And>
+          <Category>SHDDtemp</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SArpalert</Name>
+      <Directory>kaisenlinux-sarpalert.directory</Directory>
+      <Include>
+        <And>
+          <Category>SArpalert</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>S2ping</Name>
+      <Directory>kaisenlinux-s2ping.directory</Directory>
+      <Include>
+        <And>
+          <Category>S2ping</Category>
         </And>
       </Include>
     </Menu>

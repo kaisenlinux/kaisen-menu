@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=2ping-disable
+Name[fr]=2ping-désactivé
+Name[es]=2ping-deshabilitado
+Name[pt]=2ping-desativado
+Name[it]=2ping-disabilitato
+Name[de]=2ping-deaktiviert
+Comment=Disable 2ping daemon
+Comment[fr]=Désactiver service 2ping
+Comment[es]=Deshabilitar servicio 2ping
+Comment[pt]=Desativar serviço 2ping
+Comment[it]=Disabilita servizio 2ping
+Comment[de]=Deaktivieren Sie den 2ping-Service
+Exec=terminator -e "zsh -c '/opt/services/2ping-disable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=S2ping
+X-Kaisen-Package=kaisen-services-management

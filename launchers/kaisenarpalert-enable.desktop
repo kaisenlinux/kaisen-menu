@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=arpalert-enable
+Name[fr]=arpalert-activé
+Name[es]=arpalert-activado
+Name[pt]=arpalert-ativado
+Name[it]=arpalert-attivato
+Name[de]=arpalert-aktiviert
+Comment=Enable arpalert daemon
+Comment[fr]=Activer service arpalert
+Comment[es]=Activa servicio arpalert
+Comment[pt]=Ativar serviço arpalert
+Comment[it]=Attiva servizio arpalert
+Comment[de]=Aktivieren Sie den arpalert-Service
+Exec=terminator -e "zsh -c '/opt/services/arpalert-enable;/bin/zsh'"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SArpalert
+X-Kaisen-Package=kaisen-services-management
