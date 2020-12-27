@@ -2,10 +2,14 @@
 
 set -e
 
-case "$1" in
-    remove)
+if [[ "$1" = "remove" ]]; then
 	find /usr/share/applications -name '*.desktop' | \
 	    xargs grep -l ^X-Kaisen-Package | \
 	    xargs rm -f || true
-    ;;
-esac
+fi
+
+if [[ "$1" = "purge" ]]; then
+	mv /etc/xdg/menus/xfce-applications.menu.old xfce-applications.menu 2> /dev/null || true
+fi
+
+#DEBHELPER#
