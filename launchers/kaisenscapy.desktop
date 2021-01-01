@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=scapy
-Comment=Tool to generate traffic and sniffing 
+Comment=Tool to generate traffic and sniffing
 Comment[fr]=Outil pour générer du trafic et sniffing
 Comment[es]=Herramienta para generar tráfico y oler
 Comment[pt]=Ferramenta para gerar tráfego e cheirar
 Comment[it]=Strumento per generare traffico e fiuto
 Comment[de]=Tool zum Generieren von Verkehr und Schnüffeln
-Exec=terminator -e "zsh -c 'scapy -h;/bin/zsh'"
+Exec=kaisen-launcher --command "scapy -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

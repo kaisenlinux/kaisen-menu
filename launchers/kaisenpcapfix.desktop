@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=pcapfix
-Comment=Tool to repair broken pcap files 
+Comment=Tool to repair broken pcap files
 Comment[fr]=Outil pour réparer les fichiers pcap cassés
 Comment[es]=Herramienta para reparar archivos pcap rotos
 Comment[pt]=Ferramenta para reparar arquivos pcap quebrados
 Comment[it]=Strumento per riparare file pcap rotti
 Comment[de]=Tool zum Reparieren defekter PCAP-Dateien
-Exec=terminator -e "zsh -c 'pcapfix;/bin/zsh'"
+Exec=kaisen-launcher --command "pcapfix"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

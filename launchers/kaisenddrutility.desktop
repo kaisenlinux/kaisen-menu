@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ddrutility
-Comment=Tool to recover data 
+Comment=Tool to recover data
 Comment[fr]=Outil de récupération de données
 Comment[es]=Herramienta de recuperación de datos
 Comment[pt]=Ferramenta de recuperação de dados
 Comment[it]=Strumento di recupero dati
 Comment[de]=Datenwiederherstellungstool
-Exec=terminator -e "zsh -c 'ddrutility -h;/bin/zsh'"
+Exec=kaisen-launcher --command "ddrutility -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=fdisk
-Comment=Tool for partitioning 
+Comment=Tool for partitioning
 Comment[fr]=Outil de partitionnement
 Comment[es]=Herramienta de particionamiento
 Comment[pt]=Ferramenta de particionamento
 Comment[it]=Strumento di partizionamento
 Comment[de]=Partitionierungswerkzeug
-Exec=terminator -e "zsh -c 'sudo fdisk -h;/bin/zsh'"
+Exec=kaisen-launcher --command "fdisk -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

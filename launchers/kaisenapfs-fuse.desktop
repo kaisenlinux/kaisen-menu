@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=apfs-fuse
-Comment=Tool to mount apfs disk 
+Comment=Tool to mount apfs disk
 Comment[fr]=Outil pour monter les disques apfs
 Comment[es]=Herramienta para montar discos apfs
 Comment[pt]=Ferramenta para montar discos apfs
 Comment[it]=Strumento per montare dischi apfs
 Comment[de]=Tool zum Mounten von Apfs-Discs
-Exec=terminator -e "zsh -c 'apfs-fuse;/bin/zsh'"
+Exec=kaisen-launcher --command "apfs-fuse"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
