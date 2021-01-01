@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=smartctl
-Comment=Tool to analyse HDD or SSD 
+Comment=Tool to analyse HDD or SSD
 Comment[fr]=Outil pour analyser un HDD ou SSD
 Comment[es]=Herramienta para analizar un HDD o SSD
 Comment[pt]=Ferramenta para analisar um HDD ou SSD
 Comment[it]=Strumento per analizzare un HDD o SSD
 Comment[de]=Tool zum Analysieren einer Festplatte oder SSD
-Exec=terminator -e "zsh -c 'sudo smartctl -h;/bin/zsh'"
+Exec=kaisen-launcher --command "smartctl -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

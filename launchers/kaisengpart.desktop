@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=gpart
-Comment=Tool to analyse lost partition disks 
+Comment=Tool to analyse lost partition disks
 Comment[fr]=Outil pour analyser les partitions disques perdues
 Comment[es]=Herramienta para analizar particiones de disco perdidas
 Comment[pt]=Ferramenta para analisar partições de disco perdidas
 Comment[it]=Strumento per analizzare partizioni del disco perse
 Comment[de]=Tool zum Analysieren verlorener Festplattenpartitionen
-Exec=terminator -e "zsh -c 'sudo gpart;/bin/zsh'"
+Exec=kaisen-launcher --command "gpart" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=john
-Comment=Tool to crack a lost password 
+Comment=Tool to crack a lost password
 Comment[fr]=Outil pour cracker un mot de passe perdu
 Comment[es]=Herramienta para descifrar una contraseña perdida
 Comment[pt]=Ferramenta para quebrar uma senha perdida
 Comment[it]=Strumento per decifrare una password persa
 Comment[de]=Tool zum Knacken eines verlorenen Passworts
-Exec=terminator -e "zsh -c 'sudo john;/bin/zsh'"
+Exec=kaisen-launcher --command "john" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

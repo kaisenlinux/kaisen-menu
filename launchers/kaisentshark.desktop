@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=tshark
-Comment=Tool to capture packets 
+Comment=Tool to capture packets
 Comment[fr]=Outil pour faire de la capture de paquets
 Comment[es]=Herramienta para capturar paquetes
 Comment[pt]=Ferramenta para capturar pacotes
 Comment[it]=Strumento per l'acquisizione di pacchetti
 Comment[de]=Tool zum Erfassen von Paketen
-Exec=terminator -e "zsh -c 'sudo tshark -h;/bin/zsh'"
+Exec=kaisen-launcher --command "tshark -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

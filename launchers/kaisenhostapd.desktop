@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=hostapd
-Comment=Tool for AP creation and management 
+Comment=Tool for AP creation and management
 Comment[fr]=Outil pour créer et manager les AP
 Comment[es]=Herramienta para crear y gestionar AP
 Comment[pt]=Ferramenta para criar e gerenciar PAs
 Comment[it]=Strumento per creare e gestire PA
 Comment[de]=Tool zum Erstellen und Verwalten von PAs
-Exec=terminator -e "zsh -c 'sudo hostapd;/bin/zsh'"
+Exec=kaisen-launcher --command "hostapd" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

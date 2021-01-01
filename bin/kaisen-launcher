@@ -1,0 +1,28 @@
+#!/bin/zsh
+
+set -e
+
+SUDO=false
+
+while [[ "$#" -gt 0 ]]
+do
+  case $1 in
+    --command)
+      COMMAND="$2"
+      ;;
+    --sudo)
+      SUDO=true
+      ;;
+  esac
+  shift
+done
+
+if [ $SUDO = true ]
+then
+  RED='\033[0;31m'
+  NC='\033[0m'
+
+  COMMAND="printf \"${RED}$COMMAND run with sudo!${NC}\n\"; sudo $COMMAND"
+fi
+
+terminator -e "$SHELL -c '$COMMAND;$SHELL'"

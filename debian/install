@@ -4,3 +4,4 @@ desktop-directories/* usr/share/desktop-directories/
 launchers/* usr/share/kaisen-menu/applications/
 pixmaps/* usr/share/pixmaps/kaisen/
 update-kaisen-menu usr/share/kaisen-menu/
+bin/kaisen-launcher usr/bin/
