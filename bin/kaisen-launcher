@@ -1,6 +1,10 @@
 #!/bin/zsh
+#Developed by Nicolas Clerc - kernicPanel for Kaisen Linux menu
 
 set -e
+
+YELLOW='\e[0;33m'
+NC='\033[0m'
 
 SUDO=false
 
@@ -19,10 +23,9 @@ done
 
 if [ $SUDO = true ]
 then
-  RED='\033[0;31m'
-  NC='\033[0m'
-
-  COMMAND="printf \"${RED}$COMMAND run with sudo!${NC}\n\"; sudo $COMMAND"
+  COMMAND="sudo $COMMAND"
 fi
+
+COMMAND="printf \"${YELLOW}Command launch : $COMMAND${NC}\n\n\"; $COMMAND"
 
 terminator -e "$SHELL -c '$COMMAND;$SHELL'"
