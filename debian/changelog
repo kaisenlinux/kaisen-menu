@@ -1,3 +1,12 @@
+kaisen-menu (1.5+kaisen4) kaisen-packages; urgency=medium
+
+  * Create wrapper for launchers. Developed by Nicolas Clerc - kernicPanel.
+    Thanks for this contribution kernicPanel !
+    - Wrapper display which command executed from Kaisen Linux menu
+    - Exec on launchers, now launch kaisen-launcher command
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 01 Jan 2021 19:29:11 +0200
+
 kaisen-menu (1.5+kaisen3) kaisen-packages; urgency=medium
 
   * Add hfsprescue tool
