@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=NmapSI4 - Full mode
-Comment=Is a Qt4 interface for nmap scanner
-Comment[fr]=Interface QT4 pour nmap
-Comment[es]=Interfaz QT4 para nmap
-Comment[pt]=Interface QT4 para nmap
-Comment[it]=Interfaccia Qt4 per nmap
-Comment[de]=QT4-Schnittstelle für nmap
+Comment=Is a Qt4 interface for nmap scanner (run as root)
+Comment[fr]=Interface QT4 pour nmap (exécuter en root)
+Comment[es]=Interfaz QT4 para nmap (ejecutar como root)
+Comment[pt]=Interface QT4 para nmap (executar como root)
+Comment[it]=Interfaccia Qt4 per nmap (eseguito come root)
+Comment[de]=QT4-Schnittstelle für nmap (als root ausführen)
 Exec=sh -c "gksudo nmapsi4"
 Icon=nmapsi4
 Terminal=false

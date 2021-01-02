@@ -3,7 +3,7 @@
 set -e
 
 case "$1" in
-    install|upgrade)
+    install|upgrade|full-upgrade|dist-upgrade|abort-upgrade|downgrade)
         dpkg-divert --quiet --package kaisen-menu \
                     --divert /etc/xdg/menus/xfce-applications.menu.old \
                     --rename /etc/xdg/menus/xfce-applications.menu || true
