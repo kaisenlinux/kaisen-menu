@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=parallel-ssh
+Comment=Tool to executes commands on multiple hosts in parallel
+Comment[fr]=Outil pour exécuter des commandes sur de multiples hôtes distants
+Comment[es]=Herramienta para ejecutar comandos en múltiples hosts remotos
+Comment[pt]=Ferramenta para executar comandos em vários hosts remotos
+Comment[it]=Strumento per eseguire comandi su più host remoti
+Comment[de]=Tool zum Ausführen von Befehlen auf mehreren Remote-Hosts
+Exec=kaisen-launcher --command "parallel-ssh --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=pssh

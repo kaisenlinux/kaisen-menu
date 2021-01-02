@@ -1,3 +1,20 @@
+kaisen-menu (1.5+kaisen5) kaisen-packages; urgency=medium
+
+  * Add launchers for tools:
+    - pssh
+    - zstd
+    - apache2-utils
+    - ndiff
+    - yamllint
+    - darkstat
+    - hunt
+    - nmapsi4
+    - ltrace
+  * Change zsh by bash on wrapper
+  * Change virus analysis by malware scan
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 02 Jan 2021 16:33:08 +0200
+
 kaisen-menu (1.5+kaisen4) kaisen-packages; urgency=medium
 
   * Create wrapper for launchers. Developed by Nicolas Clerc - kernicPanel.

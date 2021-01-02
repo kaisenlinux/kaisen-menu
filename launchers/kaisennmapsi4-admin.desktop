@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=NmapSI4 - Full mode
+Comment=Is a Qt4 interface for nmap scanner
+Comment[fr]=Interface QT4 pour nmap
+Comment[es]=Interfaz QT4 para nmap
+Comment[pt]=Interface QT4 para nmap
+Comment[it]=Interfaccia Qt4 per nmap
+Comment[de]=QT4-Schnittstelle für nmap
+Exec=sh -c "gksudo nmapsi4"
+Icon=nmapsi4
+Terminal=false
+Type=Application
+Categories=Scanner
+StartupNotify=true
+X-Kaisen-Package=nmapsi4

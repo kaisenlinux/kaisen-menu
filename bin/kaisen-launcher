@@ -1,4 +1,5 @@
-#!/bin/zsh
+#!/bin/bash
+
 #Developed by Nicolas Clerc - kernicPanel for Kaisen Linux menu
 
 set -e
@@ -26,6 +27,6 @@ then
   COMMAND="sudo $COMMAND"
 fi
 
-COMMAND="printf \"${YELLOW}Command launch : $COMMAND${NC}\n\n\"; $COMMAND"
+COMMAND="printf \"${YELLOW}Command launch: $COMMAND${NC}\n\n\"; $COMMAND"
 
 terminator -e "$SHELL -c '$COMMAND;$SHELL'"

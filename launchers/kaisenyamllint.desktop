@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=yamllint
+Comment=Tool to check syntax of YAML files
+Comment[fr]=Outil pour vérifier la syntaxe des fichiers YAML
+Comment[es]=Herramienta para verificar la sintaxis de archivos YAML
+Comment[pt]=Ferramenta para verificar a sintaxe de arquivos YAML
+Comment[it]=Strumento per controllare la sintassi dei file YAML
+Comment[de]=Tool zum Überprüfen der Syntax von YAML-Dateien
+Exec=kaisen-launcher --command "yamllint -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=yamllint

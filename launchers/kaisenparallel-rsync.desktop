@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=parallel-rsync
+Comment=Tool to efficiently copies files to multiple hosts in parallel
+Comment[fr]=Outil pour copier efficacement des fichiers vers des hôtes distants en parallèle
+Comment[es]=Herramienta para copiar archivos de manera eficiente a hosts remotos en paralelo
+Comment[pt]=Ferramenta para copiar arquivos de forma eficiente para hosts remotos em paralelo
+Comment[it]=Strumento per copiare in modo efficiente file su host remoti in parallelo
+Comment[de]=Tool zum effizienten parallelen Kopieren von Dateien auf Remote-Hosts
+Exec=kaisen-launcher --command "parallel-rsync --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=pssh

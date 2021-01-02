@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=darkstat
+Comment=Packet sniffer
+Comment[fr]=Sniffeur de paquets
+Comment[es]=Analizador de paquetes
+Comment[pt]=Farejador de pacotes
+Comment[it]=Packet sniffer
+Comment[de]=Paketschnüffler
+Exec=kaisen-launcher --command "darkstat" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=darkstat

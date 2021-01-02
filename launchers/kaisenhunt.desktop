@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=hunt
+Comment=Advanced packet sniffer
+Comment[fr]=Sniffeur de paquets avancé
+Comment[es]=Analizador de paquetes avanzado
+Comment[pt]=Sniffer de pacote avançado
+Comment[it]=Packet sniffer avanzato
+Comment[de]=Erweiterter Paket-Sniffer
+Exec=kaisen-launcher --command "hunt" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=hunt

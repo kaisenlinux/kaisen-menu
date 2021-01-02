@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ab
+Comment=TOol to benchmarking Apache2 servers
+Comment[fr]=Outil de benchmark pour les serveurs Apache2
+Comment[es]=Herramienta de referencia para servidores Apache2
+Comment[pt]=Ferramenta de referência para servidores Apache2
+Comment[it]=Strumento di benchmark per server Apache2
+Comment[de]=Benchmark-Tool für Apache2-Server
+Exec=kaisen-launcher --command "ab"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SystemSecurity
+X-Kaisen-Package=apache2-utils

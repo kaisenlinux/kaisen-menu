@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=parallel-slurp
+Comment=Tool to copies files from multiples remote hosts to a central host in parallel
+Comment[fr]=Outil pour copier des fichiers depuis de multiples posts distants vers un seul hôte en parallèle
+Comment[es]=Herramienta para copiar archivos de múltiples publicaciones remotas a un solo host en paralelo
+Comment[pt]=Ferramenta para copiar arquivos de vários postos remotos para um único host em paralelo
+Comment[it]=Strumento per copiare file da più post remoti a un singolo host in parallelo
+Comment[de]=Tool zum parallelen Kopieren von Dateien von mehreren Remote-Posts auf einen einzelnen Host
+Exec=kaisen-launcher --command "parallel-slurp --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=pssh

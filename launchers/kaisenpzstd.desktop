@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=pzstd
+Comment=Use zstd in parallel
+Comment[fr]=Utiliser zstd en parallèle
+Comment[es]=Utilice zstd en paralelo
+Comment[pt]=Use zstd em paralelo
+Comment[it]=Usa zstd in parallelo
+Comment[de]=Verwenden Sie zstd parallel
+Exec=kaisen-launcher --command "pzstd --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZIP
+X-Kaisen-Package=zstd

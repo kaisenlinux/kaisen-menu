@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=zstd
+Comment=Use zstd
+Comment[fr]=Utiliser zstd
+Comment[es]=Utilice zstd
+Comment[pt]=Use zstd
+Comment[it]=Usa zstd
+Comment[de]=Verwenden Sie zstd
+Exec=kaisen-launcher --command "zstd --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZIP
+X-Kaisen-Package=zstd

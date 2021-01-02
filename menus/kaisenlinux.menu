@@ -94,11 +94,11 @@
     </Menu>
     </Menu>
     <Menu>
-      <Name>Virus analysis</Name>
-      <Directory>kaisenlinux-virusanalysis.directory</Directory>
+      <Name>Malwares scan</Name>
+      <Directory>kaisenlinux-malwarescan.directory</Directory>
       <Include>
         <And>
-          <Category>VirusAnalysis</Category>
+          <Category>MalwareScan</Category>
         </And>
       </Include>
     </Menu>

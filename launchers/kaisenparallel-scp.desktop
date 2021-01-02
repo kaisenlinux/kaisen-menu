@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=parallel-scp
+Comment=Tool to copies files to multiple remote hosts in parallel
+Comment[fr]=Outil pour copier des fichiers vers de multiples hôtes distants
+Comment[es]=Herramienta para copiar archivos a múltiples hosts remotos
+Comment[pt]=Ferramenta para copiar arquivos para vários hosts remotos
+Comment[it]=Strumento per copiare file su più host remoti
+Comment[de]=Tool zum Kopieren von Dateien auf mehrere Remote-Hosts
+Exec=kaisen-launcher --command "parallel-scp --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=pssh

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ndiff
+Comment=Tool to compare nmap scans
+Comment[fr]=Outil pour comparer les scans nmap
+Comment[es]=Herramienta para comparar escaneos de nmap
+Comment[pt]=Ferramenta para comparar scans nmap
+Comment[it]=Strumento per confrontare le scansioni nmap
+Comment[de]=Tool zum Vergleichen von nmap-Scans
+Exec=kaisen-launcher --command "ndiff -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=ndiff

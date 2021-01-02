@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=parallel-nuke
+Comment=Tool to kills process on multiple remote hosts in parallel
+Comment[fr]=Outil pour tuer plusieurs processus en parallèle sur des hôtes distants
+Comment[es]=Herramienta para matar múltiples procesos en paralelo en hosts remotos
+Comment[pt]=Ferramenta para eliminar vários processos em paralelo em hosts remotos
+Comment[it]=Strumento per uccidere più processi in parallelo su host remoti
+Comment[de]=Tool zum parallelen Beenden mehrerer Prozesse auf Remote-Hosts
+Exec=kaisen-launcher --command "parallel-nuke --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=pssh

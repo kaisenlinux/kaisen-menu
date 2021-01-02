@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ltrace
+Comment=Tool to display syscall
+Comment[fr]=Outil pour voir les appels systèmes
+Comment[es]=Herramienta para ver llamadas del sistema
+Comment[pt]=Ferramenta para visualizar chamadas do sistema
+Comment[it]=Strumento per visualizzare le chiamate di sistema
+Comment[de]=Tool zum Anzeigen von Systemaufrufen
+Exec=kaisen-launcher --command "ltrace -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=ltrace
