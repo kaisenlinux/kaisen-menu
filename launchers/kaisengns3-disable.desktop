@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SGNS3
-X-Kaisen-Package=kaisen-services-management
+X-Kaisen-Package=gns3-server

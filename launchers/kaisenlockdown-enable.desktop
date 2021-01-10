@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SLockdown
-X-Kaisen-Package=kaisen-services-management
+X-Kaisen-Package=lockdown

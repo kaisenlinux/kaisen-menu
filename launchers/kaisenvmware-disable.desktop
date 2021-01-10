@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SVirtualization
-X-Kaisen-Package=kaisen-services-management
+X-Kaisen-Package=open-vm-tools open-vm-tools-desktop

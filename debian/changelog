@@ -1,3 +1,14 @@
+kaisen-menu (1.5+kaisen8) kaisen-packages; urgency=medium
+
+  * X-Kaisen-Package value of all services launchers is now configure with package name
+  * Remove etcsetserial* services launchers
+  * Remove rpcbind* services launchers
+  * Adding miscellaneous categories for tree launcher
+  * Move libvirt service menu to virtualization services menu
+  * Move irqbalance launcher to miscellaneous tools menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 09 Jan 2021 22:23:46 +0200
+
 kaisen-menu (1.5+kaisen7) kaisen-packages; urgency=medium
 
   * Remove psensor launcher

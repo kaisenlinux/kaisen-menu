@@ -18,5 +18,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SLibvirt
-X-Kaisen-Package=kaisen-services-management
+Categories=SVirtualization
+X-Kaisen-Package=libvirt-daemon

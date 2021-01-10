@@ -548,15 +548,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SETC-SetSerial</Name>
-      <Directory>kaisenlinux-setcsetserial.directory</Directory>
-      <Include>
-        <And>
-          <Category>SETCSetSerial</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>SIrqbalance</Name>
       <Directory>kaisenlinux-sirqbalance.directory</Directory>
       <Include>
@@ -706,24 +697,6 @@
       <Include>
         <And>
           <Category>SBettercap</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>SRPCBind</Name>
-      <Directory>kaisenlinux-srpcbind.directory</Directory>
-      <Include>
-        <And>
-          <Category>SRPCbind</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>SLibvirt</Name>
-      <Directory>kaisenlinux-slibvirt.directory</Directory>
-      <Include>
-        <And>
-          <Category>SLibvirt</Category>
         </And>
       </Include>
     </Menu>

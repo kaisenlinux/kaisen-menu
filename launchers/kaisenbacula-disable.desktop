@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SBacula
-X-Kaisen-Package=kaisen-services-management
+X-Kaisen-Package=bacula-fd bacula-sd

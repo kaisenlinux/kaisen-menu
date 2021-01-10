@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SFilesystems
-X-Kaisen-Package=kaisen-services-management
+X-Kaisen-Package=ocfs2-tools
