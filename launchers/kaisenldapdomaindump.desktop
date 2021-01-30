@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ldapdomaindump
+Comment=Tool to dump Active Directory information via LDAP
+Comment[fr]=Outil pour dumper les informations Active Directory via LDAP
+Comment[es]=Herramienta para volcar información de Active Directory a través de LDAP
+Comment[pt]=Ferramenta para despejar informações do Active Directory via LDAP
+Comment[it]=Strumento per scaricare le informazioni di Active Directory tramite LDAP
+Comment[de]=Tool zum Speichern von Active Directory-Informationen über LDAP
+Exec=kaisen-launcher --command "ldapdomaindump -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Microsoft
+X-Kaisen-Package=python3-ldapdomaindump
