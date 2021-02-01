@@ -745,6 +745,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>SDarkstat</Name>
+      <Directory>kaisenlinux-sdarkstat.directory</Directory>
+      <Include>
+        <And>
+          <Category>SDarkstat</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>

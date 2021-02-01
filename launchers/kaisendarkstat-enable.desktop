@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=darkstat-enable
+Name[fr]=darkstat-activé
+Name[es]=darkstat-activado
+Name[pt]=darkstat-ativado
+Name[it]=darkstat-abilitato
+Name[de]=darkstat-aktiviert
+Comment=Enable darkstat daemon
+Comment[fr]=Activer service darkstat
+Comment[es]=Activar servicio Darkstat
+Comment[pt]=Ativar serviço darkstat
+Comment[it]=Attiva servizio darkstat
+Comment[de]=Aktivieren Sie den Darkstat-Dienst
+Exec=kaisen-launcher --command "/opt/services/darkstat-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SDarkstat
+X-Kaisen-Package=darkstat

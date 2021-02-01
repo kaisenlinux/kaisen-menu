@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=darkstat-disable
+Name[fr]=darkstat-désactivé
+Name[es]=darkstat-deshabilitado
+Name[pt]=darkstat-desativado
+Name[it]=darkstat-disabilitato
+Name[de]=darkstat-deaktiviert
+Comment=Disable darkstat daemon
+Comment[fr]=Désactiver service darkstat
+Comment[es]=Deshabilitar servicio Darkstat
+Comment[pt]=Desativar serviço darkstat
+Comment[it]=Disabilita servizio darkstat
+Comment[de]=Deaktivieren Sie den Darkstat-Dienst
+Exec=kaisen-launcher --command "/opt/services/darkstat-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SDarkstat
+X-Kaisen-Package=darkstat

@@ -1,3 +1,10 @@
+kaisen-menu (1.5+kaisen12) kaisen-packages; urgency=medium
+
+  * Update deutsch traduction on anydesk-enable launcher
+  * Add darkstat service launchers, menus and directories
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 31 Jan 2021 04:00:39 +0200
+
 kaisen-menu (1.5+kaisen11) kaisen-packages; urgency=medium
 
   * Change netdiscover command by netdiscover -h
