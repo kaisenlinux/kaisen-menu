@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=spice-webdavd-disable
+Name[fr]=spice-webdavd-désactivé
+Name[es]=spice-webdavd-deshabilitado
+Name[pt]=spice-webdavd-desativado
+Name[it]=spice-webdavd-disabilitato
+Name[de]=spice-webdavd-deaktiviert
+Comment=Disable spice-webdavd daemon
+Comment[fr]=Désactiver service spice-webdavd
+Comment[es]=Deshabilitar servicio spice-webdavd
+Comment[pt]=Desativar serviço spice-webdavd
+Comment[it]=Disabilita servizio spice-webdavd
+Comment[de]=Deaktivieren Sie den Spice-Webdavd-Dienst
+Exec=kaisen-launcher --command "/opt/services/spice-webdavd-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=spice-webdavd

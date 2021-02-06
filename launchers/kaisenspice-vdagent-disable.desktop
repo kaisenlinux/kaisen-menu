@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=spice-vdagent-disable
+Name[fr]=spice-vdagent-désactivé
+Name[es]=spice-vdagent-deshabilitado
+Name[pt]=spice-vdagent-desativado
+Name[it]=spice-vdagent-disabilitato
+Name[de]=spice-vdagent-deaktiviert
+Comment=Disable spice-vdagent daemon
+Comment[fr]=Désactiver service spice-vdagent
+Comment[es]=Deshabilitar servicio spice-vdagent
+Comment[pt]=Desativar serviço spice-vdagent
+Comment[it]=Disabilita servizio spice-vdagent
+Comment[de]=Deaktivieren Sie den Spice-Vdagent-Dienst
+Exec=kaisen-launcher --command "/opt/services/spice-vdagent-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=spice-vdagent

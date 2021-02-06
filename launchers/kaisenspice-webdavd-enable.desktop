@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=spice-webdavd-enable
+Name[fr]=spice-webdavd-activé
+Name[es]=spice-webdavd-habilitado
+Name[pt]=spice-webdavd-ativado
+Name[it]=spice-webdavd-abilitato
+Name[de]=spice-webdavd-aktiviert
+Comment=Enable spice-webdavd daemon
+Comment[fr]=Activer service spice-webdavd
+Comment[es]=Activar servicio spice-webdavd
+Comment[pt]=Ativar serviço spice-webdavd
+Comment[it]=Attiva servizio spice-webdavd
+Comment[de]=Aktivieren Sie den Dienst spice-webdavd
+Exec=kaisen-launcher --command "/opt/services/spice-webdavd-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=spice-webdavd

@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=spice-vdagent-enable
+Name[fr]=spice-vdagent-activé
+Name[es]=spice-vdagent-habilitado
+Name[pt]=spice-vdagent-ativado
+Name[it]=spice-vdagent-abilitato
+Name[de]=spice-vdagent-aktiviert
+Comment=Enable spice-vdagent daemon
+Comment[fr]=Activer service spice-vdagent
+Comment[es]=Activar servicio spice-vdagent
+Comment[pt]=Ativar serviço spice-vdagent
+Comment[it]=Attiva servizio spice-vdagent
+Comment[de]=Aktivieren Sie den Dienst spice-vdagent
+Exec=kaisen-launcher --command "/opt/services/spice-vdagent-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVirtualization
+X-Kaisen-Package=spice-vdagent
