@@ -1,3 +1,11 @@
+kaisen-menu (1.5+kaisen15) kaisen-packages; urgency=medium
+
+  * Change icon cups launcher (replaces utilities-terminal by firefox)
+  * Add homepage and Vcs sections in control file
+  * Update mail in control file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 23 Feb 2021 03:48:02 +0200
+
 kaisen-menu (1.5+kaisen14) kaisen-packages; urgency=medium
 
   * Add spice daemons launchers (because no longer linked to libvirt directly)
