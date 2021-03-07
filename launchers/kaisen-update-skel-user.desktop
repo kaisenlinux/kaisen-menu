@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=kaisen-update-skel-user
+Comment=Tool to update the profile created by the user
+Comment[fr]=Outil pour mettre à jour le profil créé par l'utilisateur
+Comment[es]=Herramienta de actualización de perfiles creada por el usuario
+Comment[pt]=Ferramenta de atualização de perfil criada pelo usuário
+Comment[it]=Strumento di aggiornamento del profilo creato dall'utente
+Comment[de]=Vom Benutzer erstelltes Profilaktualisierungstool
+Exec=kaisen-launcher --command "kaisen-update-skel-user" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-skeleton
