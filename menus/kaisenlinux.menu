@@ -22,15 +22,6 @@
       <Name>Tools for maintenance</Name>
       <Directory>kaisenlinux-maintenance.directory</Directory>
     <Menu>
-      <Name>Remote Maintenance</Name>
-      <Directory>kaisenlinux-remotemaintenance.directory</Directory>
-      <Include>
-        <And>
-          <Category>RemoteMaintenance</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>Recovery</Name>
       <Directory>kaisenlinux-recovery.directory</Directory>
       <Include>

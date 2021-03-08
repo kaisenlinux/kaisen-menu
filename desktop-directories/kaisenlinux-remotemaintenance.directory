@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Remote maintenance 
-Name[fr]=Télémaintenance
-Name[es]=Mantenimiento remoto
-Name[pt]=Manutenção remota
-Name[it]=Manutenzione a distanza
-Name[de]=Fernwartung
-Icon=/usr/share/pixmaps/kaisen/remotemaintenance.png
-Type=Directory

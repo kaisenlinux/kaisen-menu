@@ -1,3 +1,10 @@
+kaisen-menu (1.5+kaisen17) kaisen-packages; urgency=medium
+
+  * Remove kaisen-remote-maintenance menu
+  * Remove anydesk and teamviewer launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Mar 2021 00:20:06 +0200
+
 kaisen-menu (1.5+kaisen16) kaisen-packages; urgency=medium
 
   * Add kaisen-update-skel-user launcher
