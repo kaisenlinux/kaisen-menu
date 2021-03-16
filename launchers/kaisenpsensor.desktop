@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Psensor
+Comment=Psensor is a graphical temperature monitor for Linux
+Comment[fr]=Psensor est un moniteur graphique de température 
+Comment[es]=Psensor es un monitor gráfico de temperatura
+Comment[pt]=Psensor é um monitor gráfico de temperatura
+Comment[it]=Psensor è un monitor grafico della temperatura
+Comment[de]=Psensor ist ein grafischer Temperaturmonitor
+Exec=psensor
+Icon=psensor
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Temperature
+X-Kaisen-Package=psensor
