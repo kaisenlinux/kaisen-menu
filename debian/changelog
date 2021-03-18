@@ -1,3 +1,9 @@
+kaisen-menu (1.5+kaisen20) kaisen-packages; urgency=medium
+
+  * Update triggers for opt folder.
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Thu, 18 Mar 2021 23:53:13 +0200
+
 kaisen-menu (1.5+kaisen19) kaisen-packages; urgency=medium
 
   * Adding kaisen-documentation and kaisen-manpages launchers 
