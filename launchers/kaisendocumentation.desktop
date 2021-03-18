@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=kaisen-documentation
+Comment=Offline documentation of kaisenlinux.org/documentation/
+Comment[fr]=Documentation hors ligne de kaisenlinux.org/documentation/
+Comment[es]=Documentación sin conexión de kaisenlinux.org/documentation/
+Comment[pt]=Documentação offline de kaisenlinux.org/documentation/
+Comment[it]=Documentazione offline di kaisenlinux.org/documentation/
+Comment[de]=Offline-Dokumentation von kaisenlinux.org/documentation/
+Exec=firefox %u file:///opt/kaisen-documentation/index.html
+Icon=firefox
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-documentation

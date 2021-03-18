@@ -1,3 +1,9 @@
+kaisen-menu (1.5+kaisen19) kaisen-packages; urgency=medium
+
+  * Adding kaisen-documentation and kaisen-manpages launchers 
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Thu, 18 Mar 2021 01:37:11 +0200
+
 kaisen-menu (1.5+kaisen18) kaisen-packages; urgency=medium
 
   * Readding psensor launcher
