@@ -1,10 +1,13 @@
 #!/bin/bash
 
-set -e
-
 case "$1" in
     configure|triggered)
+
         /usr/share/kaisen-menu/update-kaisen-menu
+
+	if [ ! -d /opt/services ]; then
+		rm -f /usr/share/applications/{*-disable.desktop,*-enable.desktop}
+	fi
 
         [ "$1" = "triggered" ] && exit 0
 

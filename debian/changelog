@@ -1,3 +1,10 @@
+kaisen-menu (1.5+kaisen21) kaisen-packages; urgency=medium
+
+  * Create if statement on postinst to remove kaisen-services-management
+    package or services folder
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 19 Mar 2021 01:46:58 +0200
+
 kaisen-menu (1.5+kaisen20) kaisen-packages; urgency=medium
 
   * Update triggers for opt folder.
