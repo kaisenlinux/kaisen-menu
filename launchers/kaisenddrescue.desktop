@@ -1,0 +1,18 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ddrescue
+Comment=Data recovery and protection tool
+Comment[fr]=Outil de récupération et de protection des données
+Comment[es]=Herramienta de recuperación y protección de datos
+Comment[pt]=Ferramenta de recuperação e proteção de dados
+Comment[it]=Strumento di recupero e protezione dei dati
+Comment[de]=Tool zur Datenwiederherstellung und zum Datenschutz
+Exec=kaisen-launcher --command "dd_rescue -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=ddrescue
+

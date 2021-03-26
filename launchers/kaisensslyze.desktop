@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=sslyze
+Comment=SSLyze is a fast and powerful SSL/TLS scanning library
+Comment[fr]=SSLyze est une bibliothèque d'analyse SSL/TLS rapide et puissante
+Comment[es]=SSLyze es una biblioteca de análisis SSL/TLS rápida y potente
+Comment[pt]=SSLyze é uma biblioteca de análise SSL/TLS rápida e poderosa
+Comment[it]=SSLyze è una libreria di analisi SSL / TLS veloce e potente
+Comment[de]=SSLyze ist eine schnelle und leistungsstarke SSL/TLS-Analysebibliothek
+Exec=kaisen-launcher --command "sslyze -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSL
+X-Kaisen-Package=sslyze
