@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=System snapshot
-Name[fr]=Instantané du système
-Name[es]=Instantánea del sistema
-Name[pt]=Instantâneo do sistema
-Name[it]=Istantanea del sistema
-Name[de]=Systemschnappschuss
+Name=System snapshots
+Name[fr]=Instantanés du système
+Name[es]=Instantáneas del sistema
+Name[pt]=Instantâneos do sistema
+Name[it]=Istantaneas del sistema
+Name[de]=Systemschnappschüsse
 Icon=timeshift
 Type=Directory
