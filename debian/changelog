@@ -1,3 +1,9 @@
+kaisen-menu (1.5+kaisen25) kaisen-packages; urgency=medium
+
+  * Adding launcher for tool: inxi
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Sat, 27 Mar 2021 22:27:52 +0200
+
 kaisen-menu (1.5+kaisen24) kaisen-packages; urgency=medium
 
   * Update typo on desktop-directories/kaisenlinux-systemsnapshot.directory
