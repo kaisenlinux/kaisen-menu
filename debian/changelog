@@ -1,3 +1,12 @@
+kaisen-menu (1.5+kaisen23) kaisen-packages; urgency=medium
+
+  * Cloning/Snapshot menu is renamed Cloning
+  * Snapshot menu has been created in Sysadmin menu for Timeshift and apt-btrfs-snapshot
+  * Timeshift menu has been renamed Snapshot
+  * Update apt-btrfs-snapshot launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 21:38:54 +0200
+
 kaisen-menu (1.5+kaisen22) kaisen-packages; urgency=medium
 
   * Adding launchers for tools:

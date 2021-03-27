@@ -74,15 +74,6 @@
           <Category>Cloning</Category>
         </And>
       </Include>
-    <Menu>
-      <Name>Timeshift</Name>
-      <Directory>kaisenlinux-timeshift.directory</Directory>
-      <Include>
-        <And>
-          <Category>Timeshift</Category>
-        </And>
-      </Include>
-    </Menu>
     </Menu>
     <Menu>
       <Name>Malwares scan</Name>
@@ -455,6 +446,15 @@
         </And>
       </Include>
     </Menu>
+    </Menu>
+    <Menu>
+      <Name>System snapshot</Name>
+      <Directory>kaisenlinux-systemsnapshot.directory</Directory>
+      <Include>
+        <And>
+          <Category>SystemSnapshot</Category>
+        </And>
+      </Include>
     </Menu>
     </Menu>
     </Menu>

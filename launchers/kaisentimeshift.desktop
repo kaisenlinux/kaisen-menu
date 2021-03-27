@@ -11,6 +11,6 @@ Icon=utilities-terminal
 X-KDE-StartupNotify=false
 X-GNOME-UsesNotifications=true
 Terminal=false
-Categories=Timeshift
+Categories=SystemSnapshot
 Type=Application
 X-Kaisen-Package=timeshift
