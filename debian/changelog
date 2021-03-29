@@ -1,3 +1,9 @@
+kaisen-menu (1.5+kaisen26) kaisen-packages; urgency=medium
+
+  * Timeshift GTK is now launched with gksudo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 29 Mar 2021 10:50:24 +0200
+
 kaisen-menu (1.5+kaisen25) kaisen-packages; urgency=medium
 
   * Adding launcher for tool: inxi
