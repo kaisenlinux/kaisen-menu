@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=snapper-cleanup-enable
+Name[fr]=snapper-cleanup-activé
+Name[es]=snapper-cleanup-habilitado
+Name[pt]=snapper-cleanup-ativado
+Name[it]=snapper-cleanup-abilitato
+Name[de]=snapper-cleanup-aktiviert
+Comment=Enable snapper-cleanup daemon
+Comment[fr]=Activer service snapper-cleanup
+Comment[es]=Activar servicio snapper-cleanup
+Comment[pt]=Ativar serviço snapper-cleanup
+Comment[it]=Attiva servizio snapper-cleanup
+Comment[de]=Aktivieren Sie den snapper-cleanup-Dienst
+Exec=kaisen-launcher --command "/opt/services/snapper-cleanup-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=snapper

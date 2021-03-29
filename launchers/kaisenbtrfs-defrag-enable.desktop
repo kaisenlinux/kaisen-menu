@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=brtfs-defrag-enable
+Name[fr]=btrfs-defrag-activé
+Name[es]=btrfs-defrag-habilitado
+Name[pt]=btrfs-defrag-ativado
+Name[it]=btrfs-defrag-abilitato
+Name[de]=btrfs-defrag-aktiviert
+Comment=Enable btrfs-defrag daemon
+Comment[fr]=Activer service btrfs-defrag
+Comment[es]=Activar servicio btrfs-defrag
+Comment[pt]=Ativar serviço btrfs-defrag
+Comment[it]=Attiva servizio btrfs-defrag
+Comment[de]=Aktivieren Sie den BTRFS-DEFRAG-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrfs-defrag-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

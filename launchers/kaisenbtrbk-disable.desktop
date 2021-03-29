@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=btrbk-disable
+Name[fr]=btrbk-désactivé
+Name[es]=btrbk-deshabilitado
+Name[pt]=btrbk-desativado
+Name[it]=btrbk-disabilitato
+Name[de]=btrbk-deaktiviert
+Comment=Disable btrbk daemon
+Comment[fr]=Désactiver service btrbk
+Comment[es]=Deshabilitar servicio btrbk
+Comment[pt]=Desativar serviço btrbk
+Comment[it]=Disabilita servizio btrbk
+Comment[de]=Deaktivieren Sie den BTRBK-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrbk-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrbk

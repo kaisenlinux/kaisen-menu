@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=brtfs-scrub-enable
+Name[fr]=btrfs-scrub-activé
+Name[es]=btrfs-scrub-habilitado
+Name[pt]=btrfs-scrub-ativado
+Name[it]=btrfs-scrub-abilitato
+Name[de]=btrfs-scrub-aktiviert
+Comment=Enable btrfs-scrub daemon
+Comment[fr]=Activer service btrfs-scrub
+Comment[es]=Activar servicio btrfs-scrub
+Comment[pt]=Ativar serviço btrfs-scrub
+Comment[it]=Attiva servizio btrfs-scrub
+Comment[de]=Aktivieren Sie den BTRFS-SCRUB-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrfs-scrub-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

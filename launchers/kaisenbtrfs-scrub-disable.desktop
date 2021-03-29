@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=btrfs-scrub-disable
+Name[fr]=btrfs-scrub-désactivé
+Name[es]=btrfs-scrub-deshabilitado
+Name[pt]=btrfs-scrub-desativado
+Name[it]=btrfs-scrub-disabilitato
+Name[de]=btrfs-scrub-deaktiviert
+Comment=Disable btrfs-scrub daemon
+Comment[fr]=Désactiver service btrfs-scrub
+Comment[es]=Deshabilitar servicio btrfs-scrub
+Comment[pt]=Desativar serviço btrfs-scrub
+Comment[it]=Disabilita servizio btrfs-scrub
+Comment[de]=Deaktivieren Sie den BTRFS-SCRUB-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrfs-scrub-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

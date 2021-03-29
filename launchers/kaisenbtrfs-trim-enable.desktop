@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=brtfs-trim-enable
+Name[fr]=btrfs-trim-activé
+Name[es]=btrfs-trim-habilitado
+Name[pt]=btrfs-trim-ativado
+Name[it]=btrfs-trim-abilitato
+Name[de]=btrfs-trim-aktiviert
+Comment=Enable btrfs-trim daemon
+Comment[fr]=Activer service btrfs-trim
+Comment[es]=Activar servicio btrfs-trim
+Comment[pt]=Ativar serviço btrfs-trim
+Comment[it]=Attiva servizio btrfs-trim
+Comment[de]=Aktivieren Sie den BTRFS-TRIM-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrfs-trim-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

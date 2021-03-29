@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=brtbk-enable
+Name[fr]=btrbk-activé
+Name[es]=btrbk-habilitado
+Name[pt]=btrbk-ativado
+Name[it]=btrbk-abilitato
+Name[de]=btrbk-aktiviert
+Comment=Enable btrbk daemon
+Comment[fr]=Activer service btrbk
+Comment[es]=Activar servicio btrbk
+Comment[pt]=Ativar serviço btrbk
+Comment[it]=Attiva servizio btrbk
+Comment[de]=Aktivieren Sie den BTRBK-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrbk-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrbk

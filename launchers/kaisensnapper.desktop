@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=snapper
+Comment=Backup tool for BTRFS subvolumes
+Comment[fr]=Outil de backup pour sous-volumes BTRFS
+Comment[es]=Herramienta de respaldo para subvolúmenes BTRFS
+Comment[pt]=Ferramenta de backup para subvolumes BTRFS
+Comment[it]=Strumento di backup per sotto-volumi BTRFS
+Comment[de]=Backup-Tool für BTRFS-Subvolumes
+Exec=kaisen-launcher --command "snapper"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=BTRFS;SystemSnapshot
+X-Kaisen-Package=snapper

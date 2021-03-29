@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=btrfs-balance-disable
+Name[fr]=btrfs-balance-désactivé
+Name[es]=btrfs-balance-deshabilitado
+Name[pt]=btrfs-balance-desativado
+Name[it]=btrfs-balance-disabilitato
+Name[de]=btrfs-balance-deaktiviert
+Comment=Disable btrfs-balance daemon
+Comment[fr]=Désactiver service btrfs-balance
+Comment[es]=Deshabilitar servicio btrfs-balance
+Comment[pt]=Desativar serviço btrfs-balance
+Comment[it]=Disabilita servizio btrfs-balance
+Comment[de]=Deaktivieren Sie den BTRFS-BALANCE-Dienst
+Exec=kaisen-launcher --command "/opt/services/btrfs-balance-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

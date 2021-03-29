@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=snapper-boot-disable
+Name[fr]=snapper-boot-désactivé
+Name[es]=snapper-boot-deshabilitado
+Name[pt]=snapper-boot-desativado
+Name[it]=snapper-boot-disabilitato
+Name[de]=snapper-boot-deaktiviert
+Comment=Disable snapper-boot daemon
+Comment[fr]=Désactiver service snapper-boot
+Comment[es]=Deshabilitar servicio snapper-boot
+Comment[pt]=Desativar serviço snapper-boot
+Comment[it]=Disabilita servizio snapper-boot
+Comment[de]=Deaktivieren Sie den snapper-boot-Dienst
+Exec=kaisen-launcher --command "/opt/services/snapper-boot-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=snapper

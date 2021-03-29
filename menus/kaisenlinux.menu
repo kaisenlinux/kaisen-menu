@@ -745,6 +745,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Smlocate</Name>
+      <Directory>kaisenlinux-smlocate.directory</Directory>
+      <Include>
+        <And>
+          <Category>Smlocate</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>
