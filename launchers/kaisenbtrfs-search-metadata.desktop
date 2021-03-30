@@ -1,14 +1,14 @@
 #!/usr/bin/env xdg-open
 
 [Desktop Entry]
-Name=btrfs-map-logical
+Name=btrfs-search-metadata
 Comment=Tool to manage BTRFS
 Comment[fr]=Outil pour gérer BTRFS
 Comment[es]=Herramienta para gestionar BTRFS
 Comment[pt]=Ferramenta para gerenciar BTRFS
 Comment[it]=Strumento per gestire BTRFS
 Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-map-logical --help"
+Exec=kaisen-launcher --command "btrfs-search-metadata -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=mkreiserfs
+Comment=Tool to create REISERFS partition
+Comment[fr]=Outil pour créer une partition REISERFS
+Comment[es]=Herramienta para crear una partición reiserfs
+Comment[pt]=Ferramenta para criar uma partição reiserfs
+Comment[it]=Strumento per creare una partizione reiserfs
+Comment[de]=Tool zum Erstellen einer reiserfs-Partition
+Exec=kaisen-launcher --command "mkreiserfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=REISERFS
+X-Kaisen-Package=reiserfsprogs
