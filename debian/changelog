@@ -1,10 +1,12 @@
 kaisen-menu (1.6) kaisen-packages; urgency=medium
 
   * Adding terraform launcher and icon
+  * Remove ansible-connection launcher
   * Update to 1.6
   * Adding -h or --help command argument for lot launchers
+  * Adding kaisen-basemenu-script
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 30 Mar 2021 13:52:15 +0200
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 31 Mar 2021 08:05:31 +0200
 
 kaisen-menu (1.5+kaisen28) kaisen-packages; urgency=medium
 
