@@ -1,3 +1,11 @@
+kaisen-menu (1.6+kaisen2) kaisen-packages; urgency=medium
+
+  * Create polkit policy
+  * Update launchers launched with gksu (now launched by pkexec)
+  * Remove gksu dependancy (replace by pkexec)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Apr 2021 23:57:32 +0200
+
 kaisen-menu (1.6+kaisen1) kaisen-packages; urgency=medium
 
   * Adding ecryptfs-utils launchers

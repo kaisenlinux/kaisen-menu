@@ -11,6 +11,6 @@ Vcs-Git: https://gitlab.com/kaisenlinux/packages/kaisen-menu.git
 
 Package: kaisen-menu
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}, xdg-utils, gksu, terminator, zsh, sudo, libdpkg-perl, libfile-fcntllock-perl
+Depends: ${misc:Depends}, ${perl:Depends}, xdg-utils, terminator, zsh, sudo, libdpkg-perl, libfile-fcntllock-perl
 Breaks: dradis (<< 3.1.0~rc2)
 Description: Kaisen Linux menu package (launchers, auto update launchers...)

@@ -4,3 +4,4 @@ desktop-directories/* usr/share/desktop-directories/
 launchers/* usr/share/kaisen-menu/applications/
 pixmaps/* usr/share/pixmaps/kaisen/
 scripts/ usr/share/kaisen-menu/
+pkexec/* usr/share/polkit-1/actions/
