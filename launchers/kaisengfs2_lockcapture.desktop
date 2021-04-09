@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=gfs2_lockcapture
-Comment=Tool to manage GFS2
-Comment[fr]=Outil pour gérer GFS2
-Comment[es]=Herramienta para gestionar GFS2
-Comment[pt]=Ferramenta para gerenciar o GFS2
-Comment[it]=Strumento per gestire GFS2
-Comment[de]=Tool zum Verwalten von GFS2
-Exec=kaisen-launcher --command "gfs2_lockcapture -h" --sudo
+Comment=Capture locking information from GFS2 file systems and DLM
+Comment[fr]=Capturez les informations de verrouillage des systèmes de fichiers GFS2 et DLM
+Comment[es]=Capture información de bloqueo de sistemas de archivos GFS2 y DLM
+Comment[pt]=Capture informações de bloqueio de sistemas de arquivos GFS2 e DLM
+Comment[it]=Acquisisci le informazioni di blocco dai file system GFS2 e DLM
+Comment[de]=Erfassen Sie Sperrinformationen aus GFS2-Dateisystemen und DLM
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gfs2_lockcapture -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

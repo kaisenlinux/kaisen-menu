@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=zfs-fuse
-Comment=Tool to manage ZFS
-Comment[fr]=Outil pour gérer ZFS
-Comment[es]=Herramienta para gestionar ZFS
-Comment[pt]=Ferramenta para gerenciar o ZFS
-Comment[it]=Strumento per gestire ZFS
-Comment[de]=Tool zum Verwalten von ZFS
-Exec=kaisen-launcher --command "zfs-fuse -h" --sudo
+Comment=ZFS filesystem daemon
+Comment[fr]=Service système de fichiers ZFS
+Comment[es]=Servicio de sistema de archivos ZFS
+Comment[pt]=Serviço de sistema de arquivos ZFS
+Comment[it]=Servizio file system ZFS
+Comment[de]=ZFS-Dateisystemdienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zfs-fuse -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=gfs2edit
-Comment=Tool to manage GFS2
-Comment[fr]=Outil pour gérer GFS2
-Comment[es]=Herramienta para gestionar GFS2
-Comment[pt]=Ferramenta para gerenciar o GFS2
-Comment[it]=Strumento per gestire GFS2
-Comment[de]=Tool zum Verwalten von GFS2
-Exec=kaisen-launcher --command "gfs2_edit -h" --sudo
+Comment=Display, print or edit GFS2 or GFS internal structures
+Comment[fr]=Afficher, imprimer ou modifier les structures internes de GFS2 ou GFS
+Comment[es]=Visualice, imprima o edite estructuras internas GFS2 o GFS
+Comment[pt]=Exibir, imprimir ou editar estruturas internas GFS2 ou GFS
+Comment[it]=Visualizza, stampa o modifica le strutture interne GFS2 o GFS
+Comment[de]=Anzeigen, Drucken oder Bearbeiten von internen GFS2- oder GFS-Strukturen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gfs2_edit -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

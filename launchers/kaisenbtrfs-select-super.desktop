@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs-select-super
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-select-super --help"
+Comment=Overwrite primary superblock with a backup copy
+Comment[fr]=Écraser le superbloc principal par une copie de sauvegarde
+Comment[es]=Sobrescribir el superbloque primario con una copia de seguridad
+Comment[pt]=Substitua o superbloco primário por uma cópia de backup
+Comment[it]=Sovrascrivi il superblocco primario con una copia di backup
+Comment[de]=Überschreiben Sie den primären Superblock mit einer Sicherungskopie
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-select-super --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

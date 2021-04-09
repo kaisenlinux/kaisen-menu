@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfscp
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfscp -h" --sudo
+Comment=Copy file to an NTFS volume
+Comment[fr]=Copier le fichier sur un volume NTFS
+Comment[es]=Copiar archivo a un volumen NTFS
+Comment[pt]=Copie o arquivo para um volume NTFS
+Comment[it]=Copia il file su un volume NTFS
+Comment[de]=Kopieren Sie die Datei auf ein NTFS-Volume
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfscp -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

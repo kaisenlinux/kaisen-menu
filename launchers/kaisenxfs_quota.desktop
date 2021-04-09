@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_quota
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_quota" --sudo
+Comment=Manage use of quota on XFS filesystems
+Comment[fr]=Gérer l'utilisation du quota sur les systèmes de fichiers XFS
+Comment[es]=Administrar el uso de la cuota en los sistemas de archivos XFS
+Comment[pt]=Gerenciar o uso de cotas em sistemas de arquivos XFS
+Comment[it]=Gestisci l'uso della quota sui filesystem XFS
+Comment[de]=Verwalten der Kontingentverwendung auf XFS-Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_quota" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

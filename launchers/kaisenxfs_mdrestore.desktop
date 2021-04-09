@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_mdrestore
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_mdrestore" --sudo
+Comment=Restores an XFS metadump image to a filesystem image
+Comment[fr]=Restaure une image de métadump XFS dans une image de système de fichiers
+Comment[es]=Restaura una imagen de metadump XFS a una imagen del sistema de archivos
+Comment[pt]=Restaura uma imagem de metadump XFS para uma imagem de sistema de arquivos
+Comment[it]=Ripristina un'immagine del metadump XFS in un'immagine del filesystem
+Comment[de]=Stellt ein XFS-Metadump-Image in einem Dateisystem-Image wieder her
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_mdrestore" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

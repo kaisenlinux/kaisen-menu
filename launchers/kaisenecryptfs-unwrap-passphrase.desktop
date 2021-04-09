@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-unwrap-passphrase
+Comment=Unwrap an ecryptfs mount passphrase from file
+Comment[fr]=Déballer une phrase de passe de montage ecryptfs à partir du fichier
+Comment[es]=Desenvolver una frase de contraseña de montaje ecryptfs del archivo
+Comment[pt]=Desembrulhe uma frase-senha de montagem ecryptfs do arquivo
+Comment[it]=Scartare una passphrase di montaggio ecryptfs dal file
+Comment[de]=Entpacken Sie eine ecryptfs-Mount-Passphrase aus der Datei
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-unwrap-passphrase"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

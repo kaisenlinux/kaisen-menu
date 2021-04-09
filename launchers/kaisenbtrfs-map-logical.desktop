@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs-map-logical
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-map-logical --help"
+Comment=Map BTRFS logical extent to physical extent
+Comment[fr]=Mapper l'étendue logique BTRFS à l'étendue physique
+Comment[es]=Asignar extensión lógica BTRFS a extensión física
+Comment[pt]=Mapeie a extensão lógica do BTRFS até a extensão física
+Comment[it]=Mappare l'estensione logica BTRFS all'estensione fisica
+Comment[de]=Ordnen Sie die logische Ausdehnung von BTRFS der physischen Ausdehnung zu
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-map-logical --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

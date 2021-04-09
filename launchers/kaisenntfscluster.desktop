@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfscluster
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfscluster -h"
+Comment=Identify files in a specified region of an NTFS volume
+Comment[fr]=Identifier les fichiers dans une région spécifiée d'un volume NTFS
+Comment[es]=Identificar archivos en una región específica de un volumen NTFS
+Comment[pt]=Identifica arquivos em uma região especificada de um volume NTFS
+Comment[it]=Identifica i file in una regione specificata di un volume NTFS
+Comment[de]=Identifizieren Sie Dateien in einem bestimmten Bereich eines NTFS-Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfscluster -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

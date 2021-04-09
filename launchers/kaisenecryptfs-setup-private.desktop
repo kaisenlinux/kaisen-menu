@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-setup-private
+Comment=Setup an ecryptfs private directory
+Comment[fr]=Configurer un répertoire privé ecryptfs
+Comment[es]=Configurar un directorio privado de ecryptfs
+Comment[pt]=Configure um diretório privado ecryptfs
+Comment[it]=Imposta una directory privata di ecryptfs
+Comment[de]=Richten Sie ein privates ecryptfs-Verzeichnis ein
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-setup-private"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

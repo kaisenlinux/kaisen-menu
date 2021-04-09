@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfs-3g
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfs-3g"
+Comment=Third Generation Read/Write NTFS Driver
+Comment[fr]=Pilote NTFS lecture/écriture de troisième génération
+Comment[es]=Controlador NTFS de lectura/escritura de tercera generación
+Comment[pt]=Driver NTFS de leitura/gravação de terceira geração
+Comment[it]=Driver NTFS in lettura/scrittura di terza generazione
+Comment[de]=Lese-/Schreib-NTFS-Treiber der dritten Generation
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfs-3g"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

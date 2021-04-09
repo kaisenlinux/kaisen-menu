@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_scrub
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_scrub" --sudo
+Comment=Check and repair the contents of a mounted XFS filesystem
+Comment[fr]=Vérifier et réparer le contenu d'un système de fichiers XFS monté
+Comment[es]=Verifique y repare el contenido de un sistema de archivos XFS montado
+Comment[pt]=Verifique e repare o conteúdo de um sistema de arquivos XFS montado
+Comment[it]=Controlla e ripara il contenuto di un filesystem XFS montato
+Comment[de]=Überprüfen und reparieren Sie den Inhalt eines bereitgestellten XFS-Dateisystems
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_scrub" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

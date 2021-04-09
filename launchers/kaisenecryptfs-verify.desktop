@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-verify
+Comment=Validate an ecryptfs encrypted home or encrypted private configuration
+Comment[fr]=Valider une configuration personnelle cryptée ou privée cryptée par ecryptfs
+Comment[es]=Validar un hogar cifrado con ecryptfs o una configuración privada cifrada
+Comment[pt]=Valide uma configuração doméstica criptografada ecryptfs ou uma configuração privada criptografada
+Comment[it]=Convalida una configurazione domestica crittografata con ecryptfs o privata crittografata
+Comment[de]=Überprüfen Sie eine ecryptfs-verschlüsselte private oder verschlüsselte private Konfiguration
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-verify"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

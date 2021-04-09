@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=glusterfind
-Comment=Tool to manage gluster filesystem
-Comment[fr]=Outil pour gérer le système de fichier gluster
-Comment[es]=Herramienta para gestionar el sistema de archivos Gluster
-Comment[pt]=Ferramenta para gerenciar o sistema de arquivos gluster
-Comment[it]=Strumento per gestire il file system gluster
-Comment[de]=Tool zum Verwalten des Gluster-Dateisystems
-Exec=kaisen-launcher --command "glusterfind -h"
+Comment=GLUSTERFS incremental API
+Comment[fr]=API incrémentielle GLUSTERFS
+Comment[es]=API incremental GLUSTERFS
+Comment[pt]=API incremental GLUSTERFS
+Comment[it]=API incrementale GLUSTERFS
+Comment[de]=Inkrementelle GLUSTERFS-API
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "glusterfind -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfsdump
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfsdump -h" --sudo
+Comment=XFS filesystem incremental dump utility
+Comment[fr]=Utilitaire de vidage incrémentiel du système de fichiers XFS
+Comment[es]=Utilidad de volcado incremental del sistema de archivos XFS
+Comment[pt]=Utilitário de despejo incremental do sistema de arquivos XFS
+Comment[it]=Utilità di dump incrementale del file system XFS
+Comment[de]=Inkrementelles Dump-Dienstprogramm für das XFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfsdump -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_ncheck
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_ncheck" --sudo
+Comment=Generate pathnames from i-numbers for XFS
+Comment[fr]=Générer des chemins d'accès à partir des numéros i pour XFS
+Comment[es]=Genere nombres de ruta a partir de i-numbers para XFS
+Comment[pt]=Gerar nomes de caminho a partir de números i para XFS
+Comment[it]=Genera nomi di percorso da i-numbers per XFS
+Comment[de]=Generieren Sie Pfadnamen aus i-Nummern für XFS
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_ncheck" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_db
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_db" --sudo
+Comment=Debug an XFS filesystem
+Comment[fr]=Déboguer un système de fichiers XFS
+Comment[es]=Depurar un sistema de archivos XFS
+Comment[pt]=Depurar um sistema de arquivos XFS
+Comment[it]=Eseguire il debug di un filesystem XFS
+Comment[de]=Debuggen Sie ein XFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_db" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

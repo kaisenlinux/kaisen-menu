@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=vmfs-lvm
-Comment=Tool to manage VMFS (VMWare volumes)
-Comment[fr]=Outil pour gérer VMFS (VMWare volumes)
-Comment[es]=Herramienta para gestionar VMFS (volúmenes VMWare)
-Comment[pt]=Ferramenta para gerenciar VMFS (volumes VMWare)
-Comment[it]=Strumento per gestire VMFS (volumi VMWare)
-Comment[de]=Tool zum Verwalten von VMFS (VMWare-Volumes)
-Exec=kaisen-launcher --command "vmfs-lvm -h" --sudo
+Comment=VMFS logical volume manager tool
+Comment[fr]=Outil de gestion de volume logique VMFS
+Comment[es]=Herramienta de administración de volumen lógico VMFS
+Comment[pt]=Ferramenta de gerenciamento de volume lógico VMFS
+Comment[it]=Strumento di gestione del volume logico VMFS
+Comment[de]=VMFS-Tool für den logischen Volume-Manager
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vmfs-lvm -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

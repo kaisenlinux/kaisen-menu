@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfsinvutil
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfsinvutil" --sudo
+Comment=XFSdump inventory database checking and pruning utility
+Comment[fr]=Utilitaire de vérification et d'élagage de la base de données d'inventaire xfsdump
+Comment[es]=Utilidad de poda y comprobación de la base de datos de inventario xfsdump
+Comment[pt]=Utilitário de verificação e remoção de banco de dados de inventário xfsdump
+Comment[it]=Utilità di controllo ed eliminazione del database di inventario xfsdump
+Comment[de]=Dienstprogramm zur Überprüfung und Bereinigung der xfsdump-Inventardatenbank
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfsinvutil" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

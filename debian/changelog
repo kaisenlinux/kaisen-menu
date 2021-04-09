@@ -1,3 +1,12 @@
+kaisen-menu (1.6+kaisen1) kaisen-packages; urgency=medium
+
+  * Adding ecryptfs-utils launchers
+  * The kaisen-launcher, kaisen-basemenu-purge, update-kaisen-menu
+    they now installed on /usr/share/kaisen-menu/scripts
+  * Update Comment for filesystems launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Apr 2021 20:09:04 +0200
+
 kaisen-menu (1.6) kaisen-packages; urgency=medium
 
   * Adding terraform launcher and icon

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=jfs_fscklog
-Comment=Tool to repair JFS partition (logs)
-Comment[fr]=Outil pour réparer une partition JFS (logs)
-Comment[es]=Herramienta para reparar una partición JFS (registros)
-Comment[pt]=Ferramenta para reparar uma partição JFS (logs)
-Comment[it]=Strumento per riparare una partizione JFS (registri)
-Comment[de]=Tool zum Reparieren einer JFS-Partition (Protokolle)
-Exec=kaisen-launcher --command "jfs_fscklog" --sudo
+Comment=Extract a JFS fsck service log into a file and/or format and display the extracted file
+Comment[fr]=Extraire un journal de service JFS fsck dans un fichier et/ou un format et afficher le fichier extrait
+Comment[es]=Extraiga un registro del servicio fsck de JFS en un archivo y/o formatee y muestre el archivo extraído
+Comment[pt]=Extraia um log de serviço fsck JFS em um arquivo e/ou formato e exiba o arquivo extraído
+Comment[it]=Estrarre un registro del servizio fsck JFS in un file e/o in un formato e visualizzare il file estratto
+Comment[de]=Extrahieren Sie ein JFS-fsck-Dienstprotokoll in eine Datei und/oder ein Format und zeigen Sie die extrahierte Datei an
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "jfs_fscklog" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs --help"
+Comment=Tool to manage BTRFS volumes
+Comment[fr]=Outil pour gérer les volumes BTRFS
+Comment[es]=Herramienta para administrar volúmenes BTRFS
+Comment[pt]=Ferramenta para gerenciar volumes BTRFS
+Comment[it]=Strumento per gestire i volumi BTRFS
+Comment[de]=Tool zum Verwalten von BTRFS-Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

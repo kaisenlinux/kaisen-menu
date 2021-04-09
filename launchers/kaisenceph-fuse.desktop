@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ceph-fuse
-Comment=Tool to manage CEPH volumes
-Comment[fr]=Outil pour gérer des volumes CEPH
-Comment[es]=Herramienta para gestionar volúmenes CEPH
-Comment[pt]=Ferramenta para gerenciar volumes CEPH
-Comment[it]=Strumento per la gestione dei volumi CEPH
-Comment[de]=Tool zum Verwalten von CEPH-Volumes
-Exec=kaisen-launcher --command "ceph-fuse -h" --sudo
+Comment=Tool to mount CEPH volumes
+Comment[fr]=Outil pour monter des volumes CEPH
+Comment[es]=Herramienta para montar volúmenes CEPH
+Comment[pt]=Ferramenta para montar volumes CEPH
+Comment[it]=Strumento per montare i volumi CEPH
+Comment[de]=Tool zum Mounten von CEPH-Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ceph-fuse -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

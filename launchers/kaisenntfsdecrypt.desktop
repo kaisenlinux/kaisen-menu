@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsdecrypt
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsdecrypt -h"
+Comment=Decrypt or update NTFS files encrypted according to EFS
+Comment[fr]=Décrypter ou mettre à jour les fichiers NTFS cryptés selon EFS
+Comment[es]=Descifre o actualice archivos NTFS cifrados de acuerdo con EFS
+Comment[pt]=Descriptografar ou atualizar arquivos NTFS criptografados de acordo com EFS
+Comment[it]=Decrittografa o aggiorna i file NTFS crittografati secondo EFS
+Comment[de]=Entschlüsseln oder aktualisieren Sie NTFS-Dateien, die gemäß EFS verschlüsselt sind
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsdecrypt -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

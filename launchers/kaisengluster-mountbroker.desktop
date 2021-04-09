@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=gluster-mountbroker
-Comment=Tool to manage gluster filesystem
-Comment[fr]=Outil pour gérer le système de fichiers gluster
-Comment[es]=Herramienta para gestionar el sistema de archivos Gluster
-Comment[pt]=Ferramenta para gerenciar o sistema de arquivos gluster
-Comment[it]=Strumento per gestire il file system gluster
-Comment[de]=Tool zum Verwalten des Gluster-Dateisystems
-Exec=kaisen-launcher --command "gluster-mountbroker -h" --sudo
+Comment=Geo replication mount broker
+Comment[fr]=Courtier de montage de réplication géographique
+Comment[es]=Corredor de montaje de replicación geográfica
+Comment[pt]=Agente de montagem de replicação geográfica
+Comment[it]=Broker di montaggio della replica geografica
+Comment[de]=Geo-Replikations-Mount-Broker
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gluster-mountbroker -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

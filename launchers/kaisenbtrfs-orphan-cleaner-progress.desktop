@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs-orphan-cleaner-progress
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-orphan-cleaner-progress -h"
+Comment=Show progress information about background deletion of BTRFS subvolumes
+Comment[fr]=Afficher les informations de progression sur la suppression en arrière-plan des sous-volumes BTRFS
+Comment[es]=Mostrar información de progreso sobre la eliminación en segundo plano de subvolúmenes BTRFS
+Comment[pt]=Mostrar informações de progresso sobre a exclusão de fundo de subvolumes BTRFS
+Comment[it]=Mostra le informazioni sullo stato di avanzamento dell'eliminazione in background dei sottovolumi BTRFS
+Comment[de]=Zeigt Fortschrittsinformationen zum Löschen von BTRFS-Subvolumes im Hintergrund an
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-orphan-cleaner-progress -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

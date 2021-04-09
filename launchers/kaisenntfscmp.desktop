@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfscmp
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfscmp"
+Comment=Compare two NTFS filesystems and tell the differences
+Comment[fr]=Comparez deux systèmes de fichiers NTFS et identifiez les différences
+Comment[es]=Compare dos sistemas de archivos NTFS y descubra las diferencias
+Comment[pt]=Compare dois sistemas de arquivos NTFS e diga as diferenças
+Comment[it]=Confronta due filesystem NTFS e individua le differenze
+Comment[de]=Vergleichen Sie zwei NTFS-Dateisysteme und erkennen Sie die Unterschiede
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfscmp"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

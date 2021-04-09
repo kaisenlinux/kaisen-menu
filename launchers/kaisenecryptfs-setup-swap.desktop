@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-setup-swap
+Comment=Ensure that any swap space is encrypted
+Comment[fr]=Assurez-vous que tout espace de swap est chiffré
+Comment[es]=Asegúrese de que cualquier espacio de intercambio esté cifrado
+Comment[pt]=Certifique-se de que qualquer espaço de troca esteja criptografado
+Comment[it]=Assicurati che lo spazio di swap sia crittografato
+Comment[de]=Stellen Sie sicher, dass der Swap Space verschlüsselt ist
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-setup-swap" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

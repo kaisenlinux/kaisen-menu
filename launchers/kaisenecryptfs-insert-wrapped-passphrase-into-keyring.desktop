@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-insert-wrapped-passphrase-into-keyring
+Comment=Unwrap a wrapped passphrase from file and insert into the kernel keyring
+Comment[fr]=Développer une phrase de passe enveloppée du fichier et l'insérer dans le trousseau de clés du noyau
+Comment[es]=Desenvuelva una frase de contraseña envuelta del archivo e insértela en el llavero del kernel
+Comment[pt]=Desembrulhe uma frase-senha embrulhada do arquivo e insira-a no chaveiro do kernel
+Comment[it]=Scartare una passphrase incartata dal file e inserirla nel portachiavi del kernel
+Comment[de]=Packen Sie eine umschlossene Passphrase aus der Datei aus und fügen Sie sie in den Kernel-Schlüsselring ein
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-insert-wrapped-passphrase-into-keyring"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

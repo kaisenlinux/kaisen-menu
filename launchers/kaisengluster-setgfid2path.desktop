@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=gluster-setgfid2path
-Comment=Tool to manage gluster filesystem
-Comment[fr]=Outil pour gérer le système de fichiers gluster
-Comment[es]=Herramienta para gestionar el sistema de archivos Gluster
-Comment[pt]=Ferramenta para gerenciar o sistema de arquivos gluster
-Comment[it]=Strumento per gestire il file system gluster
-Comment[de]=Tool zum Verwalten des Gluster-Dateisystems
-Exec=kaisen-launcher --command "gluster-setgfid2path" --sudo
+Comment=Gluster tool to set GFID to Path xattrs
+Comment[fr]=Outil Gluster pour définir GFID sur Path xattrs
+Comment[es]=Herramienta Gluster para configurar GFID en Path xattrs
+Comment[pt]=Ferramenta Gluster para definir GFID para Path xattrs
+Comment[it]=Strumento Gluster per impostare GFID su Path xattrs
+Comment[de]=Gluster-Tool zum Festlegen der GFID auf Pfad xattrs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gluster-setgfid2path" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=squashfuse
-Comment=Tool to manage SQUASHFS
-Comment[fr]=Outil pour gérer SQUASHFS
-Comment[es]=Herramienta para gestionar SQUASHFS
-Comment[pt]=Ferramenta para gerenciar SQUASHFS
-Comment[it]=Strumento per gestire SQUASHFS
-Comment[de]=Tool zum Verwalten von SQUASHFS
-Exec=kaisen-launcher --command "squashfuse"
+Comment=Mount a SquashFS archive with FUSE
+Comment[fr]=Monter une archive SquashFS avec FUSE
+Comment[es]=Montar un archivo SquashFS con FUSE
+Comment[pt]=Monte um arquivo SquashFS com FUSE
+Comment[it]=Montare un archivio SquashFS con FUSE
+Comment[de]=Mounten Sie ein SquashFS-Archiv mit FUSE
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "squashfuse"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

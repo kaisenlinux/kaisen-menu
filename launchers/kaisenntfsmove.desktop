@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsmove
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsmove -h"
+Comment=Move files and directories on an NTFS volume
+Comment[fr]=Déplacer des fichiers et des répertoires sur un volume NTFS
+Comment[es]=Mover archivos y directorios en un volumen NTFS
+Comment[pt]=Mova arquivos e diretórios em um volume NTFS
+Comment[it]=Spostare file e directory su un volume NTFS
+Comment[de]=Verschieben Sie Dateien und Verzeichnisse auf einem NTFS-Volume
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsmove -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

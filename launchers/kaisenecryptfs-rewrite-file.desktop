@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-rewrite-file
+Comment=Force a file to be rewritten (reencrypted) in the lower filesystem
+Comment[fr]=Forcer un fichier à être réécrit (rechiffré) dans le système de fichiers inférieur
+Comment[es]=Forzar la reescritura (reencriptación) de un archivo en el sistema de archivos inferior
+Comment[pt]=Forçar um arquivo a ser reescrito (criptografado novamente) no sistema de arquivos inferior
+Comment[it]=Forza la riscrittura (ricrittografia) di un file nel filesystem inferiore
+Comment[de]=Erzwingen Sie, dass eine Datei im unteren Dateisystem neu geschrieben (neu verschlüsselt) wird
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-rewrite-file"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

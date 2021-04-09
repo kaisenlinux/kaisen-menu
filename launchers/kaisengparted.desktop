@@ -12,6 +12,6 @@ Exec=sh -c "gksudo gparted"
 Icon=gparted
 Terminal=false
 Type=Application
-Categories=Partitioning;
+Categories=Partitioning
 StartupNotify=true
 X-Kaisen-Package=gparted

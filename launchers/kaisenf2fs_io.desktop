@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=f2fs_io
+Comment=F2FS ioctl utility
+Comment[fr]=Utilitaire ioctl F2FS
+Comment[es]=Utilidad ioctl F2FS
+Comment[pt]=Utilitário F2FS ioctl
+Comment[it]=Utilità ioctl F2FS
+Comment[de]=F2FS ioctl-Dienstprogramm
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "f2fs_io" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=F2FS
+X-Kaisen-Package=f2fs-tools

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_fsr
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_fsr" --sudo
+Comment=Filesystem reorganizer for XFS
+Comment[fr]=Réorganisateur de système de fichiers pour XFS
+Comment[es]=Reorganizador del sistema de archivos para XFS
+Comment[pt]=Reorganizador do sistema de arquivos para XFS
+Comment[it]=Riorganizzatore del file system per XFS
+Comment[de]=Dateisystem-Reorganisator für XFS
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_fsr" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

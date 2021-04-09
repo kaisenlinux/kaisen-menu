@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=xfsrestore
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfsrestore -h" --sudo
+Comment=XFS filesystem incremental restore utility
+Comment[fr]=Utilitaire de restauration incrémentielle du système de fichiers XFS
+Comment[es]=Utilidad de restauración incremental del sistema de archivos XFS
+Comment[pt]=Utilitário de restauração incremental do sistema de arquivos XFS
+Comment[it]=Utilità di ripristino incrementale del file system XFS
+Comment[de]=Inkrementelles Wiederherstellungsdienstprogramm für das XFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfsrestore -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=XFS
+Categories=XFS;Partitioning
 X-Kaisen-Package=xfsprogs

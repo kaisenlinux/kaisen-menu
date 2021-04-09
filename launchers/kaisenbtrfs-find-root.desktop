@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs-find-root
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-find-root --help"
+Comment=Filter to find BTRFS root
+Comment[fr]=Filtrer pour trouver la racine BTRFS
+Comment[es]=Filtrar para encontrar la raíz BTRFS
+Comment[pt]=Filtrar para encontrar a raiz BTRFS
+Comment[it]=Filtra per trovare la radice BTRFS
+Comment[de]=Filtern Sie, um den BTRFS-Stamm zu finden
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-find-root --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

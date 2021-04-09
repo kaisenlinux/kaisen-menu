@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsls
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsls -h"
+Comment=List directory contents on an NTFS filesystem
+Comment[fr]=Répertorier le contenu du répertoire sur un système de fichiers NTFS
+Comment[es]=Enumere el contenido del directorio en un sistema de archivos NTFS
+Comment[pt]=Lista o conteúdo do diretório em um sistema de arquivos NTFS
+Comment[it]=Elenca il contenuto della directory su un file system NTFS
+Comment[de]=Listen Sie den Verzeichnisinhalt in einem NTFS-Dateisystem auf
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsls -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

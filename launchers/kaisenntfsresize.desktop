@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsresize
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsresize -h" --sudo
+Comment=Resize an NTFS filesystem without data loss
+Comment[fr]=Redimensionner un système de fichiers NTFS sans perte de données
+Comment[es]=Cambiar el tamaño de un sistema de archivos NTFS sin pérdida de datos
+Comment[pt]=Redimensione um sistema de arquivos NTFS sem perda de dados
+Comment[it]=Ridimensiona un filesystem NTFS senza perdita di dati
+Comment[de]=Ändern Sie die Größe eines NTFS-Dateisystems ohne Datenverlust
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsresize -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

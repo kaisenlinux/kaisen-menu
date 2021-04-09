@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-rewrap-passphrase
+Comment=Unwrap an ecryptfs wrapped passphrase, rewrap it with a new passphrase, and write it back to file
+Comment[fr]=Décompressez une phrase de passe encapsulée par ecryptfs, réemballez-la avec une nouvelle phrase de passe et réécrivez-la dans le fichier
+Comment[es]=Desenvuelva una frase de contraseña envuelta en ecryptfs, vuelva a envolverla con una nueva frase de contraseña y vuelva a escribirla en el archivo
+Comment[pt]=Desembrulhe uma senha longa do ecryptfs, embrulhe-a novamente com uma nova senha e escreva-a de volta no arquivo
+Comment[it]=Scartare una passphrase racchiusa in ecryptfs, riavvolgerla con una nuova passphrase e riscriverla su file
+Comment[de]=Entpacken Sie eine mit ecryptfs umschlossene Passphrase, wickeln Sie sie mit einer neuen Passphrase um und schreiben Sie sie zurück in die Datei
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-rewrap-passphrase"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

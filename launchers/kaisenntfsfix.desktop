@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsfix
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsfix -h"
+Comment=Fix common errors and force Windows to check NTFS
+Comment[fr]=Corrigez les erreurs courantes et forcez Windows à vérifier NTFS
+Comment[es]=Corrija errores comunes y obligue a Windows a verificar NTFS
+Comment[pt]=Corrija erros comuns e force o Windows a verificar o NTFS
+Comment[it]=Correggi gli errori comuni e forza Windows a controllare NTFS
+Comment[de]=Beheben Sie häufige Fehler und zwingen Sie Windows, NTFS zu überprüfen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsfix -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

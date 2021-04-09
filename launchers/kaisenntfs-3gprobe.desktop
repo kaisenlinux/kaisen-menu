@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfs-3g.probe
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfs-3g.probe -h"
+Comment=Probe an NTFS volume mountability
+Comment[fr]=Sonder une montabilité de volume NTFS
+Comment[es]=Probar una capacidad de montaje de volumen NTFS
+Comment[pt]=Teste a capacidade de montagem de um volume NTFS
+Comment[it]=Verifica la possibilità di montare un volume NTFS
+Comment[de]=Testen Sie eine NTFS-Volume-Mountbarkeit
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfs-3g.probe -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

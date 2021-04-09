@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=nilfs-clean
-Comment=Tool to manage NILFS
-Comment[fr]=Outil pour gérer NILFS
-Comment[es]=Herramienta para gestionar NILFS
-Comment[pt]=Ferramenta para gerenciar NILFS
-Comment[it]=Strumento per gestire NILFS
-Comment[de]=Tool zum Verwalten von NILFS
-Exec=kaisen-launcher --command "nilfs-clean -h" --sudo
+Comment=Run garbage collector on NILFS file system
+Comment[fr]=Exécuter le garbage collector sur le système de fichiers NILFS
+Comment[es]=Ejecute el recolector de basura en el sistema de archivos NILFS
+Comment[pt]=Execute o coletor de lixo no sistema de arquivos NILFS
+Comment[it]=Esegui garbage collector sul file system NILFS
+Comment[de]=Führen Sie den Garbage Collector im NILFS-Dateisystem aus
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nilfs-clean -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

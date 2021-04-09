@@ -3,7 +3,8 @@
 case "$1" in
     configure|triggered)
 
-        /usr/share/kaisen-menu/update-kaisen-menu
+        /usr/share/kaisen-menu/scripts/update-kaisen-menu
+	/usr/share/kaisen-menu/scripts/kaisen-basemenu-purge
 
 	if [ ! -d /opt/services ]; then
 		rm -f /usr/share/applications/{*-disable.desktop,*-enable.desktop}

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfstruncate
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfstruncate -h"
+Comment=Truncate a file on an NTFS volume
+Comment[fr]=Tronquer un fichier sur un volume NTFS
+Comment[es]=Truncar un archivo en un volumen NTFS
+Comment[pt]=Truncar um arquivo em um volume NTFS
+Comment[it]=Troncare un file su un volume NTFS
+Comment[de]=Schneiden Sie eine Datei auf einem NTFS-Volume ab
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfstruncate -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

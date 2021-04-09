@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=jfs_logdump
-Comment=Tool to dump JFS logs
-Comment[fr]=Outil pour dumper les logs JFS
-Comment[es]=Herramienta para volcar registros JFS
-Comment[pt]=Ferramenta para despejar logs JFS
-Comment[it]=Strumento per scaricare i log JFS
-Comment[de]=Tool zum Speichern von JFS-Protokollen
-Exec=kaisen-launcher --command "jfs_logdump" --sudo
+Comment=Dump a JFS formatted device's journal log
+Comment[fr]=Vider le journal du journal d'un périphérique au format JFS
+Comment[es]=Volcar el registro de diario de un dispositivo formateado con JFS
+Comment[pt]=Despejar o registro de diário de um dispositivo formatado em JFS
+Comment[it]=Scarica il registro del giornale di un dispositivo formattato JFS
+Comment[de]=Speichern Sie das Journalprotokoll eines JFS-formatierten Geräts
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "jfs_logdump" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_io
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_io" --sudo
+Comment=Debug the I/O path of an XFS filesystem
+Comment[fr]=Déboguer le chemin d'E/S d'un système de fichiers XFS
+Comment[es]=Depurar la ruta de E/S de un sistema de archivos XFS
+Comment[pt]=Depure o caminho de I/O de um sistema de arquivos XFS
+Comment[it]=Eseguire il debug del percorso I/O di un filesystem XFS
+Comment[de]=Debuggen Sie den E/A-Pfad eines XFS-Dateisystems
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_io" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

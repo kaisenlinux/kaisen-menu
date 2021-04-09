@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=vmfs6-fuse
-Comment=Tool to manage VMFS (VMWare volumes)
-Comment[fr]=Outil pour gérer VMFS (VMWare volumes)
-Comment[es]=Herramienta para gestionar VMFS (volúmenes VMWare)
-Comment[pt]=Ferramenta para gerenciar VMFS (volumes VMWare)
-Comment[it]=Strumento per gestire VMFS (volumi VMWare)
-Comment[de]=Tool zum Verwalten von VMFS (VMWare-Volumes)
-Exec=kaisen-launcher --command "vmfs6-fuse -h" --sudo
+Comment=Tool to mount VMFS6 filesystem
+Comment[fr]=Outil pour monter système de fichiers VMFS6
+Comment[es]=Herramienta para montar sistema de archivos VMFS6
+Comment[pt]=Ferramenta para montar sistema de arquivos VMFS6
+Comment[it]=Strumento per montare i file system VMFS6
+Comment[de]=Tool zum Mounten von VMFS6-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vmfs6-fuse -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

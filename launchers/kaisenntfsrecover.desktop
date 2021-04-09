@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsrecover
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsrecover -h"
+Comment=Recover updates committed by Windows on an NTFS volume
+Comment[fr]=Récupérer les mises à jour validées par Windows sur un volume NTFS
+Comment[es]=Recuperar actualizaciones comprometidas por Windows en un volumen NTFS
+Comment[pt]=Recupere atualizações confirmadas pelo Windows em um volume NTFS
+Comment[it]=Recupera gli aggiornamenti commessi da Windows su un volume NTFS
+Comment[de]=Stellen Sie von Windows festgeschriebene Updates auf einem NTFS-Volume wieder her
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsrecover -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

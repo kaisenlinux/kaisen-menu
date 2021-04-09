@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=udfinfo
-Comment=UDF file system tool
-Comment[fr]=Outil pour le système de fichiers UDF
-Comment[es]=Herramienta de sistema de archivos UDF
-Comment[pt]=Ferramenta de sistema de arquivos UDF
-Comment[it]=Strumento di file system UDF
-Comment[de]=UDF-Dateisystem-Tool
-Exec=kaisen-launcher --command "udfinfo"
+Comment=Show information about UDF filesystem
+Comment[fr]=Afficher des informations à propos d'un système de fichiers UDF
+Comment[es]=Ver información sobre un sistema de archivos UDF
+Comment[pt]=Ver informações sobre um sistema de arquivos UDF
+Comment[it]=Visualizza le informazioni su un file system UDF
+Comment[de]=Informationen zu einem UDF-Dateisystem anzeigen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "udfinfo"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

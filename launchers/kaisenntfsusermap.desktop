@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ntfsusermap
-Comment=Tool for NTFS partition
-Comment[fr]=Outil pour partition NTFS
-Comment[es]=Herramienta de partición NTFS
-Comment[pt]=Ferramenta de partição NTFS
-Comment[it]=Strumento di partizione NTFS
-Comment[de]=NTFS-Partitionstool
-Exec=kaisen-launcher --command "ntfsusermap"
+Comment=NTFS Building a User Mapping File
+Comment[fr]=NTFS Création d'un fichier de mappage utilisateur
+Comment[es]=NTFS Creación de un archivo de asignación de usuarios
+Comment[pt]=NTFS Construindo um Arquivo de Mapeamento de Usuário
+Comment[it]=NTFS Creazione di un file di mappatura utente
+Comment[de]=NTFS Erstellen einer Benutzerzuordnungsdatei
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsusermap"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

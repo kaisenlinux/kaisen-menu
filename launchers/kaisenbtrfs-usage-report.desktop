@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=btrfs-usage-report
-Comment=Tool to manage BTRFS
-Comment[fr]=Outil pour gérer BTRFS
-Comment[es]=Herramienta para gestionar BTRFS
-Comment[pt]=Ferramenta para gerenciar BTRFS
-Comment[it]=Strumento per gestire BTRFS
-Comment[de]=Tool zum Verwalten von BTRFS
-Exec=kaisen-launcher --command "btrfs-usage-report -h"
+Comment=Show a detailed usage report about your BTRFS filesystem
+Comment[fr]=Afficher un rapport d'utilisation détaillé sur votre système de fichiers BTRFS
+Comment[es]=Muestre un informe de uso detallado sobre su sistema de archivos BTRFS
+Comment[pt]=Mostra um relatório de uso detalhado sobre o seu sistema de arquivos BTRFS
+Comment[it]=Mostra un rapporto dettagliato sull'utilizzo del tuo filesystem BTRFS
+Comment[de]=Zeigen Sie einen detaillierten Verwendungsbericht zu Ihrem BTRFS-Dateisystem an
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-usage-report -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application

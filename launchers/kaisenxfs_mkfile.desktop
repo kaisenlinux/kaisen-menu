@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_mkfile
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_mkfile -h" --sudo
+Comment=Create an XFS file
+Comment[fr]=Créer un fichier XFS
+Comment[es]=Crea un archivo XFS
+Comment[pt]=Crie um arquivo XFS
+Comment[it]=Crea un file XFS
+Comment[de]=Erstellen Sie eine XFS-Datei
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_mkfile -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

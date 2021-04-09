@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_repair
-Comment=Tool to repair XFS partition
-Comment[fr]=Outil pour réparer une partition XFS
-Comment[es]=Herramienta para reparar una partición XFS
-Comment[pt]=Ferramenta para reparar uma partição XFS
-Comment[it]=Strumento per riparare una partizione XFS
-Comment[de]=Tool zum Reparieren einer XFS-Partition
-Exec=kaisen-launcher --command "xfs_repair" --sudo
+Comment=Repair an XFS filesystem
+Comment[fr]=Réparer un système de fichiers XFS
+Comment[es]=Reparar un sistema de archivos XFS
+Comment[pt]=Reparar um sistema de arquivos XFS
+Comment[it]=Ripara un filesystem XFS
+Comment[de]=Reparieren Sie ein XFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_repair" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application

@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=xfs_info
-Comment=Tool for XFS partition
-Comment[fr]=Outil pour partition XFS
-Comment[es]=Herramienta de partición XFS
-Comment[pt]=Ferramenta de partição XFS
-Comment[it]=Strumento di partizione XFS
-Comment[de]=XFS-Partitionstool
-Exec=kaisen-launcher --command "xfs_info" --sudo
+Comment=Display XFS filesystem geometry information
+Comment[fr]=Afficher les informations de géométrie du système de fichiers XFS
+Comment[es]=Mostrar información de geometría del sistema de archivos XFS
+Comment[pt]=Exibir informações de geometria do sistema de arquivos XFS
+Comment[it]=Visualizza le informazioni sulla geometria del filesystem XFS
+Comment[de]=Informationen zur Geometrie des XFS-Dateisystems anzeigen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_info" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application
