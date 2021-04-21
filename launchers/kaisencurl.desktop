@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=curl
-Comment=Tool to transfer data
-Comment[fr]=Outil de transfert de données
-Comment[es]=Herramienta de transferencia de datos
-Comment[pt]=Ferramenta de transferência de dados
-Comment[it]=Strumento di trasferimento dati
-Comment[de]=Datenübertragungstool
+Comment=Tool to transfer a URL
+Comment[fr]=Outil pour transférer une URL
+Comment[es]=Herramienta para transferir una URL
+Comment[pt]=Ferramenta para transferir um URL
+Comment[it]=Strumento per trasferire un URL
+Comment[de]=Tool zum Übertragen einer URL
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "curl --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SystemSecurity
+Categories=SystemAdministration
 X-Kaisen-Package=curl

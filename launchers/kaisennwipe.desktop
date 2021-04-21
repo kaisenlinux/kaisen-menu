@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=nwipe
-Comment=Tool to completely erase file based on ncurses support
-Comment[fr]=Outil pour effacer complètement un fichier avec le support ncurses
-Comment[es]=Herramienta para eliminar completamente un archivo con soporte ncurses
-Comment[pt]=Ferramenta para excluir completamente um arquivo com suporte a ncurses
-Comment[it]=Strumento per eliminare completamente un file con il supporto di ncurses
-Comment[de]=Tool zum vollständigen Löschen einer Datei mit Unterstützung von ncurses
+Comment=Tool to completely erase disk through a ncurses interface
+Comment[fr]=Outil pour effacer complètement un disque via une interface ncurses
+Comment[es]=Herramienta para borrar completamente el disco a través de una interfaz ncurses
+Comment[pt]=Ferramenta para apagar completamente o disco através de uma interface ncurses
+Comment[it]=Strumento per cancellare completamente il disco tramite un'interfaccia ncurses
+Comment[de]=Tool zum vollständigen Löschen der Festplatte über eine ncurses-Schnittstelle
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nwipe" --sudo
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=dislocker-metadata
-Comment=Tool for bitlocker disk
-Comment[fr]=Outil pour les disques bitlocker
-Comment[es]=Herramienta Bitlocker
-Comment[pt]=Ferramenta Bitlocker
-Comment[it]=Strumento Bitlocker
-Comment[de]=Bitlocker-Tool
+Comment=Printing information about a BitLocker-encrypted volume
+Comment[fr]=Impression d'informations sur un volume chiffré par BitLocker
+Comment[es]=Imprimir información sobre un volumen cifrado con BitLocker
+Comment[pt]=Imprimir informações sobre um volume criptografado pelo BitLocker
+Comment[it]=Stampa di informazioni su un volume crittografato con BitLocker
+Comment[de]=Drucken von Informationen zu einem BitLocker-verschlüsselten Volume
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dislocker-metadata -h"
 Icon=utilities-terminal
 Terminal=false

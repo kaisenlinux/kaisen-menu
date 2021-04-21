@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-ckeckpoint
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Checkpoint a container
+Comment[fr]=Point de contrôle d'un container
+Comment[es]=Punto de control de un contenedor
+Comment[pt]=Ponto de controle de um contêiner
+Comment[it]=Punto di controllo di un contenitore
+Comment[de]=Kontrollpunkt eines Containers
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-checkpoint -h"
 Icon=utilities-terminal
 Terminal=false

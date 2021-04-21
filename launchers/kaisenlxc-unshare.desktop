@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-unshare
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Run a task in a new set of namespaces
+Comment[fr]=Exécuter une tâche dans un nouvel ensemble d'espaces de noms
+Comment[es]=Ejecutar una tarea en un nuevo conjunto de espacios de nombres
+Comment[pt]=Execute uma tarefa em um novo conjunto de namespaces
+Comment[it]=Esegui un'attività in un nuovo set di spazi dei nomi
+Comment[de]=Führen Sie eine Aufgabe in einem neuen Satz von Namespaces aus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-unshare -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-autostart
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Start/stop/kill auto-started containers
+Comment[fr]=Démarrer/arrêter/tuer les conteneurs à démarrage automatique
+Comment[es]=Iniciar/detener/matar contenedores de inicio automático
+Comment[pt]=Iniciar/parar/eliminar contêineres iniciados automaticamente
+Comment[it]=Avviare/arrestare/uccidere i contenitori avviati automaticamente
+Comment[de]=Starten/Stoppen/Beenden von automatisch gestarteten Containern
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-autostart -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=zbackup
-Comment=Backup tool
-Comment[fr]=Outil de sauvegarde
-Comment[es]=Herramienta de respaldo
-Comment[pt]=Ferramenta de backup
-Comment[it]=Strumento di backup
-Comment[de]=Sicherungswerkzeug
+Comment=Versatile deduplicating backup tool
+Comment[fr]=Outil de sauvegarde polyvalent avec déduplication
+Comment[es]=Herramienta de copia de seguridad de deduplicación versátil
+Comment[pt]=Ferramenta versátil de desduplicação de backup
+Comment[it]=Strumento di backup versatile per la deduplicazione
+Comment[de]=Vielseitiges deduplizierendes Backup-Tool
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zbackup -h" --sudo
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=restic
-Comment=Backup tool with versioning
-Comment[fr]=Outil de sauvegarde avec versioning
-Comment[es]=Herramienta de respaldo con versionado
-Comment[pt]=Ferramenta de backup com controle de versão
-Comment[it]=Strumento di backup con controllo delle versioni
-Comment[de]=Backup-Tool mit Versionierung
+Comment=Backup and restore files
+Comment[fr]=Sauvegarder et restaurer des fichiers
+Comment[es]=Copia de seguridad y restauración de archivos
+Comment[pt]=Fazer backup e restaurar arquivos
+Comment[it]=Backup e ripristino dei file
+Comment[de]=Dateien sichern und wiederherstellen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "restic --help"
 Icon=utilities-terminal
 Terminal=false

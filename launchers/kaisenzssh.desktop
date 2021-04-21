@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=zssh
-Comment=Tool to send a file to a remote computer
-Comment[fr]=Outil pour envoyer des fichiers sur un ordinateur distant
-Comment[es]=Herramienta para enviar archivos a una computadora remota
-Comment[pt]=Ferramenta para enviar arquivos para um computador remoto
-Comment[it]=Strumento per inviare file a un computer remoto
-Comment[de]=Tool zum Senden von Dateien an einen Remotecomputer
+Comment=Interactive file transfer wrapper for ssh
+Comment[fr]=Encapsuleur de transfert de fichiers interactif pour ssh
+Comment[es]=Envoltorio de transferencia de archivos interactivo para ssh
+Comment[pt]=Wrapper de transferência de arquivo interativo para ssh
+Comment[it]=Wrapper di trasferimento file interattivo per ssh
+Comment[de]=Interaktiver Dateiübertragungs-Wrapper für ssh
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zssh -h" --sudo
 Icon=utilities-terminal
 Terminal=false

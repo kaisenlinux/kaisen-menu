@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-unfreeze
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Thaw all the container's processes
+Comment[fr]=Décongeler tous les processus du conteneur
+Comment[es]=Descongelar todos los procesos del contenedor
+Comment[pt]=Descongele todos os processos do contêiner
+Comment[it]=Scongela tutti i processi del contenitore
+Comment[de]=Tauen Sie alle Prozesse des Containers auf
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-unfreeze -h"
 Icon=utilities-terminal
 Terminal=false

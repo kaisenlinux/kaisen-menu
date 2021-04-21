@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=pst2ldif
-Comment=Tool to analyse PST file
-Comment[fr]=Outil pour analyser un fichier PST
-Comment[es]=Herramienta para analizar un archivo PST
-Comment[pt]=Ferramenta para analisar um arquivo PST
-Comment[it]=Strumento per analizzare un file PST
-Comment[de]=Tool zum Analysieren einer PST-Datei
+Comment=Extract contacts from an MS Outlook .pst file in .ldif format
+Comment[fr]=Extraire les contacts d'un fichier .pst MS Outlook au format .ldif
+Comment[es]=Extraiga contactos de un archivo .pst de MS Outlook en formato .ldif
+Comment[pt]=Extraia contatos de um arquivo .pst do MS Outlook no formato .ldif
+Comment[it]=Estrai i contatti da un file .pst di MS Outlook in formato .ldif
+Comment[de]=Extrahieren Sie Kontakte aus einer MS Outlook-PST-Datei im .ldif-Format
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pst2ldif -h"
 Icon=utilities-terminal
 Terminal=false

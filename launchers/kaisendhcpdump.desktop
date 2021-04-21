@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=dhcpdump
-Comment=Tool to analyse dhcp
-Comment[fr]=Outil pour analyser le dhcp
-Comment[es]=Herramienta para analizar dhcp
-Comment[pt]=Ferramenta para analisar dhcp
-Comment[it]=Strumento per analizzare dhcp
-Comment[de]=Tool zur Analyse von DHCP
+Comment=DHCP packet dumper
+Comment[fr]=Dumper de paquets DHCP
+Comment[es]=Dumper de paquetes DHCP
+Comment[pt]=Dumper de pacote DHCP
+Comment[it]=Dumper pacchetto DHCP
+Comment[de]=DHCP-Paketkipper
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dhcpdump -h" --sudo
 Icon=utilities-terminal
 Terminal=false

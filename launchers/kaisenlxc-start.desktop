@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-start
-Comment=Tool to start LXC container
-Comment[fr]=Outil pour démarrer un container LXC
-Comment[es]=Herramienta para iniciar un contenedor LXC
-Comment[pt]=Ferramenta para iniciar um contêiner LXC
-Comment[it]=Strumento per avviare un contenitore LXC
-Comment[de]=Werkzeug zum Starten eines LXC-Containers
+Comment=Run an application inside a container
+Comment[fr]=Exécuter une application dans un conteneur
+Comment[es]=Ejecuta una aplicación dentro de un contenedor
+Comment[pt]=Execute um aplicativo dentro de um contêiner
+Comment[it]=Esegui un'applicazione all'interno di un contenitore
+Comment[de]=Führen Sie eine Anwendung in einem Container aus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-start -h"
 Icon=utilities-terminal
 Terminal=false

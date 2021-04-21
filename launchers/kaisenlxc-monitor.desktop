@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-monitor
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Monitor the container state
+Comment[fr]=Surveiller l'état du conteneur
+Comment[es]=Supervisar el estado del contenedor
+Comment[pt]=Monitore o estado do contêiner
+Comment[it]=Monitorare lo stato del contenitore
+Comment[de]=Überwachen Sie den Containerstatus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-monitor -h"
 Icon=utilities-terminal
 Terminal=false

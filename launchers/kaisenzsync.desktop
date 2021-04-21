@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=zsync
-Comment=Tool to save all your directories with many protocols
-Comment[fr]=Outil pour sauvegarder tous vos répertoires avec de nombreux protocoles
-Comment[es]=Herramienta para respaldar todos sus directorios con muchos protocolos
-Comment[pt]=Ferramenta para fazer backup de todos os seus diretórios com muitos protocolos
-Comment[it]=Strumento per il backup di tutte le tue directory con molti protocolli
-Comment[de]=Tool zum Sichern aller Ihrer Verzeichnisse mit vielen Protokollen
+Comment=Partial/differential file download client over HTTP
+Comment[fr]=Client de téléchargement de fichier partiel/différentiel via HTTP
+Comment[es]=Cliente de descarga de archivos parcial/diferencial a través de HTTP
+Comment[pt]=Cliente de download de arquivo parcial/diferencial via HTTP
+Comment[it]=Client di download di file parziale/differenziale su HTTP
+Comment[de]=Client zum Herunterladen von Partial- /Differentialdateien über HTTP
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zsync"
 Icon=utilities-terminal
 Terminal=false

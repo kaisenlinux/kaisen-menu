@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ifstat
-Comment=Tool to monitor a network interface
-Comment[fr]=Outil pour monitorer une interface réseau
-Comment[es]=Herramienta para monitorear una interfaz de red
-Comment[pt]=Ferramenta para monitorar uma interface de rede
-Comment[it]=Strumento per monitorare un'interfaccia di rete
-Comment[de]=Tool zur Überwachung einer Netzwerkschnittstelle
+Comment=Report interface statistics
+Comment[fr]=Rapport des statistiques d'interface
+Comment[es]=Estadísticas de la interfaz de informes
+Comment[pt]=Relatório de estatísticas da interface
+Comment[it]=Segnala le statistiche dell'interfaccia
+Comment[de]=Schnittstellenstatistiken melden
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ifstat"
 Icon=utilities-terminal
 Terminal=false

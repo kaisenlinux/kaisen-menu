@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-console
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=REPL console for executing Ansible tasks
+Comment[fr]=Console REPL pour exécuter des tâches Ansible
+Comment[es]=Consola REPL para ejecutar tareas Ansible
+Comment[pt]=Console REPL para executar tarefas Ansible
+Comment[it]=Console REPL per l'esecuzione di attività Ansible
+Comment[de]=REPL-Konsole zum Ausführen von Ansible-Aufgaben
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-console -h"
 Icon=utilities-terminal
 Terminal=false

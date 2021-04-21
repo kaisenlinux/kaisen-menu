@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=duply
-Comment=Backup tool
-Comment[fr]=Outil de sauvegarde
-Comment[es]=Herramienta de respaldo
-Comment[pt]=Ferramenta de backup
-Comment[it]=Strumento di backup
-Comment[de]=Sicherungswerkzeug
+Comment=A shell frontend to duplicity for simplified backups
+Comment[fr]=Une interface shell à la duplicité pour des sauvegardes simplifiées
+Comment[es]=Una interfaz de shell para duplicidad para copias de seguridad simplificadas
+Comment[pt]=Uma interface de shell para duplicidade para backups simplificados
+Comment[it]=Un frontend della shell per la duplicità per backup semplificati
+Comment[de]=Ein Shell-Frontend zur Duplizität für vereinfachte Backups
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "duply usage"
 Icon=utilities-terminal
 Terminal=false

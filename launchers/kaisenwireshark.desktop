@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=Wireshark
-Comment=Tool to scan all trames in network
-Comment[fr]=Outil pour scanner toutes les trames sur le réseau
-Comment[es]=Herramienta para escanear todos los marcos en la red
-Comment[pt]=Ferramenta para digitalizar todos os quadros na rede
-Comment[it]=Strumento per scansionare tutti i frame sulla rete
-Comment[de]=Tool zum Scannen aller Frames im Netzwerk
+Comment=Interactively dump and analyze network traffic
+Comment[fr]=Déchargez et analysez le trafic réseau de manière interactive
+Comment[es]=Volcar y analizar el tráfico de la red de forma interactiva
+Comment[pt]=Despeje e analise interativamente o tráfego de rede
+Comment[it]=Esegui il dump e analizza in modo interattivo il traffico di rete
+Comment[de]=Interaktives Speichern und Analysieren des Netzwerkverkehrs
 Exec=pkexec wireshark
 Icon=wireshark
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=iperf3
-Comment=Tool to analyse network performance
-Comment[fr]=Outil pour analyser les performances réseau
-Comment[es]=Herramienta para analizar el rendimiento de la red
-Comment[pt]=Ferramenta para analisar o desempenho da rede
-Comment[it]=Strumento per analizzare le prestazioni della rete
-Comment[de]=Tool zur Analyse der Netzwerkleistung
+Comment=Perform network throughput tests
+Comment[fr]=Effectuer des tests de débit réseau
+Comment[es]=Realizar pruebas de rendimiento de la red
+Comment[pt]=Execute testes de taxa de transferência de rede
+Comment[it]=Eseguire test di velocità effettiva di rete
+Comment[de]=Führen Sie Netzwerkdurchsatztests durch
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "iperf3 --help"
 Icon=utilities-terminal
 Terminal=false

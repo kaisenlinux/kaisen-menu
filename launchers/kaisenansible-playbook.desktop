@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-playbook
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=Runs Ansible playbooks executing the defined tasks on the targeted hosts
+Comment[fr]=Exécute les playbooks Ansible en exécutant les tâches définies sur les hôtes ciblés
+Comment[es]=Ejecuta los libros de jugadas de Ansible ejecutando las tareas definidas en los hosts de destino
+Comment[pt]=Executa manuais do Ansible executando as tarefas definidas nos hosts alvo
+Comment[it]=Esegue playbook Ansible eseguendo le attività definite sugli host di destinazione
+Comment[de]=Führt Ansible-Playbooks aus, die die definierten Aufgaben auf den Zielhosts ausführen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-playbook -h"
 Icon=utilities-terminal
 Terminal=false

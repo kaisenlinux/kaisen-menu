@@ -201,7 +201,7 @@
       <Directory>kaisenlinux-network.directory</Directory>
       <Include>
         <And>
-          <Category>NetworkSecurity</Category>
+          <Category>NetworkAdministration</Category>
       </And>
         </Include>
           <Menu>
@@ -354,7 +354,7 @@
       <Directory>kaisenlinux-systems.directory</Directory>
       <Include>
         <And>
-          <Category>SystemSecurity</Category>
+          <Category>SystemAdministration</Category>
         </And>
       </Include>
     <Menu>

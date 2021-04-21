@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-vault
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=Encryption/decryption utility for Ansible data files
+Comment[fr]=Utilitaire de chiffrement/déchiffrement pour les données de fichiers Ansible
+Comment[es]=Utilidad de cifrado/descifrado para datos de archivos Ansible
+Comment[pt]=Utilitário de criptografia/descriptografia para dados de arquivo Ansible
+Comment[it]=Utilità di crittografia/decrittografia per i dati dei file Ansible
+Comment[de]=Dienstprogramm zum Ver- und Entschlüsseln von Ansible-Dateidaten
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-vault -h"
 Icon=utilities-terminal
 Terminal=false

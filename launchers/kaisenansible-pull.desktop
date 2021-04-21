@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-pull
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=Pulls playbooks from a VCS repo and executes them for the local host
+Comment[fr]=Extrait les playbooks d'un référentiel VCS et les exécute pour l'hôte local
+Comment[es]=Extrae libros de jugadas de un repositorio de VCS y los ejecuta para el host local
+Comment[pt]=Extrai manuais de um repositório VCS e os executa para o host local
+Comment[it]=Estrae i playbook da un repository VCS e li esegue per l'host locale
+Comment[de]=Ruft Playbooks aus einem VCS-Repo ab und führt sie für den lokalen Host aus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-pull -h"
 Icon=utilities-terminal
 Terminal=false

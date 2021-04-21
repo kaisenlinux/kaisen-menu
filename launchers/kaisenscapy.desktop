@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=scapy
-Comment=Tool to generate traffic and sniffing
-Comment[fr]=Outil pour générer du trafic et sniffing
-Comment[es]=Herramienta para generar tráfico y oler
-Comment[pt]=Ferramenta para gerar tráfego e cheirar
-Comment[it]=Strumento per generare traffico e fiuto
-Comment[de]=Tool zum Generieren von Verkehr und Schnüffeln
+Comment=Framework to generate traffic and sniffing
+Comment[fr]=Framework pour générer du trafic et sniffing
+Comment[es]=Framework para generar tráfico y oler
+Comment[pt]=Framework para gerar tráfego e cheirar
+Comment[it]=Framework per generare traffico e fiuto
+Comment[de]=Framework zum Generieren von Verkehr und Schnüffeln
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "scapy -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=TCP
+Categories=Scanner;PCAP
 X-Kaisen-Package=python3-scapy

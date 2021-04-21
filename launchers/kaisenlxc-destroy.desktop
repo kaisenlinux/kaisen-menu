@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-destroy
-Comment=Tool to delete LXC container
-Comment[fr]=Outil pour supprimer un container LXC
-Comment[es]=Herramienta para eliminar un contenedor LXC
-Comment[pt]=Ferramenta para excluir um contêiner LXC
-Comment[it]=Strumento per eliminare un contenitore LXC
-Comment[de]=Tool zum Löschen eines LXC-Containers
+Comment=Destroy a LXC container
+Comment[fr]=Détruire un conteneur LXC
+Comment[es]=Destruye un contenedor LXC
+Comment[pt]=Destrua um contêiner LXC
+Comment[it]=Distruggi un container LXC
+Comment[de]=Zerstören Sie einen LXC-Container
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-destroy -h"
 Icon=utilities-terminal
 Terminal=false

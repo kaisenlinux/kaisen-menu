@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-checkconfig
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Check the current kernel for LXC support
+Comment[fr]=Vérifiez le noyau actuel pour la prise en charge de LXC
+Comment[es]=Verifique el kernel actual para soporte LXC
+Comment[pt]=Verifique o kernel atual para suporte LXC
+Comment[it]=Controlla il kernel corrente per il supporto LXC
+Comment[de]=Überprüfen Sie den aktuellen Kernel auf LXC-Unterstützung
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-checkconfig"
 Icon=utilities-terminal
 Terminal=false

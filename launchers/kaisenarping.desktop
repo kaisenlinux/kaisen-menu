@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=arping
-Comment=Tool to ping an ARP address
-Comment[fr]=Outil pour pinger une adresse ARP
-Comment[es]=Herramienta para hacer ping a una dirección ARP
-Comment[pt]=Ferramenta para executar ping em um endereço ARP
-Comment[it]=Strumento per eseguire il ping di un indirizzo ARP
-Comment[de]=Tool zum Pingen einer ARP-Adresse
+Comment=Send ARP REQUEST to a neighbour host
+Comment[fr]=Envoyer une demande ARP à un hôte voisin
+Comment[es]=Enviar SOLICITUD ARP a un anfitrión vecino
+Comment[pt]=Envie ARP REQUEST para um host vizinho
+Comment[it]=Invia RICHIESTA ARP a un host vicino
+Comment[de]=Senden Sie ARP REQUEST an einen Nachbarhost
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arping"
 Icon=utilities-terminal
 Terminal=false

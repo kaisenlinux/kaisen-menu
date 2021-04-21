@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-info
-Comment=Tool to get information about an LXC container
-Comment[fr]=Outil pour avoir des informations sur un conteneur LXC
-Comment[es]=Herramienta para obtener información sobre un contenedor LXC
-Comment[pt]=Ferramenta para obter informações sobre um contêiner LXC
-Comment[it]=Strumento per ottenere informazioni su un contenitore LXC
-Comment[de]=Tool zum Abrufen von Informationen zu einem LXC-Container
+Comment=Query information about a container
+Comment[fr]=Interroger des informations sur un conteneur
+Comment[es]=Consultar información sobre un contenedor
+Comment[pt]=Consultar informações sobre um contêiner
+Comment[it]=Query informazioni su un contenitore
+Comment[de]=Informationen zu einem Container abfragen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-info -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-create
-Comment=Tool to create LXC container
-Comment[fr]=Outil pour créer un container LXC
-Comment[es]=Herramienta para crear un contenedor LXC
-Comment[pt]=Ferramenta para criar um contêiner LXC
-Comment[it]=Strumento per creare un contenitore LXC
-Comment[de]=Tool zum Erstellen eines LXC-Containers
+Comment=Creates a container
+Comment[fr]=Créé un conteneur
+Comment[es]=Crea un contenedor
+Comment[pt]=Cria um container
+Comment[it]=Crea un contenitore
+Comment[de]=Erstellt einen Container
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-create -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-ls
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=List the containers existing on the system
+Comment[fr]=Répertorier les conteneurs existants sur le système
+Comment[es]=Enumere los contenedores existentes en el sistema
+Comment[pt]=Liste os contêineres existentes no sistema
+Comment[it]=Elenca i contenitori esistenti nel sistema
+Comment[de]=Listen Sie die im System vorhandenen Container auf
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-ls -h"
 Icon=utilities-terminal
 Terminal=false

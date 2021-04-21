@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=ssmping
-Comment=Tool to test multicast diffusion
-Comment[fr]=Outil pour tester la connectivité multi-diffusion
-Comment[es]=Herramienta para probar conectividad multicast
-Comment[pt]=Ferramenta para testar a conectividade multicast
-Comment[it]=Strumento per testare la connettività multicast
-Comment[de]=Tool zum Testen der Multicast-Konnektivität
+Comment=Check if you can receive IPv4/IPv6 multicast data from an internet host
+Comment[fr]=Vérifiez si vous pouvez recevoir des données multicast IPv4/IPv6 d'un hôte Internet
+Comment[es]=Compruebe si puede recibir datos de multidifusión IPv4/IPv6 desde un host de Internet
+Comment[pt]=Verifique se você pode receber dados multicast IPv4/IPv6 de um host de Internet
+Comment[it]=Verifica se puoi ricevere dati multicast IPv4/IPv6 da un host Internet
+Comment[de]=Überprüfen Sie, ob Sie IPv4/IPv6-Multicast-Daten von einem Internet-Host empfangen können
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ssmping"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=TCP
+Categories=NetworkAdministration
 X-Kaisen-Package=ssmping

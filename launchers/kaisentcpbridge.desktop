@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=tcpbridge
-Comment=Tool to bridge network traffic
-Comment[fr]=Outil pour mettre en pont une connexion
-Comment[es]=Herramienta para unir una conexión
-Comment[pt]=Ferramenta para conectar uma conexão
-Comment[it]=Strumento per colmare una connessione
-Comment[de]=Tool zum Überbrücken einer Verbindung
+Comment=Bridge network traffic across two interfaces
+Comment[fr]=Pontez le trafic réseau sur deux interfaces
+Comment[es]=Puentear el tráfico de red a través de dos interfaces
+Comment[pt]=Faça a ponte do tráfego de rede em duas interfaces
+Comment[it]=Bridge il traffico di rete attraverso due interfacce
+Comment[de]=Überbrücken Sie den Netzwerkverkehr über zwei Schnittstellen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpbridge -H"
 Icon=utilities-terminal
 Terminal=false

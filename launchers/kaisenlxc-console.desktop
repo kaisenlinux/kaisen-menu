@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-console
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Launch a console for the specified container
+Comment[fr]=Lancer une console pour le conteneur spécifié
+Comment[es]=Lanzar una consola para el contenedor especificado
+Comment[pt]=Inicie um console para o contêiner especificado
+Comment[it]=Avvia una console per il contenitore specificato
+Comment[de]=Starten Sie eine Konsole für den angegebenen Container
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-console -h"
 Icon=utilities-terminal
 Terminal=false

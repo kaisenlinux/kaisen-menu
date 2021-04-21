@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=arptables
-Comment=Tool to manage ARP tables
-Comment[fr]=Outil pour manipuler les tables ARP
-Comment[es]=Herramienta para manipular tablas ARP
-Comment[pt]=Ferramenta para manipular tabelas ARP
-Comment[it]=Strumento per manipolare le tabelle ARP
-Comment[de]=Tool zum Bearbeiten von ARP-Tabellen
+Comment=ARP table administration
+Comment[fr]=Administration de la table ARP
+Comment[es]=Administración de la tabla ARP
+Comment[pt]=Administração de tabela ARP
+Comment[it]=Amministrazione di tabelle ARP
+Comment[de]=ARP-Tabellenverwaltung
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arptables -h" --sudo
 Icon=utilities-terminal
 Terminal=false

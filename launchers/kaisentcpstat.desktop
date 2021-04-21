@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=tcpstat
-Comment=Network statistics
-Comment[fr]=Statisques réseaux
-Comment[es]=Estadísticas de red
-Comment[pt]=Estatísticas de rede
-Comment[it]=Statistiche di rete
-Comment[de]=Netzwerkstatistik
+Comment=Report network interface statistics
+Comment[fr]=Rapporter les statistiques de l'interface réseau
+Comment[es]=Informar estadísticas de la interfaz de red
+Comment[pt]=Reportar estatísticas de interface de rede
+Comment[it]=Riporta le statistiche dell'interfaccia di rete
+Comment[de]=Statistiken zur Netzwerkschnittstelle melden
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpstat -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=TCP
+Categories=Monitoring
 X-Kaisen-Package=tcpstat

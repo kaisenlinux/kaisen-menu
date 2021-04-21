@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-galaxy
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=Perform various Role and Collection related operations
+Comment[fr]=Effectuer diverses opérations liées au rôle et à la collection
+Comment[es]=Realizar varias operaciones relacionadas con roles y colecciones
+Comment[pt]=Executar várias operações relacionadas à função e coleta
+Comment[it]=Eseguire varie operazioni relative a ruoli e raccolte
+Comment[de]=Führen Sie verschiedene rollen- und sammlungsbezogene Vorgänge aus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-galaxy -h"
 Icon=utilities-terminal
 Terminal=false

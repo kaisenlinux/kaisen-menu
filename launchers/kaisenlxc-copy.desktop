@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-copy
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Copy an existing container
+Comment[fr]=Copier un conteneur existant
+Comment[es]=Copiar un contenedor existente
+Comment[pt]=Copie um contêiner existente
+Comment[it]=Copia un contenitore esistente
+Comment[de]=Kopieren Sie einen vorhandenen Container
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-copy -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Name=lxctl
-Comment=Tool to manage LXC containers
+Comment=Utility to manage LXC containers
 Comment[fr]=Outil pour gérer les conteneurs LXC
 Comment[es]=Herramienta para gestionar un contenedor LXC
 Comment[pt]=Ferramenta para gerenciar um contêiner LXC

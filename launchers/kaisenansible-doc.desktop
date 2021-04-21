@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-doc
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=Displays information on modules installed in Ansible libraries
+Comment[fr]=Affiche des informations sur les modules installés dans les bibliothèques Ansible
+Comment[es]=Muestra información sobre los módulos instalados en las bibliotecas de Ansible
+Comment[pt]=Exibe informações sobre os módulos instalados nas bibliotecas Ansible
+Comment[it]=Visualizza le informazioni sui moduli installati nelle librerie Ansible
+Comment[de]=Zeigt Informationen zu Modulen an, die in Ansible-Bibliotheken installiert sind
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-doc -h"
 Icon=utilities-terminal
 Terminal=false

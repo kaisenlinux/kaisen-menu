@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ansible-config
-Comment=Tool to use ansible
-Comment[fr]=Outil pour utiliser ansible
-Comment[es]=Herramienta Ansible
-Comment[pt]=Ferramenta Ansible
-Comment[it]=Strumento Ansible
-Comment[de]=Ansible Tool
+Comment=View ansible configuration
+Comment[fr]=Afficher la configuration d'Ansible
+Comment[es]=Ver la configuración de Ansible
+Comment[pt]=Ver a configuração do Ansible
+Comment[it]=Visualizza la configurazione di Ansible
+Comment[de]=Ansible-Konfiguration anzeigen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-config -h"
 Icon=utilities-terminal
 Terminal=false

@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=tcpreplay
-Comment=Tool to receive records of tcpdump files
-Comment[fr]=Outil pour recevoir des fichiers tcpdump
-Comment[es]=Herramienta para recibir archivos tcpdump
-Comment[pt]=Ferramenta para receber arquivos tcpdump
-Comment[it]=Strumento per ricevere file tcpdump
-Comment[de]=Tool zum Empfangen von tcpdump-Dateien
+Comment=Replay network traffic stored in pcap files
+Comment[fr]=Relire le trafic réseau stocké dans les fichiers pcap
+Comment[es]=Reproducir el tráfico de red almacenado en archivos pcap
+Comment[pt]=Repete o tráfego de rede armazenado em arquivos pcap
+Comment[it]=Riproduci il traffico di rete memorizzato nei file pcap
+Comment[de]=Wiedergabe des in pcap-Dateien gespeicherten Netzwerkverkehrs
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpreplay -H" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=TCP
+Categories=PCAP
 X-Kaisen-Package=tcpreplay

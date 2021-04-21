@@ -9,6 +9,6 @@ Comment[de]=Dienstprogramm zur Systemwiederherstellung (GUI)
 Exec=timeshift-launcher
 Icon=timeshift
 Terminal=false
-Categories=SystemSnapshot
+Categories=BTRFS;SystemSnapshot
 Type=Application
 X-Kaisen-Package=timeshift

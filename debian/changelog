@@ -1,3 +1,12 @@
+kaisen-menu (1.6+kaisen3) kaisen-packages; urgency=medium
+
+  * Upgraded descriptions of many launchers
+  * Change from SystemSecurity to SystemAdministration
+  * Change from NetworkSecurity to NetworkAdministration
+  * Add BTRFS category on timeshift launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 21 Apr 2021 21:11:58 +0200
+
 kaisen-menu (1.6+kaisen2) kaisen-packages; urgency=medium
 
   * Create polkit policy

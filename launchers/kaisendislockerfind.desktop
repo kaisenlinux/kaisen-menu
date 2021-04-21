@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=dislocker-find
+Comment=Find BitLocker-encrypted volumes
+Comment[fr]=Rechercher des volumes chiffrés par BitLocker
+Comment[es]=Encuentre volúmenes cifrados con BitLocker
+Comment[pt]=Encontre volumes criptografados com BitLocker
+Comment[it]=Trova volumi crittografati con BitLocker
+Comment[de]=Suchen Sie nach BitLocker-verschlüsselten Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dislocker-find -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Bitlocker
+X-Kaisen-Package=dislocker

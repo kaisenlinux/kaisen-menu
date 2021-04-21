@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=dump
-Comment=Tool to backup ext partitions
-Comment[fr]=Outil pour sauvegarder les partitions ext
-Comment[es]=Herramienta para guardar particiones ext
-Comment[pt]=Ferramenta para salvar partições ext
-Comment[it]=Strumento per salvare le partizioni ext
-Comment[de]=Tool zum Speichern von Ext-Partitionen
+Comment=Tool to backup EXT partitions
+Comment[fr]=Outil pour sauvegarder les partitions EXT
+Comment[es]=Herramienta para guardar particiones EXT
+Comment[pt]=Ferramenta para salvar partições EXT
+Comment[it]=Strumento per salvare le partizioni EXT
+Comment[de]=Tool zum Speichern von EXT-Partitionen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dump" --sudo
 Icon=utilities-terminal
 Terminal=false

@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=dislocker
-Comment=Tool to bitlocker disks
-Comment[fr]=Outil pour les disques bitlocker
-Comment[es]=Herramienta Bitlocker
-Comment[pt]=Ferramenta Bitlocker
-Comment[it]=Strumento Bitlocker
-Comment[de]=Bitlocker-Tool
+Comment=Read/write BitLocker encrypted volumes
+Comment[fr]=Lecture/écriture des volumes chiffrés BitLocker
+Comment[es]=Volúmenes cifrados de BitLocker de lectura/escritura
+Comment[pt]=Ler/gravar volumes criptografados do BitLocker
+Comment[it]=Lettura/scrittura di volumi crittografati con BitLocker
+Comment[de]=BitLocker-verschlüsselte Volumes lesen/schreiben
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dislocker -h"
 Icon=utilities-terminal
 Terminal=false

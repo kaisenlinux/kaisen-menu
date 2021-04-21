@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=arp
-Comment=Tool to show arp connection
-Comment[fr]=Outil pour afficher la connexion ARP
-Comment[es]=Herramienta para mostrar la conexión ARP
-Comment[pt]=Ferramenta para exibir a conexão ARP
-Comment[it]=Strumento per visualizzare la connessione ARP
-Comment[de]=Tool zum Anzeigen der ARP-Verbindung
+Comment=Manipulate the system's ARP table
+Comment[fr]=Manipule la table ARP du système
+Comment[es]=Manipular la tabla ARP del sistema
+Comment[pt]=Manipular a tabela ARP do sistema
+Comment[it]=Manipola la tabella ARP del sistema
+Comment[de]=Bearbeiten Sie die ARP-Tabelle des Systems
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arp" --sudo
 Icon=utilities-terminal
 Terminal=false

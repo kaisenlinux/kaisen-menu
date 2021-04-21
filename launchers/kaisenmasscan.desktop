@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=masscan
-Comment=Tool for TCP port scanning
-Comment[fr]=Outil pour scanner les ports TCP
-Comment[es]=Herramienta para escanear puertos TCP
-Comment[pt]=Ferramenta para verificar portas TCP
-Comment[it]=Strumento per scansionare le porte TCP
-Comment[de]=Tool zum Scannen von TCP-Ports
+Comment=Fast scan of the Internet
+Comment[fr]=Analyse rapide d'Internet
+Comment[es]=Escaneo rápido de Internet
+Comment[pt]=Varredura rápida da Internet
+Comment[it]=Scansione veloce di Internet
+Comment[de]=Schneller Scan des Internets
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "masscan -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=TCP
+Categories=Scanner
 X-Kaisen-Package=masscan

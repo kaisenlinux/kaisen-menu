@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=host
-Comment=Tool to use DNS to lookup operations
-Comment[fr]=Outil pour utiliser les DNS pour des résolutions
-Comment[es]=Herramienta para usar DNS para resoluciones
-Comment[pt]=Ferramenta para usar DNS para resoluções
-Comment[it]=Strumento per utilizzare il DNS per le risoluzioni
-Comment[de]=Tool zur Verwendung von DNS für Auflösungen
+Comment=DNS lookup utility
+Comment[fr]=Utilitaire de recherche DNS
+Comment[es]=Utilidad de búsqueda de DNS
+Comment[pt]=Utilitário de pesquisa DNS
+Comment[it]=Utilità di ricerca DNS
+Comment[de]=DNS-Suchdienstprogramm
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "host"
 Icon=utilities-terminal
 Terminal=false

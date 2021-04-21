@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=pffinfo
-Comment=Tool to analyse PST file
-Comment[fr]=Outil pour analyser un fichier PST
-Comment[es]=Herramienta para analizar un archivo PST
-Comment[pt]=Ferramenta para analisar um arquivo PST
-Comment[it]=Strumento per analizzare un file PST
-Comment[de]=Tool zum Analysieren einer PST-Datei
+Comment=Determines information about a Personal Folder File (OST, PAB and PST)
+Comment[fr]=Détermine les informations sur un fichier de dossiers personnels (OST, PAB et PST)
+Comment[es]=Determina la información sobre un archivo de carpeta personal (OST, PAB y PST)
+Comment[pt]=Determina informações sobre um arquivo de pasta pessoal (OST, PAB e PST)
+Comment[it]=Determina le informazioni su un file delle cartelle personali (OST, PAB e PST)
+Comment[de]=Bestimmt Informationen zu einer persönlichen Ordnerdatei (OST, PAB und PST)
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pffinfo -h"
 Icon=utilities-terminal
 Terminal=false

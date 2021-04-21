@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=vbackup
-Comment=Backup tool
-Comment[fr]=Outil de sauvegarde
-Comment[es]=Herramienta de respaldo
-Comment[pt]=Ferramenta de backup
-Comment[it]=Strumento di backup
-Comment[de]=Sicherungswerkzeug
+Comment=A modular backup program
+Comment[fr]=Un programme de sauvegarde modulaire
+Comment[es]=Un programa de respaldo modular
+Comment[pt]=Um programa de backup modular
+Comment[it]=Un programma di backup modulare
+Comment[de]=Ein modulares Sicherungsprogramm
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vbackup --help"
 Icon=utilities-terminal
 Terminal=false

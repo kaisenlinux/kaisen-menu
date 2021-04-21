@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ssldump
-Comment=Tool to analyse SSL/TLS protocols
-Comment[fr]=Outil pour analyser les protocoles SSL et TLS
-Comment[es]=Herramienta para analizar protocolos SSL y TLS
-Comment[pt]=Ferramenta para analisar os protocolos SSL e TLS
-Comment[it]=Strumento per analizzare i protocolli SSL e TLS
-Comment[de]=Tool zur Analyse von SSL- und TLS-Protokollen
+Comment=Dump SSL/TLS traffic on a network
+Comment[fr]=Décharger le trafic SSL/TLS sur un réseau
+Comment[es]=Volcar tráfico SSL/TLS en una red
+Comment[pt]=Despejar tráfego SSL/TLS em uma rede
+Comment[it]=Scarica il traffico SSL/TLS su una rete
+Comment[de]=Dump SSL/TLS-Verkehr in einem Netzwerk
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ssldump -h" --sudo
 Icon=utilities-terminal
 Terminal=false

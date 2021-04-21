@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-attach
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Start a process inside a running container
+Comment[fr]=Démarrer un processus dans un conteneur en cours exécution
+Comment[es]=Iniciar un proceso dentro de un contenedor en ejecución
+Comment[pt]=Inicie um processo dentro de um contêiner em execução
+Comment[it]=Avvia un processo all'interno di un contenitore in esecuzione
+Comment[de]=Starten Sie einen Prozess in einem laufenden Container
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-attach -h"
 Icon=utilities-terminal
 Terminal=false

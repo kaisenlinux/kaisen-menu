@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=lxc-usernsexec
-Comment=Tool to manage LXC container
-Comment[fr]=Outil pour gérer un container LXC
-Comment[es]=Herramienta para gestionar un contenedor LXC
-Comment[pt]=Ferramenta para gerenciar um contêiner LXC
-Comment[it]=Strumento per gestire un contenitore LXC
-Comment[de]=Tool zum Verwalten eines LXC-Containers
+Comment=Run a task as root in a new user namespace
+Comment[fr]=Exécuter une tâche en tant que root dans un nouvel espace de noms utilisateur
+Comment[es]=Ejecutar una tarea como root en un nuevo espacio de nombres de usuario
+Comment[pt]=Executar uma tarefa como root em um novo namespace de usuário
+Comment[it]=Esegui un'attività come root in un nuovo spazio dei nomi utente
+Comment[de]=Führen Sie eine Aufgabe als root in einem neuen Benutzernamensraum aus
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-usernsexec -h"
 Icon=utilities-terminal
 Terminal=false
