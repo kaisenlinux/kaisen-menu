@@ -1,4 +1,4 @@
-#!/usr/bin/xdg-open
+#!/usr/bin/env xdg-open
 
 [Desktop Entry]
 Name=curl
@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Miscellaneous
+Categories=SystemAdministration
 X-Kaisen-Package=curl

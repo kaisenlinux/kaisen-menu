@@ -1,4 +1,4 @@
-#!/usr/bin/xdg-open
+#!/usr/bin/env xdg-open
 
 [Desktop Entry]
 Name=socat
@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=NetworkUncategorized
+Categories=NetworkAdministration
 X-Kaisen-Package=socat
