@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcpreplay-edit
+Comment=Replay network traffic stored in pcap files
+Comment[fr]=Relire le trafic réseau stocké dans les fichiers pcap
+Comment[es]=Reproducir el tráfico de red almacenado en archivos pcap
+Comment[pt]=Repete o tráfego de rede armazenado em arquivos pcap
+Comment[it]=Riproduci il traffico di rete memorizzato nei file pcap
+Comment[de]=Wiedergabe des in pcap-Dateien gespeicherten Netzwerkverkehrs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpreplay-edit -H" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=tcpreplay

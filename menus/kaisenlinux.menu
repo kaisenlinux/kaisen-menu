@@ -201,7 +201,7 @@
       <Directory>kaisenlinux-network.directory</Directory>
       <Include>
         <And>
-          <Category>NetworkAdministration</Category>
+          <Category>NetworkUncategorized</Category>
       </And>
         </Include>
           <Menu>
@@ -354,7 +354,7 @@
       <Directory>kaisenlinux-systems.directory</Directory>
       <Include>
         <And>
-          <Category>SystemAdministration</Category>
+          <Category>SystemUncategorized</Category>
         </And>
       </Include>
     <Menu>

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dnsspoof
+Comment=Creates responses to arbitrary DNS address or pointer queries on the local network
+Comment[fr]=Crée des réponses à des requêtes d'adresse ou de pointeur DNS arbitraires sur le réseau local
+Comment[es]=Crea respuestas a consultas de punteros o direcciones DNS arbitrarias en la red local
+Comment[pt]=Cria respostas para endereços DNS arbitrários ou consultas de ponteiro na rede local
+Comment[it]=Crea risposte a indirizzi DNS arbitrari o query di puntatori sulla rete locale
+Comment[de]=Erstellt Antworten auf beliebige DNS-Adressen oder Zeigerabfragen im lokalen Netzwerk
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dnsspoof -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DNS
+X-Kaisen-Package=dsniff
