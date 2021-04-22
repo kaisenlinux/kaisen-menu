@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=shred
-Comment=Tool to securely delete a file on HDD
-Comment[fr]=Outil pour faire un effacement sécurisé sur un disque dur
-Comment[es]=Herramienta para hacer un borrado seguro en un disco duro
-Comment[pt]=Ferramenta para fazer uma exclusão segura em um disco rígido
-Comment[it]=Strumento per effettuare una cancellazione sicura su un disco rigido
-Comment[de]=Tool zum sicheren Löschen auf einer Festplatte
+Comment=Make a complete erase of a hard drive
+Comment[fr]=Faire un effacement complet d'un disque dur
+Comment[es]=Hacer un borrado completo de un disco duro
+Comment[pt]=Apague completamente um disco rígido
+Comment[it]=Effettua una cancellazione completa di un disco rigido
+Comment[de]=Löschen Sie eine Festplatte vollständig
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "shred --help"
 Icon=utilities-terminal
 Terminal=false

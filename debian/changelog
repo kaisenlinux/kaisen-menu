@@ -1,3 +1,10 @@
+kaisen-menu (1.6+kaisen5) kaisen-packages; urgency=medium
+
+  * Fix Categories on arpspoof launcher
+  * Upgrade description on shred and fstrim launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 22 Apr 2021 18:02:06 +0200
+
 kaisen-menu (1.6+kaisen4) kaisen-packages; urgency=medium
 
   * Add new tcp* launchers

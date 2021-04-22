@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=fstrim
-Comment=Tool to erase unused blocks on SSD drive
-Comment[fr]=Outil pour effacer les blocks non utilisés sur un disque SSD
-Comment[es]=Herramienta para borrar bloques no utilizados en una unidad SSD
-Comment[pt]=Ferramenta para apagar blocos não utilizados em uma unidade SSD
-Comment[it]=Strumento per cancellare i blocchi inutilizzati su un'unità SSD
-Comment[de]=Tool zum Löschen nicht verwendeter Blöcke auf einem SSD-Laufwerk
+Comment=Free unused blocks on an SSD drive
+Comment[fr]= Libérer les blocks non utilisés sur un disque SSD
+Comment[es]=Bloques libres no utilizados en una unidad SSD
+Comment[pt]=Blocos livres não utilizados em uma unidade SSD
+Comment[it]=Blocchi inutilizzati gratuiti su un'unità SSD
+Comment[de]=Geben Sie nicht verwendete Blöcke auf einem SSD-Laufwerk frei
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fstrim -h" --sudo
 Icon=utilities-terminal
 Terminal=false
