@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcprewrite
+Comment=Rewrite the packets in a PCAP file
+Comment[fr]=Réécrire les paquets dans un fichier PCAP
+Comment[es]=Reescribe los paquetes en un archivo PCAP
+Comment[pt]=Reescrever os pacotes em um arquivo PCAP
+Comment[it]=Riscrivi i pacchetti in un file PCAP
+Comment[de]=Schreiben Sie die Pakete in eine PCAP-Datei um
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcprewrite -H" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=tcpreplay

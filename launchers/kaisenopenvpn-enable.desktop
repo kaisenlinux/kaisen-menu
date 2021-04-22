@@ -1,4 +1,4 @@
-#!/usr/bin/env xdg-open
+#!/usr/bin/xdg-open
 
 [Desktop Entry]
 Name=openvpn-enable

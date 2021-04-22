@@ -1,4 +1,4 @@
-#!/usr/bin/env xdg-open
+#!/usr/bin/xdg-open
 
 [Desktop Entry]
 Name=dhclient
@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=DHCP
-X-Kaisen-Package=kaisen-network-tools
+X-Kaisen-Package=isc-dhcp-client

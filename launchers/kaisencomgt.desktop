@@ -1,4 +1,4 @@
-#!/usr/bin/env xdg-open
+#!/usr/bin/xdg-open
 
 [Desktop Entry]
 Name=comgt
@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=NetworkAdministration
+Categories=NetworkUncategorized
 X-Kaisen-Package=comgt
