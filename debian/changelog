@@ -1,15 +1,3 @@
-kaisen-menu (1.6+kaisen4) kaisen-packages; urgency=medium
-
-  * Add new tcp* launchers
-  * Create wget launcher
-  * Create ncat launcher
-  * Change launchers categories (curl, cups, hexedit)
-  * Change from SystemAdministration to SystemUncategorized
-  * Change from NetworkAdministration to NetworkUncategorized
-  * Update shebang on all launcher
-
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 22 Apr 2021 04:27:51 +0200
-
 kaisen-menu (1.6+kaisen3) kaisen-packages; urgency=medium
 
   * Upgraded descriptions of many launchers

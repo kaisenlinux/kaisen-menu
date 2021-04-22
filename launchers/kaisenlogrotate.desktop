@@ -1,4 +1,4 @@
-#!/usr/bin/xdg-open
+#!/usr/bin/env xdg-open
 
 [Desktop Entry]
 Name=logrotate
@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SystemUncategorized
+Categories=SystemAdministration
 X-Kaisen-Package=logrotate

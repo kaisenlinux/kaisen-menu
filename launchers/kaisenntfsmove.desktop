@@ -1,4 +1,4 @@
-#!/usr/bin/xdg-open
+#!/usr/bin/env xdg-open
 
 [Desktop Entry]
 Name=ntfsmove
