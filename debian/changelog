@@ -1,3 +1,9 @@
+kaisen-menu (1.6+kaisen7) kaisen-packages; urgency=medium
+
+  * Remove || true in scripts/kaisen-basemenu-purge (-f argument force the remove)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 04 May 2021 21:57:31 +0200
+
 kaisen-menu (1.6+kaisen6) kaisen-packages; urgency=medium
 
   * Add AWS menu in SysOps menu
