@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fdupes
+Comment=Tool to find duplicate files
+Comment[fr]=Outil pour trouver des fichiers en doublon
+Comment[es]=Herramienta para encontrar archivos duplicados
+Comment[pt]=Ferramenta para encontrar arquivos duplicados
+Comment[it]=Strumento per trovare file duplicati
+Comment[de]=Tool zum Auffinden doppelter Dateien
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fdupes -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Analysis
+X-Kaisen-Package=fdupes
