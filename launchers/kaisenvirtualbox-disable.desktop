@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SVirtualization
-X-Kaisen-Package=virtualbox virtualbox-guest-utils
+X-Kaisen-Package=virtualbox-guest-utils

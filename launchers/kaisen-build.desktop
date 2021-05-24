@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kaisen-build
+Comment=Tool to build a Kaisen Linux ISO
+Comment[fr]=Outil pour construire un ISO Kaisen Linux
+Comment[es]=Herramienta para construir una ISO de Kaisen Linux
+Comment[pt]=Ferramenta para construir um Kaisen Linux ISO
+Comment[it]=Strumento per creare una ISO Kaisen Linux
+Comment[de]=Tool zum Erstellen einer Kaisen Linux ISO
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "$HOME/kaisen-build/kaisen-build" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-build

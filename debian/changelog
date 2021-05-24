@@ -1,3 +1,10 @@
+kaisen-menu (1.6+kaisen9) kaisen-packages; urgency=medium
+
+  * Add traceroute and traceroute6 in IP category
+  * Add kaisen-build launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 24 May 2021 00:14:44 +0200
+
 kaisen-menu (1.6+kaisen8) kaisen-packages; urgency=medium
 
   * Add fdupes launcher
