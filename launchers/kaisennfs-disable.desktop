@@ -18,5 +18,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SNFS
+Categories=SFilesystems
 X-Kaisen-Package=nfs-kernel-server

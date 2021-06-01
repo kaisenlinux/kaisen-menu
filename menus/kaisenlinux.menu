@@ -647,15 +647,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SNFS</Name>
-      <Directory>kaisenlinux-snfs.directory</Directory>
-      <Include>
-        <And>
-          <Category>SNFS</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>SScrub</Name>
       <Directory>kaisenlinux-sscrub.directory</Directory>
       <Include>

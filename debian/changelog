@@ -1,3 +1,9 @@
+kaisen-menu (1.6+kaisen10) kaisen-packages; urgency=medium
+
+  * Move NFS launcher in the Sfilesystems category
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 02 Jun 2021 01:09:57 +0200
+
 kaisen-menu (1.6+kaisen9) kaisen-packages; urgency=medium
 
   * Add traceroute and traceroute6 in IP category
