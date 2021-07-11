@@ -1,3 +1,10 @@
+kaisen-menu (1.6+kaisen11) kaisen-packages; urgency=medium
+
+  * Reunification of TCP and UDP menus
+  * Add kaisen-netinst-configurator launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 11 Jul 2021 15:56:47 +0200
+
 kaisen-menu (1.6+kaisen10) kaisen-packages; urgency=medium
 
   * Move NFS launcher in the Sfilesystems category

@@ -223,11 +223,11 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>TCP</Name>
-      <Directory>kaisenlinux-tcp.directory</Directory>
+      <Name>TCPUDP</Name>
+      <Directory>kaisenlinux-tcpudp.directory</Directory>
       <Include>
         <And>
-          <Category>TCP</Category>
+          <Category>TCPUDP</Category>
         </And>
       </Include>
     </Menu>
@@ -291,15 +291,6 @@
       <Include>
         <And>
           <Category>WIFI</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>UDP</Name>
-      <Directory>kaisenlinux-udp.directory</Directory>
-      <Include>
-        <And>
-          <Category>UDP</Category>
         </And>
       </Include>
     </Menu>
