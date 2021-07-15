@@ -1,3 +1,9 @@
+kaisen-menu (1.6+kaisen12) kaisen-packages; urgency=medium
+
+  * Add CPU-X launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 15 Jul 2021 11:18:03 +0200
+
 kaisen-menu (1.6+kaisen11) kaisen-packages; urgency=medium
 
   * Reunification of TCP and UDP menus

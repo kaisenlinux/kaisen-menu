@@ -18,6 +18,7 @@ rm -f /usr/share/applications/clusterssh.desktop
 rm -f /usr/share/applications/codium.desktop
 rm -f /usr/share/applications/codium-url-handler.desktop
 rm -f /usr/share/applications/conky.desktop
+rm -f /usr/share/applications/cpu-x.desktop
 rm -f /usr/share/applications/debian-uxterm.desktop
 rm -f /usr/share/applications/debian-xterm.desktop
 rm -f /usr/share/applications/ddrescue-gui.desktop
