@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=MKFS
-X-Kaisen-Package=exfat-utils
+Categories=MKFS;EXFAT
+X-Kaisen-Package=exfatprogs
