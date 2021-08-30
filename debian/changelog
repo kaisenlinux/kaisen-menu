@@ -1,3 +1,11 @@
+kaisen-menu (1.8+kaisen2) kaisen-packages; urgency=medium
+
+  * Change terminator in x-terminal-emulator on the scripts/kaisen-launcher script
+  * Update wireguard launcher for display only instructions to configure Wireguard
+  * Kaisen Terminal is now launched by x-terminal-emulator alternative
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 30 Aug 2021 23:59:33 +0200
+
 kaisen-menu (1.8+kaisen1) kaisen-packages; urgency=medium
 
   * Add and update exfat launchers for exfatprogs package

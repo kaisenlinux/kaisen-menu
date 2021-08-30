@@ -2,24 +2,15 @@
 
 [Desktop Entry]
 Name=Kaisen Terminal
-Comment=Ameliored shell in ZSH based
-Comment[fr]=Shell amélioré à base de ZSH
-Comment[es]=Shell basado en ZSH mejorado
-Comment[pt]=Shell baseado em ZSH aprimorado
-Comment[it]=Shell basata su ZSH migliorata
-Comment[de]=Verbesserte ZSH-basierte Shell
-TryExec=terminator
-Exec=terminator
+Comment=Execute a shell with your own configuration
+Comment[fr]=Executer un shell avec votre propre configuration
+Comment[es]=Ejecutar un shell con su propia configuración
+Comment[pt]=Executar uma concha com a sua própria configuração
+Comment[it]=Eseguire una shell con la propria configurazione
+Comment[de]=Führen Sie eine Shell mit Ihrer eigenen Konfiguration aus
+Exec=x-terminal-emulator
 Icon=utilities-terminal
 Type=Application
 Categories=GNOME;GTK;Utility;TerminalEmulator;System;
 StartupNotify=true
-X-Ubuntu-Gettext-Domain=terminator
-X-Ayatana-Desktop-Shortcuts=NewWindow;
-Keywords=terminal;shell;prompt;command;commandline;
-X-Kaisen-Package=terminator
-
-[NewWindow Shortcut Group]
-Name=Open a New Window
-Exec=terminator
-TargetEnvironment=Unity
+X-Kaisen-Package=dpkg
