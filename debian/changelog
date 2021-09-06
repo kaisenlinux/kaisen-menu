@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen3) kaisen-packages; urgency=medium
+
+  * Add sar and iostat launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Sep 2021 10:47:57 +0200
+
 kaisen-menu (1.8+kaisen2) kaisen-packages; urgency=medium
 
   * Change terminator in x-terminal-emulator on the scripts/kaisen-launcher script
