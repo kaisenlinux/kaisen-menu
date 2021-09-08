@@ -620,15 +620,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SLockdown</Name>
-      <Directory>kaisenlinux-slockdown.directory</Directory>
-      <Include>
-        <And>
-          <Category>SLockdown</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>SFirewalling</Name>
       <Directory>kaisenlinux-sfirewalling.directory</Directory>
       <Include>

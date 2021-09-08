@@ -2,13 +2,13 @@
 
 [Desktop Entry]
 Name=ctop
-Comment=Command line/text based Linux Containers monitoring tool
-Comment[fr]=Outil de surveillance des conteneurs Linux en ligne de commande/texte
-Comment[es]=Herramienta de monitoreo de contenedores Linux basada en línea de comandos/texto
-Comment[pt]=Ferramenta de monitoramento de contêineres Linux baseada em texto/linha de comando
-Comment[it]=Strumento di monitoraggio dei contenitori Linux basato su riga di comando/testo
-Comment[de]=Befehlszeilen-/textbasiertes Linux Containers-Überwachungstool
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ctop --refresh=1 --tree"
+Comment=Top-like interface for container metrics
+Comment[fr]=Interface similaire à top pour les métriques de conteneurs
+Comment[es]=Interfaz similar a la de top para las métricas de los contenedores
+Comment[pt]=Interface semelhante ao topo para métricas de contentores
+Comment[it]=Interfaccia simile a top per le metriche dei contenitori
+Comment[de]=Schnittstelle ähnlich wie top für Container-Metriken
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ctop -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
