@@ -13,5 +13,5 @@ Icon=jmeter
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SysOps
+Categories=DevOps
 X-Kaisen-Package=jmeter

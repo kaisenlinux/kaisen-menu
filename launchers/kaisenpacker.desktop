@@ -13,5 +13,5 @@ Icon=/usr/share/pixmaps/kaisen/packer.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SysOps
+Categories=DevOps
 X-Kaisen-Package=packer

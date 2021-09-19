@@ -367,11 +367,11 @@
       </Include>
     </Menu>    
     <Menu>
-      <Name>SysOps</Name>
-      <Directory>kaisenlinux-sysops.directory</Directory>
+      <Name>DevOps and Cloud</Name>
+      <Directory>kaisenlinux-devops-cloud.directory</Directory>
       <Include>
         <And>
-          <Category>SysOps</Category>
+          <Category>DevOps</Category>
         </And>
       </Include>
      <Menu>
