@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=podman-disable
+Name[fr]=podman-désactivé
+Name[es]=podman-discapacitado
+Name[pt]=podman-desativado
+Name[it]=podman-disabilitato
+Name[de]=podman-behindert
+Comment=Disable podman daemon
+Comment[fr]=Désactiver service podman
+Comment[es]=Deshabilitar servicio podman
+Comment[pt]=Desativar serviço podman
+Comment[it]=Disabilita servizio podman
+Comment[de]=Deaktivieren Sie den Docker-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/opt/services/podman-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=podman

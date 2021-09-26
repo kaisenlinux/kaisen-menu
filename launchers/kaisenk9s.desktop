@@ -1,0 +1,12 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=k9s
+Comment=Kubernetes CLI
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "k9s"
+Icon=/usr/share/pixmaps/kaisen/k9s.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=k9s

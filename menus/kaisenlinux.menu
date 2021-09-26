@@ -367,6 +367,43 @@
       </Include>
     </Menu>    
     <Menu>
+      <Name>FTP</Name>
+      <Directory>kaisenlinux-ftp.directory</Directory>
+      <Include>
+        <And>
+          <Category>FTP</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Virtualization</Name>
+      <Directory>kaisenlinux-virtualization.directory</Directory>
+      <Include>
+        <And>
+          <Category>Virtualization</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Backup</Name>
+      <Directory>kaisenlinux-backup.directory</Directory>
+      <Include>
+        <And>
+          <Category>Backup</Category>
+        </And>
+      </Include>
+      <Menu>
+      <Name>Dirvish</Name>
+      <Directory>kaisenlinux-dirvish.directory</Directory>
+      <Include>
+        <And>
+          <Category>Dirvish</Category>
+        </And>
+      </Include>
+    </Menu>
+    </Menu>
+    </Menu>
+    <Menu>
       <Name>DevOps and Cloud</Name>
       <Directory>kaisenlinux-devops-cloud.directory</Directory>
       <Include>
@@ -410,49 +447,12 @@
         </And>
       </Include>
     </Menu>
-    </Menu>
     <Menu>
-      <Name>FTP</Name>
-      <Directory>kaisenlinux-ftp.directory</Directory>
+      <Name>Kubernetes</Name>
+      <Directory>kaisenlinux-kubernetes.directory</Directory>
       <Include>
         <And>
-          <Category>FTP</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>Virtualization</Name>
-      <Directory>kaisenlinux-virtualization.directory</Directory>
-      <Include>
-        <And>
-          <Category>Virtualization</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>Backup</Name>
-      <Directory>kaisenlinux-backup.directory</Directory>
-      <Include>
-        <And>
-          <Category>Backup</Category>
-        </And>
-      </Include>
-      <Menu>
-      <Name>Dirvish</Name>
-      <Directory>kaisenlinux-dirvish.directory</Directory>
-      <Include>
-        <And>
-          <Category>Dirvish</Category>
-        </And>
-      </Include>
-    </Menu>
-    </Menu>
-    <Menu>
-      <Name>System snapshot</Name>
-      <Directory>kaisenlinux-systemsnapshot.directory</Directory>
-      <Include>
-        <And>
-          <Category>SystemSnapshot</Category>
+          <Category>Kubernetes</Category>
         </And>
       </Include>
     </Menu>

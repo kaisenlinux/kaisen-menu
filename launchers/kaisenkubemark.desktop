@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kubemark
+Comment=Performance testing tool which allows users to run experiments on emulated clusters
+Comment[fr]=Outil de test de performance permettant aux utilisateurs de réaliser des expériences sur des clusters émulés
+Comment[es]=Herramienta de pruebas de rendimiento que permite a los usuarios realizar experimentos en clusters emulados
+Comment[pt]=Ferramenta de teste de desempenho que permite aos utilizadores realizar experiências em clusters emulados
+Comment[it]=Strumento di test delle prestazioni che permette agli utenti di eseguire esperimenti su cluster emulati
+Comment[de]=Tool für Leistungstests, mit dem Benutzer Experimente auf emulierten Clustern durchführen können
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kubemark --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=kubernetes-client

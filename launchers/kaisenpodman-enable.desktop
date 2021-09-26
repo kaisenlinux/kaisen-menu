@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=podman-enable
+Name[fr]=podman-activé
+Name[es]=podman-activado
+Name[pt]=podman-ativado
+Name[it]=podman-attivato
+Name[de]=podman-aktiviert
+Comment=Enable podman daemon
+Comment[fr]=Activer service podman
+Comment[es]=Activar servicio podman
+Comment[pt]=Ativar serviço podman
+Comment[it]=Attivare servizio podman
+Comment[de]=Docker-Dienst aktivieren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/opt/services/podman-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=podman

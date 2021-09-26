@@ -1,3 +1,10 @@
+kaisen-menu (1.8+kaisen7) kaisen-packages; urgency=medium
+
+  * Add k8s, helm, buildah, k9s and podman launchers
+  * DevOps and Cloud menu is now display in Administrators tools
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 26 Sep 2021 03:47:23 +0200
+
 kaisen-menu (1.8+kaisen6) kaisen-packages; urgency=medium
 
   * Add icon and launcher for k6 package
