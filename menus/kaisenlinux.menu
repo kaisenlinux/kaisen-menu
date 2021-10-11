@@ -103,15 +103,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>Various analysis</Name>
-      <Directory>kaisenlinux-analysis.directory</Directory>
-      <Include>
-        <And>
-          <Category>Analysis</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>ZIP</Name>
       <Directory>kaisenlinux-compress.directory</Directory>
       <Include>
@@ -137,60 +128,6 @@
           <Category>PST</Category>
         </And>
       </Include>
-    </Menu>
-    <Menu>
-      <Name>Mount</Name>
-      <Directory>kaisenlinux-mount.directory</Directory>
-      <Include>
-        <And>
-          <Category>Mount</Category>
-        </And>
-      </Include>
-    <Menu>
-      <Name>Bitlocker</Name>
-      <Directory>kaisenlinux-bitlocker.directory</Directory>
-      <Include>
-        <And>
-          <Category>Bitlocker</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>APFS</Name>
-      <Directory>kaisenlinux-apfs.directory</Directory>
-      <Include>
-        <And>
-          <Category>APFS</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>FileVault</Name>
-      <Directory>kaisenlinux-filevault.directory</Directory>
-      <Include>
-        <And>
-          <Category>FileVault</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>VHDI</Name>
-      <Directory>kaisenlinux-vhdi.directory</Directory>
-      <Include>
-        <And>
-          <Category>VHDI</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>VMDK</Name>
-      <Directory>kaisenlinux-vmdk.directory</Directory>
-      <Include>
-        <And>
-          <Category>VMDK</Category>
-        </And>
-      </Include>
-    </Menu>
     </Menu>
     </Menu>
     <Menu>
@@ -895,6 +832,51 @@
       <Include>
         <And>
           <Category>ECRYPTFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Bitlocker</Name>
+      <Directory>kaisenlinux-bitlocker.directory</Directory>
+      <Include>
+        <And>
+          <Category>Bitlocker</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>APFS</Name>
+      <Directory>kaisenlinux-apfs.directory</Directory>
+      <Include>
+        <And>
+          <Category>APFS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>FileVault</Name>
+      <Directory>kaisenlinux-filevault.directory</Directory>
+      <Include>
+        <And>
+          <Category>FileVault</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VHDI</Name>
+      <Directory>kaisenlinux-vhdi.directory</Directory>
+      <Include>
+        <And>
+          <Category>VHDI</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>VMDK</Name>
+      <Directory>kaisenlinux-vmdk.directory</Directory>
+      <Include>
+        <And>
+          <Category>VMDK</Category>
         </And>
       </Include>
     </Menu>

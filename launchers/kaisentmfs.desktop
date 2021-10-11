@@ -13,5 +13,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Mount;Filesystems
+Categories=Filesystems
 X-Kaisen-Package=tmfs

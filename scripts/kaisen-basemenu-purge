@@ -35,7 +35,6 @@ rm -f /usr/share/applications/gparted.desktop
 rm -f /usr/share/applications/grdesktop.desktop
 rm -f /usr/share/applications/grsync.desktop
 rm -f /usr/share/applications/gsmartcontrol.desktop
-rm -f /usr/share/applications/gtkhash.desktop
 rm -f /usr/share/applications/guymager.desktop
 rm -f /usr/share/applications/hardinfo.desktop
 rm -f /usr/share/applications/htop.desktop

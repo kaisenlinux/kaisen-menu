@@ -13,5 +13,5 @@ Exec=pkexec zuluMount-gui
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Mount
+Categories=Dataprotection
 X-Kaisen-Package=zulumount-gui

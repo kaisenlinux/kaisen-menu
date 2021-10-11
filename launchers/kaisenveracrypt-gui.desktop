@@ -13,5 +13,5 @@ Icon=veracrypt
 Terminal=false
 StartupNotify=true
 Type=Application
-Categories=Dataprotection;Mount
+Categories=Dataprotection
 X-Kaisen-Package=veracrypt

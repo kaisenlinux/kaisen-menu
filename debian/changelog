@@ -1,3 +1,53 @@
+kaisen-menu (1.8+kaisen8) kaisen-packages; urgency=medium
+
+  * Remove kaisenlinux-analysis.directory
+  * Remove Various Analysis section in kaisenlinux.menu
+  * Remove analysis.png in pixmaps
+  * Remove kaisengtkhash.desktop and kaisenifenslave.desktop launchers
+  * Move s3fs launcher in AWS and Filesystems section
+  * Move sshfs launcher in Remote Administration and Filesystems section
+  * Launchers removed:
+    - zip
+    - unzip
+    - mount
+    - umount
+    - lzop
+    - 7z
+    - pigz
+    - pzstd
+    - unp
+    - unrar
+    - unrar-free
+    - zstd
+    - gpg
+  * Launchers moves in Miscellaneous tools menu:
+    - htop
+    - lsof
+    - dstat
+    - fdupes
+    - file
+    - memstat
+    - pstree
+    - qtop
+    - rdfind
+    - tree
+  * Launchers moves in Filesystems menu:
+    - apfs-fuse
+    - apfsutil
+    - bdeinfo
+    - bdemount
+    - dislocker*
+    - fvde*
+    - vhdi*
+    - vmdk*
+    - archivemount
+    - fuseiso
+    - fusesmb
+    - fuze-zip
+    - xmount
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 11 Oct 2021 03:33:24 +0200
+
 kaisen-menu (1.8+kaisen7) kaisen-packages; urgency=medium
 
   * Add k8s, helm, buildah, k9s and podman launchers
