@@ -30,7 +30,6 @@ rm -f /usr/share/applications/etherape.desktop
 rm -f /usr/share/applications/filezilla.desktop
 rm -f /usr/share/applications/firefox-esr.desktop
 rm -f /usr/share/applications/gftp.desktop
-rm -f /usr/share/applications/gksu.desktop
 rm -f /usr/share/applications/gparted.desktop
 rm -f /usr/share/applications/grdesktop.desktop
 rm -f /usr/share/applications/grsync.desktop
@@ -68,7 +67,6 @@ rm -f /usr/share/applications/remmina-file.desktop
 rm -f /usr/share/applications/remmina-gnome.desktop
 rm -f /usr/share/applications/terminator.desktop
 rm -f /usr/share/applications/timeshift-gtk.desktop
-rm -f /usr/share/applications/unetbootin.desktop
 rm -f /usr/share/applications/virt-manager.desktop
 rm -f /usr/share/applications/virtualbox.desktop
 rm -f /usr/share/applications/wireshark.desktop

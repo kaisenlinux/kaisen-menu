@@ -1,3 +1,20 @@
+kaisen-menu (1.8+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove gtkhash polkit
+  * Remove unetbootin and gksu deletion of kaisen-basemenu-purge
+  * These launchers are removed:
+    - dhclient
+    - iproute
+    - logrotate
+    - df
+    - du
+    - dd
+    - lspci
+    - fdisk
+    - shred
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 12 Oct 2021 03:57:31 +0200
+
 kaisen-menu (1.8+kaisen8) kaisen-packages; urgency=medium
 
   * Remove kaisenlinux-analysis.directory
