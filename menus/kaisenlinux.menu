@@ -304,11 +304,11 @@
     </Menu>
     </Menu>
     <Menu>
-      <Name>SSL</Name>
-      <Directory>kaisenlinux-ssl.directory</Directory>
+      <Name>SSL/TLS</Name>
+      <Directory>kaisenlinux-ssltls.directory</Directory>
       <Include>
         <And>
-          <Category>SSL</Category>
+          <Category>SSLTLS</Category>
         </And>
       </Include>
     </Menu>

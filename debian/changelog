@@ -1,3 +1,10 @@
+kaisen-menu (1.8+kaisen12) kaisen-packages; urgency=medium
+
+  * Replace all pixmaps/ icons
+  * Rename SSL menu in SSL/TLS
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 23:13:09 +0200
+
 kaisen-menu (1.8+kaisen11) kaisen-packages; urgency=medium
 
   * Remove iptstate launcher

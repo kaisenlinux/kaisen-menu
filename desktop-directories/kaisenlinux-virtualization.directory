@@ -5,5 +5,5 @@ Name[es]=Virtualización
 Name[pt]=Virtualização
 Name[it]=Virtualizzazione
 Name[de]=Virtualisierung
-Icon=/usr/share/pixmaps/kaisen/virt-manager.png
+Icon=/usr/share/pixmaps/kaisen/vm.png
 Type=Directory
