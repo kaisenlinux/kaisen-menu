@@ -151,15 +151,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SSL</Name>
-      <Directory>kaisenlinux-ssl.directory</Directory>
-      <Include>
-        <And>
-          <Category>SSL</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>TCPUDP</Name>
       <Directory>kaisenlinux-tcpudp.directory</Directory>
       <Include>
@@ -169,29 +160,11 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>DNS</Name>
-      <Directory>kaisenlinux-dns.directory</Directory>
-      <Include>
-        <And>
-          <Category>DNS</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>PCAP</Name>
       <Directory>kaisenlinux-pcap.directory</Directory>
       <Include>
         <And>
           <Category>PCAP</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>DHCP</Name>
-      <Directory>kaisenlinux-dhcp.directory</Directory>
-      <Include>
-        <And>
-          <Category>DHCP</Category>
         </And>
       </Include>
     </Menu>
@@ -246,15 +219,6 @@
       <Include>
         <And>
           <Category>Monitoring</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>Firewall</Name>
-      <Directory>kaisenlinux-firewall.directory</Directory>
-      <Include>
-        <And>
-          <Category>Firewall</Category>
         </And>
       </Include>
     </Menu>
@@ -338,6 +302,33 @@
         </And>
       </Include>
     </Menu>
+    </Menu>
+    <Menu>
+      <Name>SSL</Name>
+      <Directory>kaisenlinux-ssl.directory</Directory>
+      <Include>
+        <And>
+          <Category>SSL</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>DNS</Name>
+      <Directory>kaisenlinux-dns.directory</Directory>
+      <Include>
+        <And>
+          <Category>DNS</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>DHCP</Name>
+      <Directory>kaisenlinux-dhcp.directory</Directory>
+      <Include>
+        <And>
+          <Category>DHCP</Category>
+        </And>
+      </Include>
     </Menu>
     </Menu>
     <Menu>

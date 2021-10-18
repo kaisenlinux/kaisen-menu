@@ -1,3 +1,14 @@
+kaisen-menu (1.8+kaisen11) kaisen-packages; urgency=medium
+
+  * Remove iptstate launcher
+  * Remove kaisen-firewall.directory
+  * Rename kaisen-iptables.desktop in kaiseniptables-persistent.desktop
+  * Add new logos for DNS, DHCP, SSL, Ethernet, IP, MAC, Monitoring, PCAP,
+    Console port, Scanners, TCP/UDP, VPN and Wi-Fi menus
+  * Move SSL, DNS and DHCP in sysadmin menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 04:45:38 +0200
+
 kaisen-menu (1.8+kaisen10) kaisen-packages; urgency=medium
 
   * Remove fusesmb launcher

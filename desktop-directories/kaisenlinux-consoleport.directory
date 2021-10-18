@@ -5,5 +5,5 @@ Name[es]=Puerto de consola
 Name[pt]=Porta do console
 Name[it]=Porta console
 Name[de]=Konsolenport
-Icon=/usr/share/pixmaps/kaisen/router.png
+Icon=/usr/share/pixmaps/kaisen/consoleport.png
 Type=Directory
