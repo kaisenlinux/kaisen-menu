@@ -12,5 +12,5 @@ Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dcfldd --help"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
-Categories=Cloning;USBBoot;Partitioning
+Categories=Cloning;USBBoot;PartitioningErasing
 X-Kaisen-Package=dcfldd

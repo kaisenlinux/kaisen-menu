@@ -86,10 +86,10 @@
     </Menu>
     <Menu>
       <Name>Partitioning and erasing</Name>
-      <Directory>kaisenlinux-partitioning.directory</Directory>
+      <Directory>kaisenlinux-partitioning-erasing.directory</Directory>
       <Include>
         <And>
-          <Category>Partitioning</Category>
+          <Category>PartitioningErasing</Category>
         </And>
       </Include>
     </Menu>

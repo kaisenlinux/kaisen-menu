@@ -12,5 +12,5 @@ Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Partitioning
+Categories=PartitioningErasing
 X-Kaisen-Package=secure-delete

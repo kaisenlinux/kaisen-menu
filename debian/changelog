@@ -1,3 +1,14 @@
+kaisen-menu (1.8+kaisen13) kaisen-packages; urgency=medium
+
+  * Fix icon missing for Packet Sender
+  * Rename kaisenlinux-partitioning.directory in
+    kaisenlinux-partitioning-erasing.directory
+  * Rename Partitioning category in PartitioningErasing category
+  * Rename partitioning.png icon in erasing.png
+  * New icon for SSL/TLS
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 12:15:57 +0200
+
 kaisen-menu (1.8+kaisen12) kaisen-packages; urgency=medium
 
   * Replace all pixmaps/ icons
