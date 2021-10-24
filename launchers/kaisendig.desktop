@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=DNS
-X-Kaisen-Package=dnsutils
+X-Kaisen-Package=bind9-dnsutils
