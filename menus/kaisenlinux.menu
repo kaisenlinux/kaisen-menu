@@ -330,6 +330,24 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Firewalling</Name>
+      <Directory>kaisenlinux-firewalling.directory</Directory>
+      <Include>
+        <And>
+          <Category>Firewalling</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>AppArmor</Name>
+      <Directory>kaisenlinux-apparmor.directory</Directory>
+      <Include>
+        <And>
+          <Category>AppArmor</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>DevOps and Cloud</Name>

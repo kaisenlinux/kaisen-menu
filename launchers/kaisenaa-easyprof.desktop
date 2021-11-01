@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-easyprof
+Comment=AppArmor profile generation made easy
+Comment[fr]=La génération de profils AppArmor simplifiée
+Comment[es]=Generación de perfiles de AppArmor de forma sencilla
+Comment[pt]=A geração de perfis AppArmor facilitada
+Comment[it]=Generazione di profili AppArmor semplificata
+Comment[de]=AppArmor-Profilerstellung leicht gemacht
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-easyprof -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=iptstate
+Comment=Tool to display iptables rules
+Comment[fr]=Outil pour afficher les règles iptables
+Comment[es]=Herramienta para mostrar las reglas de iptables
+Comment[pt]=Ferramenta para exibir regras do iptables
+Comment[it]=Strumento per visualizzare le regole di iptables
+Comment[de]=Tool zum Anzeigen von iptables-Regeln
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "iptstate" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Firewalling
+X-Kaisen-Package=iptstate

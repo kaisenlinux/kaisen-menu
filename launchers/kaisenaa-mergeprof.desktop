@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-mergeprof
+Comment=Merge AppArmor security profiles
+Comment[fr]=Fusionner les profils de sécurité AppArmor
+Comment[es]=Combinar los perfiles de seguridad de AppArmor
+Comment[pt]=Fundir os perfis de segurança da AppArmor
+Comment[it]=Unire i profili di sicurezza di AppArmor
+Comment[de]=AppArmor-Sicherheitsprofile zusammenführen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-mergeprof -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

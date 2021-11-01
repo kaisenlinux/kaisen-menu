@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-autodep
+Comment=Guess basic AppArmor profile requirements
+Comment[fr]=Devinez les exigences de base du profil AppArmor
+Comment[es]=Adivina los requisitos básicos del perfil de AppArmor
+Comment[pt]=Adivinhe os requisitos básicos do perfil AppArmor
+Comment[it]=Indovina i requisiti di base del profilo AppArmor
+Comment[de]=Erraten Sie die grundlegenden Anforderungen an das AppArmor-Profil
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-autodep -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

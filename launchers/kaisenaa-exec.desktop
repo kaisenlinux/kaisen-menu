@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-exec
+Comment=Confine a program with the specified AppArmor profile
+Comment[fr]=Confiner un programme avec le profil AppArmor spécifié
+Comment[es]=Confinar un programa con el perfil de AppArmor especificado
+Comment[pt]=Confinar um programa com o perfil AppArmor especificado
+Comment[it]=Confinare un programma con il profilo AppArmor specificato
+Comment[de]=Einschränkung eines Programms mit dem angegebenen AppArmor-Profil
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-exec -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor
