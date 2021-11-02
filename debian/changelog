@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen17) kaisen-packages; urgency=medium
+
+  * Remove zbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 02 Nov 2021 02:20:07 +0200
+
 kaisen-menu (1.8+kaisen16) kaisen-packages; urgency=medium
 
   * Readd gtkhask launcher and pkexec gtkhash policy
