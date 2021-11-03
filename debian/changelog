@@ -1,3 +1,10 @@
+kaisen-menu (1.8+kaisen18) kaisen-packages; urgency=medium
+
+  * Remove psensor and mate-disks-analyser launcher in kaisen-basemenu-purge
+  * Add minikube launcher and icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 03 Nov 2021 01:03:44 +0200
+
 kaisen-menu (1.8+kaisen17) kaisen-packages; urgency=medium
 
   * Remove zbackup launcher

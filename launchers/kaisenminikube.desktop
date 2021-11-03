@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=minikube
+Comment=Run Kubernetes locally
+Comment[fr]=Lancer Kubernetes localement
+Comment[es]=Lanzamiento de Kubernetes a nivel local
+Comment[pt]=Lançamento local de Kubernetes
+Comment[it]=Lanciare Kubernetes localmente
+Comment[de]=Lokales Starten von Kubernetes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "minikube"
+Icon=/usr/share/pixmaps/kaisen/minikube.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=minikube
