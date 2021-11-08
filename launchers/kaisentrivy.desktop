@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=trivy
+Comment=Vulnerabilities scanner for containers
+Comment[fr]=Scanner de vulnérabilités pour les conteneurs
+Comment[es]=Escáner de vulnerabilidades para contenedores
+Comment[pt]=Scanner de vulnerabilidades para contentores
+Comment[it]=Scanner di vulnerabilità per i container
+Comment[de]=Schwachstellen-Scanner für Container
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "trivy"
+Icon=/usr/share/pixmaps/kaisen/trivy.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=trivy
