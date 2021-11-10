@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mariadb
+Comment=The MariaDB command-line tool
+Comment[fr]=L'outil de ligne de commande MariaDB
+Comment[es]=La herramienta de línea de comandos de MariaDB
+Comment[pt]=A ferramenta de linha de comando MariaDB
+Comment[it]=Lo strumento a riga di comando di MariaDB
+Comment[de]=Das MariaDB-Befehlszeilenwerkzeug
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mariadb --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Databases
+X-Kaisen-Package=mariadb-client-core-10.5

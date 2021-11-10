@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=psql
+Comment=PostgreSQL interactive terminal
+Comment[fr]=Terminal interactif PostgreSQL
+Comment[es]=Terminal interactivo PostgreSQL
+Comment[pt]=Terminal interactivo PostgreSQL
+Comment[it]=Terminale interattivo PostgreSQL
+Comment[de]=PostgreSQL interaktives Terminal
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "psql --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Databases
+X-Kaisen-Package=postgresql-client
