@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen23) kaisen-packages; urgency=medium
+
+  * Update MAC icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 11 Nov 2021 21:07:42 +0200
+
 kaisen-menu (1.8+kaisen22) kaisen-packages; urgency=medium
 
   * Add database icon
