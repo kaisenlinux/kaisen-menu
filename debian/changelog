@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen24) kaisen-packages; urgency=medium
+
+  * Readd zbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 12 Nov 2021 13:54:38 +0200
+
 kaisen-menu (1.8+kaisen23) kaisen-packages; urgency=medium
 
   * Update MAC icon
