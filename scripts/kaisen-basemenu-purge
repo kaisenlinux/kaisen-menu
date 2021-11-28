@@ -55,6 +55,7 @@ rm -f /usr/share/applications/org.bleachbit.BleachBit.desktop
 rm -f /usr/share/applications/org.gnome.baobab.desktop
 rm -f /usr/share/applications/org.keepassxc.KeePassXC.desktop
 rm -f /usr/share/applications/org.remmina.Remmina.desktop
+rm -f /usr/share/applications/org.wireshark.Wireshark.desktop
 rm -f /usr/share/applications/packeth.desktop
 rm -f /usr/share/applications/packetsender.desktop
 rm -f /usr/share/applications/qemu.desktop

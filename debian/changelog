@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen25) kaisen-packages; urgency=medium
+
+  * Add new name of Wireshark launcher in kaisen-basemenu-purge script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 28 Nov 2021 23:07:51 +0200
+
 kaisen-menu (1.8+kaisen24) kaisen-packages; urgency=medium
 
   * Readd zbackup launcher
