@@ -2,15 +2,15 @@
 
 [Desktop Entry]
 Name=Kaisen Terminal
-Comment=Execute a shell with your own configuration
-Comment[fr]=Executer un shell avec votre propre configuration
-Comment[es]=Ejecutar un shell con su propia configuración
-Comment[pt]=Executar uma concha com a sua própria configuração
-Comment[it]=Eseguire una shell con la propria configurazione
-Comment[de]=Führen Sie eine Shell mit Ihrer eigenen Konfiguration aus
-Exec=x-terminal-emulator
+Comment=Terminator coupled to Oh-My-ZSH by default
+Comment[fr]=Terminator couplé à Oh-My-ZSH par défaut
+Comment[es]=Terminator acoplado a Oh-My-ZSH por defecto
+Comment[pt]=Terminador acoplado a Oh-My-ZSH por defeito
+Comment[it]=Terminator accoppiato a Oh-My-ZSH per impostazione predefinita
+Comment[de]=Terminator standardmäßig an Oh-My-ZSH gekoppelt
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "terminator"
 Icon=utilities-terminal
 Type=Application
 Categories=GNOME;GTK;Utility;TerminalEmulator;System;
 StartupNotify=true
-X-Kaisen-Package=dpkg
+X-Kaisen-Package=terminator

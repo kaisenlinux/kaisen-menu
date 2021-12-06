@@ -1,3 +1,9 @@
+kaisen-menu (1.8+kaisen26) kaisen-packages; urgency=medium
+
+  * Terminator is default software launch by kaisenterminal launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 18:13:02 +0100
+
 kaisen-menu (1.8+kaisen25) kaisen-packages; urgency=medium
 
   * Add new name of Wireshark launcher in kaisen-basemenu-purge script
