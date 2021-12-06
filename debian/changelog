@@ -1,3 +1,9 @@
+kaisen-menu (2.0) kaisen-packages; urgency=medium
+
+  * Update at 2.0. No changes needed.
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 23:09:43 +0100
+
 kaisen-menu (1.8+kaisen26) kaisen-packages; urgency=medium
 
   * Terminator is default software launch by kaisenterminal launcher
