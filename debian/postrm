@@ -10,6 +10,7 @@ fi
 
 if [[ "$1" = "purge" ]]; then
 	mv /etc/xdg/menus/xfce-applications.menu.old xfce-applications.menu 2> /dev/null || true
+	mv /etc/xdg/menus/mate-applications.menu.old mate-applications.menu 2> /dev/null || true
 fi
 
 #DEBHELPER#
