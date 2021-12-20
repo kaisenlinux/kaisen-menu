@@ -1,3 +1,10 @@
+kaisen-menu (2.0+kaisen2) kaisen-packages; urgency=medium
+
+  * Create MATE temporary fix menu
+  * Move apg and pwgen in miscellaneous menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 20 Dec 2021 04:48:54 +0100
+
 kaisen-menu (2.0+kaisen1) kaisen-packages; urgency=medium
 
   * Add MATE applications menu divert

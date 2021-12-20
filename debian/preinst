@@ -2,7 +2,19 @@
 
 set -e
 
+case "$1" in
+	upgrade|full-upgrade|dist-upgrade|abort-upgrade|downgrade)
+
 dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --rename /etc/xdg/menus/xfce-applications.menu || true
 dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --rename /etc/xdg/menus/mate-applications.menu || true
+
+	;;
+esac
+
+#Temporary fix for MATE menu
+
+if [ ! -e /etc/xdg/menus/mate-applications.menu ]; then
+	cp -f /etc/xdg/menus/mate-applications.menu.org /etc/xdg/menus/mate-applications.menu
+fi
 
 #DEBHELPER#
