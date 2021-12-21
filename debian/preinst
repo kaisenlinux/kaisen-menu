@@ -11,10 +11,4 @@ dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/mate-applicati
 	;;
 esac
 
-#Temporary fix for MATE menu
-
-if [ ! -e /etc/xdg/menus/mate-applications.menu ]; then
-	cp -f /etc/xdg/menus/mate-applications.menu.org /etc/xdg/menus/mate-applications.menu
-fi
-
 #DEBHELPER#
