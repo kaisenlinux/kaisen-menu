@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kustomize
+Comment=Customization of Kubernetes YAML configurations
+Comment[fr]=Personnalisation des configurations YAML de Kubernetes
+Comment[es]=Personalización de las configuraciones YAML de Kubernetes
+Comment[pt]=Personalização das configurações Kubernetes YAML
+Comment[it]=Personalizzazione delle configurazioni YAML di Kubernetes
+Comment[de]=Anpassung von Kubernetes YAML-Konfigurationen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kustomize -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=kustomize

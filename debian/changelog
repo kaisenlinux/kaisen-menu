@@ -1,3 +1,10 @@
+kaisen-menu (2.0+kaisen4) kaisen-packages; urgency=medium
+
+  * Move minikube, k9s and helm in Kubernetes menu
+  * Add kustomize launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 23 Dec 2021 13:21:56 +0100
+
 kaisen-menu (2.0+kaisen3) kaisen-packages; urgency=medium
 
   * Copying MATE menus in postinst

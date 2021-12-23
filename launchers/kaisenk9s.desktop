@@ -8,5 +8,5 @@ Icon=/usr/share/pixmaps/kaisen/k9s.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=DevOps
+Categories=Kubernetes
 X-Kaisen-Package=k9s
