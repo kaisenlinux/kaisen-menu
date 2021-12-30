@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=QPhotoRec
+Comment=Advanced tool for data recovery (Qt interface)
+Comment[fr]=Outil de récupération de données avancée (interface Qt)
+Comment[es]=Herramienta de recuperación de datos avanzada (interfaz Qt)
+Comment[pt]=Ferramenta avançada de recuperação de dados (interface Qt)
+Comment[it]=Strumento avanzato di recupero dati (interfaccia Qt)
+Comment[de]=Erweitertes Datenwiederherstellungstool (Qt-Schnittstelle)
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pkexec qphotorec"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=testdisk

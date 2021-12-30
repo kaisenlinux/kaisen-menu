@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nvme
+Comment=The NVMe storage command line interface utility
+Comment[fr]=L'utilitaire d'interface de ligne de commande du stockage NVMe
+Comment[es]=La utilidad de la interfaz de línea de comandos de almacenamiento NVMe
+Comment[pt]=O utilitário de interface de linha de comando de armazenamento NVMe
+Comment[it]=L'utilità dell'interfaccia a riga di comando dello storage NVMe
+Comment[de]=Das Dienstprogramm der NVMe-Speicher-Befehlszeilenschnittstelle
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nvme" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis;PartitioningErasing
+X-Kaisen-Package=nvme

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=rdiff-backup-statistics
+Comment=Summarize rdiff-backup statistics files
+Comment[fr]=Résumé des fichiers de statistiques rdiff-backup
+Comment[es]=Resumir los archivos de estadísticas de rdiff-backup
+Comment[pt]=Resumir os ficheiros de estatísticas rdiff-backup
+Comment[it]=Riassumere i file delle statistiche di rdiff-backup
+Comment[de]=Zusammenfassen von rdiff-backup-Statistikdateien
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man rdiff-backup-statistics"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Rdiff
+X-Kaisen-Package=rdiff-backup

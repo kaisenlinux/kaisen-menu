@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimupdate
+Comment=Update a WIM image
+Comment[fr]=Mise à jour d'une image WIM
+Comment[es]=Actualizar una imagen WIM
+Comment[pt]=Actualizar uma imagem WIM
+Comment[it]=Aggiornare un'immagine WIM
+Comment[de]=Ein WIM-Bild aktualisieren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimupdate"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

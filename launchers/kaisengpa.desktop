@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gpa
+Comment=Graphical interface for the GNU Privacy Guard
+Comment[fr]=Interface graphique pour le GNU Privacy Guard
+Comment[es]=Interfaz gráfica para GNU Privacy Guard
+Comment[pt]=Interface gráfica para o GNU Privacy Guard
+Comment[it]=Interfaccia grafica per GNU Privacy Guard
+Comment[de]=Grafische Oberfläche für den GNU Privacy Guard
+Exec=gpa %f
+Icon=gpa
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=gpa

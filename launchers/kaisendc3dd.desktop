@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dc3dd
+Comment=Tool to clone ext4 partitions and create bootable USB keys (enhanced dd)
+Comment[fr]=Outil pour le clonage de partitons ext4 et la création de clé USB bootable (amélioration de dd)
+Comment[es]=Herramienta para la clonación de particiones ext4 y creación de llave USB de arranque (mejora de dd)
+Comment[pt]=Ferramenta para clonagem de partições ext4 e criação de chave USB inicializável (aprimoramento do dd)
+Comment[it]=Strumento per la clonazione di partiti ext4 e creazione di chiave USB avviabile (miglioramento di dd)
+Comment[de]=Tool zum Klonen von Partitons ext4 und Erstellen eines bootfähigen USB-Sticks (Verbesserung von dd)
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dc3dd --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Cloning;USBBoot;PartitioningErasing
+X-Kaisen-Package=dc3dd

@@ -103,15 +103,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>ZIP</Name>
-      <Directory>kaisenlinux-compress.directory</Directory>
-      <Include>
-        <And>
-          <Category>ZIP</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>Data Protection</Name>
       <Directory>kaisenlinux-dataprotection.directory</Directory>
       <Include>
@@ -126,6 +117,15 @@
       <Include>
         <And>
           <Category>PST</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Analysis of duplicates</Name>
+      <Directory>kaisenlinux-duplicates-analysis.directory</Directory>
+      <Include>
+        <And>
+          <Category>DuplicatesAnalysis</Category>
         </And>
       </Include>
     </Menu>
@@ -299,6 +299,24 @@
       <Include>
         <And>
           <Category>Dirvish</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Rdiff</Name>
+      <Directory>kaisenlinux-rdiff.directory</Directory>
+      <Include>
+        <And>
+          <Category>Rdiff</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>Borg</Name>
+      <Directory>kaisenlinux-borg.directory</Directory>
+      <Include>
+        <And>
+          <Category>Borg</Category>
         </And>
       </Include>
     </Menu>
@@ -691,6 +709,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Ssamba</Name>
+      <Directory>kaisenlinux-ssamba.directory</Directory>
+      <Include>
+        <And>
+          <Category>Ssamba</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>
@@ -895,6 +922,15 @@
       <Include>
         <And>
           <Category>VMDK</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>WIM</Name>
+      <Directory>kaisenlinux-wim.directory</Directory>
+      <Include>
+        <And>
+          <Category>WIM</Category>
         </And>
       </Include>
     </Menu>

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=iotop
+Comment=Simple top-like I/O monitor
+Comment[fr]=Moniteur d'E/S simple, de type top
+Comment[es]=Monitor de E/S simple como el de arriba
+Comment[pt]=Monitor de E/S simples de topo
+Comment[it]=Semplice monitor I/O simile a un top
+Comment[de]=Einfacher, oben liegender E/A-Monitor
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sudo iotop"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis
+X-Kaisen-Package=iotop

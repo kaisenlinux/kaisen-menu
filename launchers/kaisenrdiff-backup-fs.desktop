@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=rdiff-backup-fs
+Comment=Filesystem for accessing rdiff-backup archives
+Comment[fr]=Système de fichiers pour accéder aux archives rdiff-backup
+Comment[es]=Sistema de archivos para acceder a los archivos de rdiff-backup
+Comment[pt]=Sistema de arquivo para acesso aos arquivos do rdiff-backup
+Comment[it]=Filesystem per accedere agli archivi rdiff-backup
+Comment[de]=Dateisystem für den Zugriff auf rdiff-Backup-Archive
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man rdiff-backup-fs"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Rdiff
+X-Kaisen-Package=rdiff-backup-fs

@@ -30,6 +30,7 @@ rm -f /usr/share/applications/etherape.desktop
 rm -f /usr/share/applications/filezilla.desktop
 rm -f /usr/share/applications/firefox-esr.desktop
 rm -f /usr/share/applications/gftp.desktop
+rm -f /usr/share/applications/gpa.desktop
 rm -f /usr/share/applications/gparted.desktop
 rm -f /usr/share/applications/grdesktop.desktop
 rm -f /usr/share/applications/grsync.desktop
@@ -38,6 +39,7 @@ rm -f /usr/share/applications/guymager.desktop
 rm -f /usr/share/applications/hardinfo.desktop
 rm -f /usr/share/applications/htop.desktop
 rm -f /usr/share/applications/hydra-gtk.desktop
+rm -f /usr/share/applications/isomaster.desktop
 rm -f /usr/share/applications/jmeter.desktop
 rm -f /usr/share/applications/kismet.desktop
 rm -f /usr/share/applications/lftp.desktop

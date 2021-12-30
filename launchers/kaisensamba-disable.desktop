@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=samba-disable
+Name[fr]=samba-désactivé
+Name[es]=samba-deshabilitado
+Name[pt]=samba-desativado
+Name[it]=samba-disabilitato
+Name[de]=samba-deaktiviert
+Comment=Disable samba daemon
+Comment[fr]=Désactiver service samba
+Comment[es]=Deshabilitar servicio samba
+Comment[pt]=Desativar serviço samba
+Comment[it]=Disabilita servizio samba
+Comment[de]=Deaktivieren Sie den samba-Service
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/opt/services/samba-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ssamba
+X-Kaisen-Package=samba

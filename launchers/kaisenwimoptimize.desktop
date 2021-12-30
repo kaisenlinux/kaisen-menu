@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimoptimize
+Comment=Optimize a WIM archive
+Comment[fr]=Optimiser une archive WIM
+Comment[es]=Optimizar un archivo WIM
+Comment[pt]=Optimizar um arquivo WIM
+Comment[it]=Ottimizzare un archivio WIM
+Comment[de]=Optimieren eines WIM-Archivs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimoptimize"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

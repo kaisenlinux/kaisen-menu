@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cpio
+Comment=Copy files to and from archives
+Comment[fr]=Copier des fichiers vers et depuis des archives
+Comment[es]=Copiar archivos desde y hacia los archivos
+Comment[pt]=Copiar ficheiros de e para os arquivos
+Comment[it]=Copiare file da e verso gli archivi
+Comment[de]=Kopieren von Dateien in und aus Archiven
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "cpio --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=cpio

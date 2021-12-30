@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=samba-enable
+Name[fr]=samba-activé
+Name[es]=samba-activado
+Name[pt]=samba-ativado
+Name[it]=samba-attivato
+Name[de]=samba-aktiviert
+Comment=Enable samba daemon
+Comment[fr]=Activer service samba
+Comment[es]=Activa servicio samba
+Comment[pt]=Ativar serviço samba
+Comment[it]=Attiva servizio samba
+Comment[de]=Aktivieren Sie den samba-Service
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/opt/services/samba-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ssamba
+X-Kaisen-Package=samba

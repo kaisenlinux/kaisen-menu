@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimdir
+Comment=List the files contained in a WIM image
+Comment[fr]=Liste des fichiers contenus dans une image WIM
+Comment[es]=Listar los archivos contenidos en una imagen WIM
+Comment[pt]=Listar os ficheiros contidos numa imagem WIM
+Comment[it]=Elencare i file contenuti in un'immagine WIM
+Comment[de]=Auflisten der in einem WIM-Image enthaltenen Dateien
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimdir"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools
