@@ -1,3 +1,14 @@
+kaisen-menu (2.0+kaisen7) kaisen-packages; urgency=medium
+
+  * Add qphotorec icon for qphotorec launcher
+  * Update qphotorec exec command
+  * Remove gtkhask polkit (polkit integrated into gtkhask package)
+  * Rename kaisen-menu polkit
+  * Rename the name of launcher kaisengtkstresstesting.desktop
+  * Fix typo in polkit (add uppercase)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 30 Dec 2021 20:42:37 +0100
+
 kaisen-menu (2.0+kaisen6) kaisen-packages; urgency=medium
 
   * Add man as dependancy

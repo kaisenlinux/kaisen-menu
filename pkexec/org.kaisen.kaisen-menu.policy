@@ -8,8 +8,8 @@
     <vendor_url>https://kaisenlinux.org</vendor_url>
 
     <action id="org.kaisen.pkexec.etherape">
-        <description>Run etherape as root</description>
-        <message>Authentication is required to run etherape as root</message>
+        <description>Run Etherape as root</description>
+        <message>Authentication is required to run Etherape as root</message>
 	<icon_name>etherape</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -21,8 +21,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.nmapsi4">
-        <description>Run nmapsi4 as root</description>
-        <message>Authentication is required to run nmapsi4 as root</message>
+        <description>Run NmapSI4 as root</description>
+        <message>Authentication is required to run NmapSI4 as root</message>
 	<icon_name>nmapsi4</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -34,8 +34,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.packetsender">
-        <description>Run packetsender as root</description>
-        <message>Authentication is required to run packetsender as root</message>
+        <description>Run PacketSender as root</description>
+        <message>Authentication is required to run PacketSender as root</message>
 	<icon_name>packetsender</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -47,8 +47,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.wireshark">
-	<description>Run wireshark as root</description>
-	<message>Authentication is required to run wireshark as root</message>
+	<description>Run Wireshark as root</description>
+	<message>Authentication is required to run Wireshark as root</message>
 	<icon_name>wireshark</icon_name>
 	<defaults>
 	    <allow_any>auth_admin</allow_any>
@@ -60,8 +60,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.baobab">
-        <description>Run baobab as root</description>
-        <message>Authentication is required to run baobab as root</message>
+        <description>Run Baobab as root</description>
+        <message>Authentication is required to run Baobab as root</message>
 	<icon_name>baobab</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -73,8 +73,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.balena">
-        <description>Run balena-etcher-electron as root</description>
-        <message>Authentication is required to run balena-etcher-electron as root</message>
+        <description>Run balenaEtcher as root</description>
+        <message>Authentication is required to run balenaEtcher as root</message>
 	<icon_name>balena-etcher-electron</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -99,8 +99,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.zulumount">
-        <description>Run zulumount as root</description>
-        <message>Authentication is required to run zulumount as root</message>
+        <description>Run ZuluMount as root</description>
+        <message>Authentication is required to run ZuluMount as root</message>
 	<icon_name>zuluMount</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -112,8 +112,8 @@
     </action>
 
     <action id="org.kaisen.pkexec.zulucrypt">
-        <description>Run zulucrypt as root</description>
-        <message>Authentication is required to run zulucrypt as root</message>
+        <description>Run ZuluCrypt as root</description>
+        <message>Authentication is required to run ZuluCrypt as root</message>
 	<icon_name>zuluCrypt</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
@@ -121,19 +121,6 @@
             <allow_active>auth_admin</allow_active>
         </defaults>
         <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/zuluCrypt-gui</annotate>
-        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
-    </action>
-
-    <action id="org.kaisen.pkexec.gtkhash">
-        <description>Run gtkhash as root</description>
-        <message>Authentication is required to run gtkhash as root</message>
-        <icon_name>gtkhash</icon_name>
-        <defaults>
-            <allow_any>auth_admin</allow_any>
-            <allow_inactive>auth_admin</allow_inactive>
-            <allow_active>auth_admin</allow_active>
-        </defaults>
-        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/gtkhash</annotate>
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
     </action>
 

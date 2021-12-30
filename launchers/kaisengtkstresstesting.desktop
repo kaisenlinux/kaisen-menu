@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=Gtk Stress Testing
+Name=GtkStressTesting
 Comment=System utility designed to stress and monitor various hardware components
 Comment[fr]=Utilitaire système conçu pour mettre sous tension et surveiller divers composants matériels
 Comment[es]=Utilidad del sistema diseñada para estresar y supervisar varios componentes de hardware
