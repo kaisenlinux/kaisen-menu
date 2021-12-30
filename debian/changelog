@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen8) kaisen-packages; urgency=medium
+
+  * Update icon name for the gtkstresstesting launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 31 Dec 2021 00:49:06 +0100
+
 kaisen-menu (2.0+kaisen7) kaisen-packages; urgency=medium
 
   * Add qphotorec icon for qphotorec launcher
