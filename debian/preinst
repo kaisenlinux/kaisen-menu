@@ -2,13 +2,17 @@
 
 set -e
 
-case "$1" in
-	upgrade|full-upgrade|dist-upgrade|abort-upgrade|downgrade)
+if [[ -z "$2" ]]; then
 
-dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --rename /etc/xdg/menus/xfce-applications.menu || true
-dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --rename /etc/xdg/menus/mate-applications.menu || true
+if [[ -e /etc/xdg/menus/mate-applications.menu ]]; then
+	mv /etc/xdg/menus/mate-applications.menu /etc/xdg/menus/mate-applications.menu.old
+fi
 
-	;;
-esac
+if [[ -e /etc/xdg/menus/xfce-applications.menu ]]; then
+	mv /etc/xdg/menus/xfce-applications.menu /etc/xdg/menus/xfce-applications.old
+fi
+	dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --add /etc/xdg/menus/xfce-applications.menu
+	dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --add /etc/xdg/menus/mate-applications.menu
+fi
 
 #DEBHELPER#

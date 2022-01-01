@@ -16,9 +16,3 @@ case "$1" in
             dconf update || true
         fi
 esac
-
-#Temporary fix for MATE menu
-
-if [ ! -e /etc/xdg/menus/mate-applications.menu ]; then
-        cp -f /etc/xdg/menus/mate-applications.menu.old /etc/xdg/menus/mate-applications.menu
-fi

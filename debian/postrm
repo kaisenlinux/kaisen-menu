@@ -9,8 +9,16 @@ if [[ "$1" = "remove" ]]; then
 fi
 
 if [[ "$1" = "purge" ]]; then
-	mv /etc/xdg/menus/xfce-applications.menu.old xfce-applications.menu 2> /dev/null || true
-	mv /etc/xdg/menus/mate-applications.menu.old mate-applications.menu 2> /dev/null || true
+
+if [[ -e /etc/xdg/menus/mate-applications.menu.old ]]; then
+	mv /etc/xdg/menus/mate-applications.menu.old /etc/xdg/menus/mate-applications.menu
+fi
+
+if [[ -e /etc/xdg/menus/xfce-applications.menu.old ]]; then
+	mv /etc/xdg/menus/xfce-applications.menu.old /etc/xdg/menus/xfce-applications.menu
+fi
+        dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --remove /etc/xdg/menus/mate-applications.menu
+        dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --remove /etc/xdg/menus/xfce-applications.menu
 fi
 
 #DEBHELPER#

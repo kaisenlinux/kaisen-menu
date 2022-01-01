@@ -1,3 +1,13 @@
+kaisen-menu (2.0+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove MATE temporary fix
+  * Reorganize menus folder
+  * Update divert preinst (no rename when diverting but rename file before divert)
+  * Divert in postrm script when package is purged
+  * Fix conflict with mate-menus package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2021 06:11:52 +0100
+
 kaisen-menu (2.0+kaisen8) kaisen-packages; urgency=medium
 
   * Update icon name for the gtkstresstesting launcher

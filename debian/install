@@ -1,6 +1,4 @@
-menus/kaisenlinux.menu etc/xdg/menus/applications-merged/
-menus/xfce-applications.menu etc/xdg/menus/
-menus/mate-applications.menu etc/xdg/menus/
+menus/* etc/xdg/menus/
 desktop-directories/* usr/share/desktop-directories/
 launchers/* usr/share/kaisen-menu/applications/
 pixmaps/* usr/share/pixmaps/kaisen/
