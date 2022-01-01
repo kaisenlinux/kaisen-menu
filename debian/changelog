@@ -1,3 +1,10 @@
+kaisen-menu (2.0+kaisen10) kaisen-packages; urgency=medium
+
+  * Add dpkg compare-versions to apply dpkg-divert when
+    kaisen-menu upgrade in 2.0+kaisen9 or highter
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2021 08:08:03 +0100
+
 kaisen-menu (2.0+kaisen9) kaisen-packages; urgency=medium
 
   * Remove MATE temporary fix

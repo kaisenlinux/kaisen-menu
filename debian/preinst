@@ -15,4 +15,13 @@ fi
 	dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --add /etc/xdg/menus/mate-applications.menu
 fi
 
+case "$1" in
+	upgrade|dist-upgrade|full-upgrade)
+		if dpkg --compare-versions "$2" lt 2.0+kaisen9; then
+			dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --add /etc/xdg/menus/xfce-applications.menu
+        		dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/mate-applications.menu.old --add /etc/xdg/menus/mate-applications.menu
+		fi
+	;;
+esac
+
 #DEBHELPER#
