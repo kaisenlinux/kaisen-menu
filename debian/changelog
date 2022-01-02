@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen11) kaisen-packages; urgency=medium
+
+  * Fix X-Kaisen-Package entry in the kaisennvme.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 02 Jan 2021 15:11:56 +0100
+
 kaisen-menu (2.0+kaisen10) kaisen-packages; urgency=medium
 
   * Add dpkg compare-versions to apply dpkg-divert when

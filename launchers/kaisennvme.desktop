@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=DisksAnalysis;PartitioningErasing
-X-Kaisen-Package=nvme
+X-Kaisen-Package=nvme-cli
