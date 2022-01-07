@@ -1,15 +1,21 @@
+kaisen-menu (2.0+kaisen12) kaisen-packages; urgency=medium
+
+  * Add whdd launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 07 Jan 2022 04:11:02 +0100
+
 kaisen-menu (2.0+kaisen11) kaisen-packages; urgency=medium
 
   * Fix X-Kaisen-Package entry in the kaisennvme.desktop launcher
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 02 Jan 2021 15:11:56 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 02 Jan 2022 15:11:56 +0100
 
 kaisen-menu (2.0+kaisen10) kaisen-packages; urgency=medium
 
   * Add dpkg compare-versions to apply dpkg-divert when
     kaisen-menu upgrade in 2.0+kaisen9 or highter
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2021 08:08:03 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2022 08:08:03 +0100
 
 kaisen-menu (2.0+kaisen9) kaisen-packages; urgency=medium
 
@@ -19,7 +25,7 @@ kaisen-menu (2.0+kaisen9) kaisen-packages; urgency=medium
   * Divert in postrm script when package is purged
   * Fix conflict with mate-menus package
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2021 06:11:52 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2022 06:11:52 +0100
 
 kaisen-menu (2.0+kaisen8) kaisen-packages; urgency=medium
 
