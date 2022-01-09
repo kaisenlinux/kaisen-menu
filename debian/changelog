@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen13) kaisen-packages; urgency=medium
+
+  * Update ddrescue-gui and trivy launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 09 Jan 2022 04:26:14 +0100
+
 kaisen-menu (2.0+kaisen12) kaisen-packages; urgency=medium
 
   * Add whdd launcher
