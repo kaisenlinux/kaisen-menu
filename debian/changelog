@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen14) kaisen-packages; urgency=medium
+
+  * Update ndisc6 and ntpdate X-Kaisen-Package entry
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 30 Jan 2022 23:49:47 +0100
+
 kaisen-menu (2.0+kaisen13) kaisen-packages; urgency=medium
 
   * Update ddrescue-gui and trivy launcher
