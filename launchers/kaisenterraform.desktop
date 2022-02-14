@@ -13,5 +13,5 @@ Icon=/usr/share/pixmaps/kaisen/terraform.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=DevOps
+Categories=Terraform
 X-Kaisen-Package=terraform

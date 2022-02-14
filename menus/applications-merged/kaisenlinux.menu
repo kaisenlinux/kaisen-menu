@@ -429,6 +429,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Terraform</Name>
+      <Directory>kaisenlinux-terraform.directory</Directory>
+      <Include>
+        <And>
+          <Category>Terraform</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     </Menu>
     <Menu>

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kubectl-kyverno
+Comment=Kubernetes Native Policy Management
+Comment[fr]=Gestion des politiques natives de Kubernetes
+Comment[es]=Gestión de políticas nativas de Kubernetes
+Comment[pt]=Gestão da Política Nativa Kubernetes
+Comment[it]=Gestione dei criteri nativi di Kubernetes
+Comment[de]=Native Kubernetes-Richtlinienverwaltung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kubectl-kyverno help"
+Icon=/usr/share/pixmaps/kyverno.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=kyverno

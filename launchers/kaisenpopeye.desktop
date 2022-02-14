@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=popeye
+Comment=A Kubernetes cluster resource sanitizer
+Comment[fr]=Un assainisseur de ressources de cluster Kubernetes
+Comment[es]=Un saneador de recursos del clúster Kubernetes
+Comment[pt]=Um higienizador de recursos de agrupamento Kubernetes
+Comment[it]=Un sanificatore di risorse del cluster Kubernetes
+Comment[de]=Ein Kubernetes-Cluster-Ressourcen-Sanitizer
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "popeye help"
+Icon=/usr/share/pixmaps/popeye.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=popeye

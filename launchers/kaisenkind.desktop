@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kind
+Comment=Kubernetes IN Docker - local clusters for testing Kubernetes
+Comment[fr]=Kubernetes IN Docker - clusters locaux pour tester Kubernetes
+Comment[es]=Kubernetes IN Docker - clusters locales para probar Kubernetes
+Comment[pt]=Kubernetes IN Docker - aglomerados locais para testar Kubernetes
+Comment[it]=Kubernetes IN Docker - cluster locali per testare Kubernetes
+Comment[de]=Kubernetes IN Docker - lokale Cluster zum Testen von Kubernetes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kind --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=kind
