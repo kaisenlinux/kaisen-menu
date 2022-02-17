@@ -5,5 +5,5 @@ Name[es]=Herramientas de mantenimiento
 Name[pt]=Ferramentas de manutenção
 Name[it]=Strumenti di manutenzione
 Name[de]=Wartungswerkzeuge
-Icon=/usr/share/pixmaps/kaisen/maintenance.png
+Icon=/usr/share/pixmaps/kaisen-menu/maintenance.png
 Type=Directory

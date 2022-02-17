@@ -5,5 +5,5 @@ Name[es]=Particionamiento y borrado
 Name[pt]=Particionando e apagando
 Name[it]=Partizionare e cancellare
 Name[de]=Partitionieren und Löschen
-Icon=/usr/share/pixmaps/kaisen/erasing.png
+Icon=/usr/share/pixmaps/kaisen-menu/erasing.png
 Type=Directory

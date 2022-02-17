@@ -1,3 +1,11 @@
+kaisen-menu (2.0+kaisen18) kaisen-packages; urgency=medium
+
+  * Added logos for many launchers
+  * Update X-Kaisen-Package entry for mariadb-client launcher
+  * pixmaps/ folder are now installed in /usr/share/pixmaps/kaisen-menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 17 Feb 2022 19:41:17 +0100
+
 kaisen-menu (2.0+kaisen17) kaisen-packages; urgency=medium
 
   * Add tool icon for Ansible, LXC, Docker, AWS and Apparmor launchers

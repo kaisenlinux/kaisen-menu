@@ -5,5 +5,5 @@ Name[es]=Herramientas de administración
 Name[pt]=Ferramentas de administração
 Name[it]=Strumenti di amministrazione
 Name[de]=Verwaltungstools
-Icon=/usr/share/pixmaps/kaisen/administrator.png
+Icon=/usr/share/pixmaps/kaisen-menu/administrator.png
 Type=Directory

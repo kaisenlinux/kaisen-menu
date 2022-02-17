@@ -5,5 +5,5 @@ Name[es]=Red
 Name[pt]=Rede
 Name[it]=Rete
 Name[de]=Netzwerk
-Icon=/usr/share/pixmaps/kaisen/router.png
+Icon=/usr/share/pixmaps/kaisen-menu/router.png
 Type=Directory
