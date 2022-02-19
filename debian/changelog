@@ -1,3 +1,11 @@
+kaisen-menu (2.0+kaisen19) kaisen-packages; urgency=medium
+
+  * Added new logos for many launchers
+  * Improved existents logos
+  * Update menu (move launchers)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 19 Feb 2022 03:09:16 +0100
+
 kaisen-menu (2.0+kaisen18) kaisen-packages; urgency=medium
 
   * Added logos for many launchers

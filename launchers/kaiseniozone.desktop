@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=iozone
-Comment=Tool to test hardware
-Comment[fr]=Outil pour tester le matériel
-Comment[es]=Herramienta de prueba de hardware
-Comment[pt]=Ferramenta de teste de hardware
-Comment[it]=Strumento di test hardware
-Comment[de]=Hardware-Test-Tool
+Comment=Filesystem becnhmark tool
+Comment[fr]=Outil de benchmark de systèmes de fichiers
+Comment[es]=Herramienta de benchmark del sistema de archivos
+Comment[pt]=Sistema de arquivo benchmark ferramenta
+Comment[it]=Strumento benchmark del filesystem
+Comment[de]=Dateisystem becnhmark Werkzeug
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "iozone -h" --sudo
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Hardware
+Categories=DisksAnalysis
 X-Kaisen-Package=iozone3
