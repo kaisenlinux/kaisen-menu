@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=Kaisen Terminal
-Comment=Terminator coupled to Oh-My-ZSH by default
-Comment[fr]=Terminator couplé à Oh-My-ZSH par défaut
-Comment[es]=Terminator acoplado a Oh-My-ZSH por defecto
-Comment[pt]=Terminador acoplado a Oh-My-ZSH por defeito
-Comment[it]=Terminator accoppiato a Oh-My-ZSH per impostazione predefinita
-Comment[de]=Terminator standardmäßig an Oh-My-ZSH gekoppelt
+Comment=Terminator with default Kaisen settings
+Comment[fr]=Terminator avec les configurations de Kaisen par défaut
+Comment[es]=Terminator con la configuración por defecto de Kaisen
+Comment[pt]=Terminador com configurações padrão Kaisen
+Comment[it]=Terminator con le impostazioni predefinite di Kaisen
+Comment[de]=Terminator mit Kaisen-Standardkonfigurationen
 Exec=terminator
 Icon=utilities-terminal
 Type=Application

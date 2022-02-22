@@ -1,3 +1,14 @@
+kaisen-menu (2.0+kaisen20) kaisen-packages; urgency=medium
+
+  * Update description of Kaisen Terminal
+  * Add logos of borg, netsniff, iotop and duplicity softwares
+  * Remove launchers/kaisen-build.desktop and launchers/kaisenmcedit.desktop
+    launchers/kaisenqtop.desktop launchers/kaisenmemstat.desktop
+    launchers/kaisenirqbalance*.desktop
+  * Move cabextract launcher in Miscellaneous tools menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 22 Feb 2022 20:20:27 +0100
+
 kaisen-menu (2.0+kaisen19) kaisen-packages; urgency=medium
 
   * Added new logos for many launchers
