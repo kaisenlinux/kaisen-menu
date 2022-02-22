@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=plocate-disable
+Name[fr]=plocate-désactivé
+Name[es]=plocate-deshabilitado
+Name[pt]=plocate-desativado
+Name[it]=plocate-disabilitato
+Name[de]=plocate-deaktiviert
+Comment=Disable plocate daemon
+Comment[fr]=Désactiver service plocate
+Comment[es]=Deshabilitar servicio plocate
+Comment[pt]=Desativar serviço plocate
+Comment[it]=Disabilita servizio plocate
+Comment[de]=Deaktivieren Sie den plocate-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/opt/services/plocate-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Splocate
+X-Kaisen-Package=plocate

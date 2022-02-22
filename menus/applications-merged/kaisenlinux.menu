@@ -701,11 +701,11 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>Smlocate</Name>
-      <Directory>kaisenlinux-smlocate.directory</Directory>
+      <Name>Splocate</Name>
+      <Directory>kaisenlinux-splocate.directory</Directory>
       <Include>
         <And>
-          <Category>Smlocate</Category>
+          <Category>Splocate</Category>
         </And>
       </Include>
     </Menu>
