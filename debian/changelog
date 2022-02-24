@@ -1,3 +1,11 @@
+kaisen-menu (2.0+kaisen22) kaisen-packages; urgency=medium
+
+  * Remove launchers/kaisenfuseiso.desktop launchers/kaisenfuse-zip.desktop
+    launchers/squashfuse.desktop
+  * Remove pixmaps/zip.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 24 Feb 2022 04:49:41 +0100
+
 kaisen-menu (2.0+kaisen21) kaisen-packages; urgency=medium
 
   * Replace mlocate by plocate (fix command not found when mlocate launcher
