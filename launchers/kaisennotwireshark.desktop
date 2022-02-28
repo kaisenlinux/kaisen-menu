@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=notwireshark
+Comment=A trame capture software like tshark but written in Python
+Comment[fr]=Un logiciel de capture de trames comme tshark mais écrit en Python
+Comment[es]=Un software de captura de tramas como tshark pero escrito en Python
+Comment[pt]=Um software de captura de trame como o tshark mas escrito em Python
+Comment[it]=Un software di cattura di trame come tshark ma scritto in Python
+Comment[de]=Eine Trame-Capture-Software wie tshark, aber in Python geschrieben
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "notwireshark" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=notwireshark

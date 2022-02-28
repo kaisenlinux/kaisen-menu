@@ -41,7 +41,6 @@ rm -f /usr/share/applications/htop.desktop
 rm -f /usr/share/applications/hydra-gtk.desktop
 rm -f /usr/share/applications/isomaster.desktop
 rm -f /usr/share/applications/jmeter.desktop
-rm -f /usr/share/applications/kismet.desktop
 rm -f /usr/share/applications/lftp.desktop
 rm -f /usr/share/applications/linguist-qt5.desktop
 rm -f /usr/share/applications/lshw-gtk.desktop
@@ -61,7 +60,6 @@ rm -f /usr/share/applications/org.wireshark.Wireshark.desktop
 rm -f /usr/share/applications/packeth.desktop
 rm -f /usr/share/applications/packetsender.desktop
 rm -f /usr/share/applications/qemu.desktop
-rm -f /usr/share/applications/qtop.desktop
 rm -f /usr/share/applications/R.desktop
 rm -f /usr/share/applications/remote-viewer.desktop
 rm -f /usr/share/applications/remmina-file.desktop
