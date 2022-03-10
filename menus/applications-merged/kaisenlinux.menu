@@ -438,6 +438,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Puppet</Name>
+      <Directory>kaisenlinux-puppet.directory</Directory>
+      <Include>
+        <And>
+          <Category>Puppet</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     </Menu>
     <Menu>
@@ -715,6 +724,15 @@
       <Include>
         <And>
           <Category>Ssamba</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SPuppet</Name>
+      <Directory>kaisenlinux-spuppet.directory</Directory>
+      <Include>
+        <And>
+          <Category>SPuppet</Category>
         </And>
       </Include>
     </Menu>

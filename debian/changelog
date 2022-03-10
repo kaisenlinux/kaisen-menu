@@ -1,3 +1,11 @@
+kaisen-menu (2.0+kaisen26) kaisen-packages; urgency=medium
+
+  * Create of the Puppet category
+  * Add pdk launcher
+  * Update of Puppet launcher for new Puppet agent package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 02:50:47 +0100
+
 kaisen-menu (2.0+kaisen25) kaisen-packages; urgency=medium
 
   * Define the original icon of gtkhash for gtkhash
