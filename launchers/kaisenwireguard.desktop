@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=wireguard
-Comment=Tool to connect to a VPN
-Comment[fr]=Outil pour se connecter à un VPN
-Comment[es]=Herramienta para conectarse a una VPN
-Comment[pt]=Ferramenta para conectar-se a uma VPN
-Comment[it]=Strumento per connettersi a una VPN
-Comment[de]=Tool zum Herstellen einer Verbindung zu einem VPN
+Comment=Client to connect on a Wireguard VPN
+Comment[fr]=Client pour se connecter sur un VPN Wireguard
+Comment[es]=Cliente para conectarse a una VPN de Wireguard
+Comment[pt]=Cliente para ligar numa VPN Wireguard
+Comment[it]=Client per connettersi su una VPN Wireguard
+Comment[de]=Client zur Verbindung mit einem Wireguard VPN
 Exec=x-terminal-emulator -e sh -c '"echo Configure wireguard on /etc/wireguard folder";$SHELL'
 Icon=/usr/share/pixmaps/kaisen-menu/wireguard.png
 Terminal=false

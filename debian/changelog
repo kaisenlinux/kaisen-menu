@@ -1,3 +1,11 @@
+kaisen-menu (2.0+kaisen29) kaisen-packages; urgency=medium
+
+  * Add openfortivpn client launcher
+  * Add fortinet logo
+  * Update the description of openvpn and wireguard launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 01 Apr 2022 16:32:49 +0100
+
 kaisen-menu (2.0+kaisen28) kaisen-packages; urgency=medium
 
   * Remove logos (logos are now integrated in the packages):

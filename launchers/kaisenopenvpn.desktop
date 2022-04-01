@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=openvpn
-Comment=Tool to connect to a VPN
-Comment[fr]=Outil pour se connecter à un VPN
-Comment[es]=Herramienta para conectarse a una VPN
-Comment[pt]=Ferramenta para conectar-se a uma VPN
-Comment[it]=Strumento per connettersi a una VPN
-Comment[de]=Tool zum Herstellen einer Verbindung zu einem VPN
+Comment=Client to connect on a OpenVPN server
+Comment[fr]=Client pour se connecter sur un serveur OpenVPN
+Comment[es]=Cliente para conectarse a un servidor OpenVPN
+Comment[pt]=Cliente para ligar num servidor OpenVPN
+Comment[it]=Client per connettersi su un server OpenVPN
+Comment[de]=Client zur Verbindung mit einem OpenVPN-Server
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "openvpn --help" --sudo
 Icon=/usr/share/pixmaps/kaisen-menu/openvpn.png
 Terminal=false
