@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wipefs
+Comment=Wipe a signature from a device
+Comment[fr]=Effacer une signature d'un périphérique
+Comment[es]=Borrar una firma de un dispositivo
+Comment[pt]=Limpar uma assinatura de um dispositivo
+Comment[it]=Cancellare una firma da un dispositivo
+Comment[de]=Löschen einer Signatur von einem Gerät
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "wipefs --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=util-linux
