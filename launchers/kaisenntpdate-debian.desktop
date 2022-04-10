@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntpdate-debian
+Comment=Update the time and date via an NTP server
+Comment[fr]=Mettre à jour la date et l'heure via un serveur NTP
+Comment[es]=Actualizar la fecha y la hora a través de un servidor NTP
+Comment[pt]=Actualizar a data e hora através de um servidor NTP
+Comment[it]=Aggiornare la data e l'ora tramite un server NTP
+Comment[de]=Datum und Uhrzeit über einen NTP-Server aktualisieren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntpdate-debian" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SystemUncategorized
+X-Kaisen-Package=ntpsec-ntpdate
