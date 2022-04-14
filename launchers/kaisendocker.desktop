@@ -2,16 +2,16 @@
 
 [Desktop Entry]
 Name=docker
-Comment=Tool to make containerization
-Comment[fr]=Outil pour faire de la conteneurisation
-Comment[es]=Herramienta para contenedorización
-Comment[pt]=Ferramenta para conteinerização
-Comment[it]=Strumento per la containerizzazione
-Comment[de]=Werkzeug zur Containerisierung
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "docker --help"
+Comment=Execution environment in Linux containers
+Comment[fr]=Environnement d'exécution de conteneurs Linux
+Comment[es]=Entorno de tiempo de ejecución de contenedor de Linux
+Comment[pt]=Ambiente de Tempo de Execução do Contêiner Linux
+Comment[it]=Ambiente di runtime del contenitore Linux
+Comment[de]=Linux-Container-Laufzeitumgebung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "docker --help" --sudo
 Icon=/usr/share/pixmaps/kaisen-menu/docker.png
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=Docker
-X-Kaisen-Package=docker
+X-Kaisen-Package=docker.io
