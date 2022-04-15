@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen33) kaisen-packages; urgency=medium
+
+  * Add velero and rclone launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 15 Apr 2022 15:44:04 +0100
+
 kaisen-menu (2.0+kaisen32) kaisen-packages; urgency=medium
 
   * Remove docker launcher (docker.io and docker launcher are the same)
