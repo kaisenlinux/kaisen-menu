@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen34) kaisen-packages; urgency=medium
+
+  * Add dokcer-compose logo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 17 Apr 2022 02:46:22 +0100
+
 kaisen-menu (2.0+kaisen33) kaisen-packages; urgency=medium
 
   * Add velero and rclone launchers
