@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=borg
 Comment=Deduplicating and encrypting backup tool
-Comment[fr]=Outil de déduplication et de cryptage des sauvegardes
+Comment[fr]=Outil de déduplication et de chiffrement des sauvegardes
 Comment[es]=Herramienta de copia de seguridad con deduplicación y encriptación
 Comment[pt]=Deduplicação e encriptação da ferramenta de backup
 Comment[it]=Strumento di backup deduplicante e crittografante

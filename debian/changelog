@@ -1,6 +1,12 @@
+kaisen-menu (2.0+kaisen35) kaisen-packages; urgency=medium
+
+  * Update the kaisenborg.desktop launcher french translation
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 22 Apr 2022 16:32:26 +0100
+
 kaisen-menu (2.0+kaisen34) kaisen-packages; urgency=medium
 
-  * Add dokcer-compose logo
+  * Add docker-compose logo
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 17 Apr 2022 02:46:22 +0100
 
