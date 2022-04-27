@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen36) kaisen-packages; urgency=medium
+
+  * Update the kaisenczkawka.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 27 Apr 2022 21:08:57 +0100
+
 kaisen-menu (2.0+kaisen35) kaisen-packages; urgency=medium
 
   * Update the kaisenborg.desktop launcher french translation
