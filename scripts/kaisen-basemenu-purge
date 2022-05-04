@@ -40,7 +40,6 @@ rm -f /usr/share/applications/hardinfo.desktop
 rm -f /usr/share/applications/htop.desktop
 rm -f /usr/share/applications/hydra-gtk.desktop
 rm -f /usr/share/applications/isomaster.desktop
-rm -f /usr/share/applications/jmeter.desktop
 rm -f /usr/share/applications/lftp.desktop
 rm -f /usr/share/applications/linguist-qt5.desktop
 rm -f /usr/share/applications/lshw-gtk.desktop

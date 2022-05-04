@@ -1,3 +1,15 @@
+kaisen-menu (2.0+kaisen37) kaisen-packages; urgency=medium
+
+  * Update the path where are located services scripts for scripts of
+    maintainers and launchers
+  * Rename kaisenaa-disable.desktop in kaisenaadisable.desktop to
+    fix the deletion of the menu when the services folder is deleted
+  * Remove the deletion of /usr/share/applications/jmeter.desktop launcher
+    executed by kaisen-basemenu-purge because this launcher can't be installed
+    by default
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 4 May 2022 23:46:06 +0100
+
 kaisen-menu (2.0+kaisen36) kaisen-packages; urgency=medium
 
   * Update the kaisenczkawka.desktop launcher

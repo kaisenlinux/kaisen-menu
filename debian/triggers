@@ -2,4 +2,4 @@ interest-noawait /bin
 interest-noawait /sbin
 interest-noawait /usr/bin
 interest-noawait /usr/sbin
-interest-noawait /opt
+interest-noawait /usr/share
