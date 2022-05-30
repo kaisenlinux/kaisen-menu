@@ -124,4 +124,17 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
     </action>
 
+    <action id="org.kaisen.pkexec.zulucrypt">
+        <description>Run GTKTerm as root</description>
+        <message>Authentication is required to run GTKTerm as root</message>
+        <icon_name>gtkterm</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/gtkterm</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
 </policyconfig>

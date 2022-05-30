@@ -35,6 +35,7 @@ rm -f /usr/share/applications/gparted.desktop
 rm -f /usr/share/applications/grdesktop.desktop
 rm -f /usr/share/applications/grsync.desktop
 rm -f /usr/share/applications/gsmartcontrol.desktop
+rm -f /usr/share/applications/gtkterm.desktop
 rm -f /usr/share/applications/guymager.desktop
 rm -f /usr/share/applications/hardinfo.desktop
 rm -f /usr/share/applications/htop.desktop
@@ -42,6 +43,7 @@ rm -f /usr/share/applications/hydra-gtk.desktop
 rm -f /usr/share/applications/isomaster.desktop
 rm -f /usr/share/applications/lftp.desktop
 rm -f /usr/share/applications/linguist-qt5.desktop
+rm -f /usr/share/applications/linssid.desktop
 rm -f /usr/share/applications/lshw-gtk.desktop
 rm -f /usr/share/applications/lstopo.desktop
 rm -f /usr/share/applications/mc.desktop

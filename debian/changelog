@@ -1,3 +1,9 @@
+kaisen-menu (2.0+kaisen39) kaisen-packages; urgency=medium
+
+  * Add linssid and gtkterm launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 30 May 2022 02:43:11 +0100
+
 kaisen-menu (2.0+kaisen38) kaisen-packages; urgency=medium
 
   * Update switch and cloning logos

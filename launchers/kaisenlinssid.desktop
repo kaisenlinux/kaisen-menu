@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=LinSSID
+Comment=Find local wireless attach points
+Comment[fr]=Trouver des points d'attache sans fil locaux
+Comment[es]=Encontrar puntos de conexión inalámbricos locales
+Comment[pt]=Encontrar pontos locais de ligação sem fios
+Comment[it]=Trovare i punti di connessione wireless locali
+Comment[de]=Lokale drahtlose Anschlusspunkte finden
+Exec=linssid-pkexec
+Icon=/usr/share/pixmaps/linssid.png
+Terminal=false
+Type=Application
+Categories=WIFI
+X-Kaisen-Package=linssid
