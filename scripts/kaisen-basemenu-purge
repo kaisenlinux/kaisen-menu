@@ -12,6 +12,7 @@ fi
 rm -f /usr/share/applications/balena-etcher-electron.desktop
 rm -f /usr/share/applications/bat.desktop
 rm -f /usr/share/applications/bleachbit-root.desktop
+rm -f /usr/share/applications/btop.desktop
 rm -f /usr/share/applications/clamtk.desktop
 rm -f /usr/share/applications/clamtk-kde.desktop
 rm -f /usr/share/applications/clusterssh.desktop
