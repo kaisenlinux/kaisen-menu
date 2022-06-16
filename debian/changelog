@@ -1,3 +1,10 @@
+kaisen-menu (2.1+kaisen1) kaisen-packages; urgency=medium
+
+  * Add vault service launchers
+  * Update NTP service launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 16 Jun 2022 05:08:31 +0100
+
 kaisen-menu (2.1) kaisen-packages; urgency=medium
 
   * Update the path to access to offline documentation and manpages

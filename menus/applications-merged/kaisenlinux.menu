@@ -736,6 +736,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>SVault</Name>
+      <Directory>kaisenlinux-svault.directory</Directory>
+      <Include>
+        <And>
+          <Category>SVault</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>

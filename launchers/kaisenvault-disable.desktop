@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=vault-disable
+Name[fr]=vault-désactivé
+Name[es]=vault-deshabilitado
+Name[pt]=vault-desativado
+Name[it]=vault-disabilitato
+Name[de]=vault-deaktiviert
+Comment=Disable vault daemon
+Comment[fr]=Désactiver service vault
+Comment[es]=Deshabilitar servicio vault
+Comment[pt]=Desativar serviço vault
+Comment[it]=Disabilita servizio vault
+Comment[de]=Deaktivieren Sie den Vault-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/vault-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SVault
+X-Kaisen-Package=vault
