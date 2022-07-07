@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sshs
+Comment=Terminal user interface for SSH
+Comment[fr]=Interface utilisateur dans un terminal pour SSH
+Comment[es]=Interfaz de usuario de terminal para SSH
+Comment[pt]=Interface de utilizador terminal para SSH
+Comment[it]=Interfaccia utente terminale per SSH
+Comment[de]=Terminal-Benutzeroberfläche für SSH
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sshs -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=sshs

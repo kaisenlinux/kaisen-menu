@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=openstack-client
+Comment=Client for OpenStack services
+Comment[fr]=Client pour les services OpenStack
+Comment[es]=Cliente para servicios OpenStack
+Comment[pt]=Cliente para serviços OpenStack
+Comment[it]=Client per i servizi OpenStack
+Comment[de]=Client für OpenStack-Dienste
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "openstack --help"
+Icon=/usr/share/pixmaps/kaisen-menu/openstack.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=python3-openstackclient
