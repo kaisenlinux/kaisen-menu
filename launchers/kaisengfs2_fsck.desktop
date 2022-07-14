@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2fsck
+Name=gfs2_fsck
 Comment=Tool to repair damaged GFS2 partition
 Comment[fr]=Outil pour réparer une partition GFS2 endommagée
 Comment[es]=Herramienta para reparar la partición GFS2 dañada

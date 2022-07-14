@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2mkfs
+Name=gfs2_mkfs
 Comment=Tool to create GFS2 partition
 Comment[fr]=Outil pour créer une partition GFS2
 Comment[es]=Herramienta para crear una partición GFS2

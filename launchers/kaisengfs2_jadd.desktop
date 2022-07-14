@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2jadd
+Name=gfs2_jadd
 Comment=Add journals to a GFS2 filesystem
 Comment[fr]=Ajouter des journaux à un système de fichiers GFS2
 Comment[es]=Agregar revistas a un sistema de archivos GFS2

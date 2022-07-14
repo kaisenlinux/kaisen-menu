@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2convert
+Name=gfs2_convert
 Comment=Convert a GFS1 filesystem to GFS2
 Comment[fr]=Convertir un système de fichiers GFS1 en GFS2
 Comment[es]=Convierta un sistema de archivos GFS1 a GFS2

@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2grow
+Name=gfs2_grow
 Comment=Expand a GFS2 filesystem
 Comment[fr]=Etendre un système de fichiers GFS2
 Comment[es]=Expandir un sistema de archivos GFS2

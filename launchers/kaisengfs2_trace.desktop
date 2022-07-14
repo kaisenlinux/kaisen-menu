@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2trace
+Name=gfs2_trace
 Comment=Can enable trace events, disable trace events, and capture data from GFS2 trace events
 Comment[fr]=Peut activer les événements de trace, désactiver les événements de trace et capturer des données à partir d'événements de trace GFS2
 Comment[es]=Puede habilitar eventos de rastreo, deshabilitar eventos de rastreo y capturar datos de eventos de rastreo GFS2

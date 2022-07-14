@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=gfs2edit
+Name=gfs2_edit
 Comment=Display, print or edit GFS2 or GFS internal structures
 Comment[fr]=Afficher, imprimer ou modifier les structures internes de GFS2 ou GFS
 Comment[es]=Visualice, imprima o edite estructuras internas GFS2 o GFS
