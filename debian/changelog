@@ -1,3 +1,11 @@
+kaisen-menu (2.1+kaisen5) kaisen-packages; urgency=medium
+
+  * Add keepassxc-cli launcher
+  * Add more ocfs2 launchers
+  * Add shred launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 15 Jul 2022 19:44:46 +0100
+
 kaisen-menu (2.1+kaisen4) kaisen-packages; urgency=medium
 
   * Rename gfs2 launchers

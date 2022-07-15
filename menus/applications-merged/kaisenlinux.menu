@@ -800,6 +800,15 @@
       </Include>
     </Menu>
     <Menu>
+      <Name>OCFS2</Name>
+      <Directory>kaisenlinux-ocfs2.directory</Directory>
+      <Include>
+        <And>
+          <Category>OCFS2</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
       <Name>VMFS</Name>
       <Directory>kaisenlinux-vmfs.directory</Directory>
       <Include>
