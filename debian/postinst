@@ -9,10 +9,4 @@ case "$1" in
 	if [ ! -d /usr/share/kaisen-services-management ]; then
 		rm -f /usr/share/applications/{kaisen*-disable.desktop,kaisen*-enable.desktop}
 	fi
-
-        [ "$1" = "triggered" ] && exit 0
-
-        if which dconf >/dev/null 2>&1; then
-            dconf update || true
-        fi
 esac

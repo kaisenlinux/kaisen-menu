@@ -1,3 +1,9 @@
+kaisen-menu (2.1+kaisen7) kaisen-packages; urgency=medium
+
+  * Remove the execution of the dconf command (not need for kaisen-menu)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Aug 2022 00:28:31 +0100
+
 kaisen-menu (2.1+kaisen6) kaisen-packages; urgency=medium
 
   * Add iperf3 service launchers and menu
