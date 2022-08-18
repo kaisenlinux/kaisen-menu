@@ -2,8 +2,6 @@
 
 set -e
 
-if [[ -z "$2" ]]; then
-
 #Setup diversions
 if [[ -e /etc/xdg/menus/mate-applications.menu ]]; then
 	cp /etc/xdg/menus/mate-applications.menu /etc/xdg/menus/mate-applications.menu.old
@@ -17,7 +15,6 @@ if [[ -e /etc/xdg/menus/xfce-applications.menu ]]; then
 	dpkg-divert --quiet --no-rename --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --add /etc/xdg/menus/xfce-applications.menu
 else
 	dpkg-divert --quiet --package kaisen-menu --divert /etc/xdg/menus/xfce-applications.menu.old --add /etc/xdg/menus/xfce-applications.menu
-fi
 fi
 
 #DEBHELPER#

@@ -1,7 +1,12 @@
+kaisen-menu (2.1+kaisen9) kaisen-packages; urgency=medium
+  
+  * Deletion of $2 if statement in the preinst script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 Aug 2022 22:26:07 +0100
+
 kaisen-menu (2.1+kaisen8) kaisen-packages; urgency=medium
 
-  * Install diverted files in /usr/share/kaisen-skeleton/diverted-files to remove
-    the dpkg conffile messages
+  * Improve preinst script
   * Add prerm script to remove diversions
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 17 Aug 2022 23:51:03 +0100
