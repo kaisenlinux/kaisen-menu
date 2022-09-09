@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SNTP
-X-Kaisen-Package=ntpsec
+X-Kaisen-Package=chrony
