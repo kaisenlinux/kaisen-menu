@@ -13,5 +13,5 @@ Icon=/usr/share/pixmaps/ctop.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=SystemUncategorized
+Categories=Docker
 X-Kaisen-Package=ctop
