@@ -1,3 +1,9 @@
+kaisen-menu (2.1+kaisen15) kaisen-packages; urgency=medium
+
+  * Remove the apt-btrfs-snapshot launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 18 Oct 2022 22:15:41 +0100
+
 kaisen-menu (2.1+kaisen14) kaisen-packages; urgency=medium
 
   * Add the ansible-lint launcher
