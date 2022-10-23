@@ -13,8 +13,9 @@ kaisen-menu (2.1+kaisen16) kaisen-packages; urgency=medium
   * Add the kaisenlinux-slibvirt.directory file
   * Rename SVirtualization in SLibvirt in the kaisenlinux.menu file
   * Add fio services launchers and menus
+  * Add the zutty launcher in the basemenu-purge script
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 23 Oct 2022 18:39:58 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 23 Oct 2022 23:55:51 +0100
 
 kaisen-menu (2.1+kaisen15) kaisen-packages; urgency=medium
 

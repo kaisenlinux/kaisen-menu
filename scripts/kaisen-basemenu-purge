@@ -75,3 +75,4 @@ rm -f /usr/share/applications/xca.desktop
 rm -f /usr/share/applications/xsensors.desktop
 rm -f /usr/share/applications/zulucrypt-gui.desktop
 rm -f /usr/share/applications/zulumount-gui.desktop
+rm -f /usr/share/applications/zutty.desktop
