@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fio-enable
+Name[fr]=fio-activé
+Name[es]=fio-activado
+Name[pt]=fio-ativado
+Name[it]=fio-attivato
+Name[de]=fio-aktiviert
+Comment=Enable fio daemon
+Comment[fr]=Activer service fio
+Comment[es]=Activar servicio fio
+Comment[pt]=Ativar serviço fio
+Comment[it]=Attivare servizio fio
+Comment[de]=Fio-Dienst aktivieren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/fio-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFio
+X-Kaisen-Package=fio

@@ -1,3 +1,21 @@
+kaisen-menu (2.1+kaisen16) kaisen-packages; urgency=medium
+
+  * Deletion of the following launchers:
+    - kaisenspice-vdagent-disable.desktop
+    - kaisenspice-vdagent-enable.desktop
+    - kaisenspice-webdavd-disable.desktop
+    - kaisenspice-webdavd-enable.desktop
+    - kaisenvirtualbox-disable.desktop
+    - kaisenvirtualbox-enable.desktop
+    - kaisenvmware-disable.desktop
+    - kaisenvmware-enable.desktop
+  * Deletion of the kaisenlinux-svirtualization.directory file
+  * Add the kaisenlinux-slibvirt.directory file
+  * Rename SVirtualization in SLibvirt in the kaisenlinux.menu file
+  * Add fio services launchers and menus
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 23 Oct 2022 18:39:58 +0100
+
 kaisen-menu (2.1+kaisen15) kaisen-packages; urgency=medium
 
   * Remove the apt-btrfs-snapshot launcher

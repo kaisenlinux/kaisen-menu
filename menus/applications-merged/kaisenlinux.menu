@@ -575,15 +575,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SHostapd</Name>
-      <Directory>kaisenlinux-shostapd.directory</Directory>
-      <Include>
-        <And>
-          <Category>SHostapd</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>SArpwatch</Name>
       <Directory>kaisenlinux-sarpwatch.directory</Directory>
       <Include>
@@ -616,15 +607,6 @@
       <Include>
         <And>
           <Category>SScrub</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>SVirtualization</Name>
-      <Directory>kaisenlinux-svirtualization.directory</Directory>
-      <Include>
-        <And>
-          <Category>SVirtualization</Category>
         </And>
       </Include>
     </Menu>
@@ -751,6 +733,24 @@
       <Include>
         <And>
           <Category>SIperf3</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SLibvirt</Name>
+      <Directory>kaisenlinux-slibvirt.directory</Directory>
+      <Include>
+        <And>
+          <Category>SLibvirt</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SFio</Name>
+      <Directory>kaisenlinux-sfio.directory</Directory>
+      <Include>
+        <And>
+          <Category>SFio</Category>
         </And>
       </Include>
     </Menu>
