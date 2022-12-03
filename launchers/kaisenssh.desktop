@@ -1,7 +1,7 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=openssh-server
+Name=ssh
 Comment=Tool for UNIX systems administration with openssh
 Comment[fr]=Outil pour l'administration des systèmes UNIX avec openssh
 Comment[es]=Herramienta de administración del servidor UNIX con openssh

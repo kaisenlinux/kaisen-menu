@@ -3,7 +3,7 @@
 [Desktop Entry]
 Name=k9s
 Comment=Kubernetes CLI
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "k9s"
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "k9s -h"
 Icon=/usr/share/pixmaps/k9s.png
 Terminal=false
 Type=Application

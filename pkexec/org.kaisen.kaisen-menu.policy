@@ -124,7 +124,7 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
     </action>
 
-    <action id="org.kaisen.pkexec.zulucrypt">
+    <action id="org.kaisen.pkexec.gtkterm">
         <description>Run GTKTerm as root</description>
         <message>Authentication is required to run GTKTerm as root</message>
         <icon_name>gtkterm</icon_name>
@@ -134,6 +134,19 @@
             <allow_active>auth_admin</allow_active>
         </defaults>
         <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/gtkterm</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.driftnet">
+        <description>Run Driftnet as root</description>
+        <message>Authentication is required to run Driftnet as root</message>
+        <icon_name>utilities-terminal</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/driftnet</annotate>
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
     </action>
 

@@ -1,3 +1,11 @@
+kaisen-menu (2.1+kaisen17) kaisen-packages; urgency=medium
+
+  * Fix some bugs of few launchers.
+  * Improvements of few launchers (help, command launched...)
+  * Update the polkit to fix the not functional zuluCrypt-gui launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 03 Dec 2022 05:31:04 +0100
+
 kaisen-menu (2.1+kaisen16) kaisen-packages; urgency=medium
 
   * Deletion of the following launchers:
