@@ -989,6 +989,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Exegol</Name>
+      <Directory>kaisenlinux-exegol.directory</Directory>
+      <Include>
+        <And>
+          <Category>Exegol</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
 
   <!-- Move default top-level menus one level deeper -->

@@ -1,3 +1,11 @@
+kaisen-menu (2.1+kaisen18) kaisen-packages; urgency=medium
+
+  * Add the Exegol menu
+  * Add the Exegol logo
+  * Add the Exegol launchers
+
+ -- Mehdi Lecomte - LaBrute! <labrute@kaisenlinux.org>  Mon, 05 Dec 2022 02:33:54 +0100
+
 kaisen-menu (2.1+kaisen17) kaisen-packages; urgency=medium
 
   * Fix some bugs of few launchers.
