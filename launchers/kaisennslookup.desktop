@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nslookup
+Comment=Query Internet name servers interactively
+Comment[fr]=Interroger les serveurs de noms Internet de manière interactive
+Comment[es]=Consultar servidores de nombres de Internet de forma interactiva
+Comment[pt]=Consultar servidores de nomes da Internet de forma interativa
+Comment[it]=Interroga i server dei nomi Internet in modo interattivo
+Comment[de]=Fragen Sie Internet-Nameserver interaktiv ab
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nslookup"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DNS
+X-Kaisen-Package=bind9-dnsutils

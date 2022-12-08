@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=xfs_rtcp
+Comment=XFS realtime copy command
+Comment[fr]=Commande de copie en temps réel XFS
+Comment[es]=Comando de copia en tiempo real de XFS
+Comment[pt]=Comando de cópia em tempo real XFS
+Comment[it]=Comando di copia in tempo reale XFS
+Comment[de]=XFS-Echtzeitkopierbefehl
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_rtcp" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=XFS
+X-Kaisen-Package=xfsprogs

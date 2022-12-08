@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kaisen-winkey-recovery
+Comment=Recover OEM Windows key
+Comment[fr]=Récupérer la clé OEM de Windows
+Comment[es]=Recuperar la llave OEM de Windows
+Comment[pt]=Recuperar a chave OEM Windows
+Comment[it]=Recuperare la chiave OEM di Windows
+Comment[de]=OEM-Windows-Schlüssel wiederherstellen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kaisen-winkey-recovery" --sudo
+Icon=/usr/share/pixmaps/kaisen-logos/kaisen.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=kaisen-winkey-recovery

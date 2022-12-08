@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=socat
+Comment=Multipurpose relay
+Comment[fr]=Relais polyvalent
+Comment[es]=Relé multiusos
+Comment[pt]=Relé multiuso
+Comment[it]=Relè multiuso
+Comment[de]=Mehrzweckrelais
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "socat -hhh"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NetworkUncategorized
+X-Kaisen-Package=socat

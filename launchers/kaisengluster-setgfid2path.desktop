@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gluster-setgfid2path
+Comment=Gluster tool to set GFID to Path xattrs
+Comment[fr]=Outil Gluster pour définir GFID sur Path xattrs
+Comment[es]=Herramienta Gluster para configurar GFID en Path xattrs
+Comment[pt]=Ferramenta Gluster para definir GFID para Path xattrs
+Comment[it]=Strumento Gluster per impostare GFID su Path xattrs
+Comment[de]=Gluster-Tool zum Festlegen der GFID auf Pfad xattrs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gluster-setgfid2path" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/gluster.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GlusterFS
+X-Kaisen-Package=glusterfs-client

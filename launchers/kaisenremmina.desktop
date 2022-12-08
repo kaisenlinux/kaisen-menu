@@ -1,0 +1,57 @@
+[Desktop Entry]
+Version=1.0
+Name=Remmina
+Comment=Connect to remote desktops
+Comment[fr]=Connectez-vous à des bureaux distants
+Comment[es]=Conéctese a oficinas remotas
+Comment[pt]=Conectar-se a escritórios remotos
+Comment[it]=Connettiti a uffici remoti
+Comment[de]=Stellen Sie eine Verbindung zu Remote-Büros her
+TryExec=remmina-file-wrapper
+Exec=remmina-file-wrapper %U
+Icon=org.remmina.Remmina
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;X-GNOME-NetworkSettings;RemoteAdministration;
+Keywords=remote desktop;rdp;vnc;nx;ssh;spice;xdmcp;
+StartupWMClass=org.remmina.Remmina
+MimeType=x-scheme-handler/rdp;x-scheme-handler/spice;x-scheme-handler/vnc;x-scheme-handler/remmina;application/x-remmina;
+Actions=Kiosk;Profile;Tray;Quit;
+X-Kaisen-Package=remmina
+
+[Desktop Action Profile]
+Name=Create a New Connection Profile
+Name[fr]=Créer un nouveau profil de connexion
+Name[es]=Crear un nuevo perfil de conexión
+Name[pt]=Crie um novo perfil de conexão
+Name[it]=Crea un nuovo profilo di connessione
+Name[de]=Erstellen Sie ein neues Verbindungsprofil
+Exec=/usr/bin/remmina --new
+
+[Desktop Action Kiosk]
+# Start Remmina with a minimal interface to kiosk/thin client mode
+Name=Start Remmina in Kiosk mode
+Name[fr]=Démarrer Remmina en mode Kiosque
+Name[es]=Inicie Remmina en modo Quiosco
+Name[pt]=Inicie o Remmina no modo Quiosque
+Name[it]=Avvia Remmina in modalità Kiosk
+Name[de]=Starten Sie Remmina im Kiosk-Modus
+Exec=/usr/bin/remmina --kiosk
+
+[Desktop Action Tray]
+Name=Start Remmina Minimized
+Name[fr]=Démarrer Remmina en mode réduit
+Name[es]=Inicie Remmina en modo reducido
+Name[pt]=Inicie o Remmina no modo reduzido
+Name[it]=Avviare Remmina in modalità ridotta
+Name[de]=Starten Sie Remmina im reduzierten Modus
+Exec=/usr/bin/remmina --icon
+
+[Desktop Action Quit]
+Name=Quit
+Name[fr]=Quitter
+Name[es]=Salir
+Name[pt]=Sair
+Name[it]=Partire
+Name[de]=Verlassen
+Exec=/usr/bin/remmina --quit

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=iftop
+Comment=Display bandwidth usage on an interface by host
+Comment[fr]=Afficher l'utilisation de la bande passante sur une interface par hôte
+Comment[es]=Muestra el uso de ancho de banda en una interfaz por host
+Comment[pt]=Exibir o uso de largura de banda em uma interface por host
+Comment[it]=Visualizza l'utilizzo della larghezza di banda su un'interfaccia da parte dell'host
+Comment[de]=Anzeigen der Bandbreitennutzung auf einer Schnittstelle nach Host
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "iftop -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Monitoring
+X-Kaisen-Package=iftop

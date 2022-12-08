@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=host
+Comment=DNS lookup utility
+Comment[fr]=Utilitaire de recherche DNS
+Comment[es]=Utilidad de búsqueda de DNS
+Comment[pt]=Utilitário de pesquisa DNS
+Comment[it]=Utilità di ricerca DNS
+Comment[de]=DNS-Suchdienstprogramm
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "host"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DNS
+X-Kaisen-Package=bind9-dnsutils

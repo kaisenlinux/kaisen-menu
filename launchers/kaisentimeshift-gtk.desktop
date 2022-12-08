@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Timeshift
+Comment=System Restore Utility (GUI)
+Comment[fr]=Utilitaire de restauration système (GUI)
+Comment[es]=Utilidad de restauración del sistema (GUI)
+Comment[pt]=Utilitário de restauração do sistema (GUI)
+Comment[it]=Utilità di ripristino del sistema (GUI)
+Comment[de]=Dienstprogramm zur Systemwiederherstellung (GUI)
+Exec=timeshift-launcher
+Icon=timeshift
+Terminal=false
+Categories=BTRFS
+Type=Application
+X-Kaisen-Package=timeshift

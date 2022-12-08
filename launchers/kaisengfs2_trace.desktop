@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gfs2_trace
+Comment=Can enable trace events, disable trace events, and capture data from GFS2 trace events
+Comment[fr]=Peut activer les événements de trace, désactiver les événements de trace et capturer des données à partir d'événements de trace GFS2
+Comment[es]=Puede habilitar eventos de rastreo, deshabilitar eventos de rastreo y capturar datos de eventos de rastreo GFS2
+Comment[pt]=Pode habilitar eventos de rastreamento, desabilitar eventos de rastreamento e capturar dados de eventos de rastreamento GFS2
+Comment[it]=Può abilitare gli eventi di traccia, disabilitare gli eventi di traccia e acquisire i dati dagli eventi di traccia GFS2
+Comment[de]=Kann Ablaufverfolgungsereignisse aktivieren, Ablaufverfolgungsereignisse deaktivieren und Daten von GFS2-Ablaufverfolgungsereignissen erfassen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gfs2_trace -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GFS2
+X-Kaisen-Package=gfs2-utils

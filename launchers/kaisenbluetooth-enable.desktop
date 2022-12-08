@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=bluetooth-enable
+Name[fr]=bluetooth-activé
+Name[es]=bluetooth-habilitado
+Name[pt]=bluetooth-ativado
+Name[it]=bluetooth-abilitato
+Name[de]=bluetooth-aktiviert
+Comment=Enable bluetooth daemon
+Comment[fr]=Activer service bluetooth
+Comment[es]=Activar servicio bluetooth
+Comment[pt]=Ativar serviço bluetooth
+Comment[it]=Attiva il servizio bluetooth
+Comment[de]=Aktivieren Sie den Bluetooth-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/bluetooth-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SBluetooth
+X-Kaisen-Package=blueman bluez

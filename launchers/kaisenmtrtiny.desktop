@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mtr
+Comment=Traceroute with ncurses librairies
+Comment[fr]=Traceroute avec des librairies ncurses
+Comment[es]=Traceroute con librerías ncurses
+Comment[pt]=Traceroute com livrarias ncurses
+Comment[it]=Traceroute con librerie ncurses
+Comment[de]=Traceroute mit ncurses Buchhandlungen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mtr -h"
+Icon=/usr/share/pixmaps/kaisen-menu/mtr.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=mtr-tiny

@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=avahi-enable
+Name[fr]=avahi-activé
+Name[es]=avahi-habilitado
+Name[pt]=avahi-ativado
+Name[it]=avahi-abilitato
+Name[de]=avahi-aktiviert
+Comment=Enable avahi daemon
+Comment[fr]=Activer service avahi
+Comment[es]=Activa servicio avahi
+Comment[pt]=Ativar serviço avahi
+Comment[it]=Attiva servizio avahi
+Comment[de]=Aktivieren Sie den Avahi-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/avahi-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SAvahi
+X-Kaisen-Package=avahi-daemon

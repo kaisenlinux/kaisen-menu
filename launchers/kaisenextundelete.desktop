@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=extundelete
+Comment=Tool to recover data on EXT filesystems
+Comment[fr]=Outil de récupération de données sur les systèmes de fichiers EXT
+Comment[es]=Herramienta de recuperación de datos en sistemas de archivos EXT
+Comment[pt]=Ferramenta de recuperação de dados em sistemas de arquivos EXT
+Comment[it]=Strumento di recupero dati su file system EXT
+Comment[de]=Datenwiederherstellungstool auf EXT-Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "extundelete --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=extundelete

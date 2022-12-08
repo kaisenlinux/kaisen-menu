@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=duplicity
+Comment=Encrypted incremental backup to local or remote storage
+Comment[fr]=Sauvegarde incrémentielle chiffrée sur un stockage local ou distant
+Comment[es]=Copia de seguridad incremental cifrada en almacenamiento local o remoto
+Comment[pt]=Backup incremental criptografado para armazenamento local ou remoto
+Comment[it]=Backup incrementale crittografato su archiviazione locale o remota
+Comment[de]=Verschlüsselte inkrementelle Sicherung auf lokalem oder Remote-Speicher
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "duplicity --help"
+Icon=/usr/share/pixmaps/kaisen-menu/duplicity.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=duplicity

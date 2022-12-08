@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=libvirt-enable
+Name[fr]=libvirt-activé
+Name[es]=libvirt-habilitado
+Name[pt]=libvirt-ativado
+Name[it]=libvirt-abilitato
+Name[de]=libvirt-aktiviert
+Comment=Enable libvirt daemon
+Comment[fr]=Activer service libvirt
+Comment[es]=Activar servicio libvirt
+Comment[pt]=Ativar serviço libvirt
+Comment[it]=Attiva servizio libvirt
+Comment[de]=Aktivieren Sie den Dienst libvirt
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/libvirt-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SLibvirt
+X-Kaisen-Package=libvirt-daemon

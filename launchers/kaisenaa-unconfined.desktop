@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-unconfined
+Comment=Output a list of processes with tcp or udp ports that do not have AppArmor profiles loaded
+Comment[fr]=Affiche une liste des processus avec des ports tcp ou udp qui n'ont pas de profils AppArmor chargés
+Comment[es]=Muestra una lista de procesos con puertos tcp o udp que no tienen cargados los perfiles de AppArmor
+Comment[pt]=Produzir uma lista de processos com portas tcp ou udp que não têm os perfis AppArmor carregados
+Comment[it]=Visualizza un elenco di processi con porte tcp o udp che non hanno profili AppArmor caricati
+Comment[de]=Ausgabe einer Liste von Prozessen mit tcp- oder udp-Ports, die keine AppArmor-Profile geladen haben
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-unconfined -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

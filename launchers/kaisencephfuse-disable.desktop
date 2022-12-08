@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cephfuse-disable
+Name[fr]=cephfuse-désactivé
+Name[es]=cephfuse-deshabilitado
+Name[pt]=cephfuse-desativado
+Name[it]=cephfuse-disabilitato
+Name[de]=cephfuse-deaktiviert
+Comment=Disable ceph-fuse daemon
+Comment[fr]=Désactiver service ceph-fuse
+Comment[es]=Deshabilitar servicio ceph-fuse
+Comment[pt]=Desativar serviço ceph-fuse
+Comment[it]=Disabilita servizio ceph-fuse
+Comment[de]=Deaktivieren Sie den ceph-fuse
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/cephfuse-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=ceph-fuse

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=xfs_freeze
+Comment=Suspend access to an XFS filesystem
+Comment[fr]=Suspendre l'accès à un système de fichiers XFS
+Comment[es]=Suspender el acceso a un sistema de archivos XFS
+Comment[pt]=Suspender o acesso a um sistema de arquivos XFS
+Comment[it]=Sospendi l'accesso a un filesystem XFS
+Comment[de]=Unterbrechen Sie den Zugriff auf ein XFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "xfs_freeze" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=XFS
+X-Kaisen-Package=xfsprogs

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=EtherApe
+Comment=Graphical Network Monitor
+Comment[fr]=Surveillance graphique du réseau
+Comment[es]=Monitoreo gráfico de red
+Comment[pt]=Monitoramento gráfico de rede
+Comment[it]=Monitoraggio grafico della rete
+Comment[de]=Grafische Netzwerküberwachung
+Exec=pkexec etherape
+Terminal=false
+Type=Application
+Icon=etherape
+StartupNotify=true
+Categories=Monitoring
+X-Kaisen-Package=etherape

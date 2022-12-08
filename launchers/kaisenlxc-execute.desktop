@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-execute
+Comment=Run an application inside a container
+Comment[fr]=Exécuter une application dans un conteneur
+Comment[es]=Ejecuta una aplicación dentro de un contenedor
+Comment[pt]=Execute um aplicativo dentro de um contêiner
+Comment[it]=Esegui un'applicazione all'interno di un contenitore
+Comment[de]=Führen Sie eine Anwendung in einem Container aus
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-execute --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

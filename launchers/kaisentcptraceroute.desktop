@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcptraceroute
+Comment=A traceroute implementation using TCP packets
+Comment[fr]=Une implémentation traceroute utilisant des paquets TCP
+Comment[es]=Una implementación de traceroute usando paquetes TCP
+Comment[pt]=Uma implementação traceroute usando pacotes TCP
+Comment[it]=Un'implementazione traceroute che utilizza pacchetti TCP
+Comment[de]=Eine Traceroute-Implementierung mit TCP-Paketen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcptraceroute"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCPUDP
+X-Kaisen-Package=tcptraceroute

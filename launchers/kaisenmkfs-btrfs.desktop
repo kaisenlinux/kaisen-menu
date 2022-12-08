@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.btrfs
+Comment=Tool to create btrfs partition
+Comment[fr]=Outil pour créer une partition btrfs
+Comment[es]=Herramienta para crear una partición btrfs
+Comment[pt]=Ferramenta para criar uma partição btrfs
+Comment[it]=Strumento per creare una partizione btrfs
+Comment[de]=Tool zum Erstellen einer btrfs-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.btrfs --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=btrfs-progs

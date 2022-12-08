@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=bettercap-enable
+Name[fr]=bettercap-activé
+Name[es]=bettercap-activado
+Name[pt]=bettercap-ativado
+Name[it]=bettercap-abilitato
+Name[de]=bettercap-aktiviert
+Comment=Enable bettercap daemon
+Comment[fr]=Activer service bettercap
+Comment[es]=Activar servicio bettercap
+Comment[pt]=Ativar serviço bettercap
+Comment[it]=Attiva servizio bettercap
+Comment[de]=Ativar serviço bettercap
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/bettercap-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SBettercap
+X-Kaisen-Package=bettercap

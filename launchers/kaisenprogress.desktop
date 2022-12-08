@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=progress
+Comment=Tool to show progress status on file manipulation
+Comment[fr]=Outil pour voir l'état d'avancement sur la manipulation de fichiers
+Comment[es]=Herramienta para ver el progreso en la manipulación de archivos
+Comment[pt]=Ferramenta para visualizar o progresso na manipulação de arquivos
+Comment[it]=Strumento per visualizzare i progressi nella manipolazione dei file
+Comment[de]=Tool zum Anzeigen des Fortschritts bei der Dateibearbeitung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "progress -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=progress

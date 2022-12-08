@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=snapperd-enable
+Name[fr]=snapperd-activé
+Name[es]=snapperd-habilitado
+Name[pt]=snapperd-ativado
+Name[it]=snapperd-abilitato
+Name[de]=snapperd-aktiviert
+Comment=Enable snapperd daemon
+Comment[fr]=Activer service snapperd
+Comment[es]=Activar servicio snapperd
+Comment[pt]=Ativar serviço snapperd
+Comment[it]=Attiva servizio snapperd
+Comment[de]=Aktivieren Sie den snapperd-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/snapperd-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=snapper

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimverify
+Comment=Verify a WIM archive
+Comment[fr]=Vérifier une archive WIM
+Comment[es]=Verificar un archivo WIM
+Comment[pt]=Verificar um arquivo WIM
+Comment[it]=Verificare un archivio WIM
+Comment[de]=Überprüfen eines WIM-Archivs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimverify"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

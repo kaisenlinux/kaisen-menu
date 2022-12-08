@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-features-abi
+Comment=Extract, validate and manipulate AppArmor feature abis
+Comment[fr]=Extraire, valider et manipuler les abis des fonctionnalités d'AppArmor
+Comment[es]=Extraer, validar y manipular abis de características de AppArmor
+Comment[pt]=Extrair, validar e manipular a funcionalidade AppArmor abis
+Comment[it]=Estrarre, convalidare e manipolare gli abis delle caratteristiche di AppArmor
+Comment[de]=Extrahieren, Validieren und Manipulieren von AppArmor-Funktionsdaten
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-features-abi -h"
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor

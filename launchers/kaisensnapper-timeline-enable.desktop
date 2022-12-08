@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=snapper-timeline-enable
+Name[fr]=snapper-timeline-activé
+Name[es]=snapper-timeline-habilitado
+Name[pt]=snapper-timeline-ativado
+Name[it]=snapper-timeline-abilitato
+Name[de]=snapper-timeline-aktiviert
+Comment=Enable snapper-timeline daemon
+Comment[fr]=Activer service snapper-timeline
+Comment[es]=Activar servicio snapper-timeline
+Comment[pt]=Ativar serviço snapper-timeline
+Comment[it]=Attiva servizio snapper-timeline
+Comment[de]=Aktivieren Sie den snapper-timeline-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/snapper-timeline-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=snapper

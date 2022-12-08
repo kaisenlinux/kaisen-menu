@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=netstat
+Comment=Tool for listing internet active connections
+Comment[fr]=Outil pour lister les connexions internet actives
+Comment[es]=Herramienta para listar conexiones activas de internet
+Comment[pt]=Ferramenta para listar conexões ativas à Internet
+Comment[it]=Strumento per elencare le connessioni Internet attive
+Comment[de]=Tool zum Auflisten aktiver Internetverbindungen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "netstat"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=net-tools

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntfslabel
+Comment=Display/change the label on an NTFS file system
+Comment[fr]=Afficher/modifier l'étiquette sur un système de fichiers NTFS
+Comment[es]=Mostrar/cambiar la etiqueta en un sistema de archivos NTFS
+Comment[pt]=Exibir/alterar o rótulo em um sistema de arquivos NTFS
+Comment[it]=Visualizza/modifica l'etichetta su un file system NTFS
+Comment[de]=Anzeigen/Ändern der Bezeichnung in einem NTFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfslabel -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NTFS
+X-Kaisen-Package=ntfs-3g

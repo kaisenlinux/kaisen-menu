@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-console
+Comment=Launch a console for the specified container
+Comment[fr]=Lancer une console pour le conteneur spécifié
+Comment[es]=Lanzar una consola para el contenedor especificado
+Comment[pt]=Inicie um console para o contêiner especificado
+Comment[it]=Avvia una console per il contenitore specificato
+Comment[de]=Starten Sie eine Konsole für den angegebenen Container
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-console --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

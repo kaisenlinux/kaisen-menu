@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=udfclient
+Comment=UDF file system tool
+Comment[fr]=Outil pour le système de fichiers UDF
+Comment[es]=Herramienta de sistema de archivos UDF
+Comment[pt]=Ferramenta de sistema de arquivos UDF
+Comment[it]=Strumento di file system UDF
+Comment[de]=UDF-Dateisystem-Tool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "udfclient"
+Icon=/usr/share/pixmaps/kaisen-menu/dvd.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=UDF
+X-Kaisen-Package=udfclient

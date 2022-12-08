@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fstrim
+Comment=Free unused blocks on an SSD drive
+Comment[fr]= Libérer les blocks non utilisés sur un disque SSD
+Comment[es]=Bloques libres no utilizados en una unidad SSD
+Comment[pt]=Blocos livres não utilizados em uma unidade SSD
+Comment[it]=Blocchi inutilizzati gratuiti su un'unità SSD
+Comment[de]=Geben Sie nicht verwendete Blöcke auf einem SSD-Laufwerk frei
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fstrim -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=util-linux

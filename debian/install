@@ -1,0 +1,6 @@
+menus/* etc/xdg/menus/
+desktop-directories/* usr/share/desktop-directories/
+launchers/* usr/share/kaisen-menu/applications/
+pixmaps/* usr/share/pixmaps/kaisen-menu/
+scripts/ usr/share/kaisen-menu/
+pkexec/* usr/share/polkit-1/actions/

@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck
+Comment=Tool to verify and repair filesystems
+Comment[fr]=Outil pour vérifier et réparer des systèmes de fichiers
+Comment[es]=Herramienta para verificar y reparar sistemas de archivos
+Comment[pt]=Ferramenta para verificar e reparar sistemas de arquivos
+Comment[it]=Strumento per controllare e riparare i file system
+Comment[de]=Tool zum Überprüfen und Reparieren von Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=DisksAnalysis
+X-Kaisen-Package=e2fsprogs

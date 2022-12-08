@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=smartmontools-disable
+Name[fr]=smartmontools-désactivé
+Name[es]=smartmontools-deshabilitado
+Name[pt]=smartmontools-desativado
+Name[it]=smartmontools-disabilitato
+Name[de]=smartmontools-deaktiviert
+Comment=Enable smartmontools daemon
+Comment[fr]=Activer service smartmontools
+Comment[es]=Activa servicio smartmontools
+Comment[pt]=Ativar serviço smartmontools
+Comment[it]=Attiva servizio smartmontools
+Comment[de]=Aktivieren Sie den Smartmontools-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/smartmontools-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSmartmontools
+X-Kaisen-Package=smartmontools

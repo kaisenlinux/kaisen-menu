@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Remote Viewer
+Name[de]=Remote-Viewer
+Name[es]=Visor remoto
+Name[fr]=Afficheur distant
+Name[it]=Visualizzatore remoto
+Name[pt]=Visualizador Remoto 
+Comment=Access remote desktops (SPICE)
+Comment[de]=Zugrxiff auf Remote-Desktops (SPICE)
+Comment[es]=Acceso a escritorios remotos (SPICE)
+Comment[fr]=Accéder à des bureaux distants (SPICE)
+Comment[it]=Accedi desktop remoti (SPICE)
+Comment[pt]=Acessar desktops remotos (SPICE)
+Exec=remote-viewer %u
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/spice;application/x-virt-viewer;
+StartupNotify=true
+Categories=RemoteAdministration;
+Icon=virt-viewer
+X-Kaisen-Package=virt-viewer

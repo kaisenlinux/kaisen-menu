@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ansible-pull
+Comment=Pulls playbooks from a VCS repo and executes them for the local host
+Comment[fr]=Extrait les playbooks d'un référentiel VCS et les exécute pour l'hôte local
+Comment[es]=Extrae libros de jugadas de un repositorio de VCS y los ejecuta para el host local
+Comment[pt]=Extrai manuais de um repositório VCS e os executa para o host local
+Comment[it]=Estrae i playbook da un repository VCS e li esegue per l'host locale
+Comment[de]=Ruft Playbooks aus einem VCS-Repo ab und führt sie für den lokalen Host aus
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-pull -h"
+Icon=/usr/share/pixmaps/kaisen-menu/ansible.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ansible
+X-Kaisen-Package=ansible

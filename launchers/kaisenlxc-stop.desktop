@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-stop
+Comment=Stop the application running inside a container
+Comment[fr]=Arrêtez l'application en cours d'exécution dans un conteneur
+Comment[es]=Detenga la aplicación que se ejecuta dentro de un contenedor
+Comment[pt]=Pare o aplicativo em execução dentro de um contêiner
+Comment[it]=Arresta l'applicazione in esecuzione all'interno di un contenitore
+Comment[de]=Beenden Sie die Ausführung der Anwendung in einem Container
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-stop --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

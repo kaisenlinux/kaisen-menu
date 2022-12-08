@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-decode
+Comment=Decode hex-encoded in AppArmor log files
+Comment[fr]=Décoder le code hexadécimal dans les fichiers journaux d'AppArmor
+Comment[es]=Descifrar la codificación hexadecimal en los archivos de registro de AppArmor
+Comment[pt]=Descodificar hex-codificados em ficheiros de registo AppArmor
+Comment[it]=Decodifica dei codici esadecimali nei file di log di AppArmor
+Comment[de]=Dekodierung von hexadezimalen Kodierungen in AppArmor-Protokolldateien
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-decode --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

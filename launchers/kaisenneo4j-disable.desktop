@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=neo4j-disable
+Name[fr]=neo4j-désactivé
+Name[es]=neo4j-deshabilitado
+Name[pt]=neo4j-desativado
+Name[it]=neo4j-disabilitato
+Name[de]=neo4j-deaktiviert
+Comment=Disable neo4j daemon
+Comment[fr]=Désactiver service neo4j
+Comment[es]=Deshabilitar servicio neo4j
+Comment[pt]=Desativar serviço neo4j
+Comment[it]=Disabilita servizio neo4j
+Comment[de]=Deaktivieren Sie den neo4j-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/neo4j-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SNeo4j
+X-Kaisen-Package=neo4j

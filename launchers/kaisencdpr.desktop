@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cdpr
+Comment=Tool to analyse Cisco packets
+Comment[fr]=Outil pour analyser les paquets de Cisco
+Comment[es]=Herramienta para analizar paquetes de Cisco
+Comment[pt]=Ferramenta para analisar pacotes Cisco
+Comment[it]=Strumento per analizzare i pacchetti Cisco
+Comment[de]=Tool zur Analyse von Cisco-Paketen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "cdpr" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NetworkUncategorized
+X-Kaisen-Package=cdpr

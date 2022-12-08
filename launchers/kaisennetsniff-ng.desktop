@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=netsniff-ng
+Comment=Tool to sniff network traffic
+Comment[fr]=Outil pour scanner le trafic réseau
+Comment[es]=Herramienta para escanear tráfico de red
+Comment[pt]=Ferramenta para verificar o tráfego de rede
+Comment[it]=Strumento per scansionare il traffico di rete
+Comment[de]=Tool zum Scannen des Netzwerkverkehrs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "netsniff-ng --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/netsniff.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=netsniff-ng

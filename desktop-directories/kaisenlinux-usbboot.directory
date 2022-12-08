@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=USB boot
+Name[fr]=Démarrage USB
+Name[es]=Arranque USB
+Name[pt]=Inicialização USB
+Name[it]=Avvio USB
+Name[de]=USB-Boot
+Icon=/usr/share/pixmaps/kaisen-menu/usbboot.png
+Type=Directory

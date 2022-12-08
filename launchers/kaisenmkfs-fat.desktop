@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.fat
+Comment=Tool to create fat partition
+Comment[fr]=Outil pour créer une partition fat
+Comment[es]=Herramienta para crear una partición fat
+Comment[pt]=Ferramenta para criar uma partição fat
+Comment[it]=Strumento per creare una partizione fat
+Comment[de]=Tool zum Erstellen einer fat-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.fat --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=dosfstools

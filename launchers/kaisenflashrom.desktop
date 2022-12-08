@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=flashrom
+Comment=Tool to manipulate BIOS firmware
+Comment[fr]=Outil pour manipuler le BIOS
+Comment[es]=Herramienta de manipulación del BIOS
+Comment[pt]=Ferramenta de manipulação do BIOS
+Comment[it]=Strumento di manipolazione del BIOS
+Comment[de]=BIOS-Manipulationstool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "flashrom --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/flashrom.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=flashrom

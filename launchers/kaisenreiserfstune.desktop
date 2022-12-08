@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=reiserfstune
+Comment=Tool to manage parameters  of a REISERFS partition
+Comment[fr]=Outil pour gérer les paramètres d'une partition REISERFS
+Comment[es]=Herramienta para gestionar los parámetros de una partición REISERFS
+Comment[pt]=Ferramenta para gerenciar os parâmetros de uma partição REISERFS
+Comment[it]=Strumento per gestire i parametri di una partizione REISERFS
+Comment[de]=Tool zum Verwalten der Parameter einer REISERFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "reiserfstune -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=REISERFS
+X-Kaisen-Package=reiserfsprogs

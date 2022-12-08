@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=pst2ldif
+Comment=Extract contacts from an MS Outlook .pst file in .ldif format
+Comment[fr]=Extraire les contacts d'un fichier .pst MS Outlook au format .ldif
+Comment[es]=Extraiga contactos de un archivo .pst de MS Outlook en formato .ldif
+Comment[pt]=Extraia contatos de um arquivo .pst do MS Outlook no formato .ldif
+Comment[it]=Estrai i contatti da un file .pst di MS Outlook in formato .ldif
+Comment[de]=Extrahieren Sie Kontakte aus einer MS Outlook-PST-Datei im .ldif-Format
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pst2ldif -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PST
+X-Kaisen-Package=pst-utils

@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gns3-disable
+Name[fr]=gns3-désactivé
+Name[es]=gns3-deshabilitado
+Name[pt]=gns3-desativado
+Name[it]=gns3-disabilitato
+Name[de]=gns3-deaktiviert
+Comment=Disable gns3 daemon
+Comment[fr]=Désactiver service gns3
+Comment[es]=Deshabilitar servicio gns3
+Comment[pt]=Desativar serviço gns3
+Comment[it]=Disabilita servizio gns3
+Comment[de]=Deaktivieren Sie den gns3-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/gns3-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SGNS3
+X-Kaisen-Package=gns3-server

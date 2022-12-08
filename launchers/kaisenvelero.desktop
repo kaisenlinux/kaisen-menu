@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=velero
+Comment=Backup and migrate Kubernetes applications and their persistent volumes
+Comment[fr]=Sauvegarde et migration des applications Kubernetes et de leurs volumes persistants
+Comment[es]=Copia de seguridad y migración de aplicaciones Kubernetes y sus volúmenes persistentes
+Comment[pt]=Cópia de segurança e migração das aplicações Kubernetes e dos seus volumes persistentes
+Comment[it]=Backup e migrazione delle applicazioni Kubernetes e dei loro volumi persistenti
+Comment[de]=Sichern und Migrieren von Kubernetes-Anwendungen und ihren persistenten Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "velero --help"
+Icon=/usr/share/pixmaps/velero.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=velero

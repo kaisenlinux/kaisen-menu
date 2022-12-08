@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=apfs-fuse
+Comment=Tool to mount apfs disk
+Comment[fr]=Outil pour monter les disques apfs
+Comment[es]=Herramienta para montar discos apfs
+Comment[pt]=Ferramenta para montar discos apfs
+Comment[it]=Strumento per montare dischi apfs
+Comment[de]=Tool zum Mounten von Apfs-Discs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "apfs-fuse"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=APFS
+X-Kaisen-Package=apfs-fuse

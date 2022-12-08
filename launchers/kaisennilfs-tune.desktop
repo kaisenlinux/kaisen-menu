@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nilfs-tune
+Comment=Tool to manage parameters of NILFS volumes
+Comment[fr]=Outil pour gérer les paramètres des volumes NILFS
+Comment[es]=Herramienta para administrar la configuración de volumen NILFS
+Comment[pt]=Ferramenta para gerenciar os parâmetros dos volumes NILFS
+Comment[it]=Strumento per gestire le impostazioni del volume NILFS
+Comment[de]=Tool zum Verwalten der NILFS-Lautstärkeeinstellungen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nilfs-tune -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NILFS
+X-Kaisen-Package=nilfs-tools

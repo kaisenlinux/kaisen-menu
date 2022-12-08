@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimextract
+Comment=Extract files from a WIM image
+Comment[fr]=Extraire des fichiers d'une image WIM
+Comment[es]=Extraer archivos de una imagen WIM
+Comment[pt]=Extrair ficheiros a partir de uma imagem WIM
+Comment[it]=Estrarre file da un'immagine WIM
+Comment[de]=Extrahieren von Dateien aus einem WIM-Image
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimextract"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

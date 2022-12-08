@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntfsundelete
+Comment=Recover a deleted file from an NTFS volume
+Comment[fr]=Récupérer un fichier supprimé à partir d'un volume NTFS
+Comment[es]=Recuperar un archivo eliminado de un volumen NTFS
+Comment[pt]=Recuperar um arquivo excluído de um volume NTFS
+Comment[it]=Recupera un file eliminato da un volume NTFS
+Comment[de]=Stellen Sie eine gelöschte Datei von einem NTFS-Volume wieder her
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsundelete -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NTFS;Recovery
+X-Kaisen-Package=ntfs-3g

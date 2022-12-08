@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.ext3
+Comment=Tool to create ext3 partition
+Comment[fr]=Outil pour créer une partition ext3
+Comment[es]=Herramienta para crear una partición ext3
+Comment[pt]=Ferramenta para criar uma partição ext3
+Comment[it]=Strumento per creare una partizione ext3
+Comment[de]=Tool zum Erstellen einer ext3-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.ext3" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=e2fsprogs

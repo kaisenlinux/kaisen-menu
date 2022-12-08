@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=puppet
+Comment=Tool to manage slave servers configuration
+Comment[fr]=Outil pour gérer les configurations des serveurs esclaves
+Comment[es]=Herramienta para administrar configuraciones de servidores esclavos
+Comment[pt]=Ferramenta para gerenciar as configurações do servidor escravo
+Comment[it]=Strumento per gestire le configurazioni del server slave
+Comment[de]=Tool zum Verwalten von Slave-Serverkonfigurationen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "puppet help"
+Icon=/usr/share/pixmaps/kaisen-menu/puppet.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Puppet
+X-Kaisen-Package=puppet-agent

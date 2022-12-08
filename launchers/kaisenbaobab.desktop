@@ -1,0 +1,18 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=Baobab
+Comment=Check folder sizes and available disk space
+Comment[fr]=Vérifier la taille des dossiers et l’espace disque disponible
+Comment[es]=Verifique el tamaño de la carpeta y el espacio disponible en el disco
+Comment[pt]=Verifique o tamanho da pasta e o espaço em disco disponível
+Comment[it]=Controlla le dimensioni della cartella e lo spazio disponibile su disco
+Comment[de]=Überprüfen Sie die Ordnergröße und den verfügbaren Speicherplatz
+Exec=pkexec baobab
+Icon=/usr/share/pixmaps/kaisen-menu/baobab.png
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=inode/directory;
+Categories=DisksAnalysis
+X-Kaisen-Package=baobab

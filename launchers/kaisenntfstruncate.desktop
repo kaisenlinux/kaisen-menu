@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntfstruncate
+Comment=Truncate a file on an NTFS volume
+Comment[fr]=Tronquer un fichier sur un volume NTFS
+Comment[es]=Truncar un archivo en un volumen NTFS
+Comment[pt]=Truncar um arquivo em um volume NTFS
+Comment[it]=Troncare un file su un volume NTFS
+Comment[de]=Schneiden Sie eine Datei auf einem NTFS-Volume ab
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfstruncate -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NTFS
+X-Kaisen-Package=ntfs-3g

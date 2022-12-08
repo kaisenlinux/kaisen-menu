@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimapply
+Comment=Apply a WIM image
+Comment[fr]=Appliquer une image WIM
+Comment[es]=Aplicar una imagen WIM
+Comment[pt]=Aplicar uma imagem WIM
+Comment[it]=Applicare un'immagine WIM
+Comment[de]=Ein WIM-Bild anwenden
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimapply"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

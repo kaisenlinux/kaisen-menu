@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.xfs
+Comment=Tool to create xfs partition
+Comment[fr]=Outil pour créer une partition xfs
+Comment[es]=Herramienta para crear una partición xfs
+Comment[pt]=Ferramenta para criar uma partição xfs
+Comment[it]=Strumento per creare una partizione xfs
+Comment[de]=Tool zum Erstellen einer xfs-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.xfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=xfsprogs

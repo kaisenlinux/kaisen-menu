@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-complain
+Comment=Set an AppArmor security profile to complain mode
+Comment[fr]=Définir un profil de sécurité AppArmor en mode plainte
+Comment[es]=Establecer un perfil de seguridad de AppArmor en modo de queja
+Comment[pt]=Definir um perfil de segurança AppArmor para o modo de reclamação
+Comment[it]=Impostare un profilo di sicurezza AppArmor in modalità reclamo
+Comment[de]=Ein AppArmor-Sicherheitsprofil in den Beschwerdemodus versetzen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-complain -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

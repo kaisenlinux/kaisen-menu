@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=clamscan
+Comment=Tool to scan virus with CLI
+Comment[fr]=Outil pour scanner des virus avec CLI
+Comment[es]=Herramienta para escanear virus con CLI
+Comment[pt]=Ferramenta para verificar vírus com CLI
+Comment[it]=Strumento per la scansione di virus con CLI
+Comment[de]=Tool zum Scannen von Viren mit CLI
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "clamscan --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MalwareScan
+X-Kaisen-Package=clamdscan

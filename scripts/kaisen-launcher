@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#Developed by Nicolas Clerc - kernicPanel for Kaisen Linux menu
+
+set -e
+
+YELLOW='\e[0;33m'
+NC='\033[0m'
+
+SUDO=false
+
+while [[ "$#" -gt 0 ]]
+do
+  case $1 in
+    --command)
+      COMMAND="$2"
+      ;;
+    --sudo)
+      SUDO=true
+      ;;
+  esac
+  shift
+done
+
+if [ $SUDO = true ]
+then
+  COMMAND="sudo $COMMAND"
+fi
+
+COMMAND="printf \"${YELLOW}Command launch: $COMMAND${NC}\n\n\"; $COMMAND"
+
+terminator -e "$SHELL -c '$COMMAND;$SHELL'"

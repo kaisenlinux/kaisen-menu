@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcpdump
+Comment=Tool to analyse network traffic
+Comment[fr]=Outil pour analyser le trafic réseau
+Comment[es]=Herramienta para analizar el tráfico de red
+Comment[pt]=Narzędzie do analizy ruchu sieciowego
+Comment[it]=Strumento per analizzare il traffico di rete
+Comment[de]=Tool zur Analyse des Netzwerkverkehrs
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpdump -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=tcpdump

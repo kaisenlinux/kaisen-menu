@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ncdu
+Comment=Tool to view disk usage
+Comment[fr]=Outil pour visualiser l'espace disque utilisé
+Comment[es]=Herramienta para ver el espacio en disco usado
+Comment[pt]=Ferramenta para visualizar o espaço em disco usado
+Comment[it]=Strumento per visualizzare lo spazio su disco utilizzato
+Comment[de]=Tool zum Anzeigen des verwendeten Speicherplatzes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ncdu -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis
+X-Kaisen-Package=ncdu

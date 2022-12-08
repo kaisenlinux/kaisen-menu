@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ifconfig
+Comment=Tool to display network config info
+Comment[fr]=Outil pour afficher les informations de connexions
+Comment[es]=Herramienta para mostrar información de conexión
+Comment[pt]=Ferramenta para exibir informações de conexão
+Comment[it]=Strumento per visualizzare le informazioni sulla connessione
+Comment[de]=Tool zum Anzeigen von Verbindungsinformationen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ifconfig" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=IP
+X-Kaisen-Package=net-tools

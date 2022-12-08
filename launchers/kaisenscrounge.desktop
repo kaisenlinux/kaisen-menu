@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=scrounge-ntfs
+Comment=Tool to recover data on NTFS partitions
+Comment[fr]=Outil de récupérations de données sur des partitions NTFS
+Comment[es]=Herramienta de recuperación de datos en particiones NTFS
+Comment[pt]=Ferramenta de recuperação de dados em partições NTFS
+Comment[it]=Strumento di recupero dati su partizioni NTFS
+Comment[de]=Datenwiederherstellungstool auf NTFS-Partitionen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "scrounge-ntfs -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=scrounge-ntfs

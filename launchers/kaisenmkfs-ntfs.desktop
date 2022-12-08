@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.ntfs
+Comment=Tool to create ntfs partition
+Comment[fr]=Outil pour créer une partition ntfs
+Comment[es]=Herramienta para crear una partición ntfs
+Comment[pt]=Ferramenta para criar uma partição ntfs
+Comment[it]=Strumento per creare una partizione ntfs
+Comment[de]=Tool zum Erstellen einer ntfs-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.ntfs -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=ntfs-3g

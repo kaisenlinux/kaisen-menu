@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ethtool
+Comment=Tool to display ethernet info
+Comment[fr]=Outil pour afficher les informations ethernet
+Comment[es]=Herramienta para mostrar información de ethernet
+Comment[pt]=Ferramenta para exibir informações de Ethernet
+Comment[it]=Strumento per visualizzare informazioni Ethernet
+Comment[de]=Tool zum Anzeigen von Ethernet-Informationen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ethtool -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ethernet
+X-Kaisen-Package=ethtool

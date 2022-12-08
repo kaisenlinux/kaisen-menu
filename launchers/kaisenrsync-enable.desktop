@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=rsync-enable
+Name[fr]=rsync-activé
+Name[es]=rsync-habilitado
+Name[pt]=rsync-ativado
+Name[it]=rsync-abilitato
+Name[de]=rsync-aktiviert
+Comment=Enable rsync daemon
+Comment[fr]=Activer service rsync
+Comment[es]=Activar servicio rsync
+Comment[pt]=Ativar serviço rsync
+Comment[it]=Attiva servizio rsync
+Comment[de]=Aktivieren Sie den rsync-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/rsync-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SRsync
+X-Kaisen-Package=rsync

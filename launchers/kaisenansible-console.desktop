@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ansible-console
+Comment=REPL console for executing Ansible tasks
+Comment[fr]=Console REPL pour exécuter des tâches Ansible
+Comment[es]=Consola REPL para ejecutar tareas Ansible
+Comment[pt]=Console REPL para executar tarefas Ansible
+Comment[it]=Console REPL per l'esecuzione di attività Ansible
+Comment[de]=REPL-Konsole zum Ausführen von Ansible-Aufgaben
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-console -h"
+Icon=/usr/share/pixmaps/kaisen-menu/ansible.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ansible
+X-Kaisen-Package=ansible

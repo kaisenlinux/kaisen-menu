@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimsplit
+Comment=Split a WIM archive into multiple parts
+Comment[fr]=Diviser une archive WIM en plusieurs parties
+Comment[es]=Dividir un archivo WIM en varias partes
+Comment[pt]=Dividir um arquivo WIM em várias partes
+Comment[it]=Dividere un archivio WIM in più parti
+Comment[de]=Aufteilung eines WIM-Archivs in mehrere Teile
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimsplit"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

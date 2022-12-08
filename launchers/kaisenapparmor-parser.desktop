@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=apparmor-parser
+Comment=Loads AppArmor profiles into the kernel
+Comment[fr]=Charge les profils AppArmor dans le noyau
+Comment[es]=Carga los perfiles de AppArmor en el kernel
+Comment[pt]=Carrega perfis AppArmor para o núcleo
+Comment[it]=Carica i profili di AppArmor nel kernel
+Comment[de]=Lädt AppArmor-Profile in den Kernel
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "apparmor_parser -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor

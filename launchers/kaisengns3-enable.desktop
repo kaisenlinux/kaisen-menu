@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gns3-enable
+Name[fr]=gns3-activé
+Name[es]=gns3-habilitado
+Name[pt]=gns3-ativado
+Name[it]=gns3-abilitato
+Name[de]=gns3-aktiviert
+Comment=Enable gns3 daemon
+Comment[fr]=Activer service gns3
+Comment[es]=Activar servicio gns3
+Comment[pt]=Ativar serviço gns3
+Comment[it]=Attiva servizio gns3
+Comment[de]=Aktivieren Sie den Dienst gns3
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/gns3-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SGNS3
+X-Kaisen-Package=gns3-server

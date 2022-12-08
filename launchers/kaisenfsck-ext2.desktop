@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.ext2
+Comment=Tool to repair ext2 partition
+Comment[fr]=Outil pour réparer une partition ext2
+Comment[es]=Herramienta para reparar una partición ext2
+Comment[pt]=Ferramenta para reparar uma partição ext2
+Comment[it]=Strumento per riparare una partizione ext2
+Comment[de]=Tool zum Reparieren einer ext2-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.ext2" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=e2fsprogs

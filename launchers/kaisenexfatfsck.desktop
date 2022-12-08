@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.exfat
+Comment=Tool to repair exfat partition
+Comment[fr]=Outil pour réparer une partition exfat
+Comment[es]=Herramienta para reparar partición exfat
+Comment[pt]=Ferramenta para reparar partição exfat
+Comment[it]=Strumento per riparare la partizione exfat
+Comment[de]=Tool zum Reparieren der Exfat-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.exfat" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=EXFAT;FSCK
+X-Kaisen-Package=exfatprogs

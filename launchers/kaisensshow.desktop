@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sshow
+Comment=SSH traffic analysis tool
+Comment[fr]=Outil d'analyse du trafic SSH
+Comment[es]=Herramienta de análisis de tráfico SSH
+Comment[pt]=Ferramenta de análise de tráfego SSH
+Comment[it]=Strumento di analisi del traffico SSH
+Comment[de]=SSH-Verkehrsanalysetool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sshow -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=dsniff

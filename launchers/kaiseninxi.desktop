@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=inxi
+Comment=CLI system informations tool
+Comment[fr]=Outil d'informations système CLI
+Comment[es]=Herramienta de información del sistema CLI
+Comment[pt]=Ferramenta de informação do sistema CLI
+Comment[it]=Strumento di informazioni sul sistema CLI
+Comment[de]=CLI-Systeminformationstool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "inxi -F" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=inxi

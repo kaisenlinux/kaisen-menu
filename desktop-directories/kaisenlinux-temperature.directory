@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Temperature analyzes
+Name[fr]=Analyses de temperatures
+Name[es]=Análisis de temperatura
+Name[pt]=Análises de temperatura
+Name[it]=Analisi della temperatura
+Name[de]=Temperaturanalysen
+Icon=/usr/share/pixmaps/kaisen-menu/temperature.png
+Type=Directory

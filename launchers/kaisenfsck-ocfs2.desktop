@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.ocfs2
+Comment=Tool to repair ocfs2 partition
+Comment[fr]=Outil pour réparer une partition ocfs2
+Comment[es]=Herramienta para reparar una partición ocfs2
+Comment[pt]=Ferramenta para reparar uma partição ocfs2
+Comment[it]=Strumento per riparare una partizione ocfs2
+Comment[de]=Tool zum Reparieren einer ocfs2-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.ocfs2" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=ocfs2-tools

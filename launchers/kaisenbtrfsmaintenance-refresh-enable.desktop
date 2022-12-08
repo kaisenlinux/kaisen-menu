@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=brtfsmaintenance-refresh-enable
+Name[fr]=btrfsmaintenance-refresh-activé
+Name[es]=btrfsmaintenance-refresh-habilitado
+Name[pt]=btrfsmaintenance-refresh-ativado
+Name[it]=btrfsmaintenance-refresh-abilitato
+Name[de]=btrfsmaintenance-refresh-aktiviert
+Comment=Enable btrfsmaintenance-refresh daemon
+Comment[fr]=Activer service btrfsmaintenance-refresh
+Comment[es]=Activar servicio btrfsmaintenance-refresh
+Comment[pt]=Ativar serviço btrfsmaintenance-refresh
+Comment[it]=Attiva servizio btrfsmaintenance-refresh
+Comment[de]=Aktivieren Sie den BTRFSmaintenance-refresh-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/btrfsmaintenance-refresh-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfsmaintenance

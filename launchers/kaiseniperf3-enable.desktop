@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=iperf3-enable
+Name[fr]=iperf3-activé
+Name[es]=iperf3-habilitado
+Name[pt]=iperf3-ativado
+Name[it]=iperf3-abilitato
+Name[de]=iperf3-aktiviert
+Comment=Enable iperf3 daemon
+Comment[fr]=Activer service iperf3
+Comment[es]=Activar servicio iperf3
+Comment[pt]=Ativar serviço iperf3
+Comment[it]=Attiva servizio iperf3
+Comment[de]=Aktivieren Sie den Iperf3-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/iperf3-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SIperf3
+X-Kaisen-Package=iperf3

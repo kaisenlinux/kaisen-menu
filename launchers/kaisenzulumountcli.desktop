@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zulumount
+Comment=Encrypted volumes and partition mounter
+Comment[fr]=Volumes chiffrés et partitions montées
+Comment[es]=Volúmenes cifrados y particiones montadas
+Comment[pt]=Volumes criptografados e partições montadas
+Comment[it]=Volumi crittografati e partizioni montate
+Comment[de]=Verschlüsselte Volumes und bereitgestellte Partitionen
+Icon=utilities-terminal
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zuluMount-cli" --sudo
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dataprotection
+X-Kaisen-Package=zulumount-cli

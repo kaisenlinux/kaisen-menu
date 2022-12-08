@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-disable
+Name[fr]=lxc-désactivé
+Name[es]=lxc-deshabilitado
+Name[pt]=lxc-desativado
+Name[it]=lxc-disabilitato
+Name[de]=lxc-deaktiviert
+Comment=Disable lxc daemon
+Comment[fr]=Désactiver service lxc
+Comment[es]=Deshabilitar servicio lxc
+Comment[pt]=Desativar serviço lxc
+Comment[it]=Disabilita servizio lxc
+Comment[de]=Deaktivieren Sie den lxc-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxc-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=lxc

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zsync
+Comment=Partial/differential file download client over HTTP
+Comment[fr]=Client de téléchargement de fichier partiel/différentiel via HTTP
+Comment[es]=Cliente de descarga de archivos parcial/diferencial a través de HTTP
+Comment[pt]=Cliente de download de arquivo parcial/diferencial via HTTP
+Comment[it]=Client di download di file parziale/differenziale su HTTP
+Comment[de]=Client zum Herunterladen von Partial- /Differentialdateien über HTTP
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zsync"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=zsync

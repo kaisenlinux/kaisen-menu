@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=eksctl
+Comment=The official CLI for Amazon EKS
+Comment[fr]=La CLI officielle pour Amazon EKS
+Comment[es]=La CLI oficial para Amazon EKS
+Comment[pt]=O CLI oficial para a Amazon EKS
+Comment[it]=La CLI ufficiale per Amazon EKS
+Comment[de]=Die offizielle CLI für Amazon EKS
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "eksctl help"
+Icon=/usr/share/pixmaps/eksctl.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AWS
+X-Kaisen-Package=eksctl

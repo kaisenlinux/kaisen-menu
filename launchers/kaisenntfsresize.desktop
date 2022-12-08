@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntfsresize
+Comment=Resize an NTFS filesystem without data loss
+Comment[fr]=Redimensionner un système de fichiers NTFS sans perte de données
+Comment[es]=Cambiar el tamaño de un sistema de archivos NTFS sin pérdida de datos
+Comment[pt]=Redimensione um sistema de arquivos NTFS sem perda de dados
+Comment[it]=Ridimensiona un filesystem NTFS senza perdita di dati
+Comment[de]=Ändern Sie die Größe eines NTFS-Dateisystems ohne Datenverlust
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsresize -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NTFS
+X-Kaisen-Package=ntfs-3g

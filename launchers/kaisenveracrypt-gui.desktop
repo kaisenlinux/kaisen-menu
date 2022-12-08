@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=VeraCrypt
+Comment=Tool to encrypt and mount all disks partitions (GUI)
+Comment[fr]=Outil pour chiffrer et monter toutes partitions de disques (GUI)
+Comment[es]=Herramienta de cifrado para cifrar y montar todas las particiones del disco (GUI)
+Comment[pt]=Ferramenta de criptografia para criptografar e montar todas as partições do disco (GUI)
+Comment[it]=Strumento di crittografia per crittografare e montare tutte le partizioni del disco (GUI)
+Comment[de]=Verschlüsselungstool zum Verschlüsseln und Mounten aller Festplattenpartitionen (GUI)
+Exec=pkexec veracrypt
+Icon=veracrypt
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Dataprotection
+X-Kaisen-Package=veracrypt

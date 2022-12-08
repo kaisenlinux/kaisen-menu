@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=snapper-timeline-disable
+Name[fr]=snapper-timeline-désactivé
+Name[es]=snapper-timeline-deshabilitado
+Name[pt]=snapper-timeline-desativado
+Name[it]=snapper-timeline-disabilitato
+Name[de]=snapper-timeline-deaktiviert
+Comment=Disable snapper-timeline daemon
+Comment[fr]=Désactiver service snapper-timeline
+Comment[es]=Deshabilitar servicio snapper-timeline
+Comment[pt]=Desativar serviço snapper-timeline
+Comment[it]=Disabilita servizio snapper-timeline
+Comment[de]=Deaktivieren Sie den snapper-timeline-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/snapper-timeline-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=snapper

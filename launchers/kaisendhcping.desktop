@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dhcping
+Comment=Send a DHCP request to DHCP server to see if it's up and running
+Comment[fr]=Envoyez une requête DHCP au serveur DHCP pour voir s'il est opérationnel
+Comment[es]=Envíe una solicitud DHCP al servidor DHCP para ver si está funcionando
+Comment[pt]=Envie uma solicitação de DHCP para o servidor DHCP para ver se ele está instalado e funcionando
+Comment[it]=Invia una richiesta DHCP al server DHCP per vedere se è attivo e in esecuzione
+Comment[de]=Senden Sie eine DHCP-Anfrage an den DHCP-Server, um festzustellen, ob er aktiv ist
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dhcping" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DHCP
+X-Kaisen-Package=dhcping

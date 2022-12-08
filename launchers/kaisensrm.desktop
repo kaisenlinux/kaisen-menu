@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=srm
+Comment=Tool to securely delete a file
+Comment[fr]=Outil pour effacer de facon sécurisée un fichier
+Comment[es]=Herramienta para eliminar de forma segura un archivo
+Comment[pt]=Ferramenta para excluir com segurança um arquivo
+Comment[it]=Strumento per eliminare in modo sicuro un file
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "srm -v" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=secure-delete

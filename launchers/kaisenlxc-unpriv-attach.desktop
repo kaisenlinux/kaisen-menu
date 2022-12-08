@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-unpriv-attach
+Comment=Start a process inside a running container
+Comment[fr]=Démarrer un processus dans un conteneur en cours exécution
+Comment[es]=Iniciar un proceso dentro de un contenedor en ejecución
+Comment[pt]=Inicie um processo dentro de um contêiner em execução
+Comment[it]=Avvia un processo all'interno di un contenitore in esecuzione
+Comment[de]=Starten Sie einen Prozess in einem laufenden Container
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-unpriv-attach --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

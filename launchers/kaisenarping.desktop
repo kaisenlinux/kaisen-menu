@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=arping
+Comment=Send ARP REQUEST to a neighbour host
+Comment[fr]=Envoyer une demande ARP à un hôte voisin
+Comment[es]=Enviar SOLICITUD ARP a un anfitrión vecino
+Comment[pt]=Envie ARP REQUEST para um host vizinho
+Comment[it]=Invia RICHIESTA ARP a un host vicino
+Comment[de]=Senden Sie ARP REQUEST an einen Nachbarhost
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arping"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=iputils-arping

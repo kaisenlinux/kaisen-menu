@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tree
+Comment=Tool to analyse a full tree view
+Comment[fr]=Outil pour analyser une arborescence complète
+Comment[es]=Herramienta para analizar una estructura de árbol completa
+Comment[pt]=Ferramenta para analisar uma estrutura de árvore completa
+Comment[it]=Strumento per analizzare una struttura ad albero completa
+Comment[de]=Tool zur Analyse einer vollständigen Baumstruktur
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tree"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=tree

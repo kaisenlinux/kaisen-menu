@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wipefreespace
+Comment=Secure cleaning of free space on filesystems
+Comment[fr]=Nettoyage sécurisé de l'espace libre sur les systèmes de fichiers
+Comment[es]=Limpieza segura del espacio libre en los sistemas de archivos
+Comment[pt]=Limpeza segura do espaço livre em sistemas de ficheiros
+Comment[it]=Pulizia sicura dello spazio libero sui filesystem
+Comment[de]=Sichere Bereinigung von freiem Speicherplatz auf Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "wipefreespace -h"
+Icon=/usr/share/pixmaps/wipefreespace.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=wipefreespace

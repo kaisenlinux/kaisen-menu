@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Disk analysis
+Name[fr]=Analyse de disques
+Name[es]=Análisis de disco
+Name[pt]=Análise de disco
+Name[it]=Analisi del disco
+Name[de]=Festplattenanalyse
+Icon=/usr/share/pixmaps/kaisen-menu/hdd.png
+Type=Directory

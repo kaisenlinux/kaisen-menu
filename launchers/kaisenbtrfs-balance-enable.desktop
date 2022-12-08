@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btrfs-balance-enable
+Name[fr]=btrfs-balance-activé
+Name[es]=btrfs-balance-habilitado
+Name[pt]=btrfs-balance-ativado
+Name[it]=btrfs-balance-abilitato
+Name[de]=btrfs-balance-aktiviert
+Comment=Enable btrfs-balance daemon
+Comment[fr]=Activer service btrfs-balance
+Comment[es]=Activar servicio btrfs-balance
+Comment[pt]=Ativar serviço btrfs-balance
+Comment[it]=Attiva servizio btrfs-balance
+Comment[de]=Aktivieren Sie den BTRFS-BALANCE-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/btrfs-balance-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=btrfs-progs

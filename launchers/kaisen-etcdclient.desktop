@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=etcdctl
+Comment=A simple command line client for etcd
+Comment[fr]=Un client en ligne de commande simple pour etcd
+Comment[es]=Un sencillo cliente de línea de comandos para etcd
+Comment[pt]=Um simples cliente de linha de comando para etcd
+Comment[it]=Un semplice client a riga di comando per etcd
+Comment[de]=Ein einfacher Kommandozeilen-Client für etcd
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "etcdctl --help"
+Icon=/usr/share/pixmaps/kaisen-menu/etcd.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Databases
+X-Kaisen-Package=etcd-client

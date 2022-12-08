@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sgdisk
+Comment=Command-line GUID partition table (GPT) manipulator for Linux and Unix
+Comment[fr]=Manipulateur de table de partition GUID (GPT) en ligne de commande pour Linux et Unix
+Comment[es]=Manipulador de tablas de partición GUID (GPT) de línea de comandos para Linux y Unix
+Comment[pt]=Manipulador de tabela de partição GUID de linha de comando (GPT) para Linux e Unix
+Comment[it]=Manipolatore della tabella di partizione GUID (GPT) a riga di comando per Linux e Unix
+Comment[de]=Befehlszeilen-Manipulator für GUID-Partitionstabellen (GPT) für Linux und Unix
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sgdisk --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=gdisk

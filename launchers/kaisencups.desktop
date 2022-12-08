@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cups
+Comment=Tool for printing managment in your system
+Comment[fr]=Outil pour la gestion d'impression sur votre système
+Comment[es]=Herramienta para la gestión de impresión en su sistema
+Comment[pt]=Ferramenta para gerenciamento de impressão em seu sistema
+Comment[it]=Strumento per la gestione della stampa sul tuo sistema
+Comment[de]=Tool zur Druckverwaltung auf Ihrem System
+Exec=firefox %u localhost:631
+Icon=firefox
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=cups

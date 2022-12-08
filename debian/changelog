@@ -1,0 +1,1420 @@
+kaisen-menu (2.2) kaisen-packages; urgency=medium
+
+  * Bump the version to 2.2
+  * No changes needed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 08 Dec 2022 18:32:03 +0100
+
+kaisen-menu (2.1+kaisen18) kaisen-packages; urgency=medium
+
+  * Add the Exegol menu
+  * Add the Exegol logo
+  * Add the Exegol launchers
+
+ -- Mehdi Lecomte - LaBrute! <labrute@kaisenlinux.org>  Mon, 05 Dec 2022 02:33:54 +0100
+
+kaisen-menu (2.1+kaisen17) kaisen-packages; urgency=medium
+
+  * Fix some bugs of few launchers.
+  * Improvements of few launchers (help, command launched...)
+  * Update the polkit to fix the not functional zuluCrypt-gui launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 03 Dec 2022 05:31:04 +0100
+
+kaisen-menu (2.1+kaisen16) kaisen-packages; urgency=medium
+
+  * Deletion of the following launchers:
+    - kaisenspice-vdagent-disable.desktop
+    - kaisenspice-vdagent-enable.desktop
+    - kaisenspice-webdavd-disable.desktop
+    - kaisenspice-webdavd-enable.desktop
+    - kaisenvirtualbox-disable.desktop
+    - kaisenvirtualbox-enable.desktop
+    - kaisenvmware-disable.desktop
+    - kaisenvmware-enable.desktop
+  * Deletion of the kaisenlinux-svirtualization.directory file
+  * Add the kaisenlinux-slibvirt.directory file
+  * Rename SVirtualization in SLibvirt in the kaisenlinux.menu file
+  * Add fio services launchers and menus
+  * Add the zutty launcher in the basemenu-purge script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 23 Oct 2022 23:55:51 +0100
+
+kaisen-menu (2.1+kaisen15) kaisen-packages; urgency=medium
+
+  * Remove the apt-btrfs-snapshot launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 18 Oct 2022 22:15:41 +0100
+
+kaisen-menu (2.1+kaisen14) kaisen-packages; urgency=medium
+
+  * Add the ansible-lint launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 06 Oct 2022 03:15:02 +0100
+
+kaisen-menu (2.1+kaisen13) kaisen-packages; urgency=medium
+
+  * Add the tflint launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 04 Oct 2022 19:49:22 +0100
+
+kaisen-menu (2.1+kaisen12) kaisen-packages; urgency=medium
+
+  * Add the yq, lazydocker and lazygit launchers
+  * Move ctop in the Docker section
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 30 Sep 2022 18:16:17 +0100
+
+kaisen-menu (2.1+kaisen11) kaisen-packages; urgency=medium
+
+  * Add the terraform-docs and jq launchers
+  * Remove the kaisen-update-skel and the kaisen-update-skel-user launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 28 Sep 2022 10:51:58 +0100
+
+kaisen-menu (2.1+kaisen10) kaisen-packages; urgency=medium
+
+  * Replace ntpsec by chrony in the NTP launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Sep 2022 12:53:07 +0100
+
+kaisen-menu (2.1+kaisen9) kaisen-packages; urgency=medium
+  
+  * Deletion of $2 if statement in the preinst script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 Aug 2022 22:26:07 +0100
+
+kaisen-menu (2.1+kaisen8) kaisen-packages; urgency=medium
+
+  * Improve preinst script
+  * Add prerm script to remove diversions
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 17 Aug 2022 23:51:03 +0100
+
+kaisen-menu (2.1+kaisen7) kaisen-packages; urgency=medium
+
+  * Remove the execution of the dconf command (not need for kaisen-menu)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Aug 2022 00:28:31 +0100
+
+kaisen-menu (2.1+kaisen6) kaisen-packages; urgency=medium
+
+  * Add iperf3 service launchers and menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 03 Aug 2022 15:22:28 +0100
+
+kaisen-menu (2.1+kaisen5) kaisen-packages; urgency=medium
+
+  * Add keepassxc-cli launcher
+  * Add more ocfs2 launchers
+  * Add shred launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 15 Jul 2022 19:44:46 +0100
+
+kaisen-menu (2.1+kaisen4) kaisen-packages; urgency=medium
+
+  * Rename gfs2 launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 14 Jul 2022 16:22:03 +0100
+
+kaisen-menu (2.1+kaisen3) kaisen-packages; urgency=medium
+
+  * Add the sgdisk launcher
+  * Update the gdisk launcher description
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 14 Jul 2022 03:24:56 +0100
+
+kaisen-menu (2.1+kaisen2) kaisen-packages; urgency=medium
+
+  * Add sshs and openstack-client launchers
+  * Add openstack logo in pixmaps/ folder
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 05 Jul 2022 11:52:51 +0100
+
+kaisen-menu (2.1+kaisen1) kaisen-packages; urgency=medium
+
+  * Add vault service launchers
+  * Update NTP service launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 16 Jun 2022 05:08:31 +0100
+
+kaisen-menu (2.1) kaisen-packages; urgency=medium
+
+  * Update the path to access to offline documentation and manpages
+  * Bump version of kaisen-menu to 2.1
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 11 Jun 2022 18:40:26 +0100
+
+kaisen-menu (2.0+kaisen41) kaisen-packages; urgency=medium
+
+  * Remove btop logo (because the logo added by the btop package)
+  * Remove originally btop.desktop launcher with the kaisen-basemenu-purge script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 07 Jun 2022 23:34:12 +0100
+
+kaisen-menu (2.0+kaisen40) kaisen-packages; urgency=medium
+
+  * Add terragrunt launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 02 Jun 2022 11:09:17 +0100
+
+kaisen-menu (2.0+kaisen39) kaisen-packages; urgency=medium
+
+  * Add linssid and gtkterm launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 30 May 2022 02:43:11 +0100
+
+kaisen-menu (2.0+kaisen38) kaisen-packages; urgency=medium
+
+  * Update switch and cloning logos
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 5 May 2022 11:37:52 +0100
+
+kaisen-menu (2.0+kaisen37) kaisen-packages; urgency=medium
+
+  * Update the path where are located services scripts for scripts of
+    maintainers and launchers
+  * Rename kaisenaa-disable.desktop in kaisenaadisable.desktop to
+    fix the deletion of the menu when the services folder is deleted
+  * Remove the deletion of /usr/share/applications/jmeter.desktop launcher
+    executed by kaisen-basemenu-purge because this launcher can't be installed
+    by default
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 4 May 2022 23:46:06 +0100
+
+kaisen-menu (2.0+kaisen36) kaisen-packages; urgency=medium
+
+  * Update the kaisenczkawka.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 27 Apr 2022 21:08:57 +0100
+
+kaisen-menu (2.0+kaisen35) kaisen-packages; urgency=medium
+
+  * Update the kaisenborg.desktop launcher french translation
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 22 Apr 2022 16:32:26 +0100
+
+kaisen-menu (2.0+kaisen34) kaisen-packages; urgency=medium
+
+  * Add docker-compose logo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 17 Apr 2022 02:46:22 +0100
+
+kaisen-menu (2.0+kaisen33) kaisen-packages; urgency=medium
+
+  * Add velero and rclone launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 15 Apr 2022 15:44:04 +0100
+
+kaisen-menu (2.0+kaisen32) kaisen-packages; urgency=medium
+
+  * Remove docker launcher (docker.io and docker launcher are the same)
+  * Rename kaisendockerio.desktop in kaisendocker.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 15 Apr 2022 01:22:04 +0100
+
+kaisen-menu (2.0+kaisen31) kaisen-packages; urgency=medium
+
+  * Update ntpdate launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 10 Apr 2022 20:18:31 +0100
+
+kaisen-menu (2.0+kaisen30) kaisen-packages; urgency=medium
+
+  * Add wipefs launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 03 Apr 2022 17:47:54 +0100
+
+kaisen-menu (2.0+kaisen29) kaisen-packages; urgency=medium
+
+  * Add openfortivpn client launcher
+  * Add fortinet logo
+  * Update the description of openvpn and wireguard launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 01 Apr 2022 16:32:49 +0100
+
+kaisen-menu (2.0+kaisen28) kaisen-packages; urgency=medium
+
+  * Remove logos (logos are now integrated in the packages):
+    - wipefreespace.png
+    - k6.png
+    - minikube.png
+    - packer.png
+    - trivy.png
+    - k9s.png
+  * Add Kubernetes icon for kaisenkubectl.desktop and kaisenkubectl-convert.desktop
+    launchers
+  * Add kind icon for kaisenkind.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 30 Mar 2022 03:03:58 +0100
+
+kaisen-menu (2.0+kaisen27) kaisen-packages; urgency=medium
+
+  * Add ctop logo icon for the ctop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 18:11:19 +0100
+
+kaisen-menu (2.0+kaisen26) kaisen-packages; urgency=medium
+
+  * Create of the Puppet category
+  * Add pdk launcher
+  * Update of Puppet launcher for new Puppet agent package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 10 Mar 2022 02:50:47 +0100
+
+kaisen-menu (2.0+kaisen25) kaisen-packages; urgency=medium
+
+  * Define the original icon of gtkhash for gtkhash
+  * Kaisen logo path for directories and launchers
+    is now /usr/share/pixmaps/kaisen-logos/kaisen.png
+  * Remove pixmaps/kaisen.png
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 04 Mar 2022 06:46:04 +0100
+
+kaisen-menu (2.0+kaisen24) kaisen-packages; urgency=medium
+
+  * Add btop and notwireshark launchers
+  * Update kaisen-basemenu-script
+  * Update of almost all logos
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 28 Feb 2022 05:25:56 +0100
+
+kaisen-menu (2.0+kaisen23) kaisen-packages; urgency=medium
+
+  * Remove launchers/kaisencpio.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 24 Feb 2022 19:25:41 +0100
+
+kaisen-menu (2.0+kaisen22) kaisen-packages; urgency=medium
+
+  * Remove launchers/kaisenfuseiso.desktop launchers/kaisenfuse-zip.desktop
+    launchers/squashfuse.desktop
+  * Remove pixmaps/zip.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 24 Feb 2022 04:49:41 +0100
+
+kaisen-menu (2.0+kaisen21) kaisen-packages; urgency=medium
+
+  * Replace mlocate by plocate (fix command not found when mlocate launcher
+    was started)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 23 Feb 2022 00:11:36 +0100
+
+kaisen-menu (2.0+kaisen20) kaisen-packages; urgency=medium
+
+  * Update description of Kaisen Terminal
+  * Add logos of borg, netsniff, iotop and duplicity softwares
+  * Remove launchers/kaisen-build.desktop and launchers/kaisenmcedit.desktop
+    launchers/kaisenqtop.desktop launchers/kaisenmemstat.desktop
+    launchers/kaisenirqbalance*.desktop
+  * Move cabextract launcher in Miscellaneous tools menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 22 Feb 2022 20:20:27 +0100
+
+kaisen-menu (2.0+kaisen19) kaisen-packages; urgency=medium
+
+  * Added new logos for many launchers
+  * Improved existents logos
+  * Update menu (move launchers)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 19 Feb 2022 03:09:16 +0100
+
+kaisen-menu (2.0+kaisen18) kaisen-packages; urgency=medium
+
+  * Added logos for many launchers
+  * Update X-Kaisen-Package entry for mariadb-client launcher
+  * pixmaps/ folder are now installed in /usr/share/pixmaps/kaisen-menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 17 Feb 2022 19:41:17 +0100
+
+kaisen-menu (2.0+kaisen17) kaisen-packages; urgency=medium
+
+  * Add tool icon for Ansible, LXC, Docker, AWS and Apparmor launchers
+  * Add kaisen icon for Kaisen scripts (interface-switcher...)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 14 Feb 2022 11:27:27 +0100
+
+kaisen-menu (2.0+kaisen16) kaisen-packages; urgency=medium
+
+  * Fix vault launcher category
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 14 Feb 2022 03:31:21 +0100
+
+kaisen-menu (2.0+kaisen15) kaisen-packages; urgency=medium
+
+  * Add terraform menu
+  * Add launchers for kind, krew, kubectx, kyverno, popeye, tfsec, vault packages
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 14 Feb 2022 02:46:54 +0100
+
+kaisen-menu (2.0+kaisen14) kaisen-packages; urgency=medium
+
+  * Update ndisc6 and ntpdate X-Kaisen-Package entry
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 30 Jan 2022 23:49:47 +0100
+
+kaisen-menu (2.0+kaisen13) kaisen-packages; urgency=medium
+
+  * Update ddrescue-gui and trivy launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 09 Jan 2022 04:26:14 +0100
+
+kaisen-menu (2.0+kaisen12) kaisen-packages; urgency=medium
+
+  * Add whdd launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 07 Jan 2022 04:11:02 +0100
+
+kaisen-menu (2.0+kaisen11) kaisen-packages; urgency=medium
+
+  * Fix X-Kaisen-Package entry in the kaisennvme.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 02 Jan 2022 15:11:56 +0100
+
+kaisen-menu (2.0+kaisen10) kaisen-packages; urgency=medium
+
+  * Add dpkg compare-versions to apply dpkg-divert when
+    kaisen-menu upgrade in 2.0+kaisen9 or highter
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2022 08:08:03 +0100
+
+kaisen-menu (2.0+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove MATE temporary fix
+  * Reorganize menus folder
+  * Update divert preinst (no rename when diverting but rename file before divert)
+  * Divert in postrm script when package is purged
+  * Fix conflict with mate-menus package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Jan 2022 06:11:52 +0100
+
+kaisen-menu (2.0+kaisen8) kaisen-packages; urgency=medium
+
+  * Update icon name for the gtkstresstesting launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 31 Dec 2021 00:49:06 +0100
+
+kaisen-menu (2.0+kaisen7) kaisen-packages; urgency=medium
+
+  * Add qphotorec icon for qphotorec launcher
+  * Update qphotorec exec command
+  * Remove gtkhask polkit (polkit integrated into gtkhask package)
+  * Rename kaisen-menu polkit
+  * Rename the name of launcher kaisengtkstresstesting.desktop
+  * Fix typo in polkit (add uppercase)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 30 Dec 2021 20:42:37 +0100
+
+kaisen-menu (2.0+kaisen6) kaisen-packages; urgency=medium
+
+  * Add man as dependancy
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 30 Dec 2021 05:33:37 +0100
+
+kaisen-menu (2.0+kaisen5) kaisen-packages; urgency=medium
+
+  * Add launchers for tools:
+    - iotop
+    - borgbackup
+    - bridge-utils
+    - cpio
+    - czkawka
+    - dc3dd
+    - dupeguru
+    - fred
+    - gpa
+    - gtkstresstesting
+    - isomaster
+    - nvme-cli
+    - qphotorec
+    - qt-fsarchiver
+    - rdiff
+    - samba
+    - stressapptest
+    - kaisen-winkey-recovery
+    - wipefreespace
+    - wxfixboot
+    - wimtools
+  * Add Duplicates Analysis category
+  * Simplification of scripts for services
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 30 Dec 2021 01:09:54 +0100
+
+kaisen-menu (2.0+kaisen4) kaisen-packages; urgency=medium
+
+  * Move minikube, k9s and helm in Kubernetes menu
+  * Add kustomize launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 23 Dec 2021 13:21:56 +0100
+
+kaisen-menu (2.0+kaisen3) kaisen-packages; urgency=medium
+
+  * Copying MATE menus in postinst
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 21 Dec 2021 10:18:58 +0100
+
+kaisen-menu (2.0+kaisen2) kaisen-packages; urgency=medium
+
+  * Create MATE temporary fix menu
+  * Move apg and pwgen in miscellaneous menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 20 Dec 2021 04:48:54 +0100
+
+kaisen-menu (2.0+kaisen1) kaisen-packages; urgency=medium
+
+  * Add MATE applications menu divert
+  * Move KeePassXC launcher in Miscellaneous menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 19 Dec 2021 17:32:56 +0100
+
+kaisen-menu (2.0) kaisen-packages; urgency=medium
+
+  * Update at 2.0. No changes needed.
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 23:09:43 +0100
+
+kaisen-menu (1.8+kaisen26) kaisen-packages; urgency=medium
+
+  * Terminator is default software launch by kaisenterminal launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Dec 2021 18:13:02 +0100
+
+kaisen-menu (1.8+kaisen25) kaisen-packages; urgency=medium
+
+  * Add new name of Wireshark launcher in kaisen-basemenu-purge script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 28 Nov 2021 23:07:51 +0200
+
+kaisen-menu (1.8+kaisen24) kaisen-packages; urgency=medium
+
+  * Readd zbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 12 Nov 2021 13:54:38 +0200
+
+kaisen-menu (1.8+kaisen23) kaisen-packages; urgency=medium
+
+  * Update MAC icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 11 Nov 2021 21:07:42 +0200
+
+kaisen-menu (1.8+kaisen22) kaisen-packages; urgency=medium
+
+  * Add database icon
+  * Add psql, mariadb and etcdctl launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Nov 2021 20:52:34 +0200
+
+kaisen-menu (1.8+kaisen21) kaisen-packages; urgency=medium
+
+  * Add eksctl and trivy launchers
+  * Add trivy logo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 08 Nov 2021 18:03:12 +0200
+
+kaisen-menu (1.8+kaisen20) kaisen-packages; urgency=medium
+
+  * Remove kaisenkismet.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 07 Nov 2021 16:44:04 +0200
+
+kaisen-menu (1.8+kaisen19) kaisen-packages; urgency=medium
+
+  * Remove kaisen-interface-switcher launchers by interfaces
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 06 Nov 2021 02:14:54 +0200
+
+kaisen-menu (1.8+kaisen18) kaisen-packages; urgency=medium
+
+  * Remove psensor and mate-disks-analyser launcher in kaisen-basemenu-purge
+  * Add minikube launcher and icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 03 Nov 2021 01:03:44 +0200
+
+kaisen-menu (1.8+kaisen17) kaisen-packages; urgency=medium
+
+  * Remove zbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 02 Nov 2021 02:20:07 +0200
+
+kaisen-menu (1.8+kaisen16) kaisen-packages; urgency=medium
+
+  * Readd gtkhask launcher and pkexec gtkhash policy
+  * Readd firewalling menu and icons
+  * Readd iptstate launcher
+  * Add apparmor launchers, menu and directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 01 Nov 2021 02:46:18 +0200
+
+kaisen-menu (1.8+kaisen15) kaisen-packages; urgency=medium
+
+  * Change dnsutils by bind9-dnsutils in X-Kaisen-Package entry
+    for kaisendig.desktop, kaisenhost.desktop and kaisennslookup.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 24 Oct 2021 19:54:33 +0200
+
+kaisen-menu (1.8+kaisen14) kaisen-packages; urgency=medium
+
+  * Remove woeusb launcher (old GUI program)
+  * Rename woeusb-cli launcher in woeusb
+  * Add woeusb-ng launchers (CLI and GUI programs)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 24 Oct 2021 18:11:02 +0200
+
+kaisen-menu (1.8+kaisen13) kaisen-packages; urgency=medium
+
+  * Fix icon missing for Packet Sender
+  * Rename kaisenlinux-partitioning.directory in
+    kaisenlinux-partitioning-erasing.directory
+  * Rename Partitioning category in PartitioningErasing category
+  * Rename partitioning.png icon in erasing.png
+  * New icon for SSL/TLS
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 12:15:57 +0200
+
+kaisen-menu (1.8+kaisen12) kaisen-packages; urgency=medium
+
+  * Replace all pixmaps/ icons
+  * Rename SSL menu in SSL/TLS
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 23:13:09 +0200
+
+kaisen-menu (1.8+kaisen11) kaisen-packages; urgency=medium
+
+  * Remove iptstate launcher
+  * Remove kaisen-firewall.directory
+  * Rename kaisen-iptables.desktop in kaiseniptables-persistent.desktop
+  * Add new logos for DNS, DHCP, SSL, Ethernet, IP, MAC, Monitoring, PCAP,
+    Console port, Scanners, TCP/UDP, VPN and Wi-Fi menus
+  * Move SSL, DNS and DHCP in sysadmin menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 04:45:38 +0200
+
+kaisen-menu (1.8+kaisen10) kaisen-packages; urgency=medium
+
+  * Remove fusesmb launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 18 Oct 2021 00:01:13 +0200
+
+kaisen-menu (1.8+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove gtkhash polkit
+  * Remove unetbootin and gksu deletion of kaisen-basemenu-purge
+  * These launchers are removed:
+    - dhclient
+    - iproute
+    - logrotate
+    - df
+    - du
+    - dd
+    - lspci
+    - fdisk
+    - shred
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 12 Oct 2021 03:57:31 +0200
+
+kaisen-menu (1.8+kaisen8) kaisen-packages; urgency=medium
+
+  * Remove kaisenlinux-analysis.directory
+  * Remove Various Analysis section in kaisenlinux.menu
+  * Remove analysis.png in pixmaps
+  * Remove kaisengtkhash.desktop and kaisenifenslave.desktop launchers
+  * Move s3fs launcher in AWS and Filesystems section
+  * Move sshfs launcher in Remote Administration and Filesystems section
+  * Launchers removed:
+    - zip
+    - unzip
+    - mount
+    - umount
+    - lzop
+    - 7z
+    - pigz
+    - pzstd
+    - unp
+    - unrar
+    - unrar-free
+    - zstd
+    - gpg
+  * Launchers moves in Miscellaneous tools menu:
+    - htop
+    - lsof
+    - dstat
+    - fdupes
+    - file
+    - memstat
+    - pstree
+    - qtop
+    - rdfind
+    - tree
+  * Launchers moves in Filesystems menu:
+    - apfs-fuse
+    - apfsutil
+    - bdeinfo
+    - bdemount
+    - dislocker*
+    - fvde*
+    - vhdi*
+    - vmdk*
+    - archivemount
+    - fuseiso
+    - fusesmb
+    - fuze-zip
+    - xmount
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 11 Oct 2021 03:33:24 +0200
+
+kaisen-menu (1.8+kaisen7) kaisen-packages; urgency=medium
+
+  * Add k8s, helm, buildah, k9s and podman launchers
+  * DevOps and Cloud menu is now display in Administrators tools
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 26 Sep 2021 03:47:23 +0200
+
+kaisen-menu (1.8+kaisen6) kaisen-packages; urgency=medium
+
+  * Add icon and launcher for k6 package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 21 Sep 2021 08:00:09 +0200
+
+kaisen-menu (1.8+kaisen5) kaisen-packages; urgency=medium
+
+  * Launchers executed by kaisen-launcher launched with terminator
+  * Rename SysOps menu in Cloud and DevOps
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 20 Sep 2021 00:40:32 +0200
+
+kaisen-menu (1.8+kaisen4) kaisen-packages; urgency=medium
+
+  * Update ctop launcher fot new go package
+  * Remove lockdown launcher, menu and directory
+  * Bump Standards-Version to 4.6.0
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 08 Sep 2021 12:52:56 +0200
+
+kaisen-menu (1.8+kaisen3) kaisen-packages; urgency=medium
+
+  * Add sar and iostat launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 06 Sep 2021 10:47:57 +0200
+
+kaisen-menu (1.8+kaisen2) kaisen-packages; urgency=medium
+
+  * Change terminator in x-terminal-emulator on the scripts/kaisen-launcher script
+  * Update wireguard launcher for display only instructions to configure Wireguard
+  * Kaisen Terminal is now launched by x-terminal-emulator alternative
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 30 Aug 2021 23:59:33 +0200
+
+kaisen-menu (1.8+kaisen1) kaisen-packages; urgency=medium
+
+  * Add and update exfat launchers for exfatprogs package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 16 Aug 2021 15:59:26 +0200
+
+kaisen-menu (1.8) kaisen-packages; urgency=medium
+
+  * Update at 1.8
+  * Remove kaisen-netinst-configurator launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 02 Aug 2021 00:22:07 +0200
+
+kaisen-menu (1.7) kaisen-packages; urgency=medium
+
+  * Update at 1.7
+  * No changes
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 18 Jul 2021 16:03:37 +0200
+
+kaisen-menu (1.6+kaisen12) kaisen-packages; urgency=medium
+
+  * Add CPU-X launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 15 Jul 2021 11:18:03 +0200
+
+kaisen-menu (1.6+kaisen11) kaisen-packages; urgency=medium
+
+  * Reunification of TCP and UDP menus
+  * Add kaisen-netinst-configurator launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 11 Jul 2021 15:56:47 +0200
+
+kaisen-menu (1.6+kaisen10) kaisen-packages; urgency=medium
+
+  * Move NFS launcher in the Sfilesystems category
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 02 Jun 2021 01:09:57 +0200
+
+kaisen-menu (1.6+kaisen9) kaisen-packages; urgency=medium
+
+  * Add traceroute and traceroute6 in IP category
+  * Add kaisen-build launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 24 May 2021 00:14:44 +0200
+
+kaisen-menu (1.6+kaisen8) kaisen-packages; urgency=medium
+
+  * Add fdupes launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 16 May 2021 00:30:31 +0200
+
+kaisen-menu (1.6+kaisen7) kaisen-packages; urgency=medium
+
+  * Remove || true in scripts/kaisen-basemenu-purge (-f argument force the remove)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 04 May 2021 21:57:31 +0200
+
+kaisen-menu (1.6+kaisen6) kaisen-packages; urgency=medium
+
+  * Add AWS menu in SysOps menu
+  * Add s3fs launcher
+  * Move awscli launcher in AWS menu
+  * awscli launcher icon is now utilities-terminal
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 03 May 2021 06:46:18 +0200
+
+kaisen-menu (1.6+kaisen5) kaisen-packages; urgency=medium
+
+  * Fix Categories on arpspoof launcher
+  * Upgrade description on shred and fstrim launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 22 Apr 2021 18:02:06 +0200
+
+kaisen-menu (1.6+kaisen4) kaisen-packages; urgency=medium
+
+  * Add new tcp* launchers
+  * Create wget launcher
+  * Create ncat launcher
+  * Change launchers categories (curl, cups, hexedit)
+  * Change from SystemAdministration to SystemUncategorized
+  * Change from NetworkAdministration to NetworkUncategorized
+  * Update shebang on all launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 22 Apr 2021 04:27:51 +0200
+
+kaisen-menu (1.6+kaisen3) kaisen-packages; urgency=medium
+
+  * Upgraded descriptions of many launchers
+  * Change from SystemSecurity to SystemAdministration
+  * Change from NetworkSecurity to NetworkAdministration
+  * Add BTRFS category on timeshift launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 21 Apr 2021 21:11:58 +0200
+
+kaisen-menu (1.6+kaisen2) kaisen-packages; urgency=medium
+
+  * Create polkit policy
+  * Update launchers launched with gksu (now launched by pkexec)
+  * Remove gksu dependancy (replace by pkexec)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Apr 2021 23:57:32 +0200
+
+kaisen-menu (1.6+kaisen1) kaisen-packages; urgency=medium
+
+  * Adding ecryptfs-utils launchers
+  * The kaisen-launcher, kaisen-basemenu-purge, update-kaisen-menu
+    they now installed on /usr/share/kaisen-menu/scripts
+  * Update Comment for filesystems launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 09 Apr 2021 20:09:04 +0200
+
+kaisen-menu (1.6) kaisen-packages; urgency=medium
+
+  * Adding terraform launcher and icon
+  * Remove ansible-connection launcher
+  * Update to 1.6
+  * Adding -h or --help command argument for lot launchers
+  * Adding kaisen-basemenu-script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 31 Mar 2021 08:05:31 +0200
+
+kaisen-menu (1.5+kaisen28) kaisen-packages; urgency=medium
+
+  * Adding btrbk services launchers
+  * Adding snapper launcher
+  * Adding snapper services launchers
+  * Adding btrfs services launchers
+  * Adding mlocate service launchers and desktop-directory
+  * Update menus/kaisenlinux.menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 29 Mar 2021 15:53:10 +0200
+
+kaisen-menu (1.5+kaisen27) kaisen-packages; urgency=medium
+
+  * Adding btrbk launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 29 Mar 2021 12:58:32 +0200
+
+kaisen-menu (1.5+kaisen26) kaisen-packages; urgency=medium
+
+  * Timeshift GTK is now launched with gksudo
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 29 Mar 2021 10:50:24 +0200
+
+kaisen-menu (1.5+kaisen25) kaisen-packages; urgency=medium
+
+  * Adding launcher for tool: inxi
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Sat, 27 Mar 2021 22:27:52 +0200
+
+kaisen-menu (1.5+kaisen24) kaisen-packages; urgency=medium
+
+  * Update typo on desktop-directories/kaisenlinux-systemsnapshot.directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 27 Mar 2021 13:55:52 +0200
+
+kaisen-menu (1.5+kaisen23) kaisen-packages; urgency=medium
+
+  * Cloning/Snapshot menu is renamed Cloning
+  * Snapshot menu has been created in Sysadmin menu for Timeshift and apt-btrfs-snapshot
+  * Timeshift menu has been renamed Snapshot
+  * Update apt-btrfs-snapshot launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 21:38:54 +0200
+
+kaisen-menu (1.5+kaisen22) kaisen-packages; urgency=medium
+
+  * Adding launchers for tools:
+    - sslyze
+    - apt-btrfs-snapshot
+    - cryptsetup-nuke-password (with dpkg-reconfigure)
+    - ddrescue
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 26 Mar 2021 04:20:17 +0200
+
+kaisen-menu (1.5+kaisen21) kaisen-packages; urgency=medium
+
+  * Create if statement on postinst to remove kaisen-services-management
+    package or services folder
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 19 Mar 2021 01:46:58 +0200
+
+kaisen-menu (1.5+kaisen20) kaisen-packages; urgency=medium
+
+  * Update triggers for opt folder.
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Thu, 18 Mar 2021 23:53:13 +0200
+
+kaisen-menu (1.5+kaisen19) kaisen-packages; urgency=medium
+
+  * Adding kaisen-documentation and kaisen-manpages launchers 
+
+ -- Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>  Thu, 18 Mar 2021 01:37:11 +0200
+
+kaisen-menu (1.5+kaisen18) kaisen-packages; urgency=medium
+
+  * Readding psensor launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 16 Mar 2021 02:30:07 +0200
+
+kaisen-menu (1.5+kaisen17) kaisen-packages; urgency=medium
+
+  * Remove kaisen-remote-maintenance menu
+  * Remove anydesk and teamviewer launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 09 Mar 2021 00:20:06 +0200
+
+kaisen-menu (1.5+kaisen16) kaisen-packages; urgency=medium
+
+  * Add kaisen-update-skel-user launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 08 Mar 2021 00:49:58 +0200
+
+kaisen-menu (1.5+kaisen15) kaisen-packages; urgency=medium
+
+  * Change icon cups launcher (replaces utilities-terminal by firefox)
+  * Add homepage and Vcs sections in control file
+  * Update mail in control file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 23 Feb 2021 03:48:02 +0200
+
+kaisen-menu (1.5+kaisen14) kaisen-packages; urgency=medium
+
+  * Add spice daemons launchers (because no longer linked to libvirt directly)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 06 Feb 2021 18:50:13 +0200
+
+kaisen-menu (1.5+kaisen13) kaisen-packages; urgency=medium
+
+  * Add virt-viewer launcher
+  * Change Categories for codium launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 06 Feb 2021 08:04:27 +0200
+
+kaisen-menu (1.5+kaisen12) kaisen-packages; urgency=medium
+
+  * Update deutsch traduction on anydesk-enable launcher
+  * Add darkstat service launchers, menus and directories
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 31 Jan 2021 04:00:39 +0200
+
+kaisen-menu (1.5+kaisen11) kaisen-packages; urgency=medium
+
+  * Change netdiscover command by netdiscover -h
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 30 Jan 2021 20:33:14 +0200
+
+kaisen-menu (1.5+kaisen10) kaisen-packages; urgency=medium
+
+  * Add ldapdomaindump launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 30 Jan 2021 17:06:28 +0200
+
+kaisen-menu (1.5+kaisen9) kaisen-packages; urgency=medium
+
+  * Category tcpdump launcher is now PCAP
+  * Category tmux launcher is now RemoteAdministration
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 30 Jan 2021 15:49:24 +0200
+
+kaisen-menu (1.5+kaisen8) kaisen-packages; urgency=medium
+
+  * X-Kaisen-Package value of all services launchers is now configure with package name
+  * Remove etcsetserial* services launchers
+  * Remove rpcbind* services launchers
+  * Adding miscellaneous categories for tree launcher
+  * Move libvirt service menu to virtualization services menu
+  * Move irqbalance launcher to miscellaneous tools menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 09 Jan 2021 22:23:46 +0200
+
+kaisen-menu (1.5+kaisen7) kaisen-packages; urgency=medium
+
+  * Remove psensor launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 04 Jan 2021 00:57:13 +0200
+
+kaisen-menu (1.5+kaisen6) kaisen-packages; urgency=medium
+
+  * Update preinst script and update nmapsi4 launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 02 Jan 2021 23:58:54 +0200
+
+kaisen-menu (1.5+kaisen5) kaisen-packages; urgency=medium
+
+  * Add launchers for tools:
+    - pssh
+    - zstd
+    - apache2-utils
+    - ndiff
+    - yamllint
+    - darkstat
+    - hunt
+    - nmapsi4
+    - ltrace
+  * Change zsh by bash on wrapper
+  * Change virus analysis by malware scan
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 02 Jan 2021 16:33:08 +0200
+
+kaisen-menu (1.5+kaisen4) kaisen-packages; urgency=medium
+
+  * Create wrapper for launchers. Developed by Nicolas Clerc - kernicPanel.
+    Thanks for this contribution kernicPanel !
+    - Wrapper display which command executed from Kaisen Linux menu
+    - Exec on launchers, now launch kaisen-launcher command
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 01 Jan 2021 19:29:11 +0200
+
+kaisen-menu (1.5+kaisen3) kaisen-packages; urgency=medium
+
+  * Add hfsprescue tool
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 29 Dec 2020 22:50:08 +0200
+
+kaisen-menu (1.5+kaisen2) kaisen-packages; urgency=medium
+
+  * Add rename xfce menu on postrm script (only when purge parameter specified)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 27 Dec 2020 02:48:04 +0200
+
+kaisen-menu (1.5+kaisen1) kaisen-packages; urgency=medium
+
+  * Fix typo on veracrypt* launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 16 Dec 2020 15:16:46 +0200
+
+kaisen-menu (1.5) kaisen-packages; urgency=medium
+
+  * Update version to 1.5
+  * No source code changes needed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 06 Dec 2020 03:05:06 +0200
+
+kaisen-menu (1.4+kaisen20) kaisen-packages; urgency=medium
+
+  * Change exfatprogs in exfat-utils on X-Kaisen-Package
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 02 Dec 2020 23:18:13 +0200
+
+kaisen-menu (1.4+kaisen19) kaisen-packages; urgency=medium
+
+  * Fix tshark launcher (display help and not run tshark command)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 07 Nov 2020 13:50:08 +0200
+
+kaisen-menu (1.4+kaisen18) kaisen-packages; urgency=medium
+
+  * Remove bad files
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 22 Oct 2020 21:39:11 +0200
+
+kaisen-menu (1.4+kaisen17) kaisen-packages; urgency=medium
+
+  * Change name on launchers/kaisennc.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 22 Oct 2020 21:29:16 +0200
+
+kaisen-menu (1.4+kaisen16) kaisen-packages; urgency=medium
+
+  * Adapt actual veracrypt launcher for veracrypt gui
+  * Create veracrypt (CLI) launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 22 Oct 2020 00:08:57 +0200
+
+kaisen-menu (1.4+kaisen15) kaisen-packages; urgency=medium
+
+  * Convert pixmaps/*.svg files by .png for fix
+    missing icons on KDE menu
+  * Update desktop-directories files
+  * Add veracrypt launcher
+  * Add woeusb launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 20 Oct 2020 01:00:46 +0200
+
+kaisen-menu (1.4+kaisen14) kaisen-packages; urgency=medium
+
+  * Remove keepass2 launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 19 Oct 2020 21:11:19 +0200
+
+kaisen-menu (1.4+kaisen13) kaisen-packages; urgency=medium
+
+  * Add X-Kaisen-Package on kaisenkeepass2.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 18 Oct 2020 19:54:39 +0200
+
+kaisen-menu (1.4+kaisen12) kaisen-packages; urgency=medium
+
+  * Add keepass2 launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 18 Oct 2020 19:11:56 +0200
+
+kaisen-menu (1.4+kaisen11) kaisen-packages; urgency=medium
+
+  * Add virt-manager tool
+  * Create Virtualization section
+  * Update FTP icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 18 Oct 2020 02:09:29 +0200
+
+kaisen-menu (1.4+kaisen10) kaisen-packages; urgency=medium
+
+  * Add ctop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 17 Oct 2020 15:36:53 +0200
+
+kaisen-menu (1.4+kaisen9) kaisen-packages; urgency=medium
+
+  * Change ZuluCryptCLI icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 11 Oct 2020 20:12:46 +0200
+
+kaisen-menu (1.4+kaisen8) kaisen-packages; urgency=medium
+
+  * Change X-Kaisen-Package on kaisen-update-skel.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 11 Oct 2020 16:34:58 +0200
+
+kaisen-menu (1.4+kaisen7) kaisen-packages; urgency=medium
+
+  * Fix ubridge and vpcs launchers (no functional)
+  * Add nvram_export launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 10 Oct 2020 22:22:32 +0200
+
+kaisen-menu (1.4+kaisen6) kaisen-packages; urgency=medium
+
+  * Add bloodhound
+  * Add services: neo4j, libvirt*, gns3
+  * Add gns3 (ubridge, gns3-gui, dynamips, vpcs)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 04 Oct 2020 16:27:24 +0200
+
+kaisen-menu (1.4+kaisen5) kaisen-packages; urgency=medium
+
+  * Add azure-cli and packer launchers and icons
+  * Update packetsender launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 03 Oct 2020 12:52:50 +0200
+
+kaisen-menu (1.4+kaisen4) kaisen-packages; urgency=medium
+
+  * Add netcat launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 21 Sep 2020 02:45:14 +0200
+
+kaisen-menu (1.4+kaisen3) kaisen-packages; urgency=medium
+
+  * Add telnet and fstrim launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 20 Sep 2020 12:40:57 +0200
+
+kaisen-menu (1.4+kaisen2) kaisen-packages; urgency=medium
+
+  * Fix bad Usual Applications entry on menus/xfce-applications.menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 30 Aug 2020 15:38:27 +0200
+
+kaisen-menu (1.4+kaisen1) kaisen-packages; urgency=medium
+
+  * Change fsapfs launcher by new apfs launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 30 Aug 2020 12:15:07 +0200
+
+kaisen-menu (1.4) kaisen-packages; urgency=medium
+
+  * Update Packet Sender launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 30 Aug 2020 09:16:32 +0200
+
+kaisen-menu (1.3+kaisen8) kaisen-packages; urgency=medium
+
+  * Add autopostgresqlbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 27 Aug 2020 14:52:34 +0200
+
+kaisen-menu (1.3+kaisen7) kaisen-packages; urgency=medium
+
+  * Replace locate by mlocate
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 26 Aug 2020 12:03:45 +0200
+
+kaisen-menu (1.3+kaisen6) kaisen-packages; urgency=medium
+
+  * Fix tux icon on kaisenlinux-userapps.directory
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 26 Aug 2020 07:34:07 +0200
+
+kaisen-menu (1.3+kaisen5) kaisen-packages; urgency=medium
+
+  * Remove dwagent launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 25 Aug 2020 01:35:19 +0200
+
+kaisen-menu (1.3+kaisen4) kaisen-devel; urgency=medium
+
+  * Add rpcbind service launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 23:03:02 +0200
+
+kaisen-menu (1.3+kaisen3) kaisen-devel; urgency=medium
+
+  * Add sslscan launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 21:01:57 +0200
+
+kaisen-menu (1.3+kaisen2) kaisen-devel; urgency=medium
+
+  * Change X-Kaisen-Package for launchers/kaisenbettercap.desktop
+  * Add bettercap-disable and enable launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 24 Aug 2020 20:44:28 +0200
+
+kaisen-menu (1.3+kaisen1) kaisen-devel; urgency=medium
+
+  * Move launcher on postinst in file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 22 Aug 2020 13:42:31 +0200
+
+kaisen-menu (1.3) kaisen-devel; urgency=medium
+
+  * Add pixmaps folder (kaisen-mate, kaisen-kde, kaisen-lxde, kaisen-xfce menu icons
+    is here now)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 22 Aug 2020 03:44:46 +0200
+
+kaisen-menu (1.2+kaisen8) kaisen-devel; urgency=medium
+
+  * Fix bad X-Kaisen-Package in kaisen-basemenu-purge launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 19 Aug 2020 22:14:03 +0200
+
+kaisen-menu (1.2+kaisen7) kaisen-devel; urgency=medium
+
+  * Create kaisen-interface-switcher launchers by interface
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 19 Aug 2020 19:18:51 +0200
+
+kaisen-menu (1.2+kaisen6) kaisen-devel; urgency=medium
+
+  * Move kaisenpsensor.desktop in temperature categories
+  * Create temperature analysis in menus/kaisenlinux.menu
+  * Create desktop-directories/kaisenlinux-temperature.directory
+  * Create kaisenxsensors.desktop, kaisenhddtemp.desktop and kaisensensors-detect.desktop
+  * Update to standards-version at 4.5.0
+  * Create conffiles
+  * Divert old xfce4-applications.menu file
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 18 Aug 2020 02:18:13 +0200
+
+kaisen-menu (1.2+kaisen5) kaisen-devel; urgency=medium
+
+  * Replace exfat-utils by exfatprogs in exfat launchers
+  * Fix bad X-Kaisen-Package entries in kaisenpartclone*.desktop
+  * Add new exfat launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 02 Aug 2020 20:21:28 +0200
+
+kaisen-menu (1.2+kaisen4) kaisen-devel; urgency=medium
+
+  * Add tmfs launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 02 Aug 2020 18:39:06 +0200
+
+kaisen-menu (1.2+kaisen3) kaisen-devel; urgency=medium
+
+  * Move Compress/Decompress at ZIP in name menu in menus/kaisenlinux.menu
+    for fix not display section on KDE and LXDE environments
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 23 Jul 2020 01:51:56 +0200
+
+kaisen-menu (1.2+kaisen2) kaisen-devel; urgency=medium
+
+  * Update kaisenmkfs-ext2.desktop (fix X-Kaisen-Package entry)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 19 Jul 2020 02:26:54 +0200
+
+kaisen-menu (1.2+kaisen1) kaisen-testing; urgency=medium
+
+  * Adding remove xfce-applications.menu at postrm script
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 17 Jul 2020 07:32:07 +0200
+
+kaisen-menu (1.2) kaisen-testing; urgency=medium
+
+  * Adding update-kaisen-menu for auto updating launchers
+  * Adding UDF menu and launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 16 Jul 2020 01:15:29 +0200
+
+kaisen-menu (1.1+kaisen7) kaisen-devel; urgency=medium
+
+  * Fix anydesk disable service launcher
+  * Fix gfio and ettercap launchers
+  * Remove 00 at all services launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 10 Jul 2020 19:36:27 +0200
+
+kaisen-menu (1.1+kaisen6) kaisen-devel; urgency=medium
+
+  * Adding es, pt, it and de trasnlations at launchers and desktop-directories
+  * Remove kaisenlinux-snetdiag.directory (not used)
+  * Adding dsniff launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 10 Jul 2020 00:28:26 +0200
+
+kaisen-menu (1.1+kaisen5) kaisen-devel; urgency=medium
+
+  * Fix foremost launcher (become toemost by mistake).
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 01 Jul 2020 03:17:29 +0200
+
+kaisen-menu (1.1+kaisen4) kaisen-devel; urgency=medium
+
+  * Fix more 350 english translations mistike. Thanks to alexutadotlinux5733!!
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 01 Jul 2020 03:02:04 +0200
+
+kaisen-menu (1.1+kaisen3) kaisen-devel; urgency=medium
+
+  * Fix testdisk and photorec launchers after removing kaisen-testdisk and kaisen-photorec
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 01 Jul 2020 02:31:07 +0200
+
+kaisen-menu (1.1+kaisen2) kaisen-devel; urgency=medium
+
+  * English corrections. Thanks to alexutadotlinux5733 for your contribution.
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Tue, 30 Jun 2020 15:53:38 +0200
+
+kaisen-menu (1.1+kaisen1) kaisen-devel; urgency=medium
+
+  * Adding sslsniff launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Wed, 24 Jun 2020 18:10:21 +0200
+
+kaisen-menu (1.1) kaisen-testing; urgency=medium
+
+  * Adding XFCE menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sun, 21 Jun 2020 22:17:00 +0200
+
+kaisen-menu (1.0+kaisen9) kaisen-devel; urgency=medium
+
+  * Adding remmina and grsync launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Sat, 13 Jun 2020 22:22:49 +0200
+
+kaisen-menu (1.0+kaisen8) kaisen-testing; urgency=medium
+
+  * Adding kaisen-update-skel launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 08 Jun 2020 05:20:03 +0200
+
+kaisen-menu (1.0+kaisen7) kaisen-devel; urgency=medium
+
+  * Remove autopostgresqlbackup launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 05 Jun 2020 02:55:46 +0200
+
+kaisen-menu (1.0+kaisen6) kaisen-testing; urgency=medium
+
+  * Fix dwagent launcher
+  * Remove kaisenveracrypt.desktop (veracrypt not installed to default)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 02 Jun 2020 21:11:13 +0200
+
+kaisen-menu (1.0+kaisen5) kaisen-testing; urgency=medium
+
+  * Update services section, filesystems and sysadmins section
+  * Launchers create:
+  * - LXC and LXC services
+  * - Ansible
+  * - Kubectl
+  * - Scrub
+  * - NFS
+  * - Vagrant
+  * - JMeter
+  * Create "SysOps" section
+  * Move Docker to SysOps section
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Mon, 01 Jun 2020 09:35:42 +0200
+
+kaisen-menu (1.0+kaisen4) kaisen-testing; urgency=medium
+
+  * Install menu/kaisenlinux.menu at /usr/share/kaisen-menu and
+    move to /etc/xdg/menus/applications-merged with postinst script
+  * Adding strace launcher at miscellaneous
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 28 May 2020 05:11:34 +0200
+
+kaisen-menu (1.0+kaisen3) kaisen-devel; urgency=medium
+
+  * Adding in services menu:
+  * - VMWare
+  * - VirtualBox
+  * - Firewalling
+  * Adding wireguard launcher and VPN section in network tools
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Fri, 22 May 2020 00:05:51 +0200
+
+kaisen-menu (1.0+kaisen2) kaisen-devel; urgency=medium
+
+  * Launcher bettercap fixed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 19 May 2020 22:15:53 +0200
+
+kaisen-menu (1.0+kaisen1) kaisen-devel; urgency=medium
+
+  * Kaisen Linux Desktop menu
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisen-linux.org>  Thu, 30 Apr 2020 08:13:32 +0100
