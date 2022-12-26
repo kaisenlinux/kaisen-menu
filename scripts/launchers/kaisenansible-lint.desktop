@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ansible-lint
+Comment=Lint tool for Ansible playbooks
+Comment[fr]=Outil lint pour les playbooks Ansible
+Comment[es]=Herramienta lint para los playbooks de Ansible
+Comment[pt]=Ferramenta lint para playbooks de Ansible
+Comment[it]=Strumento lint per i playbook di Ansible
+Comment[de]=Lint-Werkzeug für Ansible-Playbooks
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ansible-lint -h"
+Icon=/usr/share/pixmaps/kaisen-menu/ansible.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Ansible
+X-Kaisen-Package=ansible-lint

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=arpspoof
+Comment=Sends unwanted and potentially spoofed ARP responses
+Comment[fr]=Envoie des réponses ARP non requises et potentiellement falsifiées
+Comment[es]=Envía respuestas ARP no deseadas y potencialmente falsas
+Comment[pt]=Envia respostas ARP indesejadas e potencialmente falsificadas
+Comment[it]=Invia risposte ARP indesiderate e potenzialmente contraffatte
+Comment[de]=Sendet unerwünschte und möglicherweise gefälschte ARP-Antworten
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arpspoof" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=dsniff

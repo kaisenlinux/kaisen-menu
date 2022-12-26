@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=openvpn
+Comment=Client to connect on a OpenVPN server
+Comment[fr]=Client pour se connecter sur un serveur OpenVPN
+Comment[es]=Cliente para conectarse a un servidor OpenVPN
+Comment[pt]=Cliente para ligar num servidor OpenVPN
+Comment[it]=Client per connettersi su un server OpenVPN
+Comment[de]=Client zur Verbindung mit einem OpenVPN-Server
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "openvpn --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openvpn.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VPN
+X-Kaisen-Package=openvpn

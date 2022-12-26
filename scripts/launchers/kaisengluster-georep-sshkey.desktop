@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gluster-georep-sshkey
+Comment=Manage georeplication SSH keys
+Comment[fr]=Gérer les clés SSH de géoréplication
+Comment[es]=Administrar claves SSH de georreplicación
+Comment[pt]=Gerenciar chaves SSH de georreplicação
+Comment[it]=Gestisci le chiavi SSH di georeplicazione
+Comment[de]=Verwalten von Georeplikations-SSH-Schlüsseln
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gluster-georep-sshkey -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/gluster.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GlusterFS
+X-Kaisen-Package=glusterfs-client

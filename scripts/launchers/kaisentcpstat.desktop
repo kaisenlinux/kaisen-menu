@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcpstat
+Comment=Report network interface statistics
+Comment[fr]=Rapporter les statistiques de l'interface réseau
+Comment[es]=Informar estadísticas de la interfaz de red
+Comment[pt]=Reportar estatísticas de interface de rede
+Comment[it]=Riporta le statistiche dell'interfaccia di rete
+Comment[de]=Statistiken zur Netzwerkschnittstelle melden
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpstat -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Monitoring
+X-Kaisen-Package=tcpstat

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=vmfs-lvm
+Comment=VMFS logical volume manager tool
+Comment[fr]=Outil de gestion de volume logique VMFS
+Comment[es]=Herramienta de administración de volumen lógico VMFS
+Comment[pt]=Ferramenta de gerenciamento de volume lógico VMFS
+Comment[it]=Strumento di gestione del volume logico VMFS
+Comment[de]=VMFS-Tool für den logischen Volume-Manager
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vmfs-lvm -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VMFS
+X-Kaisen-Package=vmfs-tools

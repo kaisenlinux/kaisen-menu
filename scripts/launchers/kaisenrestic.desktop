@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=restic
+Comment=Backup and restore files
+Comment[fr]=Sauvegarder et restaurer des fichiers
+Comment[es]=Copia de seguridad y restauración de archivos
+Comment[pt]=Fazer backup e restaurar arquivos
+Comment[it]=Backup e ripristino dei file
+Comment[de]=Dateien sichern und wiederherstellen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "restic --help"
+Icon=/usr/share/pixmaps/kaisen-menu/restic.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Backup
+X-Kaisen-Package=restic

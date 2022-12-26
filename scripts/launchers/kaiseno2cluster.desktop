@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=o2cluster
+Comment=Change cluster stack stamped on an OCFS2 file system
+Comment[fr]=Changer la pile de cluster estampillée sur un système de fichiers OCFS2
+Comment[es]=Cambiar la pila del clúster estampada en un sistema de archivos OCFS2
+Comment[pt]=Mudança de pilha de cluster estampada num sistema de ficheiros OCFS2
+Comment[it]=Modifica dello stack del cluster su un file system OCFS2
+Comment[de]=Ändern des Cluster-Stapels, der auf einem OCFS2-Dateisystem gestempelt ist
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "o2cluster -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=OCFS2
+X-Kaisen-Package=ocfs2-tools

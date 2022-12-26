@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ntp-enable
+Name[fr]=ntp-activé
+Name[es]=ntp-habilitado
+Name[pt]=ntp-ativado
+Name[it]=ntp-abilitato
+Name[de]=ntp-aktiviert
+Comment=Enable ntp daemon
+Comment[fr]=Activer service ntp
+Comment[es]=Activar servicio ntp
+Comment[pt]=Ativar serviço ntp
+Comment[it]=Attiva servizio ntp
+Comment[de]=Aktivieren Sie den NTP-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/ntp-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SNTP
+X-Kaisen-Package=chrony

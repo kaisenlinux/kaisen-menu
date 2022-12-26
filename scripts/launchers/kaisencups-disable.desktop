@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cups-disable
+Name[fr]=cups-désactivé
+Name[es]=cups-discapacitado
+Name[pt]=cups-desativado
+Name[it]=cups-disabilitato
+Name[de]=cups-behindert
+Comment=Disable cups daemons
+Comment[fr]=Désactiver services cups
+Comment[es]=Desactivar servicios cups
+Comment[pt]=Desativar serviços cups
+Comment[it]=Disattivare servizios cups
+Comment[de]=Services deaktivieren cups
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/cups-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SCups
+X-Kaisen-Package=cups-daemon cups-browsed

@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxcfs-disable
+Name[fr]=lxcfs-désactivé
+Name[es]=lxcfs-deshabilitado
+Name[pt]=lxcfs-desativado
+Name[it]=lxcfs-disabilitato
+Name[de]=lxcfs-deaktiviert
+Comment=Disable lxcfs
+Comment[fr]=Désactiver service lxcfs
+Comment[es]=Deshabilitar servicio lxcfs
+Comment[pt]=Desativar serviço lxcfs
+Comment[it]=Disabilita servizio lxcfs
+Comment[de]=Deaktivieren Sie den lxc-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxcfs-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=lxcfs

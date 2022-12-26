@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=NmapSI4 - User mode
+Comment=Is a Qt4 interface for nmap scanner (run as standard user)
+Comment[fr]=Interface QT4 pour nmap (lancer en utilisateur standard)
+Comment[es]=Interfaz QT4 para nmap (ejecutar como usuario estándar)
+Comment[pt]=Interface QT4 para nmap (lançar no usuário padrão)
+Comment[it]=Interfaccia Qt4 per nmap (eseguito come utente standard)
+Comment[de]=QT4-Schnittstelle für nmap (als Standardbenutzer ausführen)
+Exec=nmapsi4
+Icon=nmapsi4
+Terminal=false
+Type=Application
+Categories=Scanner
+StartupNotify=true
+X-Kaisen-Package=nmapsi4

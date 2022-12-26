@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nast
+Comment=Packets sniffer
+Comment[fr]=Sniffeur de paquets
+Comment[es]=Analizador de paquetes
+Comment[pt]=Farejador de pacotes
+Comment[it]=Sniffer di pacchetti
+Comment[de]=Paketschnüffler
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nast -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=nast

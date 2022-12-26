@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=rdiff-backup-delete
+Comment=Delete PATH from a rdiff-backup repository including the current mirror and all its history
+Comment[fr]=Supprimer PATH d'un dépôt rdiff-backup incluant le miroir actuel et tout son historique
+Comment[es]=Borrar PATH de un repositorio de rdiff-backup incluyendo la réplica actual y todo su historial
+Comment[pt]=Eliminar PATH de um repositório rdiff-backup incluindo o espelho actual e toda a sua história
+Comment[it]=Elimina PATH da un repository rdiff-backup, compreso il mirror corrente e tutta la sua storia
+Comment[de]=PATH aus einem rdiff-Backup-Repository löschen, einschließlich des aktuellen Spiegels und seiner gesamten Historie
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "rdiff-backup-delete -h"
+Icon=/usr/share/pixmaps/kaisen-menu/rdiff.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Rdiff
+X-Kaisen-Package=rdiff-backup

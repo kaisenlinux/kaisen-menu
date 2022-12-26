@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=vhdiinfo
+Comment=Tool for vhdi disk info
+Comment[fr]=Outil pour avoir des informations sur les disques vhdi de virtualbox
+Comment[es]=Herramienta para obtener información sobre discos vhdi de virtualbox
+Comment[pt]=Ferramenta para obter informações sobre os discos virtualbox vhdi
+Comment[it]=Strumento per ottenere informazioni sui dischi vhdi virtualbox
+Comment[de]=Tool zum Abrufen von Informationen zu Virtualbox-VHDI-Festplatten
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vhdiinfo -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VHDI
+X-Kaisen-Package=libvhdi-utils

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=bonnie++
+Comment=Tool for disk performance analysis
+Comment[fr]=Outil d'analyse de performance de disque
+Comment[es]=Herramienta de análisis de rendimiento de disco
+Comment[pt]=Ferramenta de análise de desempenho de disco
+Comment[it]=Strumento di analisi delle prestazioni del disco
+Comment[de]=Tool zur Analyse der Festplattenleistung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "bonnie++" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis
+X-Kaisen-Package=bonnie++

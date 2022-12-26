@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tfsec
+Comment=Security scanner for your Terraform code
+Comment[fr]=Scanner de sécurité pour votre code Terraform
+Comment[es]=Escáner de seguridad para su código Terraform
+Comment[pt]=Scanner de segurança para o seu código Terraform
+Comment[it]=Scanner di sicurezza per il tuo codice Terraform
+Comment[de]=Sicherheitsscanner für Ihren Terraform-Code
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tfsec --help"
+Icon=/usr/share/pixmaps/tfsec.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Terraform
+X-Kaisen-Package=tfsec

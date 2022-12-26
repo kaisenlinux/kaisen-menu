@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=firewalling-enable
+Name[fr]=firewalling-activé
+Name[es]=firewalling-activado
+Name[pt]=firewalling-ativado
+Name[it]=firewalling-attivato
+Name[de]=firewalling-aktiviert
+Comment=Enable firewalling service
+Comment[fr]=Activer le service de firewalling
+Comment[es]=Activar el servicio de firewall
+Comment[pt]=Ativar o serviço de firewall
+Comment[it]=Attiva il servizio di firewalling
+Comment[de]=Aktivieren Sie den Firewall-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/firewalling-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFirewalling
+X-Kaisen-Package=iptables iptables-persistent

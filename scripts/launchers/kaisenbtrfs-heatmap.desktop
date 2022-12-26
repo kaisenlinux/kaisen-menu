@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btrfs-heatmap
+Comment=Visualize the layout of data on your BTRFS filesystem
+Comment[fr]=Visualisez la disposition des données sur votre système de fichiers BTRFS
+Comment[es]=Visualice el diseño de los datos en su sistema de archivos BTRFS
+Comment[pt]=Visualize o layout dos dados em seu sistema de arquivos BTRFS
+Comment[it]=Visualizza il layout dei dati sul tuo filesystem BTRFS
+Comment[de]=Visualisieren Sie das Layout der Daten in Ihrem BTRFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-heatmap -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=BTRFS
+X-Kaisen-Package=btrfs-heatmap

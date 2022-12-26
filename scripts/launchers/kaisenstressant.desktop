@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=stressant
+Comment=Tool for a hardware stress test
+Comment[fr]=Outil pour faire un stress test du matériel
+Comment[es]=Herramienta para equipos de prueba de esfuerzo
+Comment[pt]=Ferramenta para equipamento de teste de estresse
+Comment[it]=Strumento per apparecchiature per prove di stress
+Comment[de]=Werkzeug für Stresstestgeräte
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "stressant --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware
+X-Kaisen-Package=stressant

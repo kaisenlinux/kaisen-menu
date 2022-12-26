@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lazygit
+Comment=A simple terminal UI for Git repositories
+Comment[fr]=Une interface de terminal simple pour les dépôts Git
+Comment[es]=Una sencilla interfaz de terminal para los repositorios Git
+Comment[pt]=Uma IU terminal simples para repositórios Git
+Comment[it]=Una semplice interfaccia terminale per i repository Git
+Comment[de]=Eine einfache Terminal-Benutzeroberfläche für Git-Repositories
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lazygit --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=lazygit

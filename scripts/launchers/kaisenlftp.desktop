@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lFTP
+Comment=FTP CLI client
+Comment[fr]=Client FTP CLI
+Comment[es]=Cliente CLI FTP
+Comment[pt]=Cliente CLI FTP
+Comment[it]=Client CLI FTP
+Comment[de]=FTP-CLI-Client
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lftp --help"
+Icon=lftp-icon
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FTP
+X-Kaisen-Package=lftp

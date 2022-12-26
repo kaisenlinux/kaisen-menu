@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btrfs-find-root
+Comment=Filter to find BTRFS root
+Comment[fr]=Filtrer pour trouver la racine BTRFS
+Comment[es]=Filtrar para encontrar la raíz BTRFS
+Comment[pt]=Filtrar para encontrar a raiz BTRFS
+Comment[it]=Filtra per trovare la radice BTRFS
+Comment[de]=Filtern Sie, um den BTRFS-Stamm zu finden
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-find-root --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=BTRFS
+X-Kaisen-Package=btrfs-progs

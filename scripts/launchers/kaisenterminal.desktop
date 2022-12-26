@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=Kaisen Terminal
+Comment=Terminator with default Kaisen settings
+Comment[fr]=Terminator avec les configurations de Kaisen par défaut
+Comment[es]=Terminator con la configuración por defecto de Kaisen
+Comment[pt]=Terminador com configurações padrão Kaisen
+Comment[it]=Terminator con le impostazioni predefinite di Kaisen
+Comment[de]=Terminator mit Kaisen-Standardkonfigurationen
+Exec=terminator
+Icon=utilities-terminal
+Type=Application
+Categories=GNOME;GTK;Utility;TerminalEmulator;System;
+StartupNotify=true
+X-Kaisen-Package=terminator

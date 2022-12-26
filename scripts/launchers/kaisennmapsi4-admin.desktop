@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=NmapSI4 - Full mode
+Comment=Is a Qt4 interface for nmap scanner (run as root)
+Comment[fr]=Interface QT4 pour nmap (exécuter en root)
+Comment[es]=Interfaz QT4 para nmap (ejecutar como root)
+Comment[pt]=Interface QT4 para nmap (executar como root)
+Comment[it]=Interfaccia Qt4 per nmap (eseguito come root)
+Comment[de]=QT4-Schnittstelle für nmap (als root ausführen)
+Exec=pkexec nmapsi4
+Icon=nmapsi4
+Terminal=false
+Type=Application
+Categories=Scanner
+StartupNotify=true
+X-Kaisen-Package=nmapsi4

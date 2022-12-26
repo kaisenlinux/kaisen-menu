@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=udflabel
+Comment=Show or change UDF filesystem label
+Comment[fr]=Afficher ou changer le label d'un système de fichiers UDF
+Comment[es]=Mostrar o cambiar la etiqueta de un sistema de archivos UDF
+Comment[pt]=Exibir ou alterar o rótulo de um sistema de arquivos UDF
+Comment[it]=Visualizza o modifica l'etichetta di un filesystem UDF
+Comment[de]=Anzeigen oder Ändern der Bezeichnung eines UDF-Dateisystems
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "udflabel" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/dvd.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=UDF
+X-Kaisen-Package=udftools

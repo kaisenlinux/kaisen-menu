@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.vfat
+Comment=Tool to create a FAT32 partition
+Comment[fr]=Outil pour créer une partition FAT32
+Comment[es]=Herramienta para crear una partición FAT32
+Comment[pt]=Ferramenta para criar uma partição FAT32
+Comment[it]=Strumento per creare una partizione FAT32
+Comment[de]=Tool zum Erstellen einer FAT32-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.vfat --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=dosfstools

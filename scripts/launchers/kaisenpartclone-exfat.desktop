@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=partclone.exfat
+Comment=Tool to clone EXFAT partition
+Comment[fr]=Outil pour cloner une partition EXFAT
+Comment[es]=Herramienta para clonar una partición EXFAT
+Comment[pt]=Ferramenta para clonar uma partição EXFAT
+Comment[it]=Strumento per clonare una partizione EXFAT
+Comment[de]=Tool zum Klonen einer EXFAT-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "partclone.exfat -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/partclone.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=EXFAT
+X-Kaisen-Package=partclone

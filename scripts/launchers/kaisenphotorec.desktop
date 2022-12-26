@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=photorec
+Comment=Advanced tool for data recovery
+Comment[fr]=Outil de récupération de données avancée
+Comment[es]=Herramienta de recuperación de datos avanzada
+Comment[pt]=Ferramenta avançada de recuperação de dados
+Comment[it]=Strumento avanzato di recupero dati
+Comment[de]=Erweitertes Datenwiederherstellungstool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "photorec" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=testdisk

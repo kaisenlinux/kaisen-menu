@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-ckeckpoint
+Comment=Checkpoint a container
+Comment[fr]=Point de contrôle d'un container
+Comment[es]=Punto de control de un contenedor
+Comment[pt]=Ponto de controle de um contêiner
+Comment[it]=Punto di controllo di un contenitore
+Comment[de]=Kontrollpunkt eines Containers
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-checkpoint --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

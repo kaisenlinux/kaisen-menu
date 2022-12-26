@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-snapshot
+Comment=Snapshot an existing container
+Comment[fr]=Instantané d'un conteneur existant
+Comment[es]=Instantánea de un contenedor existente
+Comment[pt]=Instantâneo de um contêiner existente
+Comment[it]=Snapshot di un contenitore esistente
+Comment[de]=Schnappschuss eines vorhandenen Containers
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-snapshot --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

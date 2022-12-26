@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Network
+Name[fr]=Réseau
+Name[es]=Red
+Name[pt]=Rede
+Name[it]=Rete
+Name[de]=Netzwerk
+Icon=/usr/share/pixmaps/kaisen-menu/router.png
+Type=Directory

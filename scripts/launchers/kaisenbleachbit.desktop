@@ -1,0 +1,18 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=BleachBit
+Comment=Free space and maintain privacy
+Comment[fr]=Libérer de l’espace et préserver la confidentialité
+Comment[es]=Libere espacio y mantenga la confidencialidad
+Comment[pt]=Liberte espaço e preserve a confidencialidade
+Comment[it]=Liberare spazio e preservare la riservatezza
+Comment[de]=Geben Sie Speicherplatz frei und bewahren Sie die Vertraulichkeit
+TryExec=pkexec
+Exec=pkexec bleachbit
+Icon=bleachbit
+Categories=PartitioningErasing
+StartupNotify=true
+Type=Application
+X-GNOME-UsesNotifications=true
+X-Kaisen-Package=bleachbit

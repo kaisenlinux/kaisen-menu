@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btrfs-convert
+Comment=Tool to convert ext2/3/4 filesystems to BTRFS
+Comment[fr]=Outil pour convertir les systèmes de fichiers ext2/3/4 en BTRFS
+Comment[es]=Herramienta para convertir sistemas de archivos ext2/3/4 a BTRFS
+Comment[pt]=Ferramenta para converter sistemas de arquivos ext2/3/4 para BTRFS
+Comment[it]=Strumento per convertire i filesystem ext2/3/4 in BTRFS
+Comment[de]=Tool zum Konvertieren von ext2/3/4-Dateisystemen in BTRFS
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-convert --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=BTRFS
+X-Kaisen-Package=btrfs-progs

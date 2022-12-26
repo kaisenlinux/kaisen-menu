@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=measurefs.reiser4
+Comment=The program for measuring REISER4 filesystem parameters
+Comment[fr]=Le programme de mesure des paramètres du système de fichiers REISER4
+Comment[es]=El programa para medir los parámetros del sistema de archivos REISER4
+Comment[pt]=O programa para medir os parâmetros do sistema de arquivos REISER4
+Comment[it]=Il programma per misurare i parametri del filesystem REISER4
+Comment[de]=Das Programm zur Messung der REISER4-Dateisystemparameter
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "measurefs.reiser4 -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=REISER4
+X-Kaisen-Package=reiser4progs

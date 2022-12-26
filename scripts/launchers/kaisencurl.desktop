@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=curl
+Comment=Tool to transfer a URL
+Comment[fr]=Outil pour transférer une URL
+Comment[es]=Herramienta para transferir una URL
+Comment[pt]=Ferramenta para transferir um URL
+Comment[it]=Strumento per trasferire un URL
+Comment[de]=Tool zum Übertragen einer URL
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "curl --help"
+Icon=/usr/share/pixmaps/kaisen-menu/curl.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=curl

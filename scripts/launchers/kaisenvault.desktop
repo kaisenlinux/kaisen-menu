@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=vault
+Comment=A tool for secrets management, encryption as a service, and privileged access management
+Comment[fr]=Un outil pour la gestion des secrets, le chiffrement en tant que service et la gestion des accès privilégiés
+Comment[es]=Una herramienta para la gestión de secretos, el cifrado como servicio y la gestión de accesos privilegiados
+Comment[pt]=Uma ferramenta de gestão de segredos, encriptação como serviço, e gestão de acesso privilegiado
+Comment[it]=Uno strumento per la gestione dei segreti, la crittografia come servizio e la gestione degli accessi privilegiati
+Comment[de]=Ein Tool für die Verwaltung von Geheimnissen, Verschlüsselung als Dienst und die Verwaltung privilegierter Zugriffe
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "vault --help"
+Icon=/usr/share/pixmaps/vault.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=vault

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=hddtemp
+Comment=Hard drive temperature analysis tool
+Comment[fr]=Outil d'analyse de temprature pour disques dur
+Comment[es]=Herramienta de análisis de temperatura del disco duro
+Comment[pt]=Ferramenta de análise de temperatura do disco rígido
+Comment[it]=Strumento di analisi della temperatura del disco rigido
+Comment[de]=Tool zur Analyse der Festplattentemperatur
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "hddtemp -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Temperature;DisksAnalysis
+X-Kaisen-Package=hddtemp

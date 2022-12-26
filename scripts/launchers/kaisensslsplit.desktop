@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sslsplit
+Comment=Transparent SSL/TLS interception
+Comment[fr]=Interception SSL/TLS transparente
+Comment[es]=Intercepción transparente de SSL/TLS
+Comment[pt]=Interceptação transparente de SSL/TLS
+Comment[it]=Intercettazione SSL/TLS trasparente
+Comment[de]=Transparentes Abfangen von SSL/TLS
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sslsplit -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSLTLS
+X-Kaisen-Package=sslsplit

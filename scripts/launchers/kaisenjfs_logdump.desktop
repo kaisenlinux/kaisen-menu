@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=jfs_logdump
+Comment=Dump a JFS formatted device's journal log
+Comment[fr]=Vider le journal du journal d'un périphérique au format JFS
+Comment[es]=Volcar el registro de diario de un dispositivo formateado con JFS
+Comment[pt]=Despejar o registro de diário de um dispositivo formatado em JFS
+Comment[it]=Scarica il registro del giornale di un dispositivo formattato JFS
+Comment[de]=Speichern Sie das Journalprotokoll eines JFS-formatierten Geräts
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "jfs_logdump" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=JFS
+X-Kaisen-Package=jfsutils

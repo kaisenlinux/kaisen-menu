@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=gfs2_grow
+Comment=Expand a GFS2 filesystem
+Comment[fr]=Etendre un système de fichiers GFS2
+Comment[es]=Expandir un sistema de archivos GFS2
+Comment[pt]=Expanda um sistema de arquivos GFS2
+Comment[it]=Espandi un filesystem GFS2
+Comment[de]=Erweitern Sie ein GFS2-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "gfs2_grow -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GFS2
+X-Kaisen-Package=gfs2-utils

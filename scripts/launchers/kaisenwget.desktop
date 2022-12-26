@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wget
+Comment=The non-interactive network downloader
+Comment[fr]=Le téléchargeur de réseau non interactif
+Comment[es]=El descargador de red no interactivo
+Comment[pt]=O downloader de rede não interativo
+Comment[it]=Il downloader di rete non interattivo
+Comment[de]=Der nicht interaktive Netzwerk-Downloader
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "wget --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=wget

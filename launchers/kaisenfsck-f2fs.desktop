@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.f2fs
+Comment=Tool to check the integrity of a F2FS partition
+Comment[fr]=Outil pour vérifier l'intégrité d'une partition F2FS
+Comment[es]=Herramienta para comprobar la integridad de una partición F2FS
+Comment[pt]=Ferramenta para verificar a integridade de uma partição F2FS
+Comment[it]=Strumento per verificare l'integrità di una partizione F2FS
+Comment[de]=Tool zur Überprüfung der Integrität einer F2FS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.f2fs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=f2fs-tools

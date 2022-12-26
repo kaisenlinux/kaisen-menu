@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zerofree
+Comment=Tool to reallocate sector in ext partitions
+Comment[fr]=Outil pour reallouer les secteurs sur les partitions ext
+Comment[es]=Herramienta para reasignar sectores en particiones externas
+Comment[pt]=Ferramenta para realocar setores em partições ext
+Comment[it]=Strumento per riallocare settori su partizioni ext
+Comment[de]=Tool zum Neuzuweisen von Sektoren auf ext-Partitionen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zerofree" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=zerofree

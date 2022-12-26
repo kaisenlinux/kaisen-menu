@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=scapy
+Comment=Framework to generate traffic and sniffing
+Comment[fr]=Framework pour générer du trafic et sniffing
+Comment[es]=Framework para generar tráfico y oler
+Comment[pt]=Framework para gerar tráfego e cheirar
+Comment[it]=Framework per generare traffico e fiuto
+Comment[de]=Framework zum Generieren von Verkehr und Schnüffeln
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "scapy"
+Icon=/usr/share/pixmaps/kaisen-menu/scapy.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner;PCAP
+X-Kaisen-Package=python3-scapy

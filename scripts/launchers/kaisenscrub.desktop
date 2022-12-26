@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=scrub
+Comment=Tool to securely erase a file on HDD
+Comment[fr]=Outil pour faire un effacement sécurisé sur un disque dur
+Comment[es]=Herramienta para hacer un borrado seguro en un disco duro
+Comment[pt]=Ferramenta para fazer uma exclusão segura em um disco rígido
+Comment[it]=Strumento per effettuare una cancellazione sicura su un disco rigido
+Comment[de]=Tool zum sicheren Löschen auf einer Festplatte
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "scrub -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PartitioningErasing
+X-Kaisen-Package=scrub

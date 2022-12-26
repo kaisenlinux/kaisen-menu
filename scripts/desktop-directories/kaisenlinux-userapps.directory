@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=User applications
+Name[fr]=Applications utilisateur
+Name[es]=Aplicaciones de usuario
+Name[pt]=Aplicativos de usuário
+Name[it]=Applicazioni utente
+Name[de]=Benutzeranwendungen
+Icon=/usr/share/pixmaps/kaisen-menu/tux.png
+Type=Directory

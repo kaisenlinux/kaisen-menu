@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcpnice
+Comment=Slow down TCP connections on a LAN
+Comment[fr]=Ralentissez les connexions TCP sur un LAN
+Comment[es]=Ralentizar las conexiones TCP en una LAN
+Comment[pt]=Diminua a velocidade das conexões TCP em uma LAN
+Comment[it]=Rallenta le connessioni TCP su una LAN
+Comment[de]=Verlangsamen Sie die TCP-Verbindungen in einem LAN
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcpnice -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PCAP
+X-Kaisen-Package=dsniff

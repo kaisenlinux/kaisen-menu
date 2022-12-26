@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=Hardinfo
+Comment=Displays system info
+Comment[fr]=Afficher les informations système
+Comment[es]=Ver información del sistema
+Comment[pt]=Ver informações do sistema
+Comment[it]=Visualizza le informazioni di sistema
+Comment[de]=Systeminformationen anzeigen
+Exec=hardinfo
+Icon=/usr/share/hardinfo/pixmaps/logo.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Hardware;
+X-Kaisen-Package=hardinfo

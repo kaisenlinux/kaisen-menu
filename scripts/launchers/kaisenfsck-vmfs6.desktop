@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.vmfs6
+Comment=Tool to check the integrity of a VMFS6 partition
+Comment[fr]=Outil pour vérifier l'intégrité d'une partition VMFS6
+Comment[es]=Herramienta para comprobar la integridad de una partición VMFS6
+Comment[pt]=Ferramenta para verificar a integridade de uma partição VMFS6
+Comment[it]=Strumento per verificare l'integrità di una partizione VMFS6
+Comment[de]=Tool zur Überprüfung der Integrität einer VMFS6-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.vmfs6" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=vmfs6-tools

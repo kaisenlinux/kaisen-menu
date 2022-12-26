@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkreiser4
+Comment=Tool to create REISER4 partition
+Comment[fr]=Outil pour créer une partition REISER4
+Comment[es]=Herramienta para crear una partición reiser4
+Comment[pt]=Ferramenta para criar uma partição reiser4
+Comment[it]=Strumento per creare una partizione reiser4
+Comment[de]=Tool zum Erstellen einer reiser4-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkreiser4 -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=REISER4
+X-Kaisen-Package=reiser4progs

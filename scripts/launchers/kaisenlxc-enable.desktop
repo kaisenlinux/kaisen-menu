@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-enable
+Name[fr]=lxc-activé
+Name[es]=lxc-habilitado
+Name[pt]=lxc-ativado
+Name[it]=lxc-abilitato
+Name[de]=lxc-aktiviert
+Comment=Enable lxc daemon
+Comment[fr]=Activer service lxc
+Comment[es]=Activar servicio lxc
+Comment[pt]=Ativar serviço lxc
+Comment[it]=Attiva servizio lxc
+Comment[de]=Aktivieren Sie den Dienst lxc
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxc-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=lxc

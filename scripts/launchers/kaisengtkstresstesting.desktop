@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=GtkStressTesting
+Comment=System utility designed to stress and monitor various hardware components
+Comment[fr]=Utilitaire système conçu pour mettre sous tension et surveiller divers composants matériels
+Comment[es]=Utilidad del sistema diseñada para estresar y supervisar varios componentes de hardware
+Comment[pt]=Utilitário de sistema concebido para tensionar e monitorizar vários componentes de hardware
+Comment[it]=Utilità di sistema progettata per stressare e monitorare vari componenti hardware
+Comment[de]=Systemdienstprogramm für die Belastung und Überwachung verschiedener Hardwarekomponenten
+Icon=com.leinardi.gst
+Exec=pkexec gtkstresstesting
+Terminal=false
+Type=Application
+Categories=Hardware
+X-Kaisen-Package=gtkstresstesting

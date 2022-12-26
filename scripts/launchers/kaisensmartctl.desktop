@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=smartctl
+Comment=Tool to analyse HDD or SSD
+Comment[fr]=Outil pour analyser un HDD ou SSD
+Comment[es]=Herramienta para analizar un HDD o SSD
+Comment[pt]=Ferramenta para analisar um HDD ou SSD
+Comment[it]=Strumento per analizzare un HDD o SSD
+Comment[de]=Tool zum Analysieren einer Festplatte oder SSD
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "smartctl -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis
+X-Kaisen-Package=smartmontools

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-checkconfig
+Comment=Check the current kernel for LXC support
+Comment[fr]=Vérifiez le noyau actuel pour la prise en charge de LXC
+Comment[es]=Verifique el kernel actual para soporte LXC
+Comment[pt]=Verifique o kernel atual para suporte LXC
+Comment[it]=Controlla il kernel corrente per il supporto LXC
+Comment[de]=Überprüfen Sie den aktuellen Kernel auf LXC-Unterstützung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-checkconfig"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=pffinfo
+Comment=Determines information about a Personal Folder File (OST, PAB and PST)
+Comment[fr]=Détermine les informations sur un fichier de dossiers personnels (OST, PAB et PST)
+Comment[es]=Determina la información sobre un archivo de carpeta personal (OST, PAB y PST)
+Comment[pt]=Determina informações sobre um arquivo de pasta pessoal (OST, PAB e PST)
+Comment[it]=Determina le informazioni su un file delle cartelle personali (OST, PAB e PST)
+Comment[de]=Bestimmt Informationen zu einer persönlichen Ordnerdatei (OST, PAB und PST)
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pffinfo -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PST
+X-Kaisen-Package=pff-tools

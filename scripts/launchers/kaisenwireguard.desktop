@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wireguard
+Comment=Client to connect on a Wireguard VPN
+Comment[fr]=Client pour se connecter sur un VPN Wireguard
+Comment[es]=Cliente para conectarse a una VPN de Wireguard
+Comment[pt]=Cliente para ligar numa VPN Wireguard
+Comment[it]=Client per connettersi su una VPN Wireguard
+Comment[de]=Client zur Verbindung mit einem Wireguard VPN
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "wg --help"
+Icon=/usr/share/pixmaps/kaisen-menu/wireguard.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=VPN
+X-Kaisen-Package=wireguard

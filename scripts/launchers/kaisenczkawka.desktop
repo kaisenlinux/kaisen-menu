@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=czkawka
+Comment=Multi functional app to find duplicates, empty folders, similar images etc
+Comment[fr]=Application multifonctionnelle pour trouver les doublons, les dossiers vides, les images similaires, etc
+Comment[es]=Aplicación multifuncional para encontrar duplicados, carpetas vacías, imágenes similares, etc
+Comment[pt]=Aplicação multi funcional para encontrar duplicados, pastas vazias, imagens semelhantes, etc
+Comment[it]=App multifunzionale per trovare duplicati, cartelle vuote, immagini simili ecc
+Comment[de]=Multifunktionale Anwendung zum Auffinden von Duplikaten, leeren Ordnern, ähnlichen Bildern usw
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "czkawka -h"
+Icon=utilities-terminal
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=DuplicatesAnalysis
+X-Kaisen-Package=czkawka

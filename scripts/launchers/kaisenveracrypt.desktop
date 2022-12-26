@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=veracrypt
+Comment=Tool to encrypt and mount all disks partitions (CLI)
+Comment[fr]=Outil pour chiffrer et monter toutes partitions de disques (CLI)
+Comment[es]=Herramienta de cifrado para cifrar y montar todas las particiones del disco (CLI)
+Comment[pt]=Ferramenta de criptografia para criptografar e montar todas as partições do disco (CLI)
+Comment[it]=Strumento di crittografia per crittografare e montare tutte le partizioni del disco (CLI)
+Comment[de]=Verschlüsselungstool zum Verschlüsseln und Mounten aller Festplattenpartitionen (CLI)
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "veracrypt --text --help"
+Icon=utilities-terminal
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Dataprotection
+X-Kaisen-Package=veracrypt

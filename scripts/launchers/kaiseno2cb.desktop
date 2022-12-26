@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=o2cb
+Comment=Cluster registration utility for the O2CB cluster stack
+Comment[fr]=Utilitaire d'enregistrement des clusters pour la pile de clusters O2CB
+Comment[es]=Utilidad de registro de clústeres para la pila de clústeres O2CB
+Comment[pt]=Utilitário de registo de clusters para a pilha de agregados O2CB
+Comment[it]=Utilità di registrazione del cluster per lo stack di cluster O2CB
+Comment[de]=Dienstprogramm zur Cluster-Registrierung für den O2CB-Cluster-Stack
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "o2cb -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=OCFS2
+X-Kaisen-Package=ocfs2-tools

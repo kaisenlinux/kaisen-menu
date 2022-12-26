@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=hfsprescue
+Comment=Tool to recover HFS+ partitions datas
+Comment[fr]=Outil pour récupérer des données sur les partitions HFS+
+Comment[es]=Herramienta para recuperar datos de particiones HFS+
+Comment[pt]=Ferramenta para recuperar dados de partições HFS+
+Comment[it]=Strumento per recuperare i dati dalle partizioni HFS+
+Comment[de]=Tool zum Wiederherstellen von Daten von HFS+ -Partitionen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "hfsprescue --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Recovery
+X-Kaisen-Package=hfsprescue

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-update-config
+Comment=Update a legacy pre LXC 2.1 configuration file
+Comment[fr]=Mettre à jour un fichier de configuration antérieur à LXC 2.1
+Comment[es]=Actualizar un archivo de configuración heredado anterior a LXC 2.1
+Comment[pt]=Atualizar um arquivo de configuração pré-LXC 2.1 legado
+Comment[it]=Aggiorna un file di configurazione precedente a LXC 2.1
+Comment[de]=Aktualisieren Sie eine ältere Konfigurationsdatei vor LXC 2.1
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-update-config --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

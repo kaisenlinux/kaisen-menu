@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sslsniff
+Comment=SSL/TLS man-in-the-middle attack tool
+Comment[fr]=Outil d'attaque de l'homme du milieu SSL/TLS
+Comment[es]=Herramienta de ataque man-in-the-middle SSL/TLS
+Comment[pt]=Ferramenta de ataque intermediário SSL/TLS
+Comment[it]=Strumento di attacco man-in-the-middle SSL/TLS
+Comment[de]=SSL/TLS-Man-in-the-Middle-Angriffstool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sslsniff"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSLTLS
+X-Kaisen-Package=sslsniff

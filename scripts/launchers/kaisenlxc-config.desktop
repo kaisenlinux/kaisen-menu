@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-config
+Comment=Query LXC system configuration
+Comment[fr]=Configuration du système de requête LXC
+Comment[es]=Consultar la configuración del sistema LXC
+Comment[pt]=Consultar a configuração do sistema LXC
+Comment[it]=Interroga la configurazione del sistema LXC
+Comment[de]=LXC-Systemkonfiguration abfragen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-config -l"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

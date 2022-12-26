@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fscrypt
+Comment=Tool to encrypt filesystems
+Comment[fr]=Outil pour chiffrer des systèmes de fichiers
+Comment[es]=Herramienta para encriptar sistemas de archivos
+Comment[pt]=Ferramenta para criptografar sistemas de arquivos
+Comment[it]=Strumento per crittografare i file system
+Comment[de]=Tool zum Verschlüsseln von Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fscrypt --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dataprotection
+X-Kaisen-Package=fscrypt

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+    <vendor>Kaisen Linux</vendor>
+    <vendor_url>https://kaisenlinux.org</vendor_url>
+
+    <action id="org.kaisen.pkexec.etherape">
+        <description>Run Etherape as root</description>
+        <message>Authentication is required to run Etherape as root</message>
+	<icon_name>etherape</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/etherape</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.nmapsi4">
+        <description>Run NmapSI4 as root</description>
+        <message>Authentication is required to run NmapSI4 as root</message>
+	<icon_name>nmapsi4</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/nmapsi4</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.packetsender">
+        <description>Run PacketSender as root</description>
+        <message>Authentication is required to run PacketSender as root</message>
+	<icon_name>packetsender</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/packetsender</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.wireshark">
+	<description>Run Wireshark as root</description>
+	<message>Authentication is required to run Wireshark as root</message>
+	<icon_name>wireshark</icon_name>
+	<defaults>
+	    <allow_any>auth_admin</allow_any>
+	    <allow_inactive>auth_admin</allow_inactive>
+	    <allow_active>auth_admin</allow_active>
+	</defaults>
+	<annotate key="org.freedesktop.policykit.exec.path">/usr/bin/wireshark</annotate>
+	<annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.baobab">
+        <description>Run Baobab as root</description>
+        <message>Authentication is required to run Baobab as root</message>
+	<icon_name>baobab</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/baobab</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.balena">
+        <description>Run balenaEtcher as root</description>
+        <message>Authentication is required to run balenaEtcher as root</message>
+	<icon_name>balena-etcher-electron</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/balena-etcher-electron</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.lshw">
+        <description>Run lshw-gtk as root</description>
+        <message>Authentication is required to run lshw-gtk as root</message>
+	<icon_name>lshw-gtk</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/lshw-gtk</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.zulumount">
+        <description>Run ZuluMount as root</description>
+        <message>Authentication is required to run ZuluMount as root</message>
+	<icon_name>zuluMount</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/zuluMount-gui</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.zulucrypt">
+        <description>Run ZuluCrypt as root</description>
+        <message>Authentication is required to run ZuluCrypt as root</message>
+	<icon_name>zuluCrypt</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/zuluCrypt-gui</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.gtkterm">
+        <description>Run GTKTerm as root</description>
+        <message>Authentication is required to run GTKTerm as root</message>
+        <icon_name>gtkterm</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/gtkterm</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+    <action id="org.kaisen.pkexec.driftnet">
+        <description>Run Driftnet as root</description>
+        <message>Authentication is required to run Driftnet as root</message>
+        <icon_name>utilities-terminal</icon_name>
+        <defaults>
+            <allow_any>auth_admin</allow_any>
+            <allow_inactive>auth_admin</allow_inactive>
+            <allow_active>auth_admin</allow_active>
+        </defaults>
+        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/driftnet</annotate>
+        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    </action>
+
+</policyconfig>

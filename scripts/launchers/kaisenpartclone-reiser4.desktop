@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=partclone.reiser4
+Comment=Tool to clone REISER4 partition
+Comment[fr]=Outil pour cloner une partition REISER4
+Comment[es]=Herramienta para clonar una partición REISER4
+Comment[pt]=Ferramenta para clonar uma partição REISER4
+Comment[it]=Strumento per clonare una partizione REISER4
+Comment[de]=Tool zum Klonen einer REISER4-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "partclone.reiser4 -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/partclone.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=REISER4
+X-Kaisen-Package=partclone

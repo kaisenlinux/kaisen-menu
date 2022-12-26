@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=apfs-dump
+Comment=Tool to scan whole APFS volume and try to wipe them
+Comment[fr]=Outil pour scanner le volume APFS entier et essayer de les effacer
+Comment[es]=Herramienta para escanear todo el volumen APFS e intentar borrarlo
+Comment[pt]=Ferramenta para digitalizar todo o volume APFS e tentar limpá-los
+Comment[it]=Strumento per scansionare l'intero volume APFS e tentare di cancellarlo
+Comment[de]=Tool zum Scannen ganzer APFS-Volumes und zum Löschen der Daten
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "apfs-dump"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=APFS
+X-Kaisen-Package=apfs-fuse

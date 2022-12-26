@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=helm
+Comment=The Kubernetes package manager
+Comment[fr]=Le gestionnaire de paquets de Kubernetes
+Comment[es]=El gestor de paquetes de Kubernetes
+Comment[pt]=O gestor de pacotes Kubernetes
+Comment[it]=Il gestore di pacchetti Kubernetes
+Comment[de]=Der Kubernetes-Paketmanager
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "helm --help"
+Icon=/usr/share/pixmaps/helm.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=helm

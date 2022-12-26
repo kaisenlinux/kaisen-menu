@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dirvish-expire
+Comment=Delete expired dirvish images
+Comment[fr]=Supprimer les images dirvish expirées
+Comment[es]=Eliminar imágenes de dirvish caducadas
+Comment[pt]=Excluir imagens de dirvish expiradas
+Comment[it]=Elimina le immagini sporche scadute
+Comment[de]=Löschen Sie abgelaufene Dirvish-Bilder
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dirvish-expire" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/dirvish.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dirvish
+X-Kaisen-Package=dirvish

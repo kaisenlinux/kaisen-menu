@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btrfs-search-metadata
+Comment=Lookup BTRFS metadata
+Comment[fr]=Rechercher les métadonnées BTRFS
+Comment[es]=Buscar metadatos BTRFS
+Comment[pt]=Metadados de pesquisa BTRFS
+Comment[it]=Ricerca metadati BTRFS
+Comment[de]=Suchen Sie nach BTRFS-Metadaten
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btrfs-search-metadata -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=BTRFS
+X-Kaisen-Package=btrfs-progs

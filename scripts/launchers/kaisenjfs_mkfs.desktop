@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=jfs_mkfs
+Comment=Tool to create JFS partition
+Comment[fr]=Outil pour créer une partition JFS
+Comment[es]=Herramienta para crear una partición JFS
+Comment[pt]=Ferramenta para criar uma partição JFS
+Comment[it]=Strumento per creare una partizione JFS
+Comment[de]=Tool zum Erstellen einer JFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "jfs_mkfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=JFS
+X-Kaisen-Package=jfsutils

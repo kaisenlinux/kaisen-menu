@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nvram_export
+Comment=Cisco NVRAM configuration export
+Comment[fr]=Export de la NVRAM de configuration Cisco
+Comment[es]=Exportación de Cisco Configuration NVRAM
+Comment[pt]=Exportação de NVRAM de configuração Cisco
+Comment[it]=Esportazione NVRAM configurazione Cisco
+Comment[de]=Cisco Configuration NVRAM-Export
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nvram_export"
+Icon=utilities-terminal
+Type=Application
+StartupNotify=false
+Categories=GNS3
+X-Kaisen-Package=dynamips

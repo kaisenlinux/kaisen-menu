@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=bettercap
+Comment=Multipurpose Network sniffer/analyser/interceptor/logger
+Comment[fr]=Sniffer/Analyser/Intercepteur/Logger Réseau
+Comment[es]=Sniffer/Analyze/Interceptor/Network Logger
+Comment[pt]=Farejador/Analisador/Interceptador/Registrador de Rede
+Comment[it]=Sniffer/Analizza/Interceptor/Network Logger
+Comment[de]=Sniffer/Analyze/Interceptor/Network Logger
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "bettercap" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/bettercap.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=bettercap

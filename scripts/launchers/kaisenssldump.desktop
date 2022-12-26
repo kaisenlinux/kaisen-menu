@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ssldump
+Comment=Dump SSL/TLS traffic on a network
+Comment[fr]=Décharger le trafic SSL/TLS sur un réseau
+Comment[es]=Volcar tráfico SSL/TLS en una red
+Comment[pt]=Despejar tráfego SSL/TLS em uma rede
+Comment[it]=Scarica il traffico SSL/TLS su una rete
+Comment[de]=Dump SSL/TLS-Verkehr in einem Netzwerk
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ssldump -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSLTLS
+X-Kaisen-Package=ssldump

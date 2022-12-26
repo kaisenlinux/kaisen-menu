@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=smbclient
+Comment=FTP-like client to access SMB/CIFS resources on servers
+Comment[fr]=Client de type FTP pour accéder aux ressources SMB/CIFS sur les serveurs
+Comment[es]=Cliente tipo FTP para acceder a los recursos SMB/CIFS de los servidores
+Comment[pt]=Cliente tipo FTP para aceder a recursos SMB/CIFS em servidores
+Comment[it]=Client simile a FTP per accedere alle risorse SMB/CIFS sui server
+Comment[de]=FTP-ähnlicher Client für den Zugriff auf SMB/CIFS-Ressourcen auf Servern
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "smbclient --help"
+Icon=/usr/share/pixmaps/kaisen-menu/samba.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=smbclient

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dislocker-fuse
+Comment=Read/write BitLocker encrypted volumes
+Comment[fr]=Lecture/écriture des volumes chiffrés BitLocker
+Comment[es]=Volúmenes cifrados de BitLocker de lectura/escritura
+Comment[pt]=Ler/gravar volumes criptografados do BitLocker
+Comment[it]=Lettura/scrittura di volumi crittografati con BitLocker
+Comment[de]=BitLocker-verschlüsselte Volumes lesen/schreiben
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dislocker-fuse -h"
+Icon=/usr/share/pixmaps/kaisen-menu/bitlocker.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Bitlocker
+X-Kaisen-Package=dislocker

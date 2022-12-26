@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=neo4j-enable
+Name[fr]=neo4j-activé
+Name[es]=neo4j-habilitado
+Name[pt]=neo4j-ativado
+Name[it]=neo4j-abilitato
+Name[de]=neo4j-aktiviert
+Comment=Enable neo4j daemon
+Comment[fr]=Activer service neo4j
+Comment[es]=Activar servicio neo4j
+Comment[pt]=Ativar serviço neo4j
+Comment[it]=Attiva servizio neo4j
+Comment[de]=Aktivieren Sie den Dienst neo4j
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/neo4j-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SNeo4j
+X-Kaisen-Package=neo4j

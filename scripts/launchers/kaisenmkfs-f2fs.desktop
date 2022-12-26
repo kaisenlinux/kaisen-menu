@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=mkfs.f2fs
+Comment=Tool to create a F2FS partition
+Comment[fr]=Outil pour créer une partition F2FS
+Comment[es]=Herramienta para crear una partición F2FS
+Comment[pt]=Ferramenta para criar uma partição F2FS
+Comment[it]=Strumento per creare una partizione F2FS
+Comment[de]=Tool zum Erstellen einer F2FS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "mkfs.f2fs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MKFS
+X-Kaisen-Package=f2fs-tools

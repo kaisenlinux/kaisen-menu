@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-autostart
+Comment=Start/stop/kill auto-started containers
+Comment[fr]=Démarrer/arrêter/tuer les conteneurs à démarrage automatique
+Comment[es]=Iniciar/detener/matar contenedores de inicio automático
+Comment[pt]=Iniciar/parar/eliminar contêineres iniciados automaticamente
+Comment[it]=Avviare/arrestare/uccidere i contenitori avviati automaticamente
+Comment[de]=Starten/Stoppen/Beenden von automatisch gestarteten Containern
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-autostart --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=PackETH
+Comment=Generate ethernet packets
+Comment[fr]=Générer des paquets ethernet
+Comment[es]=Generar paquetes de ethernet
+Comment[pt]=Gere pacotes Ethernet
+Comment[it]=Genera pacchetti ethernet
+Comment[de]=Generieren Sie Ethernet-Pakete
+Type=Application
+Categories=Ethernet
+Exec=packeth
+Icon=/usr/share/pixmaps/kaisen-menu/ethernet.png
+StartupNotify=false
+Terminal=false
+X-Kaisen-Package=packeth

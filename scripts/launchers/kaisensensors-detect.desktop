@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sensors-detect
+Comment=Script to detect the presence of temperature sensors
+Comment[fr]=Script pour détecter la présence de capteurs de temperatures
+Comment[es]=Script para detectar la presencia de sensores de temperatura
+Comment[pt]=Script para detectar a presença de sensores de temperatura
+Comment[it]=Script per rilevare la presenza di sensori di temperatura
+Comment[de]=Skript zum Erkennen des Vorhandenseins von Temperatursensoren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sensors-detect --auto" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Temperature;Hardware;DisksAnalysis
+X-Kaisen-Package=lm-sensors

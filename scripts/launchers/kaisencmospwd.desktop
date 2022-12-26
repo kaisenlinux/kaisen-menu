@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cmospwd
+Comment=Tool to recover password in your BIOS
+Comment[fr]=Outil pour réinitialiser le mot de passe de votre BIOS
+Comment[es]=Herramienta para restablecer la contraseña de tu BIOS
+Comment[pt]=Ferramenta para redefinir sua senha do BIOS
+Comment[it]=Strumento per reimpostare la password del BIOS
+Comment[de]=Tool zum Zurücksetzen Ihres BIOS-Passworts
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "cmospwd -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/cmospwd.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Passwords
+X-Kaisen-Package=cmospwd

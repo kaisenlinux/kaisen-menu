@@ -1,0 +1,26 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=VSCodium
+Comment=Code Editing. Redefined.
+Comment[fr]=Code édition. Redéfinition.
+Comment[es]=Código de edición. Redefinición.
+Comment[pt]=Código de edição. Redefinição.
+Comment[it]=Codice edizione. Ridefinizione.
+Comment[de]=Editionscode. Neudefinition.
+Exec=/usr/share/codium/codium --no-sandbox --unity-launch %F
+Icon=/usr/share/pixmaps/vscodium.png
+Type=Application
+StartupNotify=false
+StartupWMClass=VSCodium
+Categories=Development
+MimeType=text/plain;inode/directory;
+Actions=new-empty-window;
+Keywords=vscode;
+X-Desktop-File-Install-Version=0.23
+X-Kaisen-Package=codium
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Exec=/usr/share/codium/codium --no-sandbox --new-window %F
+Icon=/usr/share/pixmaps/vscodium.png

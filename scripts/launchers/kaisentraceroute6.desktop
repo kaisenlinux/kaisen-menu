@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=traceroute6
+Comment=Tool to trace an ipv6 packet on network
+Comment[fr]=Outil pour tracer un paquet ipv6 sur le réseau
+Comment[es]=Herramienta para rastrear un paquete ipv6 en la red
+Comment[pt]=Ferramenta para rastrear um pacote ipv6 na rede
+Comment[it]=Strumento per tracciare un pacchetto ipv6 sulla rete
+Comment[de]=Tool zum Verfolgen eines IPv6-Pakets im Netzwerk
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "traceroute6 -h"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner;IP
+X-Kaisen-Package=iputils-tracepath

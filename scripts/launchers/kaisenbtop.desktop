@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=btop
+Comment=Resource monitor that shows usage and stats for processor, memory, disks, network and processes
+Comment[fr]=Moniteur de ressources qui indique l'utilisation et les statistiques du processeur, de la mémoire, des disques, du réseau et des processus
+Comment[es]=Monitor de recursos que muestra el uso y las estadísticas del procesador, la memoria, los discos, la red y los procesos
+Comment[pt]=Monitor de recursos que mostra a utilização e estatísticas do processador, memória, discos, rede e processos
+Comment[it]=Monitoraggio delle risorse che mostra l'uso e le statistiche per processore, memoria, dischi, rete e processi
+Comment[de]=Ressourcenmonitor, der die Nutzung und Statistiken für Prozessor, Speicher, Festplatten, Netzwerk und Prozesse anzeigt
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "btop"
+Icon=btop
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=btop

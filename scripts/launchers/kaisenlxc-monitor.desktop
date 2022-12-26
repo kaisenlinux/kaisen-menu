@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-monitor
+Comment=Monitor the container state
+Comment[fr]=Surveiller l'état du conteneur
+Comment[es]=Supervisar el estado del contenedor
+Comment[pt]=Monitore o estado do contêiner
+Comment[it]=Monitorare lo stato del contenitore
+Comment[de]=Überwachen Sie den Containerstatus
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-monitor --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxc

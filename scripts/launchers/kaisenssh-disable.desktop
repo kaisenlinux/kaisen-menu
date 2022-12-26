@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ssh-disable
+Name[fr]=ssh-désactivé
+Name[es]=ssh-deshabilitado
+Name[pt]=ssh-desativado
+Name[it]=ssh-disabilitato
+Name[de]=ssh-deaktiviert
+Comment=Disable ssh daemon
+Comment[fr]=Désactiver service ssh
+Comment[es]=Deshabilitar servicio ssh
+Comment[pt]=Desativar serviço ssh
+Comment[it]=Disabilita servizio ssh
+Comment[de]=Deaktivieren Sie den SSH-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/ssh-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SSSH
+X-Kaisen-Package=openssh-server

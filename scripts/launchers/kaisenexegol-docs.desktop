@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=exegol-docs
+Comment=The HTML documentation for the Exegol tool
+Comment[fr]=La documentation HTML de l'outil Exegol
+Comment[es]=La documentación HTML de la herramienta Exegol
+Comment[pt]=A documentação HTML para a ferramenta Exegol
+Comment[it]=La documentazione HTML dello strumento Exegol
+Comment[de]=Die HTML-Dokumentation für das Werkzeug Exegol
+Exec=firefox %u file:///usr/share/doc/exegol/index.html
+Icon=firefox
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Exegol
+X-Kaisen-Package=exegol-docs

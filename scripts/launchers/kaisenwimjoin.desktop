@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=wimjoin
+Comment=Join a split WIM into a standalone WIM
+Comment[fr]=Réunir un WIM divisé en un WIM autonome
+Comment[es]=Unir un WIM dividido en un WIM independiente
+Comment[pt]=Juntar um WIM dividido em um WIM autónomo
+Comment[it]=Unire un WIM diviso in un WIM autonomo
+Comment[de]=Zusammenfügen einer geteilten WIM zu einer eigenständigen WIM
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "man wimjoin"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=WIM
+X-Kaisen-Package=wimtools

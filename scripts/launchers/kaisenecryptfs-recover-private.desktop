@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-recover-private
+Comment=Find and mount any encrypted private directories
+Comment[fr]=Trouvez et montez tous les répertoires privés chiffrés
+Comment[es]=Busque y monte cualquier directorio privado cifrado
+Comment[pt]=Encontre e monte quaisquer diretórios privados criptografados
+Comment[it]=Trova e monta qualsiasi directory privata crittografata
+Comment[de]=Suchen und mounten Sie verschlüsselte private Verzeichnisse
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-recover-private" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/ecryptfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

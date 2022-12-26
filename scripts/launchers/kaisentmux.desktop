@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tmux
+Comment=Terminal multiplexer
+Comment[fr]=Multiplexeur de terminal
+Comment[es]=Multiplexor de terminal
+Comment[pt]=Multiplexador de terminal
+Comment[it]=Multiplexer terminale
+Comment[de]=Terminal Multiplexer
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tmux --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=RemoteAdministration
+X-Kaisen-Package=tmux

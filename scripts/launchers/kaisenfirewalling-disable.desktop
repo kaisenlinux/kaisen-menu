@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=firewalling-disable
+Name[fr]=firewalling-désactivé
+Name[es]=firewalling-discapacitado
+Name[pt]=firewalling-desativado
+Name[it]=firewalling-disabilitato
+Name[de]=firewalling-behindert
+Comment=Disable firewalling service
+Comment[fr]=Désactiver le service de firewalling
+Comment[es]=Deshabilitar el servicio de firewall
+Comment[pt]=Desativar serviço de firewall
+Comment[it]=Disabilita il servizio di firewalling
+Comment[de]=Deaktivieren Sie den Firewall-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/firewalling-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFirewalling
+X-Kaisen-Package=iptables iptables-persistent

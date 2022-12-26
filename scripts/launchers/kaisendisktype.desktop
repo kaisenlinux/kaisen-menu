@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=disktype
+Comment=Tool to analyse disks and filesystems
+Comment[fr]=Outil pour analyser les disques et les systèmes de fichiers
+Comment[es]=Herramienta para escanear discos y sistemas de archivos
+Comment[pt]=Ferramenta para verificar discos e sistemas de arquivos
+Comment[it]=Strumento per la scansione di dischi e file system
+Comment[de]=Tool zum Scannen von Festplatten und Dateisystemen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "disktype"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DisksAnalysis
+X-Kaisen-Package=disktype

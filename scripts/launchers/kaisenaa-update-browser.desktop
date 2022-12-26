@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=aa-update-browser
+Comment=Update browser profiles with browser abstractions
+Comment[fr]=Mise à jour des profils de navigateur avec des abstractions de navigateur
+Comment[es]=Actualizar los perfiles de los navegadores con las abstracciones de los navegadores
+Comment[pt]=Actualizar perfis de browser com abstracções de browser
+Comment[it]=Aggiornare i profili del browser con le astrazioni del browser
+Comment[de]=Aktualisierung von Browser-Profilen mit Browser-Abstraktionen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-update-browser -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AppArmor
+X-Kaisen-Package=apparmor-utils

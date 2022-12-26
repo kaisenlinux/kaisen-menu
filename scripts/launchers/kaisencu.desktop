@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=cu
+Comment=Tool to connect to another system
+Comment[fr]=Outil pour se connecter sur un autre système
+Comment[es]=Herramienta para conectarse a otro sistema
+Comment[pt]=Ferramenta para conectar-se a outro sistema
+Comment[it]=Strumento per connettersi a un altro sistema
+Comment[de]=Tool zum Verbinden mit einem anderen System
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "cu --help"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ConsolePort
+X-Kaisen-Package=cu

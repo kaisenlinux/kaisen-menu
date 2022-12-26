@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ecryptfs-umount-private
+Comment=A wrapper script for the umount.ecryptfs_private utility
+Comment[fr]=Un script wrapper pour l'utilitaire umount.ecryptfs_private
+Comment[es]=Un script contenedor para la utilidad umount.ecryptfs_private
+Comment[pt]=Um script de wrapper para o utilitário umount.ecryptfs_private
+Comment[it]=Uno script wrapper per l'utilità umount.ecryptfs_private
+Comment[de]=Ein Wrapper-Skript für das Dienstprogramm umount.ecryptfs_private
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ecryptfs-umount-private"
+Icon=/usr/share/pixmaps/kaisen-menu/ecryptfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ECRYPTFS
+X-Kaisen-Package=ecryptfs-utils

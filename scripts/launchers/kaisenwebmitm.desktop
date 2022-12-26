@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=webmitm
+Comment=HTTP/HTTPS monkey-in-the-middle
+Comment[fr]=Monkey-in-the-middle HTTP/HTTPS
+Comment[es]=HTTP/HTTPS monkey-in-the-middle
+Comment[pt]=HTTP/HTTPS monkey-in-the-middle
+Comment[it]=HTTP/HTTPS scimmia nel mezzo
+Comment[de]=HTTP/HTTPS-Affe in der Mitte
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "webmitm -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Scanner
+X-Kaisen-Package=dsniff

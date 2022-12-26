@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=arptables
+Comment=ARP table administration
+Comment[fr]=Administration de la table ARP
+Comment[es]=Administración de la tabla ARP
+Comment[pt]=Administração de tabela ARP
+Comment[it]=Amministrazione di tabelle ARP
+Comment[de]=ARP-Tabellenverwaltung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arptables --help" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=MAC
+X-Kaisen-Package=arptables

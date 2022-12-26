@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tcptrace
+Comment=A TCP connection analysis tool
+Comment[fr]=Un outil d'analyse de connexion TCP
+Comment[es]=Una herramienta de análisis de conexiones TCP
+Comment[pt]=Uma ferramenta de análise de conexão TCP
+Comment[it]=Uno strumento di analisi della connessione TCP
+Comment[de]=Ein TCP-Verbindungsanalysetool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tcptrace -hargs"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=TCPUDP
+X-Kaisen-Package=tcptrace

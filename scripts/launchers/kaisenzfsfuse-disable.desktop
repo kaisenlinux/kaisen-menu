@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zfsfuse-disable
+Name[fr]=zfsfuse-désactivé
+Name[es]=zfsfuse-deshabilitado
+Name[pt]=zfsfuse-desativado
+Name[it]=zfsfuse-disabilitato
+Name[de]=zfsfuse-deaktiviert
+Comment=Disable zfs-fuse daemon
+Comment[fr]=Désactiver service zfs-fuse
+Comment[es]=Deshabilitar el servicio de zfs-fuse
+Comment[pt]=Desativar serviço zfs-fuse
+Comment[it]=Disabilita il servizio zfs-fuse
+Comment[de]=Deaktivieren Sie den zfs-fuse-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/zfsfuse-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=zfs-fuse

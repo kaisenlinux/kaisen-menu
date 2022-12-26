@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fio-disable
+Name[fr]=fio-désactivé
+Name[es]=fio-discapacitado
+Name[pt]=fio-desativado
+Name[it]=fio-disabilitato
+Name[de]=fio-behindert
+Comment=Disable fio daemon
+Comment[fr]=Désactiver service fio
+Comment[es]=Deshabilitar servicio fio
+Comment[pt]=Desativar serviço fio
+Comment[it]=Disabilita servizio fio
+Comment[de]=Deaktivieren Sie den Fio-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/fio-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFio
+X-Kaisen-Package=fio

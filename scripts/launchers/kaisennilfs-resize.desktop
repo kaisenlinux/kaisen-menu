@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=nilfs-resize
+Comment=Tool to resize NILFS partition
+Comment[fr]=Outil pour redimensionner une partition NILFS
+Comment[es]=Herramienta para cambiar el tamaño de una partición NILFS
+Comment[pt]=Ferramenta para redimensionar uma partição NILFS
+Comment[it]=Strumento per ridimensionare una partizione NILFS
+Comment[de]=Tool zum Ändern der Größe einer NILFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "nilfs-resize -h" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=NILFS
+X-Kaisen-Package=nilfs-tools

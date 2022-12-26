@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.apfs
+Comment=Tool to check the integrity of an APFS partition
+Comment[fr]=Outil pour vérifier l'intégrité d'une partition APFS
+Comment[es]=Herramienta para comprobar la integridad de una partición APFS
+Comment[pt]=Ferramenta para verificar a integridade de uma partição APFS
+Comment[it]=Strumento per verificare l'integrità di una partizione APFS
+Comment[de]=Tool zur Überprüfung der Integrität einer APFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.apfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=apfsprogs

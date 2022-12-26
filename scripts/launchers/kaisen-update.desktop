@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kaisen-update
+Comment=Tool to easily update system
+Comment[fr]=Outil pour mettre à jour le système facilement
+Comment[es]=Herramienta para actualizar fácilmente el sistema
+Comment[pt]=Ferramenta para atualizar facilmente o sistema
+Comment[it]=Strumento per aggiornare facilmente il sistema
+Comment[de]=Tool zum einfachen Aktualisieren des Systems
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kaisen-update" --sudo
+Icon=/usr/share/pixmaps/kaisen-logos/kaisen.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=kaisen-update

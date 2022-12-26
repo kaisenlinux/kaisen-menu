@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ceph-fuse
+Comment=Tool to mount CEPH volumes
+Comment[fr]=Outil pour monter des volumes CEPH
+Comment[es]=Herramienta para montar volúmenes CEPH
+Comment[pt]=Ferramenta para montar volumes CEPH
+Comment[it]=Strumento per montare i volumi CEPH
+Comment[de]=Tool zum Mounten von CEPH-Volumes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ceph-fuse -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/ceph.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Filesystems
+X-Kaisen-Package=ceph-fuse

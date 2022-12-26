@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=apfs-snap
+Comment=Take an snapshot of an APFS filesystem
+Comment[fr]=Prendre un instantané d'un système de fichiers APFS
+Comment[es]=Tomar una instantánea de un sistema de archivos APFS
+Comment[pt]=Tirar uma fotografia de um sistema de ficheiros APFS
+Comment[it]=Acquisizione di un'istantanea di un file system APFS
+Comment[de]=Erstellen eines Schnappschusses von einem APFS-Dateisystem
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "apfs-snap"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=APFS
+X-Kaisen-Package=apfsprogs

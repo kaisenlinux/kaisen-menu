@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=jfs_debugfs
+Comment=Tool to debug JFS partition
+Comment[fr]=Outil pour déboguer une partition JFS
+Comment[es]=Herramienta para depurar una partición JFS
+Comment[pt]=Ferramenta para depurar uma partição JFS
+Comment[it]=Strumento per il debug di una partizione JFS
+Comment[de]=Tool zum Debuggen einer JFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "jfs_debugfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=JFS
+X-Kaisen-Package=jfsutils
