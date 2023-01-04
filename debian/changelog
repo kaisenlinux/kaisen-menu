@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen2) kaisen-packages; urgency=medium
+
+  * Add the kubeshark launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 04 Jan 2023 03:45:02 +0100
+
 kaisen-menu (2.2+kaisen1) kaisen-packages; urgency=medium
 
   * Add the following launchers:

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kubeshark
+Comment=Wireshark for Kubernetes
+Comment[fr]=Wireshark pour Kubernetes
+Comment[es]=Wireshark para Kubernetes
+Comment[pt]=Wireshark para Kubernetes
+Comment[it]=Wireshark per Kubernetes
+Comment[de]=Wireshark für Kubernetes
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kubeshark --help"
+Icon=/usr/share/pixmaps/kubeshark.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Kubernetes
+X-Kaisen-Package=kubeshark
