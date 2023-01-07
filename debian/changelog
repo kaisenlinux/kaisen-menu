@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen3) kaisen-packages; urgency=medium
+
+  * Remove the terraform-docs launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 07 Jan 2023 05:12:04 +0100
+
 kaisen-menu (2.2+kaisen2) kaisen-packages; urgency=medium
 
   * Add the kubeshark launcher
