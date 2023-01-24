@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen5) kaisen-packages; urgency=medium
+
+  * Run the popeye command as root
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 23 Jan 2023 02:14:11 +0100
+
 kaisen-menu (2.2+kaisen4) kaisen-packages; urgency=medium
 
   * Remove the notwireshark launcher
