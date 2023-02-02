@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SLibvirt
-X-Kaisen-Package=libvirt-daemon
+X-Kaisen-Package=libvirt-daemon-system

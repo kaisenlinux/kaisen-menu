@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fuidshift
+Comment=UID/GID shifter
+Comment[fr]=Décalage UID/GID
+Comment[es]=Desplazador UID/GID
+Comment[pt]=UID/GID shifter
+Comment[it]=Cambio UID/GID
+Comment[de]=UID/GID-Umschalter
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fuidshift --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Filesystems;LXC
+X-Kaisen-Package=lxd-tools

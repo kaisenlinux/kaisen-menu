@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd-agent-enable
+Name[fr]=lxd-agent-activé
+Name[es]=lxd-agent-habilitado
+Name[pt]=lxd-agent-ativado
+Name[it]=lxd-agent-abilitato
+Name[de]=lxd-agent-aktiviert
+Comment=Enable lxd-agent daemon
+Comment[fr]=Activer service lxd-agent
+Comment[es]=Activar servicio lxd-agent
+Comment[pt]=Ativar serviço lxd-agent
+Comment[it]=Attiva servizio lxd-agent
+Comment[de]=Aktivieren Sie den Dienst lxd-agent
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxd-agent-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=lxd-agent

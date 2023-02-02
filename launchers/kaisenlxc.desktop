@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc
+Comment=Command line client for LXD
+Comment[fr]=Client en ligne de commande pour LXD
+Comment[es]=Cliente de línea de comandos para LXD
+Comment[pt]=Cliente de linha de comando para LXD
+Comment[it]=Client a riga di comando per LXD
+Comment[de]=Kommandozeilen-Client für LXD
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd-client

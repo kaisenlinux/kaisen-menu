@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-to-lxd
+Comment=Command line client for container migration
+Comment[fr]=Client en ligne de commande pour la migration des conteneurs
+Comment[es]=Cliente de línea de comandos para la migración de contenedores
+Comment[pt]=Cliente de linha de comando para migração de contentores
+Comment[it]=Client a riga di comando per la migrazione dei container
+Comment[de]=Kommandozeilen-Client für Container-Migration
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxc-to-lxd --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd-tools

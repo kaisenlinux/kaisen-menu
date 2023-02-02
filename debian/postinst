@@ -3,7 +3,7 @@
 case "$1" in
     configure|triggered)
 
-        /usr/share/kaisen-menu/scripts/update-kaisen-menu
+        /usr/share/kaisen-menu/scripts/kaisen-menu-update
 	/usr/share/kaisen-menu/scripts/kaisen-basemenu-purge
 
 	if [ ! -d /usr/share/kaisen-services-management ]; then

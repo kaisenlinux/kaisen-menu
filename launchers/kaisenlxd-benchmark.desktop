@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxc-benchmark
+Comment=Benchmark performance of LXD
+Comment[fr]=Performances de référence de LXD
+Comment[es]=Rendimiento de referencia de LXD
+Comment[pt]=Desempenho de referência do LXD
+Comment[it]=Prestazioni di benchmark di LXD
+Comment[de]=Benchmark-Leistung von LXD
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxd-benchmark --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd-tools

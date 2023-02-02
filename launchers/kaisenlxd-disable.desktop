@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd-disable
+Name[fr]=lxd-désactivé
+Name[es]=lxd-deshabilitado
+Name[pt]=lxd-desativado
+Name[it]=lxd-disabilitato
+Name[de]=lxd-deaktiviert
+Comment=Disable lxd daemon
+Comment[fr]=Désactiver service lxd
+Comment[es]=Deshabilitar servicio lxd
+Comment[pt]=Desativar serviço lxd
+Comment[it]=Disabilita servizio lxd
+Comment[de]=Deaktivieren Sie den lxd-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxd-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=lxd

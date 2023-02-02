@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd-enable
+Name[fr]=lxd-activé
+Name[es]=lxd-habilitado
+Name[pt]=lxd-ativado
+Name[it]=lxd-abilitato
+Name[de]=lxd-aktiviert
+Comment=Enable lxd daemon
+Comment[fr]=Activer service lxd
+Comment[es]=Activar servicio lxd
+Comment[pt]=Ativar serviço lxd
+Comment[it]=Attiva servizio lxd
+Comment[de]=Aktivieren Sie den Dienst lxd
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/lxd-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SContainers
+X-Kaisen-Package=lxd

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd-agent
+Comment=LXD virtual machine agent
+Comment[fr]=Agent de machine virtuelle LXD
+Comment[es]=Agente de máquina virtual LXD
+Comment[pt]=LXD agente de máquina virtual
+Comment[it]=Agente macchina virtuale LXD
+Comment[de]=LXD-Agent für virtuelle Maschinen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxd-agent --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd-agent

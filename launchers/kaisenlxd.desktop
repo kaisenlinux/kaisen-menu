@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd
+Comment=The LXD container manager (daemon)
+Comment[fr]=Le gestionnaire de conteneurs LXD (démon)
+Comment[es]=El gestor de contenedores LXD (demonio)
+Comment[pt]=O gestor de contentores LXD (daemon)
+Comment[it]=Il gestore di contenitori LXD (demone)
+Comment[de]=Der LXD-Container-Manager (Daemon)
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxd --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd

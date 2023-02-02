@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=lxd-user
+Comment=LXD user project daemon
+Comment[fr]=Démon de projet utilisateur LXD
+Comment[es]=Demonio de proyecto de usuario LXD
+Comment[pt]=LXD daemon do projecto do utilizador
+Comment[it]=Demone del progetto utente LXD
+Comment[de]=LXD-Benutzerprojekt-Daemon
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "lxd-user --help"
+Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=LXC
+X-Kaisen-Package=lxd
