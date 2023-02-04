@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen8) kaisen-packages; urgency=medium
+
+  * Remove the kaisenfuidshift.desktop launcher in the Filesystems category
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 04 Feb 2023 03:01:36 +0100
+
 kaisen-menu (2.2+kaisen7) kaisen-packages; urgency=medium
 
   * Add launchers for the following packages:

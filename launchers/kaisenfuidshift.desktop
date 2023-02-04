@@ -13,5 +13,5 @@ Icon=/usr/share/pixmaps/kaisen-menu/lxc.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Filesystems;LXC
+Categories=LXC
 X-Kaisen-Package=lxd-tools
