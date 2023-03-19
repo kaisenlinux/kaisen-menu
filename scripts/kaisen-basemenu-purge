@@ -66,6 +66,7 @@ rm -f /usr/share/applications/R.desktop
 rm -f /usr/share/applications/remote-viewer.desktop
 rm -f /usr/share/applications/remmina-file.desktop
 rm -f /usr/share/applications/remmina-gnome.desktop
+rm -f /usr/share/applications/simple-scan.desktop
 rm -f /usr/share/applications/terminator.desktop
 rm -f /usr/share/applications/timeshift-gtk.desktop
 rm -f /usr/share/applications/virt-manager.desktop

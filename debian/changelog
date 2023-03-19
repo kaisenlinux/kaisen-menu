@@ -1,3 +1,10 @@
+kaisen-menu (2.2+kaisen10) kaisen-packages; urgency=medium
+
+  * Removal of the original simple-scan launcher
+  * Add the kaisensimple-scan.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 19 Mar 2023 21:02:34 +0100
+
 kaisen-menu (2.2+kaisen9) kaisen-packages; urgency=medium
 
   * Add launchers for apfsck and mkapfs commands

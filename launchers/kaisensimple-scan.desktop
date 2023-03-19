@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=Document scanner
+Name[de]=Dokument-Scanner
+Name[es]=Escáner de documentos
+Name[fr]=Numériseur de documents
+Name[it]=Acquisizione documenti
+Name[pt]=Digitalizador de documentos
+Comment=Make a digital copy of your photos and documents
+Comment[de]=Eine digitale Kopie Ihrer Fotos und Dokumente erstellen
+Comment[es]=Hacer una copia digital de sus fotos y documentos
+Comment[fr]=Faites une copie numérique de vos photos et documents
+Comment[it]=Crea una copia digitale delle proprie foto e documenti
+Comment[pt]=Faz uma digitalização de tuas fotos e documentos
+Exec=simple-scan
+Icon=org.gnome.SimpleScan
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=simple-scan
