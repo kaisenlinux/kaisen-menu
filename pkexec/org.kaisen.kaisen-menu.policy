@@ -72,19 +72,6 @@
         <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
     </action>
 
-    <action id="org.kaisen.pkexec.balena">
-        <description>Run balenaEtcher as root</description>
-        <message>Authentication is required to run balenaEtcher as root</message>
-	<icon_name>balena-etcher-electron</icon_name>
-        <defaults>
-            <allow_any>auth_admin</allow_any>
-            <allow_inactive>auth_admin</allow_inactive>
-            <allow_active>auth_admin</allow_active>
-        </defaults>
-        <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/balena-etcher-electron</annotate>
-        <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
-    </action>
-
     <action id="org.kaisen.pkexec.lshw">
         <description>Run lshw-gtk as root</description>
         <message>Authentication is required to run lshw-gtk as root</message>

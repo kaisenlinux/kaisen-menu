@@ -1,3 +1,10 @@
+kaisen-menu (2.2+kaisen11) kaisen-packages; urgency=medium
+
+  * Launch the balenaEtcher software with a standard user
+  * Remove the balenaEtcher polkit policy
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 25 Mar 2023 15:20:24 +0100
+
 kaisen-menu (2.2+kaisen10) kaisen-packages; urgency=medium
 
   * Removal of the original simple-scan launcher
