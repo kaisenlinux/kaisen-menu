@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen12) kaisen-packages; urgency=medium
+
+  * Don't delete the timeshift-gtk.desktop launcher (don't exist)
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sat, 01 Apr 2023 16:14:24 +0100
+
 kaisen-menu (2.2+kaisen11) kaisen-packages; urgency=medium
 
   * Launch the balenaEtcher software with a standard user
