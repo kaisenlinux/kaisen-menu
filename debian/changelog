@@ -1,3 +1,9 @@
+kaisen-menu (2.2+kaisen13) kaisen-packages; urgency=medium
+
+  * Add sedutil-cli and linuxpba launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 12 Apr 2023 16:26:03 +0100
+
 kaisen-menu (2.2+kaisen12) kaisen-packages; urgency=medium
 
   * Don't delete the timeshift-gtk.desktop launcher (don't exist)

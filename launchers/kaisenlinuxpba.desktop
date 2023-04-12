@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=linuxpba
+Comment=DTA LINUX Pre Boot Authorization
+Comment[fr]=DTA LINUX Pre Boot Authorization (autorisation de pré-amorçage)
+Comment[es]=Autorización previa al arranque de DTA LINUX
+Comment[pt]=DTA LINUX Autorização de pré-inicialização
+Comment[it]=Autorizzazione pre-avvio DTA LINUX
+Comment[de]=DTA LINUX Pre-Boot-Autorisierung
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "linuxpba" --sudo
+Icon=/usr/share/pixmaps/sedutil.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dataprotection
+X-Kaisen-Package=sedutil

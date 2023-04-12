@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=sedutil-cli
+Comment=A utility to manage self encrypting drives that conform to the TCG OPAL 2.0 SSC specification
+Comment[fr]=Un utilitaire pour gérer les disques auto-chiffrés conformes à la spécification TCG OPAL 2.0 SSC
+Comment[es]=Utilidad para gestionar unidades autocifradas conformes a la especificación TCG OPAL 2.0 SSC
+Comment[pt]=Um utilitário para gerir unidades de autoencriptação em conformidade com a especificação TCG OPAL 2.0 SSC
+Comment[it]=Un'utilità per gestire le unità autocrittografate conformi alla specifica TCG OPAL 2.0 SSC
+Comment[de]=Ein Dienstprogramm zur Verwaltung selbstverschlüsselnder Laufwerke, die der TCG OPAL 2.0 SSC Spezifikation entsprechen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "sedutil-cli" --sudo
+Icon=/usr/share/pixmaps/sedutil.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Dataprotection
+X-Kaisen-Package=sedutil
