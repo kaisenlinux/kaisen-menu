@@ -1,8 +1,7 @@
 Source: kaisen-menu
 Section: kaisen-packages
 Priority: optional
-Maintainer: Kaisen Linux Team <team@kaisenlinux.org>
-Uploaders: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>, Arnaud Cormier - Magiknono <magiknono@kaisenlinux.org>
+Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 Build-Depends: debhelper
 Standards-Version: 4.6.0
 Homepage: https://kaisenlinux.org
