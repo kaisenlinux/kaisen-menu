@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tftpd-enable
+Name[fr]=tftpd-activé
+Name[es]=tftpd-habilitado
+Name[pt]=tftpd-ativado
+Name[it]=tftpd-abilitato
+Name[de]=tftpd-aktiviert
+Comment=Enable tftpd daemon
+Comment[fr]=Activer service tftpd
+Comment[es]=Activar servicio tftpd
+Comment[pt]=Ativar serviço tftpd
+Comment[it]=Attiva servizio tftpd
+Comment[de]=Aktivieren Sie den Dienst tftpd
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/tftpd-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Stftpd
+X-Kaisen-Package=tftpd-hpa

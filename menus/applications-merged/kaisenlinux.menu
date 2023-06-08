@@ -754,6 +754,15 @@
         </And>
       </Include>
     </Menu>
+        <Menu>
+      <Name>Stftpd</Name>
+      <Directory>kaisenlinux-stftpd.directory</Directory>
+      <Include>
+        <And>
+          <Category>Stftpd</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>

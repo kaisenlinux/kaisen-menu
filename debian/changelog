@@ -2,6 +2,7 @@ kaisen-menu (2.3) kaisen-packages; urgency=medium
 
   * Bump the version to 2.3
   * Define Kaisen as maintainer instead of the team
+  * Add menu entries for the tftpd-hpa daemon
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 May 2023 17:42:03 +0100
 
