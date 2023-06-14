@@ -1,8 +1,16 @@
+kaisen-menu (2.3+kaisen1) kaisen-packages; urgency=medium
+
+  * Bump the version to ensure updates
+  * No changes needed
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 14 Jun 2023 12:50:37 +0100
+
 kaisen-menu (2.3) kaisen-packages; urgency=medium
 
   * Bump the version to 2.3
   * Define Kaisen as maintainer instead of the team
   * Add menu entries for the tftpd-hpa daemon
+  * Replace the atftp by tftp-hpa as TFTP client
 
  -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Thu, 18 May 2023 17:42:03 +0100
 
