@@ -1,17 +1,17 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=atftp
+Name=tftp
 Comment=TFTP client
 Comment[fr]=Client TFTP
 Comment[es]=Cliente TFTP
 Comment[pt]=Cliente TFTP
 Comment[it]=Client TFTP
 Comment[de]=TFTP-Client
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "atftp -h"
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tftp -h"
 Icon=utilities-terminal
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=NetworkUncategorized
-X-Kaisen-Package=atftp
+Categories=NetworkUncategorized;SystemUncategorized
+X-Kaisen-Package=tftp-hpa
