@@ -1,9 +1,16 @@
+kaisen-menu (2.3+kaisen2) kaisen-packages; urgency=medium
+
+  * New firewall icon
+  * Firewall icon now named firewall instead of firewalling
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 31 Jul 2023 11:44:31 +0100
+
 kaisen-menu (2.3+kaisen1) kaisen-packages; urgency=medium
 
   * Bump the version to ensure updates
   * Add the TFTP-HPA launcher in the SystemUncategorized
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 14 Jun 2023 14:05:21 +0100
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 14 Jun 2023 13:26:07 +0100
 
 kaisen-menu (2.3) kaisen-packages; urgency=medium
 
