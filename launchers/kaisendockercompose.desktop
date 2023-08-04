@@ -1,15 +1,15 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=docker-compose
+Name=docker compose
 Comment=Development environement for Linux containers
 Comment[fr]=Environnement de développement pour les conteneurs Linux
 Comment[es]=Entorno de desarrollo para contenedores Linux
 Comment[pt]=Ambiente de desenvolvimento para contêineres Linux
 Comment[it]=Ambiente di sviluppo per container Linux
 Comment[de]=Entwicklungsumgebung für Linux-Container
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "docker-compose --help"
-Icon=/usr/share/pixmaps/kaisen-menu/docker-compose.png
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "docker compose --help"
+Icon=/usr/share/pixmaps/kaisen-menu/dockercompose.png
 Terminal=false
 Type=Application
 StartupNotify=true

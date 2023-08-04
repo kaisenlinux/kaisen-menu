@@ -1,3 +1,10 @@
+kaisen-menu (2.3+kaisen3) kaisen-packages; urgency=medium
+
+  * Update the docker compose launcher for the new Kaisen package
+  * Rename the docker compose icon
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 04 Aug 2023 13:50:17 +0100
+
 kaisen-menu (2.3+kaisen2) kaisen-packages; urgency=medium
 
   * New firewall icon
