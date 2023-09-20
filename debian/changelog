@@ -1,3 +1,9 @@
+kaisen-menu (2.3+kaisen4) kaisen-packages; urgency=medium
+
+  * Add the kaisen-timeshift-fast-restore command launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 20 Sep 2023 03:25:22 +0100
+
 kaisen-menu (2.3+kaisen3) kaisen-packages; urgency=medium
 
   * Update the docker compose launcher for the new Kaisen package

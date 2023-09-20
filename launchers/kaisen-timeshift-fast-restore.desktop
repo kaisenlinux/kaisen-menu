@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kaisen-timeshift-fast-restore
+Comment=Tool to automatically restore the currently started snapshot 
+Comment[fr]=Outil permettant de restaurer automatiquement le snapshot actuellement démarré
+Comment[es]=Herramienta para restaurar automáticamente la instantánea iniciada en ese momento
+Comment[pt]=Ferramenta para restaurar automaticamente o instantâneo atualmente iniciado
+Comment[it]=Strumento per il ripristino automatico dell'istantanea avviata
+Comment[de]=Tool zur automatischen Wiederherstellung des aktuell gestarteten Snapshots
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kaisen-timeshift-fast-restore" --sudo
+Icon=/usr/share/pixmaps/kaisen-logos/kaisen.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=grub-btrfs
