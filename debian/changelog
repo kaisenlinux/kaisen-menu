@@ -1,3 +1,10 @@
+kaisen-menu (2.3+kaisen5) kaisen-packages; urgency=medium
+
+  * Use the new kaisen icon instead of the old Kaisen logo for launchers
+    and desktop-directories
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Sun, 19 Nov 2023 17:27:24 +0100
+
 kaisen-menu (2.3+kaisen4) kaisen-packages; urgency=medium
 
   * Add the kaisen-timeshift-fast-restore command launcher
