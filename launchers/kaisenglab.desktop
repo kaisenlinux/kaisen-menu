@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=glab
+Comment=A GitLab CLI tool bringing GitLab to your command line
+Comment[fr]=Un outil CLI GitLab qui apporte GitLab à votre ligne de commande
+Comment[es]=Una herramienta GitLab CLI que lleva GitLab a tu línea de comandos
+Comment[pt]=Uma ferramenta CLI do GitLab que traz o GitLab para a sua linha de comando
+Comment[it]=Uno strumento GitLab CLI che porta GitLab sulla vostra riga di comando
+Comment[de]=Ein GitLab-CLI-Tool, das GitLab auf die Kommandozeile bringt
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "glab --help"
+Icon=/usr/share/pixmaps/kaisen-menu/glab.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=glab

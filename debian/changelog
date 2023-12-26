@@ -1,3 +1,10 @@
+kaisen-menu (2.3+kaisen6) kaisen-packages; urgency=medium
+
+  * Add the glab logo and launcher
+  * Update the exegol-docs path
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 26 Dec 2023 15:16:36 +0100
+
 kaisen-menu (2.3+kaisen5) kaisen-packages; urgency=medium
 
   * Use the new kaisen icon instead of the old Kaisen logo for launchers
