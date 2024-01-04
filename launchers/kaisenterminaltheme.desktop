@@ -1,0 +1,16 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=Kaisen Terminal theme launcher
+Comment=Kaisen Terminal theme launcher choosing
+Comment[fr]=Choix du thème du lanceur Kaisen Terminal
+Comment[es]=Elección del tema Kaisen Terminal
+Comment[pt]=Seleção do lançador do tema Kaisen Terminal
+Comment[it]=Scelta del lanciatore del tema Kaisen Terminal
+Comment[de]=Kaisen Terminal Thema Launcher Auswahl
+Exec=terminator -s
+Icon=/usr/share/pixmaps/kaisen-menu/kaisen-terminal-theme-launcher.svg
+Type=Application
+Categories=GNOME;GTK;Utility;TerminalEmulator;System;
+StartupNotify=true
+X-Kaisen-Package=terminator
