@@ -322,7 +322,7 @@
     </Menu>
     </Menu>
     <Menu>
-      <Name>SSL/TLS</Name>
+      <Name>SSLTLS</Name>
       <Directory>kaisenlinux-ssltls.directory</Directory>
       <Include>
         <And>
