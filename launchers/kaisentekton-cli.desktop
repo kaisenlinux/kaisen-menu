@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=tekton-cli
+Comment=CLI for Tekton pipelines
+Comment[fr]=CLI pour les pipelines Tekton
+Comment[es]=CLI para Tekton pipelines
+Comment[pt]=CLI para pipelines Tekton
+Comment[it]=CLI per le pipeline Tekton
+Comment[de]=CLI für Tekton-Pipelines
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tkn --help"
+Icon=/usr/share/pixmaps/tekton-cli.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=DevOps
+X-Kaisen-Package=tekton-cli
