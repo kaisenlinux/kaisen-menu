@@ -1,3 +1,12 @@
+kaisen-menu (2.3+kaisen9) kaisen-packages; urgency=medium
+
+  * Remove following launchers (not used):
+    - kaisenisomaster.desktop
+    - kaisengit-repair.desktop
+    - kaisengfio.desktop
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 14 Feb 2024 05:13:02 +0100
+
 kaisen-menu (2.3+kaisen8) kaisen-packages; urgency=medium
 
   * Use the glab icon provided by the glab package
