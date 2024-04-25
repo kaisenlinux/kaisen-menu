@@ -3,3 +3,4 @@ interest-noawait /sbin
 interest-noawait /usr/bin
 interest-noawait /usr/sbin
 interest-noawait /usr/share
+interest-noawait /usr/share/applications
