@@ -1,15 +1,15 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=Qt-fsarchiver
+Name=qt-fsarchiver
 Comment=Program to back up and restore partitions, directories and the MBR/GPT
 Comment[fr]=Programme pour sauvegarder et restaurer les partitions, les répertoires et le MBR/GPT
 Comment[es]=Programa para respaldar y restaurar particiones, directorios y el MBR/GPT
 Comment[pt]=Programa para fazer o backup e restaurar partições, directórios e o MBR/GPT
 Comment[it]=Programma per il backup e il ripristino di partizioni, directory e MBR/GPT
 Comment[de]=Programm zum Sichern und Wiederherstellen von Partitionen, Verzeichnissen und dem MBR/GPT
-Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "qt-fsarchiver"
-Icon=qt-fsarchiver
+Exec=pkexec qt-fsarchiver
+Icon=/usr/share/pixmaps/qt-fsarchiver.png
 Terminal=false
 Type=Application
 Categories=Cloning
