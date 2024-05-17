@@ -1,3 +1,15 @@
+kaisen-menu (2.3+kaisen13) kaisen-packages; urgency=medium
+
+  * Remove launchers for packages (no longer used):
+    - scrounge-ntfs
+    - dnstop
+    - hping3
+    - crack
+    - hddtemp
+  * Bump the compat version to 14
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Fri, 17 May 2024 01:57:06 +0200
+
 kaisen-menu (2.3+kaisen12) kaisen-packages; urgency=medium
 
   * Add the polkit for qt-fsarchiver

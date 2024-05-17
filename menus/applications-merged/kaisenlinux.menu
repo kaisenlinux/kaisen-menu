@@ -656,15 +656,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>SHDDtemp</Name>
-      <Directory>kaisenlinux-shddtemp.directory</Directory>
-      <Include>
-        <And>
-          <Category>SHDDtemp</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>SArpalert</Name>
       <Directory>kaisenlinux-sarpalert.directory</Directory>
       <Include>
