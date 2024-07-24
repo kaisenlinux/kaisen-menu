@@ -447,6 +447,15 @@
         </And>
       </Include>
     </Menu>
+    <Menu>
+      <Name>Hashicorp forks</Name>
+      <Directory>kaisenlinux-hashicorpforks.directory</Directory>
+      <Include>
+        <And>
+          <Category>HashicorpForks</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     </Menu>
     <Menu>

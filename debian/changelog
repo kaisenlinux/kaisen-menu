@@ -1,3 +1,11 @@
+kaisen-menu (2.3+kaisen14) kaisen-packages; urgency=medium
+
+  * Add the Hashicorp Forks menu
+  * Add the hashicorpforks.png pixmaps
+  * Add openbao and opentofu launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 24 Jul 2024 12:44:04 +0200
+
 kaisen-menu (2.3+kaisen13) kaisen-packages; urgency=medium
 
   * Remove launchers for packages (no longer used):
