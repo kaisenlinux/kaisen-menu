@@ -14,4 +14,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=ZFS
-X-Kaisen-Package=zfs-fuse
+X-Kaisen-Package=zfsutils-linux

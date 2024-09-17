@@ -1,3 +1,10 @@
+kaisen-menu (2.3+kaisen15) kaisen-packages; urgency=medium
+
+  * Remove ceph-fuse launchers and zfs-fuse launchers
+  * Update the kaisenzfs.desktop launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 17 Sep 2024 11:07:55 +0200
+
 kaisen-menu (2.3+kaisen14) kaisen-packages; urgency=medium
 
   * Add the Hashicorp Forks menu
