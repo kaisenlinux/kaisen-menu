@@ -17,4 +17,4 @@ Type=Application
 Version=1.0
 Categories=Miscellaneous
 MimeType=application/x-keepass2;
-X-Kaisen-Package=keepassxc
+X-Kaisen-Package=keepassxc-full
