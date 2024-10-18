@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=kaisen-snapshot
+Comment=Tool to easily create a system snapshot
+Comment[fr]=Outil pour créer facilement un snapshot système
+Comment[es]=Herramienta para crear fácilmente una instantánea del sistema
+Comment[pt]=Ferramenta para criar facilmente um instantâneo do sistema
+Comment[it]=Strumento per creare facilmente un'istantanea del sistema
+Comment[de]=Tool zum einfachen Erstellen eines System-Snapshots
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "kaisen-snapshot --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-pics/menus/kaisen-icon-tail-full-red.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Miscellaneous
+X-Kaisen-Package=timeshift
