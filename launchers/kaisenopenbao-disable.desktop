@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=openbao-disable
+Name[fr]=openbao-désactivé
+Name[es]=openbao-discapacitado
+Name[pt]=openbao-desativado
+Name[it]=openbao-disabilitato
+Name[de]=openbao-behindert
+Comment=Disable openbao daemon
+Comment[fr]=Désactiver service openbao
+Comment[es]=Deshabilitar servicio openbao
+Comment[pt]=Desativar serviço openbao
+Comment[it]=Disabilita servizio openbao
+Comment[de]=Deaktivieren Sie den Openbao-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/openbao-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SOpenBao
+X-Kaisen-Package=openbao

@@ -1,3 +1,9 @@
+kaisen-menu (2.3+kaisen18) kaisen-packages; urgency=medium
+
+  * Add service openbao launchers
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 19 Nov 2024 06:58:02 +0200
+
 kaisen-menu (2.3+kaisen17) kaisen-packages; urgency=medium
 
   * Add the kaisen-snapshot.desktop file

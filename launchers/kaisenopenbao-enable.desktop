@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=openbao-enable
+Name[fr]=openbao-activé
+Name[es]=openbao-activado
+Name[pt]=openbao-ativado
+Name[it]=openbao-attivato
+Name[de]=openbao-aktiviert
+Comment=Enable openbao daemon
+Comment[fr]=Activer service openbao
+Comment[es]=Activar servicio openbao
+Comment[pt]=Ativar serviço openbao
+Comment[it]=Attivare servizio openbao
+Comment[de]=Openbao-Dienst aktivieren
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/openbao-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SOpenBao
+X-Kaisen-Package=openbao

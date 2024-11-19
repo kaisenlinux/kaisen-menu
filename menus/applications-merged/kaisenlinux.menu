@@ -763,6 +763,15 @@
         </And>
       </Include>
     </Menu>
+        <Menu>
+      <Name>SOpenBao</Name>
+      <Directory>kaisenlinux-sopenbao.directory</Directory>
+      <Include>
+        <And>
+          <Category>SOpenBao</Category>
+        </And>
+      </Include>
+    </Menu>
     </Menu>
     <Menu>
       <Name>Filesystems</Name>
