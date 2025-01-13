@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zgenhostid
+Comment=Generate host ID into /etc/hostid
+Comment[fr]=Générer l'identifiant de l'hôte dans /etc/hostid
+Comment[es]=Generar ID de host en /etc/hostid
+Comment[pt]=Gerar ID de host em /etc/hostid
+Comment[it]=Generare l'ID dell'host in /etc/hostid
+Comment[de]=Erzeugen einer Host-ID in /etc/hostid
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zgenhostid -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=dbufstat
+Comment=Print out statistics for all cached dmu buffers
+Comment[fr]=Imprimer les statistiques de tous les tampons dmu mis en cache
+Comment[es]=Imprime estadísticas de todos los búferes dmu almacenados en caché
+Comment[pt]=Impressão de estatísticas para todos os buffers dmu em cache
+Comment[it]=Stampa le statistiche di tutti i buffer della dmu in cache
+Comment[de]=Statistik für alle zwischengespeicherten dmu-Puffer ausgeben
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "dbufstat -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

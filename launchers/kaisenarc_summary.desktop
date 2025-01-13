@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=arc_summary
+Comment=Print ARC and other statistics for OpenZFS
+Comment[fr]=Imprimer l'ARC et d'autres statistiques pour OpenZFS
+Comment[es]=Imprimir ARC y otras estadísticas para OpenZFS
+Comment[pt]=Imprimir ARC e outras estatísticas do OpenZFS
+Comment[it]=Stampa ARC e altre statistiche per OpenZFS
+Comment[de]=ARC und andere Statistiken für OpenZFS drucken
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arc_summary -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

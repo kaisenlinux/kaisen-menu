@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zdb
+Comment=Display ZFS storage pool debugging and consistency information
+Comment[fr]=Afficher les informations de débogage et de cohérence du pool de stockage ZFS
+Comment[es]=Mostrar información de depuración y consistencia del pool de almacenamiento ZFS
+Comment[pt]=Exibir informações de depuração e consistência do pool de armazenamento ZFS
+Comment[it]=Visualizzare le informazioni di debug e consistenza del pool di archiviazione ZFS
+Comment[de]=Anzeige von ZFS-Speicherpool-Debugging- und Konsistenzinformationen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zdb --help" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

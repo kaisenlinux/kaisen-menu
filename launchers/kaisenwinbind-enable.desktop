@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=winbind-enable
+Name[fr]=winbind-activé
+Name[es]=winbind-habilitado
+Name[pt]=winbind-ativado
+Name[it]=winbind-abilitato
+Name[de]=winbind-aktiviert
+Comment=Enable winbind daemon
+Comment[fr]=Activer service winbind
+Comment[es]=Activa servicio winbind
+Comment[pt]=Ativar serviço winbind
+Comment[it]=Attiva servizio winbind
+Comment[de]=Aktivieren Sie den Avahi-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/winbind-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SWinbind
+X-Kaisen-Package=winbind

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zhack
+Comment=The libzpool debugging tool
+Comment[fr]=L'outil de débogage libzpool
+Comment[es]=La herramienta de depuración libzpool
+Comment[pt]=A ferramenta de depuração libzpool
+Comment[it]=Lo strumento di debug di libzpool
+Comment[de]=Das libzpool-Debugging-Werkzeug
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zhack" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

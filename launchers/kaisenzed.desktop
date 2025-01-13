@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zed
+Comment=ZFS event daemon
+Comment[fr]=Démon d'événements ZFS
+Comment[es]=Demonio de eventos ZFS
+Comment[pt]=Daemon de eventos ZFS
+Comment[it]=Demone eventi ZFS
+Comment[de]=ZFS-Ereignis-Daemon
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zed -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfs-zed

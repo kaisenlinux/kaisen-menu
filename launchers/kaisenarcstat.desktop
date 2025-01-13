@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=arcstat
+Comment=Report ZFS, ARC and L2ARC statistics
+Comment[fr]=Rapport des statistiques ZFS, ARC et L2ARC
+Comment[es]=Informe de estadísticas ZFS, ARC y L2ARC
+Comment[pt]=Relatar estatísticas do ZFS, ARC e L2ARC
+Comment[it]=Riportare le statistiche di ZFS, ARC e L2ARC
+Comment[de]=ZFS ARC- und L2ARC-Statistiken melden
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arcstat -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

@@ -9,4 +9,7 @@ case "$1" in
 	if [ ! -d /usr/share/kaisen-services-management ]; then
 		rm -f /usr/share/applications/{kaisen*-disable.desktop,kaisen*-enable.desktop}
 	fi
+
+	# Force the update of the menu
+	xdg-desktop-menu forceupdate
 esac

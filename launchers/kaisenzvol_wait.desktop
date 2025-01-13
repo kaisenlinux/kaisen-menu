@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zvol_wait
+Comment=Wait for ZFS volume links to appear in /dev
+Comment[fr]=Attendre que les liens du volume ZFS apparaissent dans /dev
+Comment[es]=Espera a que aparezcan los enlaces de volumen ZFS en /dev
+Comment[pt]=Aguarde até que os links de volume ZFS apareçam em /dev
+Comment[it]=Attendere che i collegamenti al volume ZFS appaiano in /dev
+Comment[de]=Warten Sie darauf, dass ZFS-Volume-Links in /dev erscheinen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zvol_wait" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

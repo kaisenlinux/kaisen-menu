@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zinject
+Comment=ZFS fault injector
+Comment[fr]=Injecteur d'erreurs ZFS
+Comment[es]=ZFS Inyector de fallos
+Comment[pt]=ZFS Injetor de falhas
+Comment[it]=Iniettore di errori ZFS
+Comment[de]=ZFS-Fehlerinjektor
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zinject -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfs-test

@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zfs-enable
+Name[fr]=zfs-activé
+Name[es]=zfs-habilitado
+Name[pt]=zfs-ativado
+Name[it]=zfs-abilitato
+Name[de]=zfs-aktiviert
+Comment=Enable zfs daemons
+Comment[fr]=Activer services zfs
+Comment[es]=Activa servicios zfs
+Comment[pt]=Ativar serviços zfs
+Comment[it]=Attiva servizios zfs
+Comment[de]=Aktivieren Sie den ZFS-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/zfsutils-enable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=zfsutils-linux

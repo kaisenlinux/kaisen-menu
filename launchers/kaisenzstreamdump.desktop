@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zstreamdump
+Comment=Manipulate ZFS send streams
+Comment[fr]=Manipuler les flux d'envoi ZFS
+Comment[es]=Manipular flujos de envío ZFS
+Comment[pt]=Manipular fluxos de envio do ZFS
+Comment[it]=Manipolare i flussi di invio ZFS
+Comment[de]=Manipulation von ZFS-Sendeströmen
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zstreamdump" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

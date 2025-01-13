@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=ztest
+Comment=Written by the ZFS developers as a ZFS unit test
+Comment[fr]=Ecrit par les développeurs de ZFS en tant que test unitaire de ZFS
+Comment[es]=Escrito por los desarrolladores de ZFS como una prueba de unidad ZFS
+Comment[pt]=Escrito pelos desenvolvedores do ZFS como um teste de unidade do ZFS
+Comment[it]=Scritto dagli sviluppatori di ZFS come test unitario di ZFS
+Comment[de]=Geschrieben von den ZFS-Entwicklern als ZFS-Einheitstest
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ztest -h" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfs-test

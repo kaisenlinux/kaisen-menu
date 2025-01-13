@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=winbind-disable
+Name[fr]=winbind-désactivé
+Name[es]=winbind-deshabilitado
+Name[pt]=winbind-desativado
+Name[it]=winbind-disabilitato
+Name[de]=winbind-deaktiviert
+Comment=Disable winbind daemon
+Comment[fr]=Désactiver service winbind
+Comment[es]=Deshabilitar servicio winbind
+Comment[pt]=Desativar serviço winbind
+Comment[it]=Disabilita servizio winbind
+Comment[de]=Deaktivieren Sie den Avahi-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/winbind-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SWinbind
+X-Kaisen-Package=winbind

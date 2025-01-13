@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zpool_influxdb
+Comment=Collect ZFS pool statistics in InfluxDB line protocol format
+Comment[fr]=Collecte des statistiques du pool ZFS au format du protocole de ligne d'InfluxDB
+Comment[es]=Recopilar estadísticas de pool ZFS en formato de protocolo de línea InfluxDB
+Comment[pt]=Coletar estatísticas do pool ZFS no formato de protocolo de linha do InfluxDB
+Comment[it]=Raccogliere le statistiche del pool ZFS in formato protocollo di linea InfluxDB
+Comment[de]=Sammeln von ZFS-Pool-Statistiken im InfluxDB-Zeilenprotokollformat
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zpool_influxdb --help"
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

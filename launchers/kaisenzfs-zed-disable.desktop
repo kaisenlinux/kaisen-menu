@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zfs-zed-disable
+Name[fr]=zfs-zed-désactivé
+Name[es]=zfs-zed-deshabilitado
+Name[pt]=zfs-zed-desativado
+Name[it]=zfs-zed-disabilitato
+Name[de]=zfs-zed-deaktiviert
+Comment=Disable zfs-zed daemon
+Comment[fr]=Désactiver service zfs-zed
+Comment[es]=Deshabilitar servicio zfs-zed
+Comment[pt]=Desativar serviço zfs-zed
+Comment[it]=Disabilita servizio zfs-zed
+Comment[de]=Deaktivieren Sie den Avahi-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/zfs-zed-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=zfs-zed

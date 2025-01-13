@@ -19,4 +19,4 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Categories=SFirewalling
-X-Kaisen-Package=iptables iptables-persistent
+X-Kaisen-Package=iptables iptables-persistent nftables firewalld

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=fsck.zfs
+Comment=Tool to check the integrity of a ZFS partition
+Comment[fr]=Outil pour vérifier l'intégrité d'une partition ZFS
+Comment[es]=Herramienta para comprobar la integridad de una partición ZFS
+Comment[pt]=Ferramenta para verificar a integridade de uma partição ZFS
+Comment[it]=Strumento per verificare l'integrità di una partizione ZFS
+Comment[de]=Tool zur Überprüfung der Integrität einer ZFS-Partition
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "fsck.zfs" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=FSCK
+X-Kaisen-Package=zfsutils-linux

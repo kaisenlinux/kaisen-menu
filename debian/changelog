@@ -1,3 +1,17 @@
+kaisen-menu (2.3+kaisen19) kaisen-packages; urgency=medium
+
+  * Remove glusterfs menus and launchers
+  * Remove ecryptfs menus and launchers
+  * Remove reiserfs menus and launchers
+  * Add new ZFS launchers (tools and services scripts)
+  * Add the xdg-desktop-menu forceupdate command in the postinst script to
+    force the update of the menu
+  * Update firewalling launchers
+  * Add winbind service launchers
+  * Drop the ceph-fuse directory files
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Mon, 13 Jan 2025 15:06:37 +0200
+
 kaisen-menu (2.3+kaisen18) kaisen-packages; urgency=medium
 
   * Add service openbao launchers

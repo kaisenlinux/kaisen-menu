@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=raidz_test
+Comment=RaidZ implementation verification and benchmarking tool
+Comment[fr]=Outil de vérification et d'étalonnage de l'implémentation de RaidZ
+Comment[es]=Herramienta de verificación y evaluación comparativa de la aplicación de RaidZ
+Comment[pt]=Ferramenta de verificação e aferição da implementação do RaidZ
+Comment[it]=Strumento di verifica e benchmarking dell'implementazione RaidZ
+Comment[de]=RaidZ-Implementierungsüberprüfung und Benchmarking-Tool
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "raidz_test -h"
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfs-test

@@ -1,0 +1,17 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zfs_ids_to_path
+Comment=Convert objset and object ids to names and paths
+Comment[fr]=Convertir objset et les identifiants d'objets en noms et chemins d'accès
+Comment[es]=Convertir objset e ids de objetos en nombres y rutas
+Comment[pt]=Converter objset e ids de objectos em nomes e caminhos
+Comment[it]=Convertire objset e id degli oggetti in nomi e percorsi
+Comment[de]=Konvertierung von objset und Objekt-IDs in Namen und Pfade
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "zfs_ids_to_path" --sudo
+Icon=/usr/share/pixmaps/kaisen-menu/openzfs.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=ZFS
+X-Kaisen-Package=zfsutils-linux

@@ -763,12 +763,21 @@
         </And>
       </Include>
     </Menu>
-        <Menu>
+    <Menu>
       <Name>SOpenBao</Name>
       <Directory>kaisenlinux-sopenbao.directory</Directory>
       <Include>
         <And>
           <Category>SOpenBao</Category>
+        </And>
+      </Include>
+    </Menu>
+    <Menu>
+      <Name>SWinbind</Name>
+      <Directory>kaisenlinux-swinbind.directory</Directory>
+      <Include>
+        <And>
+          <Category>SWinbind</Category>
         </And>
       </Include>
     </Menu>
@@ -863,15 +872,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>REISERFS</Name>
-      <Directory>kaisenlinux-reiserfs.directory</Directory>
-      <Include>
-        <And>
-          <Category>REISERFS</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>REISER4</Name>
       <Directory>kaisenlinux-reiser4.directory</Directory>
       <Include>
@@ -908,15 +908,6 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>GlusterFS</Name>
-      <Directory>kaisenlinux-glusterfs.directory</Directory>
-      <Include>
-        <And>
-          <Category>GlusterFS</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
       <Name>MKFS</Name>
       <Directory>kaisenlinux-mkfs.directory</Directory>
       <Include>
@@ -931,15 +922,6 @@
       <Include>
         <And>
           <Category>UDF</Category>
-        </And>
-      </Include>
-    </Menu>
-    <Menu>
-      <Name>ECRYPTFS</Name>
-      <Directory>kaisenlinux-ecryptfs.directory</Directory>
-      <Include>
-        <And>
-          <Category>ECRYPTFS</Category>
         </And>
       </Include>
     </Menu>

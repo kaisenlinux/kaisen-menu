@@ -1,0 +1,22 @@
+#!/usr/bin/xdg-open
+
+[Desktop Entry]
+Name=zfs-disable
+Name[fr]=zfs-désactivé
+Name[es]=zfs-deshabilitado
+Name[pt]=zfs-desativado
+Name[it]=zfs-disabilitato
+Name[de]=zfs-deaktiviert
+Comment=Disable zfs daemons
+Comment[fr]=Désactiver services zfs
+Comment[es]=Deshabilitar servicios zfs
+Comment[pt]=Desativar serviços zfs
+Comment[it]=Disabilita servizios zfs
+Comment[de]=Deaktivieren Sie den ZFS-Dienst
+Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/zfsutils-disable" --sudo
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=SFilesystems
+X-Kaisen-Package=zfsutils-linux
