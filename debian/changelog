@@ -2,8 +2,9 @@ kaisen-menu (2.3+kaisen20) kaisen-packages; urgency=medium
 
   * Remove the bonnie++ launcher
   * Update the hardinfo launcher for hardinfo2
+  * Update the balena-etcher-electron launcher by balena-etcher
 
- -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 16 Jan 2025 03:05:29 +0200
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 16 Jan 2025 04:31:49 +0200
 
 kaisen-menu (2.3+kaisen19) kaisen-packages; urgency=medium
 
