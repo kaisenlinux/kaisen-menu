@@ -1,14 +1,14 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=Hardinfo
+Name=Hardinfo 2
 Comment=Displays system info
 Comment[fr]=Afficher les informations système
 Comment[es]=Ver información del sistema
 Comment[pt]=Ver informações do sistema
 Comment[it]=Visualizza le informazioni di sistema
 Comment[de]=Systeminformationen anzeigen
-Exec=hardinfo
+Exec=hardinfo2
 Icon=/usr/share/hardinfo/pixmaps/logo.png
 Terminal=false
 Type=Application

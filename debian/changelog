@@ -1,3 +1,10 @@
+kaisen-menu (2.3+kaisen20) kaisen-packages; urgency=medium
+
+  * Remove the bonnie++ launcher
+  * Update the hardinfo launcher for hardinfo2
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Wed, 16 Jan 2025 03:05:29 +0200
+
 kaisen-menu (2.3+kaisen19) kaisen-packages; urgency=medium
 
   * Remove glusterfs menus and launchers
