@@ -3,11 +3,11 @@
 [Desktop Entry]
 Name=ntfsusermap
 Comment=NTFS Building a User Mapping File
-Comment[fr]=NTFS Création d'un fichier de mappage utilisateur
-Comment[es]=NTFS Creación de un archivo de asignación de usuarios
-Comment[pt]=NTFS Construindo um Arquivo de Mapeamento de Usuário
-Comment[it]=NTFS Creazione di un file di mappatura utente
-Comment[de]=NTFS Erstellen einer Benutzerzuordnungsdatei
+Comment[fr]=NTFS; Création d'un fichier de mappage utilisateur
+Comment[es]=NTFS: Creación de un archivo de asignación de usuarios
+Comment[pt]=NTFS: Construindo um Arquivo de Mapeamento de Usuário
+Comment[it]=NTFS: Creazione di un file di mappatura utente
+Comment[de]=NTFS: Erstellen einer Benutzerzuordnungsdatei
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsusermap"
 Icon=utilities-terminal
 Terminal=false

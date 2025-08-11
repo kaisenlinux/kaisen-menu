@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=badblocks
-Comment=Tool to analyse bad clusters on HDD or SSD
-Comment[fr]=Outil pour analyser les clusters défectueux sur un HDD ou SSD
-Comment[es]=Herramienta para analizar clústeres defectuosos en un HDD o SSD
-Comment[pt]=Ferramenta para analisar clusters com defeito em um HDD ou SSD
-Comment[it]=Strumento per analizzare cluster difettosi su un HDD o SSD
-Comment[de]=Tool zur Analyse fehlerhafter Cluster auf einer Festplatte oder SSD
+Comment=Tool to analyse bad clusters on HDD or SSD or NVMe
+Comment[fr]=Outil pour analyser les clusters défectueux sur un HDD ou SSD ou NVMe
+Comment[es]=Herramienta para analizar clústeres defectuosos en un HDD o SSD o NVMe
+Comment[pt]=Ferramenta para analisar clusters com defeito em um HDD ou SSD ou NVMe
+Comment[it]=Strumento per analizzare cluster difettosi su un HDD o SSD o NVMe
+Comment[de]=Analysiert fehlerhafte Cluster auf HDD, SSD oder NVMe
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "badblocks" --sudo
 Icon=utilities-terminal
 Terminal=false

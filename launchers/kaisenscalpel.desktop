@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=scalpel
-Comment=Tool for recovery data based on Foremost
-Comment[fr]=Outil de récupération de données basé sur Foremost
-Comment[es]=Herramienta de recuperación de datos basada en primer plano
-Comment[pt]=Ferramenta de recuperação de dados baseada em primeiro plano
-Comment[it]=Strumento di recupero dati più avanzato
-Comment[de]=Vorrangiges Datenwiederherstellungstool
+Comment=Data recovery utility based on Foremost
+Comment[fr]=Utilitaire de récupération de données basé sur Foremost
+Comment[es]=Utilidad de recuperación de datos basada en Foremost
+Comment[pt]=Utilitário de recuperação de dados baseado no Foremost
+Comment[it]=Utilità per il recupero dei dati basata su Foremost
+Comment[de]=Dienstprogramm zur Datenwiederherstellung auf Basis von Foremost
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "scalpel -h"
 Icon=/usr/share/pixmaps/kaisen-menu/sleuthkit.png
 Terminal=false

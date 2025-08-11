@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=ssh
-Comment=Tool for UNIX systems administration with openssh
-Comment[fr]=Outil pour l'administration des systèmes UNIX avec openssh
-Comment[es]=Herramienta de administración del servidor UNIX con openssh
-Comment[pt]=Ferramenta de administração de servidor UNIX com openssh
-Comment[it]=Strumento di amministrazione del server UNIX con openssh
-Comment[de]=UNIX Server Administration Tool mit openssh
+Comment=Tool for UNIX systems administration with OpenSSH
+Comment[fr]=Outil pour l'administration des systèmes UNIX avec OpenSSH
+Comment[es]=Herramienta de administración del servidor UNIX con OpenSSH
+Comment[pt]=Ferramenta de administração de servidor UNIX com OpenSSH
+Comment[it]=Strumento di amministrazione del server UNIX con OpenSSH
+Comment[de]=UNIX Server Administration Tool mit OpenSSH
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ssh"
 Icon=/usr/share/pixmaps/kaisen-menu/openssh.png
 Terminal=false

@@ -3,11 +3,11 @@
 [Desktop Entry]
 Name=webmitm
 Comment=HTTP/HTTPS monkey-in-the-middle
-Comment[fr]=Monkey-in-the-middle HTTP/HTTPS
-Comment[es]=HTTP/HTTPS monkey-in-the-middle
+Comment[fr]=HTTP/HTTPS attaque de type « man-in-the-middle »
+Comment[es]=HTTP/HTTPS ataque man-in-the-middle
 Comment[pt]=HTTP/HTTPS monkey-in-the-middle
-Comment[it]=HTTP/HTTPS scimmia nel mezzo
-Comment[de]=HTTP/HTTPS-Affe in der Mitte
+Comment[it]=HTTP/HTTPS attacco man-in-the-middle
+Comment[de]=HTTP/HTTPS man-in-the-middle
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "webmitm -h" --sudo
 Icon=utilities-terminal
 Terminal=false

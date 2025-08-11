@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=rclone
-Comment=Syncs your files to cloud storage
-Comment[fr]=Synchroniser vos fichiers vers un stockage cloud
-Comment[es]=Sincroniza tus archivos con el almacenamiento en la nube
-Comment[pt]=Sincroniza os seus ficheiros para armazenamento em nuvem
-Comment[it]=Sincronizza i tuoi file con il cloud storage
-Comment[de]=Synchronisiert Ihre Dateien mit dem Cloud-Speicher
+Comment=Synchronizes your files with a cloud storage service of your choice
+Comment[fr]=Synchronise vos fichiers avec le stockage cloud de votre choix
+Comment[es]=Sincroniza tus archivos con el almacenamiento en la nube que elijas.
+Comment[pt]=Sincroniza os seus ficheiros com um armazenamento na nuvem à sua escolha
+Comment[it]=Sincronizza i tuoi file con un archivio cloud di tua scelta
+Comment[de]=Synchronisiert Ihre Dateien mit einem Cloud-Speicher ihrer Wahl
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "rclone help"
 Icon=/usr/share/pixmaps/rclone.png
 Terminal=false

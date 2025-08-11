@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=awscli
-Comment=Universal command line interface for Amazon Web Services
-Comment[fr]=Interface de ligne de commande universelle pour Amazon Web Services
-Comment[es]=Interfaz de línea de comandos universal para Amazon Web Services
-Comment[pt]=Interface de linha de comando universal para Amazon Web Services
-Comment[it]=Interfaccia a riga di comando universale per Amazon Web Services
-Comment[de]=Universelle Befehlszeilenschnittstelle für Amazon Web Services
+Comment=Universal command line interface for Amazon Web Services (AWS)
+Comment[fr]=Interface de ligne de commande universelle pour Amazon Web Services (AWS)
+Comment[es]=Interfaz de línea de comandos universal para Amazon Web Services (AWS)
+Comment[pt]=Interface de linha de comando universal para Amazon Web Services (AWS)
+Comment[it]=Interfaccia a riga di comando universale per Amazon Web Services (AWS)
+Comment[de]=Universelle Befehlszeilenschnittstelle für Amazon Web Services (AWS)
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aws help"
 Icon=/usr/share/pixmaps/kaisen-menu/aws.png
 Terminal=false

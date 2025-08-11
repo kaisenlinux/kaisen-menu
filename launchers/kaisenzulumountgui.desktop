@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=zuluMount
-Comment=Encrypted volumes and partition mounter
-Comment[fr]=Volumes chiffrés et partitions montées
-Comment[es]=Volúmenes cifrados y particiones montadas
-Comment[pt]=Volumes criptografados e partições montadas
-Comment[it]=Volumi crittografati e partizioni montate
-Comment[de]=Verschlüsselte Volumes und bereitgestellte Partitionen
+Comment=Encrypted volumes and partition mounter (GUI)
+Comment[fr]=Volumes chiffrés et partitions montées (GUI)
+Comment[es]=Volúmenes cifrados y particiones montadas (GUI)
+Comment[pt]=Volumes criptografados e partições montadas (GUI)
+Comment[it]=Volumi crittografati e partizioni montate (GUI)
+Comment[de]=Mountet verschlüsselte Volumes und bereitgestellte Partitionen (GUI)
 Icon=zuluMount.xpm
 Exec=zuluMount-gui
 Terminal=false

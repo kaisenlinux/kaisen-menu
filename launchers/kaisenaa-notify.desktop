@@ -1,4 +1,4 @@
-#!/usr/bin/xdg-open
+ #!/usr/bin/xdg-open
 
 [Desktop Entry]
 Name=aa-notify
@@ -7,7 +7,7 @@ Comment[fr]=Afficher des informations sur les messages AppArmor enregistrés
 Comment[es]=Mostrar información sobre los mensajes registrados de AppArmor
 Comment[pt]=Mostrar informação sobre mensagens AppArmor registadas
 Comment[it]=Visualizzare informazioni sui messaggi registrati di AppArmor
-Comment[de]=Informationen über protokollierte AppArmor-Meldungen anzeigen
+Comment[de]=Informationen über protokollierte AppArmor-MeldunInformationen zu protokollierten AppArmor-Meldungen anzeigen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "aa-notify -h"
 Icon=/usr/share/pixmaps/kaisen-menu/apparmor.png
 Terminal=false

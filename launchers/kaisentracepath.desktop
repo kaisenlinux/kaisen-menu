@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=tracepath
-Comment=Tool to trace path to a network host
-Comment[fr]=Outil pour tracer le chemin vers le poste distant
-Comment[es]=Herramienta para rastrear el camino a la estación remota
-Comment[pt]=Ferramenta para rastrear o caminho para a estação remota
-Comment[it]=Strumento per tracciare il percorso verso la stazione remota
-Comment[de]=Tool zum Verfolgen des Pfads zur Remote-Station
+Comment=Utility to trace path to a network host
+Comment[fr]=Utilitaire permettant de tracer le chemin vers un hôte réseau
+Comment[es]=Utilidad para rastrear la ruta a un host de red
+Comment[pt]=Utilitário para rastrear o caminho até um host de rede
+Comment[it]=Utilità per tracciare il percorso verso un host di rete
+Comment[de]=Dienstprogramm zum Verfolgen des Pfads zu einem Netzwerkhost
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "tracepath"
 Icon=utilities-terminal
 Terminal=false
