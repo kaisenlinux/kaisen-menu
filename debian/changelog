@@ -1,3 +1,11 @@
+kaisen-menu (2.3+kaisen21) kaisen-packages; urgency=low
+
+  *  Many language string updates (mostly German)
+  *  Numerous grammar corrections and replacements for German, as well as for certain strings in French, Portuguese, Spanish, Italian, and English
+  *  Added missing German strings for certain applications in the launcher menu
+
+ -- Stefan Kuny - IT-Kuny <it@it-kuny.ch>  Mon, 11 Aug 2025 04:30:12 +0200
+
 kaisen-menu (2.3+kaisen20) kaisen-packages; urgency=medium
 
   * Remove the bonnie++ launcher

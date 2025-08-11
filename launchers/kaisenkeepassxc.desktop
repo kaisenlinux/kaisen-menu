@@ -3,11 +3,11 @@
 [Desktop Entry]
 Name=KeePassXC
 Comment=Community-driven port of the Windows application “KeePass Password Safe”
-Comment[fr]=Portage du logiciel KeePass de Windows
-Comment[es]=Portar el software Windows KeePass
-Comment[pt]=Portando o software Windows KeePass
-Comment[it]=Porting del software Windows KeePass
-Comment[de]=Portierung der Windows KeePass-Software
+Comment[fr]=Portage communautaire de l'application Windows «KeePass Password Safe»
+Comment[es]=Versión comunitaria de la aplicación para Windows «KeePass Password Safe».
+Comment[pt]=Porta comunitária da aplicação Windows “KeePass Password Safe”
+Comment[it]=Porting dell'applicazione Windows “KeePass Password Safe” realizzato dalla comunità
+Comment[de]=Community-basierte Portierung der Windows-Anwendung „KeePass Password Safe“
 Exec=keepassxc %f
 TryExec=keepassxc
 Icon=keepassxc

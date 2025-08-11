@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=powershell
-Comment=Tool to emulate a Windows Powershell in your terminal
-Comment[fr]=Outil pour emuler Windows Powershell sur votre terminal
-Comment[es]=Herramienta para emular Windows Powershell en su terminal
-Comment[pt]=Ferramenta para emular o Windows Powershell no seu terminal
-Comment[it]=Strumento per emulare Windows Powershell sul tuo terminale
-Comment[de]=Tool zum Emulieren von Windows Powershell auf Ihrem Terminal
+Comment=Utility for opening Powershell
+Comment[fr]=Utilitaire pour ouvrir Powershell
+Comment[es]=Utilidad para abrir Powershell
+Comment[pt]=Utilitário para abrir o Powershell
+Comment[it]=Utilità per aprire Powershell
+Comment[de]=Dienstprogramm zum öffnen von Powershell
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "pwsh"
 Icon=/usr/share/pixmaps/kaisen-menu/powershell.png
 Terminal=false

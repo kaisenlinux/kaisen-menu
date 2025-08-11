@@ -3,11 +3,11 @@
 [Desktop Entry]
 Name=ntfsclone
 Comment=Efficiently clone, image, restore or rescue an NTFS
-Comment[fr]=Cloner, imager, restaurer ou sauver efficacement un NTFS
-Comment[es]=Clonar, crear imágenes, restaurar o rescatar de forma eficiente un NTFS
-Comment[pt]=Clone, imagem, restaure ou resgate de forma eficiente um NTFS
-Comment[it]=Clona, ​​crea immagini, ripristina o salva in modo efficiente un NTFS
-Comment[de]=Effizientes Klonen, Image, Wiederherstellen oder Speichern eines NTFS
+Comment[fr]=Clonage, imagerie, restauration ou sauvegarde efficaces d'un disque/d'une partition NTFS
+Comment[es]=Clonación, creación de imágenes, restauración o almacenamiento eficientes de un disco/partición NTFS.
+Comment[pt]=Clonagem, imagem, restauração ou armazenamento eficiente de um disco/partição NTFS
+Comment[it]=Clonazione, imaging, ripristino o archiviazione efficiente di un disco/partizione NTFS
+Comment[de]=Effizientes Klonen, Imaging, Wiederherstellen oder Speichern eines NTFS Datenträgers/Partition
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsclone -h" --sudo
 Icon=utilities-terminal
 Terminal=false

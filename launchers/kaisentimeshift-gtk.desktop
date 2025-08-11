@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=Timeshift
-Comment=System Restore Utility (GUI)
-Comment[fr]=Utilitaire de restauration système (GUI)
-Comment[es]=Utilidad de restauración del sistema (GUI)
-Comment[pt]=Utilitário de restauração do sistema (GUI)
-Comment[it]=Utilità di ripristino del sistema (GUI)
-Comment[de]=Dienstprogramm zur Systemwiederherstellung (GUI)
+Comment=System recovery utility with BTRFS snapshots (GUI)
+Comment[fr]=Utilitaire de restauration du système avec instantanés BTRFS (interface graphique)
+Comment[es]=Utilidad para la restauración del sistema con instantáneas BTRFS (GUI)
+Comment[pt]=Utilitário para restauração do sistema com instantâneos BTRFS (GUI)
+Comment[it]=Utilità per il ripristino del sistema con snapshot BTRFS (GUI)
+Comment[de]=Dienstprogramm zur Systemwiederherstellung mit BTRFS Snapshots (GUI)
 Exec=timeshift-launcher
 Icon=timeshift
 Terminal=false

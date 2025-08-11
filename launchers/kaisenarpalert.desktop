@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=arpalert
-Comment=ARP traffic monitoring
+Comment=
 Comment[fr]=Surveillance du trafic ARP
 Comment[es]=Monitoreo de tráfico ARP
 Comment[pt]=Monitoramento de tráfego ARP
 Comment[it]=Monitoraggio del traffico ARP
-Comment[de]=ARP-Verkehrsüberwachung
+Comment[de]=ARP-Netzwerkverkehrsüberwachung
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "arpalert -h" --sudo
 Icon=utilities-terminal
 Terminal=false

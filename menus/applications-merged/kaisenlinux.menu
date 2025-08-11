@@ -121,7 +121,7 @@
       </Include>
     </Menu>
     <Menu>
-      <Name>Analysis of duplicates</Name>
+      <Name>Duplicate analysis</Name>
       <Directory>kaisenlinux-duplicates-analysis.directory</Directory>
       <Include>
         <And>

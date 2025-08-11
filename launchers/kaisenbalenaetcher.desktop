@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=balenaEtcher
-Comment=Tool to create Linux USB bootable keys
-Comment[fr]=Outil pour créer des clés USB bootables Linux
-Comment[es]=Herramienta para crear llaves USB de arranque de Linux
-Comment[pt]=Ferramenta para criar chaves USB Linux inicializáveis
-Comment[it]=Strumento per creare chiavi USB Linux avviabili
-Comment[de]=Tool zum Erstellen bootfähiger Linux-USB-Sticks
+Comment=Creates bootable USB sticks and DVDs/Bluerays
+Comment[fr]=Crée des clés USB et des DVD/Blu-ray amorçables
+Comment[es]=Crea memorias USB y DVD/Bluerays de arranque.
+Comment[pt]=Cria pen drives e DVDs/Bluerays inicializáveis
+Comment[it]=Crea chiavette USB e DVD/Blueray avviabili
+Comment[de]=Erstellt bootfähige USB-Sticks und DVDs/Bluerays
 Exec=balena-etcher
 Icon=/usr/share/pixmaps/balena-etcher.png
 Terminal=false

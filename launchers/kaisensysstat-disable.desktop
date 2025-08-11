@@ -3,16 +3,16 @@
 [Desktop Entry]
 Name=sysstat-disable
 Name[fr]=sysstat-désactivé
-Name[es]=sysstat-activado
-Name[pt]=sysstat-ativado
-Name[it]=sysstat-attivato
-Name[de]=sysstat-aktiviert
+Name[es]=sysstat-deactivado
+Name[pt]=sysstat-deativado
+Name[it]=sysstat-deattivato
+Name[de]=sysstat-deaktivieren
 Comment=Disable sysstat daemon
 Comment[fr]=Désactiver service sysstat
 Comment[es]=Deshabilitar servicio sysstat
 Comment[pt]=Desativar serviço sysstat
 Comment[it]=Disabilita servizio sysstat
-Comment[de]=Deaktivieren Sie den Sysstat-Dienst
+Comment[de]=Deaktiviert den Sysstat-Dienst
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/sysstat-disable" --sudo
 Icon=utilities-terminal
 Terminal=false

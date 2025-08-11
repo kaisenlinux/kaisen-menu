@@ -1,18 +1,18 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=openvpn-disable
-Name[fr]=openvpn-désactivé
-Name[es]=openvpn-deshabilitado
-Name[pt]=openvpn-desativado
-Name[it]=openvpn-disabilitato
-Name[de]=openvpn-deaktiviert
-Comment=Disable openvpn daemon
-Comment[fr]=Désactiver service openvpn
-Comment[es]=Deshabilitar servicio openvpn
-Comment[pt]=Desativar serviço openvpn
-Comment[it]=Disabilita servizio openvpn
-Comment[de]=Deaktivieren Sie den openvpn-Dienst
+Name=OpenVPN-disable
+Name[fr]=OpenVPN-désactivé
+Name[es]=OpenVPN-deshabilitado
+Name[pt]=OpenVPN-desativado
+Name[it]=OpenVPN-disabilitato
+Name[de]=OpenVPN-deaktivieren
+Comment=Disable OpenVPN daemon
+Comment[fr]=Désactiver service OpenVPN
+Comment[es]=Deshabilitar servicio OpenVPN
+Comment[pt]=Desativar serviço OpenVPN
+Comment[it]=Disabilita servizio OpenVPN
+Comment[de]=Deaktiviert den OpenVPN-Dienst
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/openvpn-disable" --sudo
 Icon=utilities-terminal
 Terminal=false

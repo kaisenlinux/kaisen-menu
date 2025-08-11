@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=timeshift
-Comment=System Restore Utility (CLI)
-Comment[fr]=Utilitaire de restauration système (CLI)
-Comment[es]=Utilidad de restauración del sistema (CLI)
-Comment[pt]=Utilitário de restauração do sistema (CLI)
-Comment[it]=Utilità di ripristino del sistema (CLI)
-Comment[de]=Dienstprogramm zur Systemwiederherstellung (CLI)
+Comment=System recovery utility with BTRFS snapshots (CLI)
+Comment[fr]=Utilitaire de restauration du système avec instantanés BTRFS (CLI)
+Comment[es]=Utilidad para la restauración del sistema con instantáneas BTRFS (CLI)
+Comment[pt]=Utilitário para restauração do sistema com instantâneos BTRFS (CLI)
+Comment[it]=Utilità per il ripristino del sistema con snapshot BTRFS (CLI)
+Comment[de]=Dienstprogramm zur Systemwiederherstellung mit BTRFS Snapshots (CLI)
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "timeshift --help"
 Icon=utilities-terminal
 X-KDE-StartupNotify=false

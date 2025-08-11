@@ -1,18 +1,18 @@
 #!/usr/bin/xdg-open
 
 [Desktop Entry]
-Name=openvpn-enable
-Name[fr]=openvpn-activé
-Name[es]=openvpn-habilitado
-Name[pt]=openvpn-ativado
-Name[it]=openvpn-abilitato
-Name[de]=openvpn-aktiviert
-Comment=Enable openvpn daemon
-Comment[fr]=Activer service openvpn
-Comment[es]=Activar servicio openvpn
-Comment[pt]=Ativar serviço openvpn
-Comment[it]=Attiva servizio openvpn
-Comment[de]=Aktivieren Sie den Dienst openvpn
+Name=OpenVPN-enable
+Name[fr]=OpenVPN-activé
+Name[es]=OpenVPN-habilitado
+Name[pt]=OpenVPN-ativado
+Name[it]=OpenVPN-abilitato
+Name[de]=OpenVPN-aktivieren
+Comment=Enable OpenVPN daemon
+Comment[fr]=Activer service OpenVPN
+Comment[es]=Activar servicio OpenVPN
+Comment[pt]=Ativar serviço OpenVPN
+Comment[it]=Attiva servizio OpenVPN
+Comment[de]=Aktiviert den Dienst OpenVPN
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "/usr/share/kaisen-services-management/openvpn-enable" --sudo
 Icon=utilities-terminal
 Terminal=false

@@ -3,11 +3,11 @@
 [Desktop Entry]
 Name=ntfsfix
 Comment=Fix common errors and force Windows to check NTFS
-Comment[fr]=Corrigez les erreurs courantes et forcez Windows à vérifier NTFS
-Comment[es]=Corrija errores comunes y obligue a Windows a verificar NTFS
-Comment[pt]=Corrija erros comuns e force o Windows a verificar o NTFS
+Comment[fr]=Corrige les erreurs courantes et force Windows à vérifier le système de fichiers NTFS.
+Comment[es]=Corrija los errores frecuentes y obligue a Windows a comprobar el sistema de archivos NTFS.
+Comment[pt]=Corrija erros frequentes e force o Windows a verificar o sistema de ficheiros NTFS.
 Comment[it]=Correggi gli errori comuni e forza Windows a controllare NTFS
-Comment[de]=Beheben Sie häufige Fehler und zwingen Sie Windows, NTFS zu überprüfen
+Comment[de]=Behebt häufige Fehler und zwinget Windows, Das NTFS Dateisystem zu überprüfen
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "ntfsfix -h"
 Icon=utilities-terminal
 Terminal=false

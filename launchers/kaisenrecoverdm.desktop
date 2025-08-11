@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=recoverdm
-Comment=Tool to recover data in bad disk sectors
-Comment[fr]=Outil pour récupérer des données sur des diques défectueux
-Comment[es]=Herramienta para recuperar datos de unidades defectuosas
-Comment[pt]=Ferramenta para recuperar dados de unidades com defeito
-Comment[it]=Strumento per recuperare dati da unità guaste
-Comment[de]=Tool zum Wiederherstellen von Daten von fehlerhaften Laufwerken
+Comment=Utility for recovering data from faulty hard disk sectors
+Comment[fr]=Utilitaire permettant de récupérer des données à partir de secteurs défectueux d'un disque dur
+Comment[es]=Utilidad para recuperar datos de sectores defectuosos del disco duro.
+Comment[pt]=Utilitário para recuperar dados de setores defeituosos do disco rígido
+Comment[it]=Utilità per il recupero dei dati dai settori danneggiati del disco rigido
+Comment[de]=Dienstprogramm zur Wiederherstellung von Daten aus fehlerhaften Festplattensektoren
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "recoverdm -h"
 Icon=utilities-terminal
 Terminal=false

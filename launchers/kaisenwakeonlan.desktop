@@ -2,12 +2,12 @@
 
 [Desktop Entry]
 Name=wakeonlan
-Comment=Tool to send magic packets on Ethernet adaptors
-Comment[fr]=Outil pour envoyer des paquets magiques sur les adaptateurs Ethernet
-Comment[es]=Herramienta para enviar paquetes mágicos a adaptadores Ethernet
-Comment[pt]=Ferramenta para enviar pacotes mágicos para adaptadores Ethernet
-Comment[it]=Strumento per inviare pacchetti magici agli adattatori Ethernet
-Comment[de]=Tool zum Senden von magischen Paketen an Ethernet-Adapter
+Comment=Utility for sending magic packets to WOL-enabled network devices
+Comment[fr]=Utilitaire permettant d'envoyer des paquets magiques à des périphériques réseau compatibles WOL
+Comment[es]=Utilidad para enviar paquetes mágicos a dispositivos de red compatibles con WOL.
+Comment[pt]=Utilitário para enviar pacotes mágicos para dispositivos de rede compatíveis com WOL
+Comment[it]=Utilità per l'invio di pacchetti magici a dispositivi di rete compatibili con WOL
+Comment[de]=Dienstprogramm zum Senden von Magic Packets an WOL-fähigen Netzwerkgeräten
 Exec=/usr/share/kaisen-menu/scripts/kaisen-launcher --command "wakeonlan -h"
 Icon=utilities-terminal
 Terminal=false
