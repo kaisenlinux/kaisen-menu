@@ -3,7 +3,7 @@ Section: kaisen-packages
 Priority: optional
 Maintainer: Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>
 Build-Depends: debhelper-compat (=13)
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Homepage: https://kaisenlinux.org
 Vcs-Browser: https://gitlab.com/kaisenlinux/packages/kaisen-menu
 Vcs-Git: https://gitlab.com/kaisenlinux/packages/kaisen-menu.git

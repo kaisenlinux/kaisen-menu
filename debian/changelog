@@ -1,3 +1,14 @@
+kaisen-menu (3.0) kaisen-packages; urgency=medium
+
+  * Remove all REISER4 launchers
+  * Remove the wondershaper launcher
+  * Remove the REISER4 menu
+  * Update the xfreerdp launcher for xfreerdp3
+  * Remove the kaisenbloodhound launcher (no longer used)
+  * Update the codium launcher
+
+ -- Kevin Chevreuil - Kaisen <kaisen@kaisenlinux.org>  Tue, 12 Aug 2025 20:47:05 +0200
+
 kaisen-menu (2.3+kaisen21) kaisen-packages; urgency=low
 
   *  Many language string updates (mostly German)
